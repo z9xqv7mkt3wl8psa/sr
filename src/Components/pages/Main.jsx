@@ -154,11 +154,12 @@ const Main = () => {
       </div>
 
       {/* Main Sections */}
-      <div className='flex flex-col lg:flex-row p-4 sm:px-10 gap-6'>
-        <Result />
-        <AdmitCard />
-        <LatestJobs />
-      </div>
+     <div className="flex flex-col lg:flex-row p-4 sm:px-10 gap-6">
+  <Result />
+  <AdmitCard />
+  <LatestJobs />
+</div>
+
 
       <div className="container mx-auto p-2">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-6">
