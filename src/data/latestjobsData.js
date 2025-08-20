@@ -1,4 +1,1258 @@
 const latestjobsData = [
+
+
+
+
+
+{
+  id: "bihar-police-csbc-driver-constable-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "Bihar Police CSBC Driver Constable Online Form 2025 – Last Date Today",
+  organization: "Central Selection Board of Constable (CSBC), Bihar",
+  postName: "Driver Constable Recruitment 2025",
+  postDate: "20 Aug 2025 | 5:17 PM",
+  shortInfo: "CSBC Bihar Police has released notification for recruitment of 4361 Driver Constable posts. Online applications started from 21 July 2025 and will end on 20 August 2025. Candidates must have passed 10+2 and hold a valid LMV/HMV driving license issued at least one year before 17 July 2025.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "21 July 2025" },
+    { label: "Last Date to Apply Online", value: "20 August 2025" },
+    { label: "Last Date for Fee Payment", value: "20 August 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "UR / OBC / EWS / Male", value: "₹675" },
+    { label: "SC / ST / Female (All Categories)", value: "₹180" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "20 Years" },
+    { label: "Maximum Age (General Male)", value: "25 Years" },
+    { label: "Maximum Age (BC/EBC Male)", value: "27 Years" },
+    { label: "Maximum Age (BC/EBC Female)", value: "28 Years" },
+    { label: "Maximum Age (SC/ST Male & Female)", value: "30 Years" },
+    { note: "As on 20 August 2025. Age relaxation applicable as per CSBC rules." }
+  ],
+
+  vacancies: [
+    { post: "Driver Constable", total: 4361 }
+  ],
+
+  qualifications: [
+    { post: "Driver Constable", eligibility: "Passed 10+2 (Intermediate) or equivalent from a recognized board. Must hold a valid LMV/HMV driving license issued at least one year before 17 July 2025." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph (white/light background)",
+    "Signature on white paper with black/blue pen",
+    "10+2 Marksheet / Certificate",
+    "Valid LMV/HMV Driving License (issued before 17 July 2025)",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Voter ID / Government-issued Photo ID",
+    "Domicile Certificate (if applicable)",
+    "Income Certificate (for EWS)",
+    "Other category-specific certificates (PH/Ex-servicemen, etc.)"
+  ],
+
+  selectionProcess: [
+    "Written Examination",
+    "Physical Efficiency Test (PET)",
+    "Driving Skill Test",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit CSBC Official Website – https://csbc.bihar.gov.in/",
+    "Go to Recruitment / Notification Section",
+    "Select Driver Constable Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete payment and submit before 20 August 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "https://csbc.bihar.gov.in" },
+    { label: "Check Official Notification", url: "https://csbc.bihar.gov.in/notification" },
+    { label: "CSBC Official Website", url: "https://csbc.bihar.gov.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "21 July 2025" },
+    { q: "What is the last date for online application?", a: "20 August 2025" },
+    { q: "What is the age limit for Bihar Police Driver Constable 2025?", a: "20 Years to 30 Years (depending on category)" },
+    { q: "What is the eligibility for Bihar Police Driver Constable 2025?", a: "Must have passed 10+2 and hold a valid LMV/HMV driving license issued at least one year before 17 July 2025." },
+    { q: "What is the official website for CSBC?", a: "https://csbc.bihar.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://csbc.bihar.gov.in", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://csbc.bihar.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://csbc.bihar.gov.in", color: "text-black" }
+  ]
+},
+
+{
+  id: "bihar-jeevika-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "Bihar JEEVIKA Online Form 2025 (2747 Posts) – Date Extend",
+  organization: "Bihar Rural Livelihoods Promotion Society (BRLPS)",
+  postName: "Bihar JEEVIKA Recruitment 2025",
+  postDate: "20 Aug 2025 | 5:16 PM",
+  shortInfo: "Bihar JEEVIKA (BRLPS) has released notification for 2747 posts including Block Project Manager, Livelihood Specialist, Area Coordinator, Accountant, Office Assistant, Community Coordinator, and Block IT Executive. Online applications started from 30 July 2025 and will close on 21 August 2025 (extended). Minimum age is 18 years and maximum age is 42 years (varies as per category).",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "30 July 2025" },
+    { label: "Last Date to Apply Online", value: "21 August 2025" },
+    { label: "Last Date for Fee Payment", value: "21 August 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+  
+  applicationFees: [
+    { label: "General / EBC / BC / EWS", value: "₹800" },
+    { label: "SC / ST / PH", value: "₹500" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (UR/EWS Male)", value: "37 Years" },
+    { label: "Maximum Age (UR/BC/EBC/EWS Female)", value: "40 Years" },
+    { label: "Maximum Age (BC/EBC Male)", value: "40 Years" },
+    { label: "Maximum Age (SC/ST Male & Female)", value: "42 Years" },
+    { label: "Current BRLPS Employees", value: "Maximum 55 Years" },
+    { label: "Retired Govt./PSU/Bank Officials", value: "Maximum 61 Years" },
+    { note: "As on 18 August 2025. Age relaxation applicable as per BRLPS rules." }
+  ],
+  
+  vacancies: [
+    { post: "Block Project Manager", total: 73 },
+    { post: "Livelihood Specialist", total: 235 },
+    { post: "Area Coordinator", total: 374 },
+    { post: "Accountant (District/Block Level)", total: 167 },
+    { post: "Office Assistant (District/Block Level)", total: 187 },
+    { post: "Community Coordinator", total: 1177 },
+    { post: "Block IT Executive", total: 534 }
+  ],
+  
+  qualifications: [
+    { post: "Block Project Manager", eligibility: "Graduate degree in any discipline. Experience in team leadership, planning, project implementation, financial & administrative management at block level." },
+    { post: "Livelihood Specialist", eligibility: "PG/PG Diploma in Agriculture, Animal Husbandry, Dairy, Fisheries, Horticulture, Rural Management, Food Tech, Fashion, Sericulture, General Mgmt OR BBA/Graduate in related field." },
+    { post: "Area Coordinator", eligibility: "Graduate degree in any discipline. Experience in micro-planning, bank linkages, livelihood promotion, institution building, and social development." },
+    { post: "Accountant (DPCU/BPIU Level)", eligibility: "Graduate in Commerce. Must maintain accounts, financial records, and official communication at district/block level." },
+    { post: "Office Assistant (DPCU/BPIU Level)", eligibility: "Graduate degree with proficiency in Hindi & English typing. Responsible for record keeping, communications, and secretarial work." },
+    { post: "Community Coordinator", eligibility: "Male – Graduate in any stream. Female – Intermediate. Responsible for SHG formation, micro-planning, bank linkages, CIF management." },
+    { post: "Block IT Executive", eligibility: "B.Tech (CS/IT), BCA, B.Sc IT, or PGDCA with typing skills in Hindi & English. Responsible for IT training, data management, digitization." }
+  ],
+  
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Qualification Certificates",
+    "Caste / Category Certificate (if applicable)",
+    "Aadhaar Card / Voter ID / Govt. ID proof",
+    "Income Certificate (EWS candidates)",
+    "Special Category Certificates (PH/Ex-Servicemen if applicable)"
+  ],
+  
+  selectionProcess: [
+    "Computer Based Test (CBT)",
+    "Typing Test",
+    "Document Verification"
+  ],
+  
+  howToApply: [
+    "Visit BRLPS Official Website – https://brlps.in",
+    "Go to the Recruitment / Notification Section",
+    "Select Bihar JEEVIKA Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 21 August 2025"
+  ],
+  
+  importantLinks: [
+    { label: "Apply Online (Registration | Login)", url: "https://brlps.in" },
+    { label: "Download Official Notification", url: "https://brlps.in/notification" },
+    { label: "BRLPS Official Website", url: "https://brlps.in" }
+  ],
+  
+  faqs: [
+    { q: "When did the online application start?", a: "30 July 2025" },
+    { q: "What is the last date for online application?", a: "21 August 2025" },
+    { q: "What is the age limit for Bihar JEEVIKA 2025?", a: "Minimum 18 Years, Maximum 61 Years (depending on category)" },
+    { q: "What is the eligibility for Bihar JEEVIKA 2025?", a: "Post-specific eligibility – Graduate/PG/Intermediate depending on post" },
+    { q: "What is the official website for BRLPS?", a: "https://brlps.in" }
+  ],
+  
+  linksBox: [
+    { label: "Apply Online", url: "https://brlps.in", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://brlps.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://brlps.in", color: "text-black" }
+  ]
+},
+
+{
+  id: "ibps-clerk-15th-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "IBPS Clerk CSA 15th XV Online Form 2025 (10277 Post) – Start",
+  organization: "Institute of Banking Personnel Selection (IBPS)",
+  postName: "Clerk CSA XV Recruitment 2025",
+  postDate: "20 Aug 2025 | 5:16 PM",
+  shortInfo: "IBPS has released notification for Clerk CSA XV (15th Recruitment) with 10277 posts. Online application started from 01 August 2025 and will close on 21 August 2025. Minimum age is 20 years and maximum age is 28 years as on 01 August 2025. Candidates must hold a Bachelor’s degree and have computer literacy.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "01 August 2025" },
+    { label: "Last Date to Apply Online", value: "21 August 2025" },
+    { label: "Last Date for Fee Payment", value: "21 August 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+  
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹850" },
+    { label: "SC / ST", value: "₹175" },
+    { label: "PwBD", value: "₹175" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "20 Years" },
+    { label: "Maximum Age", value: "28 Years" },
+    { note: "As on 01 August 2025. Age relaxation applicable as per IBPS rules." }
+  ],
+  
+  vacancies: [
+    { post: "Clerk CSA XV", total: 10277 }
+  ],
+  
+  qualifications: [
+    { post: "Clerk CSA XV", eligibility: "Bachelor’s Degree in any stream from recognized University. Must have computer literacy – Certificate/Diploma/Degree in Computer Operations OR studied Computer/IT as a subject in High School/College/Institute." }
+  ],
+  
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Qualification Certificates (Graduation)",
+    "Computer Literacy Certificate (if applicable)",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+  
+  selectionProcess: [
+    "Online Preliminary Examination",
+    "Online Mains Examination",
+    "Interview",
+    "Document Verification"
+  ],
+  
+  howToApply: [
+    "Visit IBPS Official Website – https://ibps.in",
+    "Go to the Clerk XV Recruitment 2025 Section",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment of Application Fee before 21 August 2025",
+    "Submit and take a printout of the application form"
+  ],
+  
+  importantLinks: [
+    { label: "Apply Online", url: "https://ibps.in" },
+    { label: "Check Short Notice", url: "https://ibps.in/short-notice" },
+    { label: "Check IBPS Notification", url: "https://ibps.in/notification" },
+    { label: "IBPS Official Website", url: "https://ibps.in" }
+  ],
+  
+  faqs: [
+    { q: "When did the online application start?", a: "01 August 2025" },
+    { q: "What is the last date for online application?", a: "21 August 2025" },
+    { q: "What is the age limit for IBPS Clerk XV 2025?", a: "Minimum 20 Years, Maximum 28 Years (as on 01 August 2025)" },
+    { q: "What is the eligibility for IBPS Clerk XV 2025?", a: "Bachelor’s Degree in any stream with computer literacy" },
+    { q: "What is the official website for IBPS?", a: "https://ibps.in" }
+  ],
+  
+  linksBox: [
+    { label: "Apply Online", url: "https://ibps.in", color: "text-green-600" },
+    { label: "Check Short Notice", url: "https://ibps.in/short-notice", color: "text-blue-600" },
+    { label: "Check IBPS Notification", url: "https://ibps.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://ibps.in", color: "text-black" }
+  ]
+},
+
+{
+  id: "up-police-si-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "UP Police SI Online Form 2025 – Start",
+  organization: "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB)",
+  postName: "Sub Inspector & Platoon Commander Recruitment 2025",
+  postDate: "20 Aug 2025 | 5:15 PM",
+  shortInfo: "UPPRPB has released notification for recruitment of 4543 Sub Inspector & Platoon Commander posts. Online applications started from 12 August 2025 and will end on 11 September 2025. Candidates must have a Bachelor's degree from a recognized university in India.",
+  
+  importantDates: [
+    { label: "Short Notice Date", value: "28 March 2025" },
+    { label: "Application Start Date", value: "12 August 2025" },
+    { label: "Last Date to Apply Online", value: "11 September 2025" },
+    { label: "Last Date for Fee Payment", value: "11 September 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / EWS / OBC", value: "₹500" },
+    { label: "SC / ST", value: "₹400" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "28 Years" },
+    { note: "As on 01 July 2025. Age relaxation applicable as per UP Police rules." }
+  ],
+
+  vacancies: [
+    { post: "Sub Inspector (Civil Police)", total: 4242 },
+    { post: "Sub Inspector (Civil Police) – Female", total: 106 },
+    { post: "Platoon Commander / Sub Inspector (PAC)", total: 135 },
+    { post: "SI / Platoon Commander (Special Security Force)", total: 60 }
+  ],
+
+  qualifications: [
+    { post: "Sub Inspector / Platoon Commander", eligibility: "Bachelor’s degree from a recognized university in India. Preference given to candidates with DOEACC 'O' Level Computer Certificate, 2 years service in Territorial Army, or NCC 'B' Certificate." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph (white/light background)",
+    "Signature (black/blue pen on white paper)",
+    "Educational Certificates – 10th, 12th, Graduation",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Income Certificate (for EWS category)",
+    "Special Category Certificates (PH / Ex-servicemen, if applicable)"
+  ],
+
+  selectionProcess: [
+    "Written Examination",
+    "Physical Efficiency Test (PET)",
+    "Physical Standard Test (PST)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit UP Police Official Website – https://uppbpb.gov.in/Home/Index",
+    "Go to the Recruitment / Notification Section",
+    "Select UP Police SI Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 11 September 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "https://uppbpb.gov.in", color: "text-green-600" },
+    { label: "Check Short Notice", url: "https://uppbpb.gov.in/short-notice", color: "text-yellow-600" },
+    { label: "Download Official Notification", url: "https://uppbpb.gov.in/notification", color: "text-blue-600" },
+    { label: "Download Syllabus / Exam Pattern", url: "https://uppbpb.gov.in/syllabus", color: "text-purple-600" },
+    { label: "Official Website", url: "https://uppbpb.gov.in", color: "text-black" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "12 August 2025" },
+    { q: "What is the last date for online application?", a: "11 September 2025" },
+    { q: "What is the age limit for UP Police SI 2025?", a: "Minimum 21 Years, Maximum 28 Years (as on 01 July 2025)" },
+    { q: "What is the eligibility for UP Police SI 2025?", a: "Bachelor’s degree from a recognized university in India. Preference to candidates with DOEACC 'O' Level, NCC 'B' Certificate, or Territorial Army service." },
+    { q: "What is the official website for UP Police?", a: "https://uppbpb.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://uppbpb.gov.in", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://uppbpb.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://uppbpb.gov.in", color: "text-black" }
+  ]
+},
+
+  {
+  id: "rpsc-2nd-grade-teacher-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "RPSC 2nd Grade Teacher Online Form 2025 (6500 Posts) – Start",
+  organization: "Rajasthan Public Service Commission (RPSC)",
+  postName: "2nd Grade Teacher Recruitment 2025",
+  postDate: "20 Aug 2025 | 5:15 PM",
+  shortInfo: "Rajasthan Public Service Commission (RPSC) has released a notification for 6500 vacancies of 2nd Grade Teacher. Online applications started on 19 August 2025 and will close on 17 September 2025. Candidates must be graduates with relevant subject and Degree/Diploma in Education.",
+  
+  importantDates: [
+    { label: "Notification Date", value: "17 July 2025" },
+    { label: "Application Start Date", value: "19 August 2025" },
+    { label: "Last Date to Apply Online", value: "17 September 2025" },
+    { label: "Last Date for Fee Payment", value: "17 September 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / Other State", value: "₹600" },
+    { label: "SC / ST, OBC / BC", value: "₹400" },
+    { label: "Correction Charge", value: "₹500" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "40 Years" },
+    { note: "As on 01 January 2026. Age relaxation applicable as per RPSC rules." }
+  ],
+
+  vacancies: [
+    { post: "2nd Grade Teacher", total: 6500 }
+  ],
+
+  vacancyBreakup: [
+    { subject: "Hindi", nonTsp: 1005, tsp: 47 },
+    { subject: "English", nonTsp: 1150, tsp: 155 },
+    { subject: "Mathematics", nonTsp: 1184, tsp: 201 },
+    { subject: "Science", nonTsp: 1160, tsp: 195 },
+    { subject: "Social Science", nonTsp: 401, tsp: 0 },
+    { subject: "Sanskrit", nonTsp: 842, tsp: 98 },
+    { subject: "Punjabi", nonTsp: 11, tsp: 0 },
+    { subject: "Urdu", nonTsp: 48, tsp: 0 },
+    { subject: "Sindhi", nonTsp: 2, tsp: 0 },
+    { subject: "Gujarati", nonTsp: 1, tsp: 0 }
+  ],
+
+  qualifications: [
+    { post: "Hindi, English, Mathematics, Sanskrit, Punjabi, Sindhi, Gujarati, Urdu", 
+      eligibility: "Graduate with concerned subject as Optional + Degree/Diploma in Education (recognized by NCTE/Government). Working knowledge of Hindi in Devanagari script and knowledge of Rajasthani culture." },
+    { post: "Science", 
+      eligibility: "Graduate with at least two subjects: Physics, Chemistry, Zoology, Botany, Micro-Biology, Bio-Technology, Bio-Chemistry + Degree/Diploma in Education (recognized by NCTE/Government). Working knowledge of Hindi in Devanagari script and knowledge of Rajasthani culture." },
+    { post: "Social Science", 
+      eligibility: "Graduate with at least two subjects: History, Geography, Economics, Political Science, Sociology, Public Administration, Philosophy + Degree/Diploma in Education (recognized by NCTE/Government). Working knowledge of Hindi in Devanagari script and knowledge of Rajasthani culture." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Graduation Degree / Diploma in Education",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+
+  selectionProcess: [
+    "Written Examination",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit RPSC Official Website – https://rpsc.rajasthan.gov.in",
+    "Go to the Recruitment / Notification Section",
+    "Select RPSC 2nd Grade Teacher Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 17 September 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "https://rpsc.rajasthan.gov.in/apply" },
+    { label: "Check Official Notification", url: "https://rpsc.rajasthan.gov.in/notification" },
+    { label: "RPSC Official Website", url: "https://rpsc.rajasthan.gov.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "19 August 2025" },
+    { q: "What is the last date for online application?", a: "17 September 2025" },
+    { q: "What is the age limit for RPSC 2nd Grade Teacher 2025?", a: "Minimum 18 Years, Maximum 40 Years as on 01 January 2026" },
+    { q: "What is the eligibility for RPSC 2nd Grade Teacher 2025?", a: "Graduate with relevant subject + Degree/Diploma in Education (recognized by NCTE/Government), knowledge of Rajasthani culture." },
+    { q: "What is the official website for RPSC?", a: "https://rpsc.rajasthan.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://rpsc.rajasthan.gov.in/apply", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://rpsc.rajasthan.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://rpsc.rajasthan.gov.in", color: "text-black" }
+  ]
+},
+
+{
+  id: "bihar-vidhan-sabha-mains-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "Bihar Vidhan Sabha 05/2024 Mains Online Form 2025 – Start",
+  organization: "Bihar Vidhan Sabha Sachivalaya",
+  postName: "Assistant, Urdu Translator, Urdu Assistant & Translator (Hindi/English) Recruitment 2025",
+  postDate: "19 Aug 2025 | 12:25 PM",
+  shortInfo: "Bihar Vidhan Sabha Sachivalaya has released the Mains Online Form for recruitment of Assistant, Urdu Translator, Urdu Assistant & Translator (Hindi/English) posts under Advt No. 05/2024. The mains application process starts from 20 August 2025 and ends on 25 August 2025 for a total of 07 vacancies.",
+  
+  importantDates: [
+    { label: "Pre Exam Application Start Date", value: "29 November 2024" },
+    { label: "Pre Exam Last Date", value: "13 December 2024" },
+    { label: "Pre Exam Fee Payment Last Date", value: "18 – 21 December 2024" },
+    { label: "Exam Date (Pre)", value: "23 February 2025" },
+    { label: "Admit Card (Pre)", value: "12 February 2025" },
+    { label: "Pre Exam Result Date", value: "07 May 2025" },
+    { label: "Mains Application Start Date", value: "20 August 2025" },
+    { label: "Mains Application Last Date", value: "25 August 2025" },
+    { label: "Mains Fee Payment Last Date", value: "25 August 2025" },
+    { label: "Mains Exam Date", value: "Notify Later" },
+    { label: "Mains Admit Card Release Date", value: "27–29 August 2025" }
+  ],
+
+  applicationFees: [
+    { label: "General / OBC / EWS / Other State", value: "₹600" },
+    { label: "SC / ST / PH", value: "₹150" },
+    { label: "Female (All Category)", value: "₹150" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "37 Years" },
+    { note: "As on 01 August 2024. Age relaxation applicable as per Bihar Vidhan Sabha rules." }
+  ],
+
+  vacancies: [
+    { post: "Library Assistant", total: 2 },
+    { post: "Urdu Translator", total: 1 },
+    { post: "Urdu Assistant", total: 2 },
+    { post: "Translator (Hindi/English)", total: 2 }
+  ],
+
+  qualifications: [
+    { post: "Library Assistant", eligibility: "Graduate in Library Science with a Postgraduate degree in any subject from a recognized university." },
+    { post: "Urdu Translator", eligibility: "Bachelor’s degree in Hindi with Urdu as a subject OR Bachelor’s degree in Urdu with Hindi as a subject from a recognized university." },
+    { post: "Urdu Assistant", eligibility: "Bachelor’s degree with Urdu as a subject from a recognized university." },
+    { post: "Translator (Hindi/English)", eligibility: "Bachelor’s degree in Hindi with English as a subject OR Bachelor’s degree in English with Hindi as a subject from a recognized university." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Bachelor’s Degree Certificate",
+    "Postgraduate Degree Certificate (for Library Assistant)",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+
+  selectionProcess: [
+    "Written Examination",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit Bihar Vidhan Sabha Official Website – https://vidhansabha.bih.nic.in",
+    "Go to the Recruitment / Notification Section",
+    "Select Advertisement No. 05/2024 for Mains Online Form",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 25 August 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online (Mains Form)", url: "https://vidhansabha.bih.nic.in", note: "Link active from 20 August 2025" },
+    { label: "Check Mains Form Notice", url: "https://vidhansabha.bih.nic.in/notice" },
+    { label: "Download Result", url: "https://vidhansabha.bih.nic.in/result" },
+    { label: "Download Admit Card", url: "https://vidhansabha.bih.nic.in/admitcard" },
+    { label: "Download Admit Card Notice", url: "https://vidhansabha.bih.nic.in/admitcard-notice" },
+    { label: "Online Fee Payment", url: "https://vidhansabha.bih.nic.in/fee" },
+    { label: "Check Official Notification", url: "https://vidhansabha.bih.nic.in/notification" },
+    { label: "Bihar Vidhan Sabha Official Website", url: "https://vidhansabha.bih.nic.in" }
+  ],
+
+  faqs: [
+    { q: "When will the Mains application start?", a: "20 August 2025" },
+    { q: "What is the last date for Mains online application?", a: "25 August 2025" },
+    { q: "What is the age limit for Bihar Vidhan Sabha 05/2024 Recruitment?", a: "Minimum 21 Years, Maximum 37 Years (as on 01 August 2024)" },
+    { q: "What is the eligibility for Library Assistant?", a: "Graduate in Library Science with a Postgraduate degree in any subject from a recognized university." },
+    { q: "What is the official website for Bihar Vidhan Sabha?", a: "https://vidhansabha.bih.nic.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://vidhansabha.bih.nic.in", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://vidhansabha.bih.nic.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://vidhansabha.bih.nic.in", color: "text-black" }
+  ]
+},
+
+{
+  id: "upsc-epfo-eo-ao-apfc-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "UPSC EPFO EO / AO / APFC Online Form 2025 – Date Extended",
+  organization: "Union Public Service Commission (UPSC)",
+  postName: "EPFO EO / AO / APFC Recruitment 2025",
+  postDate: "19 Aug 2025 | 10:27 AM",
+  shortInfo: "Union Public Service Commission (UPSC) has released notification for the recruitment of Enforcement Officer / Accounts Officer and Assistant Provident Fund Commissioner (APFC) posts. The online application started on 29 July 2025 and will now end on 22 August 2025 (extended).",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "29 July 2025" },
+    { label: "Last Date to Apply Online", value: "22 August 2025" },
+    { label: "Last Date for Fee Payment", value: "22 August 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹25" },
+    { label: "SC / ST", value: "₹0" },
+    { label: "PH", value: "₹0" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (EO / AO)", value: "30 Years" },
+    { label: "Maximum Age (APFC)", value: "35 Years" },
+    { note: "As on 01 August 2025. Age relaxation applicable as per UPSC rules." }
+  ],
+
+  vacancies: [
+    { post: "Enforcement Officer / Accounts Officer", total: 156 },
+    { post: "Assistant Provident Fund Commissioner (APFC)", total: 74 }
+  ],
+
+  qualifications: [
+    { post: "Enforcement Officer / Accounts Officer", eligibility: "Bachelor’s degree from a recognized university." },
+    { post: "Assistant Provident Fund Commissioner", eligibility: "Bachelor’s degree from a recognized university." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Bachelor’s Degree Certificate",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+
+  selectionProcess: [
+    "Written Examination",
+    "Interview",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit UPSC Official Website – https://www.upsc.gov.in",
+    "Go to the Recruitment / Notification Section",
+    "Select EPFO EO / AO / APFC Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 22 August 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "https://www.upsc.gov.in" },
+    { label: "Check Date Extension Notice", url: "https://www.upsc.gov.in/notice" },
+    { label: "Check Official Notification", url: "https://www.upsc.gov.in/notification" },
+    { label: "UPSC Official Website", url: "https://www.upsc.gov.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "29 July 2025" },
+    { q: "What is the last date for online application?", a: "22 August 2025" },
+    { q: "What is the age limit for UPSC EPFO EO / AO / APFC 2025?", a: "Minimum 18 Years, Maximum 30 Years (EO/AO), 35 Years (APFC)" },
+    { q: "What is the eligibility for UPSC EPFO EO / AO / APFC 2025?", a: "Bachelor’s degree from a recognized university." },
+    { q: "What is the official website for UPSC?", a: "https://www.upsc.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://www.upsc.gov.in", color: "text-green-600" },
+    { label: "Check Date Extension Notice", url: "https://www.upsc.gov.in/notice", color: "text-orange-600" },
+    { label: "Check Official Notification", url: "https://www.upsc.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.upsc.gov.in", color: "text-black" }
+  ]
+}
+,
+{
+  id: "bsf-hc-ro-rm-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "BSF HC RO / RM Online Form 2025 – Start",
+  organization: "Border Security Force (BSF)",
+  postName: "Head Constable (Radio Operator / Radio Mechanic) Recruitment 2025",
+  postDate: "18 Aug 2025 | 4:47 PM",
+  shortInfo: "Border Security Force (BSF) has released notification for recruitment of 1121 Head Constable posts (Radio Operator / Radio Mechanic). Online applications will start from 24 August 2025 and end on 23 September 2025. Candidates must have 10th with ITI or 12th with PCM and meet physical eligibility standards.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "24 August 2025" },
+    { label: "Last Date to Apply Online", value: "23 September 2025" },
+    { label: "Last Date for Fee Payment", value: "23 September 2025" },
+    { label: "Exam Date", value: "Notify Later" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹100" },
+    { label: "SC / ST", value: "₹0" },
+    { label: "All Female", value: "₹0" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (General)", value: "25 Years" },
+    { label: "Maximum Age (OBC)", value: "28 Years" },
+    { label: "Maximum Age (SC/ST)", value: "30 Years" },
+    { note: "As on 23 September 2025. Age relaxation applicable as per BSF rules." }
+  ],
+
+  vacancies: [
+    { post: "Head Constable (RO)", total: 910 },
+    { post: "Head Constable (RM)", total: 211 }
+  ],
+
+  qualifications: [
+    { 
+      post: "Head Constable (RO)", 
+      eligibility: "10th or equivalent with 2-year ITI in Radio & TV / Electronics / Computer Operator & Programming Assistant / Data Preparation / related trade OR 12th with Physics, Chemistry & Mathematics." 
+    },
+    { 
+      post: "Head Constable (RM)", 
+      eligibility: "10th or equivalent with 2-year ITI in Radio & TV / General Electronics / Computer Operator & Programming Assistant / related trade OR 12th with Physics, Chemistry & Mathematics." 
+    }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "10th / 12th Certificate & Marksheet",
+    "ITI Certificate (if applicable)",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Domicile Certificate (if applicable)",
+    "Any other document mentioned in official notification"
+  ],
+
+  selectionProcess: [
+    "Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+    "Computer Based Test (CBT)",
+    "Dictation Test & Paragraph Reading Test",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit BSF Official Website – http://bsf.nic.in/",
+    "Go to Recruitment / Notification Section",
+    "Select Head Constable RO / RM Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 23 September 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "http://bsf.nic.in/", note: "Link activates on 24 August 2025" },
+    { label: "Check Official Notification", url: "http://bsf.nic.in/notification" },
+    { label: "BSF Official Website", url: "http://bsf.nic.in/" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "24 August 2025" },
+    { q: "What is the last date for online application?", a: "23 September 2025" },
+    { q: "What is the age limit for BSF HC RO/RM 2025?", a: "18–25 Years (General), 28 Years (OBC), 30 Years (SC/ST)" },
+    { q: "What is the eligibility for BSF HC RO/RM 2025?", a: "10th with ITI OR 12th with PCM subjects" },
+    { q: "What is the official website for BSF?", a: "http://bsf.nic.in/" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "http://bsf.nic.in/", color: "text-green-600" },
+    { label: "Check Official Notification", url: "http://bsf.nic.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "http://bsf.nic.in/", color: "text-black" }
+  ]
+},
+
+{
+  id: "indian-army-dental-corps-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "Indian Army Dental Corps Online Form 2025 – Start",
+  organization: "Join Indian Army",
+  postName: "Dental Corps (SSC Officer) Recruitment 2025",
+  postDate: "18 Aug 2025 | 4:08 PM",
+  shortInfo: "Join Indian Army has released notification for recruitment of Dental Corps as Short Service Commissioned Officer. Total 30 posts. Online applications started from 18 August 2025 and will end on 17 September 2025. Candidates must have BDS/MDS with NEET (MDS) 2025 qualification.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "18 August 2025" },
+    { label: "Last Date to Apply Online", value: "17 September 2025" },
+    { label: "Last Date for Fee Payment", value: "17 September 2025" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / OBC", value: "₹200" },
+    { label: "SC / ST", value: "₹200" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "45 Years" },
+    { note: "As on 31 December 2025. Age relaxation applicable as per Indian Army rules." }
+  ],
+
+  vacancies: [
+    { post: "Dental Corps SSC Officer", total: 30 }
+  ],
+
+  qualifications: [
+    { 
+      post: "Dental Corps SSC Officer", 
+      eligibility: "BDS (min 55% marks in final year) or MDS degree from DCI-recognized college. Completed 1-year compulsory rotatory internship by 30 June 2025. Valid Dental Registration (till 31 Dec 2025). Must have appeared in NEET (MDS) 2025 (held on 19 April 2025)." 
+    }
+  ],
+
+  requiredDocs: [
+    "NEET (MDS) 2025 Admit Card, Scorecard, and Fee Receipt",
+    "Valid Dental Registration Certificate (till 31 Dec 2025)",
+    "Photo ID proof (Aadhaar / PAN / Passport)",
+    "Birth Certificate / Domicile Certificate",
+    "Category Certificate (SC/ST/OBC/EWS) if applicable",
+    "PwD Certificate (if applicable)",
+    "Character Certificate",
+    "Proof of Marital Status (if applicable)",
+    "Recent passport-size photograph",
+    "Signature (scanned copy)"
+  ],
+
+  selectionProcess: [
+    "Based on NEET (MDS) 2025 Score",
+    "Interview",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit Indian Army Official Website – https://join.afms.gov.in",
+    "Go to Recruitment / Notification Section",
+    "Select Dental Corps SSC Officer Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and Submit before 17 September 2025"
+  ],
+
+  importantLinks: [
+    { label: "Apply Online", url: "https://join.afms.gov.in" },
+    { label: "Check Official Notification", url: "https://join.afms.gov.in/notification" },
+    { label: "Indian Army Official Website", url: "https://joinafmc.nic.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "18 August 2025" },
+    { q: "What is the last date for online application?", a: "17 September 2025" },
+    { q: "What is the age limit for Indian Army Dental Corps 2025?", a: "18–45 Years (as on 31 Dec 2025), relaxation as per rules" },
+    { q: "What is the eligibility for Indian Army Dental Corps 2025?", a: "BDS/MDS with valid Dental Registration and NEET (MDS) 2025 qualification" },
+    { q: "What is the official website for Indian Army Dental Corps?", a: "https://join.afms.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Apply Online", url: "https://join.afms.gov.in", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://join.afms.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://join.afms.gov.in", color: "text-black" }
+  ]
+}
+,
+
+{
+  id: "dsssb-non-teaching-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "DSSSB Non-Teaching Various Post Online Form 2025 – Start",
+  organization: "Delhi Subordinate Services Selection Board (DSSSB)",
+  postName: "Non-Teaching Various Post Recruitment 2025",
+  postDate: "18 Aug 2025 | 3:34 PM",
+  shortInfo: "DSSSB has released notification for recruitment of 615 Non-Teaching Various Posts including Malaria Inspector. Online applications started from 18 August 2025 and will end on 16 September 2025. Minimum age required is 18 Years & Maximum age is 27-37 Years as per post.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "18 August 2025" },
+    { label: "Last Date to Apply Online", value: "16 September 2025" },
+    { label: "Last Date for Fee Payment", value: "16 September 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+  
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹100" },
+    { label: "SC / ST / PH / Women", value: "₹0" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "27-37 Years" },
+    { note: "As on 16 September 2025. Age relaxation applicable as per DSSSB rules." }
+  ],
+  
+  vacancies: [
+    { post: "Malaria Inspector", total: 615 }
+  ],
+  
+  qualifications: [
+    { post: "Non-Teaching Various Posts", eligibility: "Eligibility criteria varies as per post. (Refer to official notification for detailed post-wise qualifications)." }
+  ],
+  
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Qualification Certificates",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+  
+  selectionProcess: [
+    "Written Exam",
+    "Skill Test or Additional Tier (if applicable)",
+    "Document Verification & Interview (Post-wise)",
+    "Final Merit List"
+  ],
+  
+  howToApply: [
+    "Visit DSSSB Official Website – https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board",
+    "Go to the Recruitment / Notification Section",
+    "Select DSSSB Non-Teaching Various Post Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment (if applicable) and Submit before 16 September 2025"
+  ],
+  
+  importantLinks: [
+    { label: "Apply Online", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" },
+    { label: "Check Official Notification", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" },
+    { label: "DSSSB Official Website", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" }
+  ],
+  
+  faqs: [
+    { q: "When did the online application start?", a: "18 August 2025" },
+    { q: "What is the last date for online application?", a: "16 September 2025" },
+    { q: "What is the age limit for DSSSB Non-Teaching Recruitment 2025?", a: "Minimum 18 Years, Maximum 27-37 Years depending on post." },
+    { q: "What is the eligibility for DSSSB Non-Teaching Various Post 2025?", a: "Post-wise eligibility criteria as per official notification." },
+    { q: "What is the official website for DSSSB?", a: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" }
+  ],
+  
+  linksBox: [
+    { label: "Apply Online", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-black" }
+  ]
+},
+
+{
+  id: "dsssb-delhi-high-court-attendant-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "DSSSB Delhi High Court Attendant Online Form 2025",
+  organization: "Delhi Subordinate Services Selection Board (DSSSB)",
+  postName: "Delhi High Court Attendant Recruitment 2025",
+  postDate: "14 Aug 2025 | 7:06 PM",
+  shortInfo: "DSSSB has released notification for recruitment of 334 posts including Court Attendant, Room Attendant, and Security Attendant. Online applications start from 26 August 2025 and will end on 24 September 2025. Minimum qualification required is 10th Pass / ITI Certificate.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "26 August 2025" },
+    { label: "Last Date to Apply Online", value: "24 September 2025" },
+    { label: "Last Date for Fee Payment", value: "24 September 2025" },
+    { label: "Exam Date", value: "To Be Notified" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will be updated soon" }
+  ],
+  
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹100" },
+    { label: "SC / ST / PH / Women", value: "₹0" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "27 Years" },
+    { note: "As on 01 January 2025. Age relaxation applicable as per DSSSB rules." }
+  ],
+  
+  vacancies: [
+    { post: "Court Attendant", total: 295 },
+    { post: "Court Attendant (S)", total: 22 },
+    { post: "Court Attendant (L)", total: 1 },
+    { post: "Room Attendant (H)", total: 13 },
+    { post: "Security Attendant", total: 3 }
+  ],
+  
+  qualifications: [
+    { post: "Court Attendant / Room Attendant / Security Attendant", eligibility: "Matriculation (10th Pass) or equivalent from a recognized board OR ITI pass certificate from a recognized institute." }
+  ],
+  
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Matriculation / 10th Pass Certificate or ITI Certificate",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+  
+  selectionProcess: [
+    "Computer Based Test (CBT)",
+    "Interview",
+    "Final Merit List"
+  ],
+  
+  howToApply: [
+    "Visit DSSSB Official Website – https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board",
+    "Go to the Recruitment / Notification Section",
+    "Select Delhi High Court Attendant Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment (if applicable) and Submit before 24 September 2025"
+  ],
+  
+  importantLinks: [
+    { label: "Apply Online", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" },
+    { label: "Check Official Notification", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" },
+    { label: "DSSSB Official Website", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" }
+  ],
+  
+  faqs: [
+    { q: "When did the online application start?", a: "26 August 2025" },
+    { q: "What is the last date for online application?", a: "24 September 2025" },
+    { q: "What is the age limit for DSSSB Delhi High Court Attendant 2025?", a: "Minimum 18 Years, Maximum 27 Years (as on 01 Jan 2025)" },
+    { q: "What is the eligibility for DSSSB Delhi High Court Attendant 2025?", a: "10th Pass or ITI Certificate from a recognized institute." },
+    { q: "What is the official website for DSSSB?", a: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board" }
+  ],
+  
+  linksBox: [
+    { label: "Apply Online", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-green-600" },
+    { label: "Check Official Notification", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-black" }
+  ]
+},
+
+
+{ 
+  id: "bssc-4th-graduate-level-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "Bihar BSSC 4th Graduate Level Online Form 2025 – Start",
+  organization: "Bihar Staff Selection Commission (BSSC)",
+  postName: "BSSC 4th Graduate Level Recruitment 2025",
+  postDate: "18 Aug 2025 | 3:28 PM",
+  shortInfo:
+    "Bihar Staff Selection Commission (BSSC) has released notification for 1481 posts under the 4th Graduate Level Examination 2025. The online application was scheduled from 18 August 2025 but has been postponed. Candidates must hold a Graduation degree in relevant subjects as per the post. Age limit is 18 to 37 years (UR Male) as on 01 August 2025.",
+  importantDates: [
+    { label: "Application Start Date", value: "18 August 2025 (Postponed)" },
+    { label: "Last Date to Apply Online", value: "Notify Later" },
+    { label: "Last Date for Fee Payment", value: "Notify Later" },
+    { label: "Final Submit Last Date", value: "Notify Later" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Soon" }
+  ],
+  applicationFees: [
+    { label: "General / BC / EBC", value: "₹540" },
+    { label: "Other State (All Category)", value: "₹540" },
+    { label: "SC / ST / PH (Bihar)", value: "₹135" },
+    { label: "Female (All Category of Bihar)", value: "₹135" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (UR Male)", value: "37 Years" },
+    { label: "Maximum Age (UR Female)", value: "40 Years" },
+    { label: "Maximum Age (BC / EBC Male, Female)", value: "40 Years" },
+    { label: "Maximum Age (SC / ST Male, Female)", value: "42 Years" },
+    { note: "As on 01 August 2025. Age relaxation applicable as per BSSC rules." }
+  ],
+  vacancies: [
+    { post: "Assistant Branch Officer", total: 1064 },
+    { post: "Planning Assistant", total: 88 },
+    { post: "Junior Statistical Assistant", total: 5 },
+    { post: "Data Entry Operator Grade-C", total: 1 },
+    { post: "Auditor (Directorate of Accounts, Finance Dept.)", total: 125 },
+    { post: "Auditor (Cooperative Societies, Cooperation Dept.)", total: 198 }
+  ],
+  qualifications: [
+    { post: "Assistant Branch Officer", eligibility: "Bachelor’s degree in any stream from a recognized university in India." },
+    { post: "Planning Assistant", eligibility: "Bachelor’s degree in any stream from a recognized university in India." },
+    { post: "Junior Statistical Assistant", eligibility: "Bachelor’s degree in Mathematics, Economics, Commerce, or Statistics from a recognized university in India." },
+    { post: "Data Entry Operator Grade-C", eligibility: "Bachelor’s degree with PGDCA or BCA/B.Sc (IT). B.E (CSE) / B.Tech (IT) are also eligible." },
+    { post: "Auditor (Directorate of Accounts, Finance Dept.)", eligibility: "Bachelor’s degree in Commerce, Economics, or Statistics from a recognized university in India." },
+    { post: "Auditor (Cooperative Societies, Cooperation Dept.)", eligibility: "Bachelor’s degree in Mathematics or Commerce from a recognized university in India." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Graduation Certificate / Marksheet",
+    "Caste / Category Certificate (if applicable)",
+    "Disability Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+  selectionProcess: [
+    "Preliminary Examination",
+    "Mains Examination"
+  ],
+  howToApply: [
+    "Visit BSSC Official Website – https://bssc.bihar.gov.in",
+    "Go to the Recruitment / Notification Section",
+    "Select BSSC 4th Graduate Level Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Payment and submit before the notified last date"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://bssc.bihar.gov.in", note: "Link Activate Soon" },
+    { label: "Check Apply Date Postponed Notice", url: "https://bssc.bihar.gov.in/postponed-notice" },
+    { label: "Check Official Notification", url: "https://bssc.bihar.gov.in/notification" },
+    { label: "BSSC Official Website", url: "https://bssc.bihar.gov.in" }
+  ],
+  faqs: [
+    { q: "When did the online application start?", a: "18 August 2025 (Postponed)" },
+    { q: "What is the last date for online application?", a: "Notify Soon" },
+    { q: "What is the age limit for BSSC 4th Graduate Level 2025?", a: "Minimum 18 Years, Maximum 42 Years (SC/ST), 40 Years (UR Female/BC/EBC), 37 Years (UR Male)" },
+    { q: "What is the eligibility for BSSC 4th Graduate Level 2025?", a: "Graduation degree in relevant discipline as per post. For detailed eligibility, check official notification." },
+    { q: "What is the official website for BSSC?", a: "https://bssc.bihar.gov.in" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://bssc.bihar.gov.in", color: "text-green-600" },
+    { label: "Check Apply Date Postponed Notice", url: "https://bssc.bihar.gov.in/postponed-notice", color: "text-yellow-600" },
+    { label: "Check Official Notification", url: "https://bssc.bihar.gov.in/notification", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://bssc.bihar.gov.in", color: "text-black" }
+  ]
+},
+
+  { 
+  id: "lic-aao-ae-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Latest Job",
+  title: "LIC AAO / AE Online Form 2025 – Start",
+  organization: "Life Insurance Corporation of India (LIC)",
+  postName: "LIC AAO / AE Recruitment 2025",
+  postDate: "16 Aug 2025 | 11:23 AM",
+  shortInfo:
+    "Life Insurance Corporation of India (LIC) has released a notification for the recruitment of Assistant Administrative Officer (AAO) Generalist, Specialist, and Assistant Engineer (AE). Total 841 posts. Application started on 16 August 2025 and ends on 08 September 2025.",
+  importantDates: [
+    { label: "Application Start Date", value: "16 August 2025" },
+    { label: "Last Date to Apply Online", value: "08 September 2025" },
+    { label: "Last Date for Fee Payment", value: "08 September 2025" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card Release Date", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Soon" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹700" },
+    { label: "SC / ST / PwBD", value: "₹85" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "32 Years" },
+    { note: "As on 08 September 2025. Candidates must be born between 02 August 1993 and 01 August 2004 (both dates inclusive). Age relaxation as per LIC rules." }
+  ],
+  vacancies: [
+    { post: "AAO (Generalist)", total: 341 },
+    { post: "AAO (Generalist) Backlog", total: 9 },
+    { post: "AE (Civil)", total: 50 },
+    { post: "AE (Electrical)", total: 31 },
+    { post: "AAO (CA)", total: 30 },
+    { post: "AAO (CS)", total: 10 },
+    { post: "AAO (Actuarial)", total: 30 },
+    { post: "AAO (Insurance Specialist)", total: 310 },
+    { post: "AAO (Legal)", total: 30 }
+  ],
+  qualifications: [
+    { post: "AAO (Generalist)", eligibility: "Bachelor’s degree in any discipline from a recognized Indian university or institution." },
+    { post: "AE (Civil)", eligibility: "B.Tech/B.E. in Civil Engineering with 3 years post-qualification experience in planning and executing multi-storied building projects." },
+    { post: "AE (Electrical)", eligibility: "B.Tech/B.E. in Electrical Engineering with 3 years post-qualification experience in planning and executing multi-storied building projects." },
+    { post: "AAO (CA)", eligibility: "Bachelor’s degree and passed the Final Examination of ICAI. Must be an Associate Member of ICAI." },
+    { post: "AAO (CS)", eligibility: "Bachelor’s degree and qualified member of the Institute of Company Secretaries of India (ICSI)." },
+    { post: "AAO (Actuarial)", eligibility: "Bachelor’s degree in any discipline and must have passed at least 6 papers of Institute of Actuaries of India or UK." },
+    { post: "AAO (Insurance Specialist)", eligibility: "Bachelor’s degree in any discipline with Fellowship of Insurance Institute of India and 5 years’ experience in IRDAI-regulated Life Insurance companies." },
+    { post: "AAO (Legal)", eligibility: "Bachelor’s degree in Law with 50% marks (45% for SC/ST/PwBD). Must be enrolled as Advocate with Bar Council and have 2 years’ experience as Advocate or Law Officer." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Qualification Certificates",
+    "Professional Qualification Certificates (if applicable)",
+    "Experience Certificate (if applicable)",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in official notification"
+  ],
+  selectionProcess: [
+    "Preliminary Examination",
+    "Main Examination",
+    "Interview"
+  ],
+  howToApply: [
+    "Visit LIC Official Website – https://www.licindia.in/",
+    "Go to the Careers / Recruitment Section",
+    "Select LIC AAO / AE Recruitment 2025",
+    "Fill Online Application Form and upload required documents",
+    "Complete Fee Payment and Submit before 08 September 2025"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://www.licindia.in" },
+    { label: "Check Official Notification (Generalist)", url: "https://www.licindia.in/notification-generalist" },
+    { label: "Check Official Notification (AE / Specialist)", url: "https://www.licindia.in/notification-specialist" },
+    { label: "LIC Official Website", url: "https://www.licindia.in" }
+  ],
+  faqs: [
+    { q: "When did the online application start?", a: "16 August 2025" },
+    { q: "What is the last date for online application?", a: "08 September 2025" },
+    { q: "What is the age limit for LIC AAO / AE 2025?", a: "Minimum 21 Years, Maximum 32 Years (with relaxation as per LIC rules)" },
+    { q: "What is the eligibility for LIC AAO / AE 2025?", a: "Bachelor’s degree (specific qualifications vary by post). Refer official notification." },
+    { q: "What is the official website for LIC?", a: "https://www.licindia.in/" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://www.licindia.in", color: "text-green-600" },
+    { label: "Check Notification (Generalist)", url: "https://www.licindia.in/notification-generalist", color: "text-blue-600" },
+    { label: "Check Notification (AE / Specialist)", url: "https://www.licindia.in/notification-specialist", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.licindia.in", color: "text-black" }
+  ]
+},
+
 {
   id: "bihar-shs-anm-recruitment-2025",
   logo: "/images/sarkariresult-logo.png",
