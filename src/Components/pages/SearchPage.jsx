@@ -232,6 +232,36 @@ const jobsData = [
   { id: 218, title: "ICFRE TFRI Syllabus 2025: Driver, Forest Guard & TA", link: "/syllabus/icfre-tfri-syllabus-2025" },
   { id: 219, title: "RSMSSB VDO Syllabus 2025 PDF Download", link: "/syllabus/rsmssb-vdo-syllabus-2025" },
   { id: 220, title: "SSC CHSL 10+2 Exam 2025 Full Syllabus", link: "/syllabus/ssc-chsl-syllabus-2025" },
+  { id: 221, title: "BPSC School Teacher TRE 2.0 Result (NIOS DElEd) – Out", link: "/result/bpsc-school-teacher-tre2-result-2025" },
+{ id: 222, title: "NEET PG Result 2025 – Out", link: "/result/neet-pg-result-2025" },
+{ id: 223, title: "Rajasthan HC Civil Judge Pre Result 2025 – Out", link: "/result/rajasthan-hc-civil-judge-pre-result-2025" },
+{ id: 224, title: "PSPCL Assistant Lineman Result 2025 – Out", link: "/result/pspcl-assistant-lineman-result-2025" },
+{ id: 225, title: "BCECE 2025 1st Round Allotment Result – Out", link: "/result/bcece-le-1st-round-allotment-2025" },
+{ id: 226, title: "Bihar DCECE 2025 PE Mop-Up Round Seat Allotment Result", link: "/result/bihar-dcece-2025-pe-mopup-seat-allotment" },
+{ id: 227, title: "SBI Bank Clerk 1st Wait List With Marks 2025 – Out", link: "/result/sbi-clerk-1st-waitlist-2025" },
+
+{ id: 228, title: "Bihar BSEB DELED Admit Card 2025-27", link: "/admitcard/bihar-bseb-deled-admit-card-2025" },
+{ id: 229, title: "Bihar Vidhan Sabha Security Guard 01/2023 PET New Exam Date 2025", link: "/admitcard/bihar-vidhan-sabha-security-guard-pet-admit-card-2025" },
+{ id: 230, title: "BPSC ASO New Exam Date 2025 – Out", link: "/admitcard/bpsc-aso-new-exam-date-2025" },
+{ id: 231, title: "RRB NTPC 10+2 Inter Level Admit Card / Exam City Details 2025 – Out", link: "/admitcard/rrb-ntpc-10-2-inter-admit-card-2025" },
+{ id: 232, title: "AFCAT 02/2025 Admit Card – Out", link: "/admitcard/afcat-02-2025-admit-card" },
+{ id: 233, title: "AIIMS CRE Group B, C Exam City Details 2025 – Out", link: "/admitcard/aiims-cre-group-b-c-exam-city-details-2025" },
+{ id: 234, title: "WBSSC Assistant Teacher Admit Card 2025", link: "/admitcard/wbssc-assistant-teacher-admit-card-2025" },
+
+{ id: 235, title: "Bihar Police CSBC Driver Constable Online Form 2025 – Last Date Today", link: "/latestjobs/bihar-police-csbc-driver-constable-recruitment-2025" },
+{ id: 236, title: "Bihar JEEVIKA Online Form 2025 (2747 Posts) – Date Extend", link: "/latestjobs/bihar-jeevika-recruitment-2025" },
+{ id: 237, title: "IBPS Clerk CSA 15th XV Online Form 2025 (10277 Post) – Start", link: "/latestjobs/ibps-clerk-15th-recruitment-2025" },
+{ id: 238, title: "UP Police SI Online Form 2025 (4543 Post) – Start", link: "/latestjobs/up-police-si-recruitment-2025" },
+{ id: 239, title: "RPSC 2nd Grade Teacher Online Form 2025 (6500 Posts) – Start", link: "/latestjobs/rpsc-2nd-grade-teacher-recruitment-2025" },
+{ id: 240, title: "Bihar Vidhan Sabha 05/2024 Mains Online Form 2025", link: "/latestjobs/bihar-vidhan-sabha-mains-recruitment-2025" },
+{ id: 241, title: "UPSC EPFO EO / AO / APFC Online Form 2025 – Date Extend", link: "/latestjobs/upsc-epfo-eo-ao-apfc-recruitment-2025" },
+{ id: 242, title: "Indian Navy SSC Executive IT January 2026 Online Form – Last Date Today", link: "/latestjobs/indian-navy-ssc-executive-it-jan-2026" },
+{ id: 243, title: "BSF HC RO / RM Online Form 2025", link: "/latestjobs/bsf-hc-ro-rm-recruitment-2025" },
+{ id: 244, title: "Indian Army Dental Corps Online Form 2025 – Start", link: "/latestjobs/indian-army-dental-corps-recruitment-2025" },
+{ id: 245, title: "DSSSB Non-Teaching Various Post Online Form 2025 – Start", link: "/latestjobs/dsssb-non-teaching-recruitment-2025" },
+{ id: 246, title: "Bihar BSSC 4th Graduate Level Online Form 2025 (1481 Posts)", link: "/latestjobs/bssc-4th-graduate-level-recruitment-2025" },
+{ id: 247, title: "LIC AAO / AE Online Form 2025 – Start", link: "/latestjobs/lic-aao-ae-recruitment-2025" },
+
 
 ];
 
