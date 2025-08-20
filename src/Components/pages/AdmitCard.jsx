@@ -6,6 +6,15 @@ const AdmitCard = () => {
 
   // ✅ All admit card links in one array
   const admitCards = [
+{ to: "/admitcard/bihar-bseb-deled-admit-card-2025", text: "Bihar BSEB DELED Admit Card 2025-27" },
+{ to: "/admitcard/bihar-vidhan-sabha-security-guard-pet-admit-card-2025", text: "Bihar Vidhan Sabha Security Guard 01/2023 PET New Exam Date 2025" },
+{ to: "/admitcard/bpsc-aso-new-exam-date-2025", text: "BPSC ASO New Exam Date 2025 – Out" },
+{ to: "/admitcard/rrb-ntpc-10-2-inter-admit-card-2025", text: "RRB NTPC 10+2 Inter Level Admit Card / Exam City Details 2025 – Out" },
+{ to: "/admitcard/afcat-02-2025-admit-card", text: "AFCAT 02/2025 Admit Card – Out" },
+{ to: "/admitcard/aiims-cre-group-b-c-exam-city-details-2025", text: "AIIMS CRE Group B, C Exam City Details 2025 – Out" },
+{ to: "/admitcard/wbssc-assistant-teacher-admit-card-2025", text: "WBSSC Assistant Teacher Admit Card 2025" },
+
+
     { to: "/admitcard/bihar-btsc-tutor-nursing-admit-card-2025", text: "Bihar BTSC Tutor Nursing Admit Card 2025 – Out" },
     { to: "/admitcard/bihar-bpssc-enforcement-si-admit-card-2025", text: "BPSSC Bihar Police Enforcement SI Admit Card Date 2025" },
     { to: "/admitcard/ibps-po-mt-xv-pre-admit-card-2025", text: "IBPS PO MT XV 15 Pre Admit Card 2025 – Out" },
