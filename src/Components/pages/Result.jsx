@@ -6,6 +6,14 @@ const Result = () => {
 
   // ✅ Put all results in one array
   const results = [
+    { to: "/result/bpsc-school-teacher-tre2-result-2025", text: "BPSC School Teacher TRE 2.0 Result (NIOS DElEd) – Out" },
+{ to: "/result/neet-pg-result-2025", text: "NEET PG Result 2025 – Out" },
+{ to: "/result/rajasthan-hc-civil-judge-pre-result-2025", text: "Rajasthan HC Civil Judge Pre Result 2025 – Out" },
+{ to: "/result/pspcl-assistant-lineman-result-2025", text: "PSPCL Assistant Lineman Result 2025 – Out" },
+{ to: "/result/bcece-le-1st-round-allotment-2025", text: "BCECE 2025 1st Round Allotment Result – Out" },
+{ to: "/result/bihar-dcece-2025-pe-mopup-seat-allotment", text: "Bihar DCECE 2025 PE Mop-Up Round Seat Allotment Result" },
+{ to: "/result/sbi-clerk-1st-waitlist-2025", text: "SBI Bank Clerk 1st Wait List With Marks 2025 – Out" },
+
     { to: "/result/ssc-steno-cd-final-marks-2025", text: "SSC Stenographer C, D Final Marks 2025 – Out" },
     { to: "/result/bihar-btsc-insect-collector-result-2025", text: "Bihar BTSC Insect Collector Final Result 2025" },
     { to: "/result/sbi-clerk-waitlist-2025", text: "SBI Bank Clerk 1st Wait List 2025 – Out" },
