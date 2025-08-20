@@ -1,5 +1,714 @@
 const admitcardData = [
+
+
+{
+  id: "bihar-bseb-deled-admit-card-2025",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  category: "Admit Card",
+  title: "Bihar BSEB DELED Admit Card 2025-27 – Out",
+  organization: "Bihar School Examination Board (BSEB)",
+  postName: "Diploma in Elementary Education (D.El.Ed) Admission 2025-27",
+  postDate: "20 Aug 2025 | 09:09 AM",
+  shortInfo: "Bihar School Examination Board (BSEB), Patna has released the Admit Card for the Diploma in Elementary Education (D.El.Ed) Combined Entrance Exam 2025 for Session 2025-27. Candidates can download their admit card using Enrollment Number, Registration Number, or Date of Birth.",
+  
+  importantDates: [
+    { label: "Notification Date", value: "11 January 2025" },
+    { label: "Application Start Date", value: "11 January 2025" },
+    { label: "Last Date to Apply Online", value: "05 February 2025" },
+    { label: "Last Date for Fee Payment", value: "06 February 2025" },
+    { label: "Dummy Admit Card Release", value: "13 May 2025" },
+    { label: "Dummy Admit Card Correction", value: "13 – 17 May 2025" },
+    { label: "Exam Date", value: "26 August 2025" },
+    { label: "Admit Card Release Date", value: "August 2025", highlight: "yellow" },
+    { label: "Result Date", value: "Will be Updated Soon" }
+  ],
+
+  applicationFees: [
+    { label: "General / OBC / EWS / UR", value: "₹960" },
+    { label: "SC / ST / Divyang", value: "₹760" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Minimum Age", value: "17 Years" },
+    { label: "Maximum Age", value: "NA" },
+    { note: "As on 01 January 2025. Age relaxation applicable as per BSEB rules." }
+  ],
+
+  vacancies: [
+    { post: "Diploma in Elementary Education (D.El.Ed)", total: "Not Available" }
+  ],
+
+  qualifications: [
+    { post: "D.El.Ed Admission", eligibility: "Candidates must have passed Intermediate (Class 12) with 50% marks for General/OBC and 45% marks for SC/ST from a recognized board." }
+  ],
+
+  requiredDocs: [
+    "Passport-size Photograph",
+    "Signature (scanned copy)",
+    "Class 10th & 12th Marksheet",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar / Voter ID / PAN / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+
+  examPattern: [
+    { subject: "General Hindi / Urdu", questions: 25, marks: 25 },
+    { subject: "Mathematics", questions: 25, marks: 25 },
+    { subject: "Science", questions: 20, marks: 20 },
+    { subject: "Social Studies", questions: 20, marks: 20 },
+    { subject: "General English", questions: 20, marks: 20 },
+    { subject: "Logical & Analytical Reasoning", questions: 10, marks: 10 },
+    { total: "120 Questions", marks: "120 Marks", duration: "2 Hours 30 Minutes" }
+  ],
+
+  selectionProcess: [
+    "Online Examination",
+    "Written Examination"
+  ],
+
+  howToApply: [
+    "Visit BSEB DELED Official Website – https://deledbihar.in",
+    "Go to the ‘Admit Card’ section",
+    "Login using Application Number and Date of Birth",
+    "Download Admit Card and Verify Details",
+    "Print a Copy for Examination"
+  ],
+
+  importantLinks: [
+    { label: "Download Admit Card", url: "https://deledbihar.in/admit-card" },
+    { label: "Download Dummy Admit Card", url: "https://deledbihar.in/dummy-admit-card" },
+    { label: "Dummy Admit Card Notice", url: "https://deledbihar.in/dummy-notice" },
+    { label: "Apply Online", url: "https://deledbihar.in/apply-online" },
+    { label: "Date Extend Notice", url: "https://deledbihar.in/date-extend" },
+    { label: "Download Notification", url: "https://biharboardonline.bihar.gov.in/notification" },
+    { label: "BSEB Official Website", url: "http://biharboardonline.bihar.gov.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "11 January 2025" },
+    { q: "What was the last date to apply online?", a: "05 February 2025" },
+    { q: "What is the exam date?", a: "26 August 2025" },
+    { q: "What is the age limit?", a: "Minimum 17 Years as on 01 January 2025 (No Maximum Age Limit)." },
+    { q: "What is the eligibility for Bihar D.El.Ed?", a: "Candidates must have passed Class 12 with 50% marks (Gen/OBC) & 45% marks (SC/ST)." },
+    { q: "What is the official website for BSEB?", a: "http://biharboardonline.bihar.gov.in" }
+  ],
+
+  linksBox: [
+    { label: "Download Admit Card", url: "https://deledbihar.in/admit-card", color: "text-green-600" },
+    { label: "Download Dummy Admit Card", url: "https://deledbihar.in/dummy-admit-card", color: "text-blue-600" },
+    { label: "Apply Online", url: "https://deledbihar.in/apply-online", color: "text-purple-600" },
+    { label: "Download Notification", url: "https://biharboardonline.bihar.gov.in/notification", color: "text-red-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "http://biharboardonline.bihar.gov.in", color: "text-black" }
+  ]
+},
+
 { 
+  id: "bihar-vidhan-sabha-security-guard-pet-admit-card-2025", 
+  logo: "/images/logo.png", 
+  website: "www.sarkari.result.prasunet.com", 
+  category: "Admit Card", 
+  title: "Bihar Vidhan Sabha Security Guard PET Admit Card 2025 – Out", 
+  organization: "Bihar Vidhan Sabha Sachivalaya", 
+  postName: "Security Guard (Advt. No. 01/2023)", 
+  postDate: "20 Aug 2025 | 08:58 AM", 
+  shortInfo: "Bihar Vidhan Sabha Sachivalaya has released the PET Admit Card for Security Guard Recruitment 2025. The PET Exam will be conducted from 24 – 26 August 2025. Candidates can download their admit card using Enrollment Number, Registration Number, or Date of Birth.", 
+  
+  importantDates: [ 
+    { label: "Application Start Date", value: "26 April 2023" }, 
+    { label: "Last Date to Apply Online", value: "26 May 2023" }, 
+    { label: "Last Date for Fee Payment", value: "25 May 2023" }, 
+    { label: "Pre Exam Date", value: "10 September 2023" }, 
+    { label: "Pre Admit Card Available", value: "28 August 2023" }, 
+    { label: "Pre Result", value: "15 December 2023" }, 
+    { label: "Re-Open Application Start", value: "29 November 2024" }, 
+    { label: "Re-Open Application Last Date", value: "13 December 2024" }, 
+    { label: "Fee Payment (Re-Open)", value: "18 – 21 December 2024" }, 
+    { label: "New Pre Exam Date", value: "13 July 2025" }, 
+    { label: "Pre Admit Card (Re-Open)", value: "05 July 2025" }, 
+    { label: "Pre Result (Re-Open)", value: "30 July 2025" }, 
+    { label: "PET Admit Card Release Date", value: "August 2025", highlight: "yellow" }, 
+    { label: "PET Exam Date", value: "24 – 26 August 2025" } 
+  ], 
+  
+  applicationFees: [ 
+    { label: "General / OBC / EWS / Other State", value: "₹675" }, 
+    { label: "SC / ST", value: "₹180" }, 
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet, Cash Card" } 
+  ], 
+  
+  ageLimit: [ 
+    { label: "Minimum Age", value: "18 Years" }, 
+    { label: "Maximum Age", value: "25 Years" }, 
+    { note: "As on 01 August 2022. Age relaxation applicable as per Bihar Vidhan Sabha rules." } 
+  ], 
+  
+  vacancies: [ 
+    { post: "Security Guard (Suraksha Prahari)", total: 69 } 
+  ], 
+  
+  qualifications: [ 
+    { post: "Security Guard", eligibility: "Candidates must have passed 12th (Intermediate) from a recognized board in India." } 
+  ], 
+  
+  requiredDocs: [ 
+    "Recent passport-size photograph", 
+    "Signature (scanned copy)", 
+    "Class 12th Certificate / Marksheet", 
+    "Caste / Category Certificate (if applicable)", 
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)", 
+    "Any other document mentioned in the official notification" 
+  ], 
+  
+  selectionProcess: [ 
+    "Written Exam", 
+    "PET Exam", 
+    "Document Verification", 
+    "Medical Examination" 
+  ], 
+  
+  howToApply: [ 
+    "Visit Bihar Vidhan Sabha Official Website – https://vidhansabha.bih.nic.in", 
+    "Go to the ‘Recruitment’ section", 
+    "Find link for Security Guard PET Admit Card (Advt. No. 01/2023)", 
+    "Login using Registration Number, Enrollment Number, or Date of Birth", 
+    "Download Admit Card and Print" 
+  ], 
+  
+  importantLinks: [ 
+    { label: "Download PET Admit Card", url: "https://vidhansabha.bih.nic.in/admit-card" }, 
+    { label: "Download PET New Exam Date Notice", url: "https://vidhansabha.bih.nic.in/exam-date" }, 
+    { label: "Check PET Admit Card Notice", url: "https://vidhansabha.bih.nic.in/pet-notice" }, 
+    { label: "Download Pre Result", url: "https://vidhansabha.bih.nic.in/pre-result" }, 
+    { label: "Download Pre Admit Card", url: "https://vidhansabha.bih.nic.in/pre-admit-card" }, 
+    { label: "Download Notification", url: "https://vidhansabha.bih.nic.in/notification" }, 
+    { label: "Official Website", url: "https://vidhansabha.bih.nic.in" } 
+  ], 
+  
+  faqs: [ 
+    { q: "When did the online application start?", a: "26 April 2023 (Re-opened on 29 November 2024)" }, 
+    { q: "What was the last date to apply online?", a: "26 May 2023 (Re-open last date: 13 December 2024)" }, 
+    { q: "What is the PET Exam Date?", a: "24 – 26 August 2025" }, 
+    { q: "What is the eligibility for Security Guard?", a: "12th (Intermediate) pass from a recognized board." }, 
+    { q: "What is the official website for Bihar Vidhan Sabha?", a: "https://vidhansabha.bih.nic.in" } 
+  ], 
+  
+  linksBox: [ 
+    { label: "Download PET Admit Card", url: "https://vidhansabha.bih.nic.in/admit-card", color: "text-green-600" }, 
+    { label: "Check Exam Date Notice", url: "https://vidhansabha.bih.nic.in/exam-date", color: "text-blue-600" }, 
+    { label: "Download Pre Result", url: "https://vidhansabha.bih.nic.in/pre-result", color: "text-purple-600" }, 
+    { label: "Download Pre Admit Card", url: "https://vidhansabha.bih.nic.in/pre-admit-card", color: "text-orange-600" }, 
+    { label: "Download Notification", url: "https://vidhansabha.bih.nic.in/notification", color: "text-red-600" }, 
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" }, 
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" }, 
+    { label: "Official Website", url: "https://vidhansabha.bih.nic.in", color: "text-black" } 
+  ] 
+},
+
+  { 
+  id: "bpsc-aso-new-exam-date-2025", 
+  logo: "/images/logo.png", 
+  website: "www.sarkari.result.prasunet.com", 
+  category: "Exam Date", 
+  title: "BPSC ASO New Exam Date 2025 – Out", 
+  organization: "Bihar Public Service Commission (BPSC)", 
+  postName: "Assistant Section Officer (ASO) Recruitment 2025", 
+  postDate: "20 Aug 2025 | 08:56 AM", 
+  shortInfo: "Bihar Public Service Commission (BPSC) has released the Pre Exam Date for Assistant Section Officer (ASO) Recruitment 2025. The exam will be conducted on 10 September 2025. Candidates can check their Exam Date / Admit Card soon using Enrollment Number, Registration Number, or Date of Birth.", 
+  
+  importantDates: [ 
+    { label: "Application Start Date", value: "29 May 2025" }, 
+    { label: "Last Date to Apply Online", value: "23 June 2025" }, 
+    { label: "Last Date for Fee Payment", value: "23 June 2025" }, 
+    { label: "Pre Exam Date", value: "10 September 2025", highlight: "yellow" }, 
+    { label: "Admit Card Release Date", value: "Before Exam" } 
+  ], 
+  
+  applicationFees: [ 
+    { label: "General / OBC / EWS", value: "₹600" }, 
+    { label: "SC / ST / Female (Bihar)", value: "₹150" }, 
+    { label: "PH Candidates", value: "₹200" }, 
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Wallet, Cash Card" } 
+  ], 
+  
+  ageLimit: [ 
+    { label: "Minimum Age", value: "21 Years" }, 
+    { label: "Maximum Age (UR Male)", value: "37 Years" }, 
+    { label: "Maximum Age (UR Female, BC/EBC Male & Female)", value: "40 Years" }, 
+    { label: "Maximum Age (SC/ST Male & Female)", value: "42 Years" }, 
+    { note: "As on 01 August 2025. Age relaxation applicable as per BPSC rules." } 
+  ], 
+  
+  vacancies: [ 
+    { post: "Assistant Section Officer (ASO)", total: 41 } 
+  ], 
+  
+  qualifications: [ 
+    { post: "Assistant Section Officer (ASO)", eligibility: "Candidates must have a Graduate Degree from a recognized University. The degree should be completed on or before the last date of application submission." } 
+  ], 
+  
+  requiredDocs: [ 
+    "Recent passport-size photograph", 
+    "Signature (scanned copy)", 
+    "Graduation Certificate", 
+    "Caste / Category Certificate (if applicable)", 
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)", 
+    "Any other document mentioned in the official notification" 
+  ], 
+  
+  selectionProcess: [ 
+    "Pre Exam", 
+    "Mains Exam" 
+  ], 
+  
+  howToApply: [ 
+    "Visit BPSC Official Website – https://bpsc.bihar.gov.in", 
+    "Go to the ‘Examination Calendar’ or ‘Notices’ section", 
+    "Find notification for ‘ASO Pre Exam Date 2025’", 
+    "Login using Registration Number, Enrollment Number, or Date of Birth", 
+    "Download Exam Date Notice / Admit Card and Print" 
+  ], 
+  
+  importantLinks: [ 
+    { label: "Check Pre Exam Date Notice", url: "https://bpsc.bihar.gov.in/exam-date" }, 
+    { label: "Apply Online (Registration/Login)", url: "https://bpsc.bihar.gov.in/apply-online" }, 
+    { label: "Download Official Notification", url: "https://bpsc.bihar.gov.in/notification" }, 
+    { label: "BPSC Official Website", url: "https://bpsc.bihar.gov.in" } 
+  ], 
+  
+  faqs: [ 
+    { q: "When did the online application start?", a: "29 May 2025" }, 
+    { q: "What was the last date to apply online?", a: "23 June 2025" }, 
+    { q: "What is the Pre Exam Date?", a: "10 September 2025" }, 
+    { q: "What is the eligibility for BPSC ASO?", a: "Graduate Degree from a recognized University." }, 
+    { q: "What is the official website for BPSC?", a: "https://bpsc.bihar.gov.in" } 
+  ], 
+  
+  linksBox: [ 
+    { label: "Check Pre Exam Date Notice", url: "https://bpsc.bihar.gov.in/exam-date", color: "text-blue-600" }, 
+    { label: "Apply Online (Login)", url: "https://bpsc.bihar.gov.in/apply-online", color: "text-purple-600" }, 
+    { label: "Download Notification", url: "https://bpsc.bihar.gov.in/notification", color: "text-red-600" }, 
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" }, 
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" }, 
+    { label: "Official Website", url: "https://bpsc.bihar.gov.in", color: "text-black" } 
+  ] 
+},
+
+{
+  id: "rrb-ntpc-10-2-inter-admit-card-2025",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  category: "Admit Card",
+  title: "RRB NTPC 10+2 Inter Level Admit Card 2025 – Out",
+  organization: "Railway Recruitment Board (RRB)",
+  postName: "NTPC 10+2 Undergraduate Level Posts Recruitment 2024",
+  postDate: "19 Aug 2025 | 05:38 PM",
+  shortInfo: "Railway Recruitment Board (RRB) has released the Admit Card for NTPC 10+2 Undergraduate Level Posts Exam 2025. The exam will be conducted from 07 August to 08 September 2025. Candidates can download their admit cards using Enrollment Number, Registration Number, or Date of Birth.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "21 September 2024" },
+    { label: "Last Date to Apply Online", value: "27 October 2024" },
+    { label: "Last Date for Fee Payment", value: "29 October 2024" },
+    { label: "Correction Window", value: "30 September – 06 November 2024" },
+    { label: "Exam City Details", value: "29 July 2025" },
+    { label: "Admit Card Release Date", value: "04 August 2025", highlight: "yellow" },
+    { label: "Exam Date", value: "07 August – 08 September 2025" },
+    { label: "Result Date", value: "To be updated soon" }
+  ],
+  
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹500 (₹400 refunded after Stage I Exam)" },
+    { label: "SC / ST / PH", value: "₹250 (Refundable after Stage I Exam)" },
+    { label: "All Category Female", value: "₹250 (Refundable after Stage I Exam)" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "33 Years" },
+    { note: "As on 01 January 2025. Age relaxation applicable as per RRB rules." }
+  ],
+  
+  vacancies: [
+    { post: "Commercial Cum Ticket Clerk", total: 2022 },
+    { post: "Train Clerk", total: 72 },
+    { post: "Accounts Clerk Cum Typist", total: 361 },
+    { post: "Junior Clerk Cum Typist", total: 990 }
+  ],
+  
+  qualifications: [
+    { post: "Commercial Cum Ticket Clerk", eligibility: "Passed 10+2 from any recognized board. General/OBC/EWS need 50% marks; SC/ST/PH require only passing marks." },
+    { post: "Train Clerk", eligibility: "Passed 10+2 with minimum 50% marks (except SC/ST/PH). Typing speed: 30 WPM English / 25 WPM Hindi." },
+    { post: "Accounts Clerk Cum Typist", eligibility: "Passed 10+2 with minimum 50% marks (except SC/ST/PH). Typing speed: 30 WPM English / 25 WPM Hindi." },
+    { post: "Junior Clerk Cum Typist", eligibility: "Passed 10+2 with minimum 50% marks (except SC/ST/PH). Typing speed: 30 WPM English / 25 WPM Hindi." }
+  ],
+  
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "10th / 12th Certificates",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+  
+  selectionProcess: [
+    "Computer Based Test (CBT-1 & CBT-2)",
+    "Typing Test (If Applicable)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  
+  howToApply: [
+    "Visit your regional RRB Official Website – e.g. https://rrbcdg.gov.in or https://rrbapply.gov.in",
+    "Look for the link: ‘CEN-06/2024 (NTPC-UG): CBT-1 E-Call Letter’",
+    "Login using Registration Number, Enrollment Number, or Date of Birth",
+    "Download Admit Card and Print multiple copies"
+  ],
+  
+  importantLinks: [
+    { label: "Download Admit Card", url: "https://rrbapply.gov.in/admit-card" },
+    { label: "Check Exam City Details", url: "https://rrbapply.gov.in/exam-city" },
+    { label: "Check Application Status", url: "https://rrbapply.gov.in/application-status" },
+    { label: "Mock Test Link", url: "https://rrbapply.gov.in/mock-test" },
+    { label: "Download Notification", url: "https://rrbapply.gov.in/notification" },
+    { label: "RRB Official Website", url: "https://indianrailways.gov.in" }
+  ],
+  
+  faqs: [
+    { q: "When will the RRB NTPC Admit Card 2025 be released?", a: "The admit card was released on 04 August 2025." },
+    { q: "What is the exam date for RRB NTPC 10+2 Level 2025?", a: "The exam will be held from 07 August to 08 September 2025." },
+    { q: "How can I download my admit card?", a: "Visit the official RRB website, login with your Registration Number & Date of Birth, and download your admit card." },
+    { q: "What should I do if there is an error in my admit card?", a: "Immediately contact your respective regional RRB office or helpdesk." },
+    { q: "What is the official website of Railway RRB?", a: "https://indianrailways.gov.in" }
+  ],
+  
+  linksBox: [
+    { label: "Download Admit Card", url: "https://rrbapply.gov.in/admit-card", color: "text-green-600" },
+    { label: "Check Exam City Details", url: "https://rrbapply.gov.in/exam-city", color: "text-blue-600" },
+    { label: "Check Application Status", url: "https://rrbapply.gov.in/application-status", color: "text-purple-600" },
+    { label: "Download Notification", url: "https://rrbapply.gov.in/notification", color: "text-red-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://indianrailways.gov.in", color: "text-black" }
+  ]
+},
+
+  {
+  id: "afcat-02-2025-admit-card",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  category: "Admit Card",
+  title: "AFCAT 02/2025 Admit Card – Out",
+  organization: "Indian Air Force (Bhartiya Vayu Sena)",
+  postName: "Air Force Common Admission Test (AFCAT) 02/2025",
+  postDate: "19 Aug 2025 | 05:17 PM",
+  shortInfo: "Indian Air Force has released the Admit Card for AFCAT 02/2025. The exam will be conducted in August 2025. Candidates can download their admit cards using Enrollment Number, Registration Number, or Date of Birth.",
+  
+  importantDates: [
+    { label: "Application Start Date", value: "02 June 2025" },
+    { label: "Last Date to Apply Online", value: "01 July 2025" },
+    { label: "Last Date for Fee Payment", value: "01 July 2025" },
+    { label: "Correction/Edit Form", value: "14–15 July 2025" },
+    { label: "Exam City Details", value: "07 August 2025" },
+    { label: "Admit Card Release Date", value: "19 August 2025", highlight: "yellow" },
+    { label: "Exam Date", value: "August 2025" }
+  ],
+
+  applicationFees: [
+    { label: "All Category Candidates", value: "₹550" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+
+  ageLimit: [
+    { label: "Flying Branch (As on 01 July 2026)", value: "20–24 Years" },
+    { label: "Ground Duty (Tech/Non-Tech) (As on 01 July 2026)", value: "20–26 Years" },
+    { note: "Age relaxation applicable for NCC Special Entry as per rules." }
+  ],
+
+  vacancies: [
+    { post: "Flying (AFCAT Entry)", total: 3 },
+    { post: "Ground Duty Technical (AE-L)", total: 108 },
+    { post: "Ground Duty Technical (AE-M)", total: 48 },
+    { post: "Ground Duty Non Technical (Admin)", total: 58 },
+    { post: "Ground Duty Non Technical (LGS)", total: 15 },
+    { post: "Ground Duty Non Technical (Accounts)", total: 11 },
+    { post: "Ground Duty Non Technical (Education)", total: 9 },
+    { post: "Ground Duty Non Technical (WS Branch)", total: 24 },
+    { post: "Meteorology Entry", total: 8 },
+    { post: "NCC Special Entry", total: "10% seats reserved" }
+  ],
+
+  qualifications: [
+    { post: "Flying Branch", eligibility: "Graduation in any stream with Physics & Mathematics at 10+2 or B.E/B.Tech." },
+    { post: "AE (Electronics)", eligibility: "10+2 with Physics & Math (60%) and 4-year Graduation/PG in Engineering/Technology." },
+    { post: "AE (Mechanical)", eligibility: "10+2 with Physics & Math (60%) and 4-year degree in Mechanical/Industrial/Aeronautical Engineering or equivalent." },
+    { post: "Administration & Logistics", eligibility: "Graduation with minimum 60% marks." },
+    { post: "Accounts", eligibility: "B.Com with minimum 60% marks." },
+    { post: "NCC Special Entry", eligibility: "NCC Air Wing Senior Division ‘C’ certificate with Flying Branch eligibility." },
+    { post: "Meteorology", eligibility: "Refer official notification for detailed eligibility." }
+  ],
+
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Certificates (10th, 12th, Graduation/Engineering Degree)",
+    "NCC Certificate (if applicable)",
+    "Category/Caste Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN / Driving License)",
+    "Any other documents as per notification"
+  ],
+
+  selectionProcess: [
+    "Written Exam (CBT, 100 Questions, 300 Marks, Duration: 2 Hours, +3/-1 marking)",
+    "Air Force Selection Board (AFSB) Interview",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  howToApply: [
+    "Visit AFCAT official website – https://afcat.cdac.in",
+    "Click on ‘Candidate Login’ and select AFCAT-02/2025 cycle",
+    "Login using registered Email ID and Password",
+    "Download Admit Card and check Exam City/Center details",
+    "Print the Admit Card for exam use"
+  ],
+
+  importantLinks: [
+    { label: "Download Admit Card", url: "https://afcat.cdac.in/admit-card" },
+    { label: "Check Exam City Details", url: "https://afcat.cdac.in/exam-city" },
+    { label: "Edit Application Form", url: "https://afcat.cdac.in/edit-form" },
+    { label: "Apply Online", url: "https://afcat.cdac.in/apply-online" },
+    { label: "Download Official Notification", url: "https://afcat.cdac.in/notification" },
+    { label: "AFCAT Official Website", url: "https://afcat.cdac.in" }
+  ],
+
+  faqs: [
+    { q: "When did the online application start?", a: "02 June 2025" },
+    { q: "What was the last date to apply online?", a: "01 July 2025" },
+    { q: "When was the admit card released?", a: "19 August 2025" },
+    { q: "What is the exam date?", a: "August 2025" },
+    { q: "What is the eligibility for Flying Branch?", a: "Graduation with Physics & Math at 10+2 or B.E/B.Tech." },
+    { q: "What is the official website for AFCAT?", a: "https://afcat.cdac.in" }
+  ],
+
+  linksBox: [
+    { label: "Download Admit Card", url: "https://afcat.cdac.in/admit-card", color: "text-green-600" },
+    { label: "Check Exam City Details", url: "https://afcat.cdac.in/exam-city", color: "text-blue-600" },
+    { label: "Apply Online (Login)", url: "https://afcat.cdac.in/apply-online", color: "text-purple-600" },
+    { label: "Download Notification", url: "https://afcat.cdac.in/notification", color: "text-red-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://afcat.cdac.in", color: "text-black" }
+  ]
+},
+
+{ 
+  id: "aiims-cre-group-b-c-exam-city-details-2025",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  category: "Admit Card",
+  title: "AIIMS CRE Group B, C Exam City Details 2025 – Out",
+  organization: "All India Institute of Medical Sciences (AIIMS), New Delhi",
+  postName: "Group B & C Recruitment 2025",
+  postDate: "19 Aug 2025 | 10:50 AM",
+  shortInfo:
+    "All India Institute of Medical Sciences (AIIMS), New Delhi has released the Exam City Details for Group B & C Recruitment Exam 2025. The exam will be conducted on 25–26 August 2025. Candidates can check their exam city details using Registration Number, Date of Birth, or Password. Admit Card will be available 3 days before exam.",
+  importantDates: [
+    { label: "Notification Date", value: "12 July 2025" },
+    { label: "Application Start Date", value: "12 July 2025" },
+    { label: "Last Date to Apply Online", value: "31 July 2025" },
+    { label: "Last Date for Fee Payment", value: "31 July 2025" },
+    { label: "Form Status Check Date", value: "07 August 2025" },
+    { label: "Exam Date", value: "25 – 26 August 2025" },
+    { label: "Exam City Details Available", value: "07 Days Before Exam", highlight: "yellow" },
+    { label: "Admit Card Release Date", value: "03 Days Before Exam" }
+  ],
+  applicationFees: [
+    { label: "General / OBC", value: "₹3000" },
+    { label: "SC / ST / EWS", value: "₹2400" },
+    { label: "PwD", value: "₹0" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years (Post Wise)" },
+    { label: "Maximum Age", value: "35 Years (Post Wise)" },
+    { note: "As per AIIMS rules. Age relaxation applicable as per recruitment regulations." }
+  ],
+  vacancies: [
+    { post: "Group B & C Various Posts", total: "2300+" }
+  ],
+  qualifications: [
+    { 
+      post: "Assistant Dietician / Dietician / Demonstrator (Dietetics & Nutrition)", 
+      eligibility: "M.Sc. (Food and Nutrition) with 2 years’ experience, preferably in large teaching hospital." 
+    },
+    { 
+      post: "Administrative Posts (AAO, Executive Assistant, Office Assistant)", 
+      eligibility: "Bachelor’s degree in any discipline with computer knowledge (MS Office/PowerPoint)." 
+    },
+    { 
+      post: "Data Entry Operator / Clerk", 
+      eligibility: "12th pass with 8000 key depressions/hour typing speed." 
+    },
+    { 
+      post: "Engineer (Civil/Electrical/AC&R)", 
+      eligibility: "Graduate in relevant Engineering with 5 years’ design/engineering experience, preferably in hospital environment." 
+    },
+    { 
+      post: "Audiologist / Speech Therapist / ENT Technical Assistant", 
+      eligibility: "B.Sc./Diploma in Audiology with required internship/experience." 
+    },
+    { 
+      post: "Electrician / Lineman / Wireman", 
+      eligibility: "10th + ITI in Electrician Trade with 5 years’ HT/LT installation experience." 
+    },
+    { 
+      post: "Manifold Technicians / Gas Mechanic", 
+      eligibility: "10+2 Science with 5 years’ hospital experience OR ITI Mechanical with 3 years’ hospital experience." 
+    },
+    { 
+      post: "Draftsman Grade III", 
+      eligibility: "Matriculation or equivalent from recognized Board/University." 
+    }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Qualification Certificates",
+    "Experience Certificate (if required)",
+    "Caste / Category Certificate (if applicable)",
+    "PwD Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Computer Based Test (CBT)"
+  ],
+  howToApply: [
+    "Visit AIIMS Exams Official Website – https://www.aiimsexams.ac.in",
+    "On the homepage, click on ‘AIIMS CRE Group B, C Exam City Intimation 2025’ link",
+    "Login using Registration Number, Date of Birth, and Password",
+    "Check Exam City Details, download and print"
+  ],
+  importantLinks: [
+    { label: "Check Exam City Details", url: "https://www.aiimsexams.ac.in" },
+    { label: "Check Exam Date Notice", url: "https://www.aiimsexams.ac.in" },
+    { label: "Apply Online (Registration/Login)", url: "https://www.aiimsexams.ac.in" },
+    { label: "Download Official Notification", url: "https://www.aiimsexams.ac.in" },
+    { label: "AIIMS Official Website", url: "https://www.aiimsexams.ac.in" }
+  ],
+  faqs: [
+    { q: "When did the online application start?", a: "12 July 2025" },
+    { q: "What was the last date to apply online?", a: "31 July 2025" },
+    { q: "What is the exam date?", a: "25 – 26 August 2025" },
+    { q: "What is the age limit?", a: "Minimum 18 years and Maximum 35 years, post-wise." },
+    { q: "What is the official website for AIIMS?", a: "https://www.aiimsexams.ac.in" }
+  ],
+  linksBox: [
+    { label: "Check Exam City Details", url: "https://www.aiimsexams.ac.in", color: "text-green-600" },
+    { label: "Check Exam Date Notice", url: "https://www.aiimsexams.ac.in", color: "text-blue-600" },
+    { label: "Apply Online (Login)", url: "https://www.aiimsexams.ac.in", color: "text-purple-600" },
+    { label: "Download Notification", url: "https://www.aiimsexams.ac.in", color: "text-red-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.aiimsexams.ac.in", color: "text-black" }
+  ]
+},
+
+  { 
+  id: "wbssc-assistant-teacher-admit-card-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.prasunet.COM.",
+  category: "Admit Card",
+  title: "WBSSC Assistant Teacher Admit Card 2025 – Out",
+  organization: "West Bengal School Service Commission (WBSSC)",
+  postName: "Assistant Teacher Recruitment 2025",
+  postDate: "16 Aug 2025 | 01:15 PM",
+  shortInfo:
+    "West Bengal Staff Selection Commission (WBSSC) has released the Admit Card for Assistant Teacher Recruitment Exam 2025. The exam will be conducted on 07 & 14 September 2025. Candidates can download their admit cards using Enrollment Number, Registration Number, or Date of Birth.",
+  importantDates: [
+    { label: "Application Start Date", value: "16 June 2025" },
+    { label: "Last Date to Apply Online", value: "21 July 2025" },
+    { label: "Last Date for Fee Payment", value: "21 July 2025" },
+    { label: "Admit Card Release Date", value: "15 August 2025", highlight: "yellow" },
+    { label: "Exam Date (Classes IX-X)", value: "07 September 2025" },
+    { label: "Exam Date (Classes XI-XII)", value: "14 September 2025" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS / Other State", value: "₹500" },
+    { label: "SC / ST / PH", value: "₹200" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet, Cash Card" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "40 Years" },
+    { note: "As on 01 January 2025. Age relaxation applicable as per WBSSC rules." }
+  ],
+  vacancies: [
+    { post: "Assistant Teacher (Class 9-10)", total: 23212 },
+    { post: "Assistant Teacher (Class 11-12)", total: 12514 }
+  ],
+  qualifications: [
+    { 
+      post: "Assistant Teacher (Class 9-10)", 
+      eligibility: "Bachelor’s or Master’s degree with at least 50% marks and B.Ed. OR completed BA.Ed. / B.Sc.Ed. integrated course." 
+    },
+    { 
+      post: "Assistant Teacher (Class 11-12)", 
+      eligibility: "Master’s degree with at least 50% marks and B.Ed. OR Master’s degree with 50% marks along with BA B.Ed. / B.Sc B.Ed. integrated qualification." 
+    }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Educational Certificates (Degree/PG/B.Ed.)",
+    "Caste / Category Certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Written Examination",
+    "Academic Qualification",
+    "Prior Teaching Experience",
+    "Oral Interview",
+    "Lecture Demonstration"
+  ],
+  howToApply: [
+    "Visit WBSSC Official Website – https://www.westbengalssc.com/otr/recruitment/",
+    "On the homepage, find the link ‘Assistant Teacher Admit Card 2025’",
+    "Login using Registration Number, Roll Number, Date of Birth, or Password",
+    "Download Admit Card and Print it for exam day"
+  ],
+  importantLinks: [
+    { label: "Download Admit Card", url: "https://www.westbengalssc.com/otr/recruitment/" },
+    { label: "Check Admit Card Notice", url: "https://www.westbengalssc.com/otr/recruitment/" },
+    { label: "Apply Online (Registration/Login)", url: "https://www.westbengalssc.com/otr/recruitment/" },
+    { label: "Check Date Extend Notice", url: "https://www.westbengalssc.com/otr/recruitment/" },
+    { label: "Download Official Notification", url: "https://www.westbengalssc.com/otr/recruitment/" },
+    { label: "WBSSC Official Website", url: "https://www.westbengalssc.com/otr/recruitment/" }
+  ],
+  faqs: [
+    { q: "When did the online application start?", a: "16 June 2025" },
+    { q: "What was the last date to apply online?", a: "21 July 2025" },
+    { q: "What is the exam date?", a: "07 September 2025 (Class 9-10), 14 September 2025 (Class 11-12)" },
+    { q: "What is the eligibility for Assistant Teacher?", a: "Bachelor’s / Master’s Degree with 50% marks and B.Ed. or integrated BA.Ed./B.Sc.Ed. qualification for Class 9-10. Master’s Degree with 50% marks and B.Ed. or BA B.Ed./B.Sc B.Ed. for Class 11-12." },
+    { q: "What is the official website for WBSSC?", a: "https://www.westbengalssc.com/otr/recruitment/" }
+  ],
+  linksBox: [
+    { label: "Download Admit Card", url: "https://www.westbengalssc.com/otr/recruitment/", color: "text-green-600" },
+    { label: "Check Admit Card Notice", url: "https://www.westbengalssc.com/otr/recruitment/", color: "text-blue-600" },
+    { label: "Apply Online (Login)", url: "https://www.westbengalssc.com/otr/recruitment/", color: "text-purple-600" },
+    { label: "Download Notification", url: "https://www.westbengalssc.com/otr/recruitment/", color: "text-red-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.westbengalssc.com/otr/recruitment/", color: "text-black" }
+  ]
+},
+{
   id: "bihar-btsc-tutor-nursing-admit-card-2025",
   logo: "/images/sarkariresult-logo.png",
   website: "WWW.SARKARIRESULT.COM.CM",
