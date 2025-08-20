@@ -26,6 +26,44 @@ const Result = () => {
 
         {/* Result list */}
         <ul className='list-disc list-inside px-6 py-4 space-y-1'>
+        
+        <li>
+  <Link to="/result/bpsc-school-teacher-tre2-result-2025" className="text-blue-800 hover:underline">
+    BPSC School Teacher TRE 2.0 Result (NIOS DElEd) – Out
+  </Link>
+</li>
+<li>
+  <Link to="/result/neet-pg-result-2025" className="text-blue-800 hover:underline">
+    NEET PG Result 2025 – Out
+  </Link>
+</li>
+<li>
+  <Link to="/result/rajasthan-hc-civil-judge-pre-result-2025" className="text-blue-800 hover:underline">
+    Rajasthan HC Civil Judge Pre Result 2025 – Out
+  </Link>
+</li>
+<li>
+  <Link to="/result/pspcl-assistant-lineman-result-2025" className="text-blue-800 hover:underline">
+    PSPCL Assistant Lineman Result 2025 – Out
+  </Link>
+</li>
+<li>
+  <Link to="/result/bcece-le-1st-round-allotment-2025" className="text-blue-800 hover:underline">
+    BCECE 2025 1st Round Allotment Result – Out
+  </Link>
+</li>
+<li>
+  <Link to="/result/bihar-dcece-2025-pe-mopup-seat-allotment" className="text-blue-800 hover:underline">
+    Bihar DCECE 2025 PE Mop-Up Round Seat Allotment Result
+  </Link>
+</li>
+<li>
+  <Link to="/result/sbi-clerk-1st-waitlist-2025" className="text-blue-800 hover:underline">
+    SBI Bank Clerk 1st Wait List With Marks 2025 – Out
+  </Link>
+</li>
+
+        
            <li>
   <Link to="/result/ssc-steno-cd-final-marks-2025" className="text-blue-800 hover:underline">
     SSC Stenographer C, D Final Marks 2025 – Out
