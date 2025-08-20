@@ -26,7 +26,49 @@ const Admitcard = () => {
 
         {/* Result list */}
         <ul className='list-disc list-inside px-6 py-4 space-y-1'>
-           <li>
+          <li> 
+  <Link to="/admitcard/bihar-bseb-deled-admit-card-2025" className="text-blue-800 hover:underline">
+    Bihar BSEB DELED Admit Card 2025-27
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/bihar-vidhan-sabha-security-guard-pet-admit-card-2025" className="text-blue-800 hover:underline">
+    Bihar Vidhan Sabha Security Guard 01/2023 PET New Exam Date 2025
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/bpsc-aso-new-exam-date-2025" className="text-blue-800 hover:underline">
+    BPSC ASO New Exam Date 2025 – Out
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/rrb-ntpc-10-2-inter-admit-card-2025" className="text-blue-800 hover:underline">
+    RRB NTPC 10+2 Inter Level Admit Card / Exam City Details 2025 – Out
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/afcat-02-2025-admit-card" className="text-blue-800 hover:underline">
+    AFCAT 02/2025 Admit Card – Out
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/aiims-cre-group-b-c-exam-city-details-2025" className="text-blue-800 hover:underline">
+    AIIMS CRE Group B, C Exam City Details 2025 – Out
+  </Link>
+</li>
+
+<li> 
+  <Link to="/admitcard/wbssc-assistant-teacher-admit-card-2025" className="text-blue-800 hover:underline">
+    WBSSC Assistant Teacher Admit Card 2025
+  </Link>
+</li>
+
+<li>
   <Link to="/admitcard/bihar-btsc-tutor-nursing-admit-card-2025" className="text-blue-800 hover:underline">
     Bihar BTSC Tutor Nursing Admit Card 2025 – Out
   </Link>
