@@ -6,6 +6,20 @@ const LatestJobs = () => {
 
   // ✅ All latest jobs in one array
   const jobs = [
+    { to: "/latestjobs/bihar-police-csbc-driver-constable-recruitment-2025", text: "Bihar Police CSBC Driver Constable Online Form 2025 – Last Date Today" },
+{ to: "/latestjobs/bihar-jeevika-recruitment-2025", text: "Bihar JEEVIKA Online Form 2025 (2747 Posts) – Date Extend" },
+{ to: "/latestjobs/ibps-clerk-15th-recruitment-2025", text: "IBPS Clerk CSA 15th XV Online Form 2025 (10277 Post) – Start" },
+{ to: "/latestjobs/up-police-si-recruitment-2025", text: "UP Police SI Online Form 2025 (4543 Post) – Start" },
+{ to: "/latestjobs/rpsc-2nd-grade-teacher-recruitment-2025", text: "RPSC 2nd Grade Teacher Online Form 2025 (6500 Posts) – Start" },
+{ to: "/latestjobs/bihar-vidhan-sabha-mains-recruitment-2025", text: "Bihar Vidhan Sabha 05/2024 Mains Online Form 2025" },
+{ to: "/latestjobs/upsc-epfo-eo-ao-apfc-recruitment-2025", text: "UPSC EPFO EO / AO / APFC Online Form 2025 – Date Extend" },
+{ to: "/latestjobs/indian-navy-ssc-executive-it-jan-2026", text: "Indian Navy SSC Executive IT January 2026 Online Form – Last Date Today" },
+{ to: "/latestjobs/bsf-hc-ro-rm-recruitment-2025", text: "BSF HC RO / RM Online Form 2025" },
+{ to: "/latestjobs/indian-army-dental-corps-recruitment-2025", text: "Indian Army Dental Corps Online Form 2025 – Start" },
+{ to: "/latestjobs/dsssb-non-teaching-recruitment-2025", text: "DSSSB Non-Teaching Various Post Online Form 2025 – Start" },
+{ to: "/latestjobs/bssc-4th-graduate-level-recruitment-2025", text: "Bihar BSSC 4th Graduate Level Online Form 2025 (1481 Posts)" },
+{ to: "/latestjobs/lic-aao-ae-recruitment-2025", text: "LIC AAO / AE Online Form 2025 – Start" },
+
     { to: "/latestjobs/bihar-shs-anm-recruitment-2025", text: "Bihar SHS ANM Online Form 2025 – Last Date: 28 August 2025" },
     { to: "/latestjobs/bihar-shs-ophthalmic-assistant-recruitment-2025", text: "Bihar SHS Ophthalmic Assistant Online Form 2025 – Last Date: 28 August 2025" },
     { to: "/latestjobs/dsssb-delhi-high-court-attendant-recruitment-2025", text: "DSSSB Delhi High Court Attendant Online Form 2025 – Last Date: 24 September 2025" },
