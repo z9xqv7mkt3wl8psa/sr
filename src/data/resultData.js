@@ -1,5 +1,670 @@
 const resultData = [
+  
+
+
+
+  {  
+  id: "bpsc-school-teacher-tre2-result-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "BPSC School Teacher TRE 2.0 Result (NIOS DElEd) 2025 – Out",
+  organization: "Bihar Public Service Commission (BPSC)",
+  postName: "School Teacher TRE 2.0 Recruitment (NIOS DElEd Candidates)",
+  postDate: "20 Aug 2025 | 10:50 AM",
+  shortInfo:
+    "Bihar Public Service Commission (BPSC) has released the School Teacher TRE 2.0 Result 2025 for NIOS DElEd candidates. The TRE-2.0 exam was conducted on 07, 08, 09, 10, 14 & 15 December 2023. Candidates can now check their Class 1-5 and Class 6-8 subject-wise results from the official portal.",
+  importantDates: [
+    { label: "Application Start", value: "10 February 2024" },
+    { label: "Last Date to Apply", value: "26 February 2024" },
+    { label: "Last Date for Fee Payment", value: "26 February 2024" },
+    { label: "Exam Date", value: "19–22 July 2024" },
+    { label: "Admit Card Available", value: "09 July 2024" },
+    { label: "Question Booklet Available", value: "10 August 2024" },
+    { label: "OMR Sheet Available", value: "15–22 August 2024" },
+    { label: "Class 1-5 Answer Key", value: "28 August 2024" },
+    { label: "Class 6-8 Answer Key", value: "30 August 2024" },
+    { label: "Other Class Answer Key", value: "06 September 2024" },
+    { label: "OMR / Response Sheet Available", value: "18 September 2024" },
+    { label: "Result Available", value: "15 November 2024" },
+    { label: "Result Declared (Class 9-10)", value: "16 December 2024" },
+    { label: "Result Declared (Class 11-12)", value: "05 March 2025" },
+    { label: "Re-Exam Marks", value: "12 March 2025" },
+    { label: "Final Result Declared (NIOS DElEd)", value: "20 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / Other State", value: "₹750" },
+    { label: "SC / ST / PH", value: "₹200" },
+    { label: "Female Candidates (Bihar Domicile)", value: "₹200" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Primary Teacher Minimum Age", value: "18 Years" },
+    { label: "TGT/PGT Teacher Minimum Age", value: "25 Years" },
+    { label: "Maximum Age (Male)", value: "37 Years" },
+    { label: "Maximum Age (Female)", value: "40 Years" },
+    { note: "As on 01 August 2023. Age relaxation applicable as per BPSC rules." }
+  ],
+  vacancies: [
+    { post: "Primary School Teacher (Class 1-5)", total: "28026" },
+    { post: "Middle School Teacher (Class 6-8)", total: "19057" },
+    { post: "TGT Teacher (Class 9-10)", total: "16935" },
+    { post: "PGT Teacher (Class 11-12)", total: "22373" },
+    { post: "Total Posts", total: "1,22,286" }
+  ],
+  qualifications: [
+    { post: "Primary & Middle School Teacher", eligibility: "Class 12th with D.El.Ed / Bachelor’s Degree with Teacher Eligibility Test (TET)." },
+    { post: "TGT Teacher", eligibility: "Bachelor’s Degree with B.Ed." },
+    { post: "PGT Teacher", eligibility: "Master’s Degree with B.Ed." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Class 10th, 12th, Graduation, Post-Graduation certificates",
+    "B.Ed / D.El.Ed certificate",
+    "Caste certificate (if applicable)",
+    "EWS certificate (if applicable)",
+    "Photo ID proof (Aadhaar / Voter ID / PAN / Driving License)",
+    "Disability certificate (if applicable)"
+  ],
+  selectionProcess: [
+    "Written Examination",
+    "Interview",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the BPSC Official Website – https://bpsc.bihar.gov.in",
+    "Navigate to the Results section",
+    "Click on ‘School Teacher TRE-2.0 Result 2025 (NIOS DElEd Candidates)’",
+    "Select Class (1-5 / 6-8) & Subject",
+    "Download PDF Result & Check Roll Number",
+    "Take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Download Result (Class 6-8)", url: "https://bpsc.bihar.gov.in/result-class6-8" },
+    { label: "Download Result (Class 1-5)", url: "https://bpsc.bihar.gov.in/result-class1-5" },
+    { label: "Download Result (Class 9-10)", url: "https://bpsc.bihar.gov.in/result-class9-10" },
+    { label: "Download Result (Class 11-12)", url: "https://bpsc.bihar.gov.in/result-class11-12" },
+    { label: "Download OMR / Response Sheet", url: "https://bpsc.bihar.gov.in/omr-sheet" },
+    { label: "Download Allotment List", url: "https://bpsc.bihar.gov.in/allotment-list" },
+    { label: "Download Re-Exam Marks", url: "https://bpsc.bihar.gov.in/reexam-marks" },
+    { label: "Official Website", url: "https://bpsc.bihar.gov.in" }
+  ],
+  faqs: [
+    { q: "When was BPSC School Teacher TRE-2.0 Exam conducted?", a: "07, 08, 09, 10, 14 & 15 December 2023" },
+    { q: "How many vacancies are available?", a: "Total 1,22,286 posts" },
+    { q: "What is the minimum age for Primary Teacher?", a: "18 years" },
+    { q: "What is the maximum age limit?", a: "37 years (male), 40 years (female)" },
+    { q: "How to check the result?", a: "Visit bpsc.bihar.gov.in and download subject-wise result PDF" }
+  ],
+  linksBox: [
+    { label: "Check Class 6-8 Result", url: "https://bpsc.bihar.gov.in/result-class6-8", color: "text-green-600" },
+    { label: "Check Class 1-5 Result", url: "https://bpsc.bihar.gov.in/result-class1-5", color: "text-blue-600" },
+    { label: "Download OMR Sheet", url: "https://bpsc.bihar.gov.in/omr-sheet", color: "text-purple-600" },
+    { label: "Download Allotment List", url: "https://bpsc.bihar.gov.in/allotment-list", color: "text-red-600" },
+    { label: "Re-Exam Marks", url: "https://bpsc.bihar.gov.in/reexam-marks", color: "text-orange-600" },
+    { label: "JOIN WHATSAPP", url: "https://whatsapp.com/sarkariresult", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "https://telegram.me/sarkariresult", color: "text-blue-700" },
+    { label: "Official Website", url: "https://bpsc.bihar.gov.in", color: "text-black" }
+  ]
+}, 
+
+{  
+  id: "neet-pg-result-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "NEET PG Result 2025 – Out",
+  organization: "National Board of Examinations in Medical Sciences (NBEMS)",
+  postName: "National Eligibility Cum Entrance Test (NEET) PG 2025 Result",
+  postDate: "19 Aug 2025 | 07:29 PM",
+  shortInfo:
+    "National Board Of Examinations In Medical Sciences (NBE) has released the NEET PG 2025 Result. The application process started on 17 April 2025 and ended on 07 May 2025. The exam was postponed and finally conducted on 03 August 2025. Candidates can check their result online using Enrollment Number, Registration Number, or Date of Birth.",
+  importantDates: [
+    { label: "Apply Online Start Date", value: "17 April 2025" },
+    { label: "Apply Online Last Date", value: "07 May 2025" },
+    { label: "Pay Exam Fees Last Date", value: "07 May 2025" },
+    { label: "Correction Date", value: "09–13 May 2025" },
+    { label: "Exam Date (Postponed)", value: "15 June 2025" },
+    { label: "Choose Exam City", value: "13–17 June 2025" },
+    { label: "New Exam Date", value: "03 August 2025" },
+    { label: "Exam City Details", value: "21 July 2025" },
+    { label: "Admit Card Available", value: "31 July 2025" },
+    { label: "Result Declared", value: "19 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹3500" },
+    { label: "SC / ST / PH", value: "₹2500" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { note: "As per NBE rules for NEET PG 2025." }
+  ],
+  vacancies: [
+    { post: "NEET PG Admission (MD / MS / PG Diploma)", total: "Not Available" }
+  ],
+  qualifications: [
+    { post: "NEET PG 2025", eligibility: "Candidates must have an MBBS degree from a recognized college or university." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "MBBS degree certificate/mark sheets",
+    "Internship completion certificate",
+    "Caste certificate (if applicable)",
+    "EWS certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Entrance Test (NEET PG 2025)",
+    "Counselling & Seat Allotment"
+  ],
+  howToApply: [
+    "Visit NBEMS official website – https://natboard.edu.in or https://nbe.edu.in",
+    "Go to the Results / NEET PG 2025 section",
+    "Click on ‘NEET PG 2025 Result’ link",
+    "Login with Enrollment Number / Registration Number & Date of Birth",
+    "Download Result PDF and Print multiple copies"
+  ],
+  importantLinks: [
+    { label: "Download Result", url: "https://natboard.edu.in/neet-pg-result" },
+    { label: "Check Result Notice", url: "https://natboard.edu.in/neet-pg-result-notice" },
+    { label: "Download Admit Card", url: "https://natboard.edu.in/neet-pg-admit-card" },
+    { label: "Check Exam City / Admit Card Notice", url: "https://natboard.edu.in/exam-city" },
+    { label: "Check Exam Date Notice", url: "https://natboard.edu.in/exam-date-notice" },
+    { label: "Check Exam Postponed Notice", url: "https://natboard.edu.in/exam-postponed" },
+    { label: "Apply Online Link", url: "https://natboard.edu.in/apply-online" },
+    { label: "Official Notification", url: "https://natboard.edu.in/neet-pg-notification" },
+    { label: "NEET PG Official Website", url: "https://natboard.edu.in" }
+  ],
+  faqs: [
+    { q: "When did the NEET PG 2025 application start?", a: "17 April 2025" },
+    { q: "What was the last date to apply?", a: "07 May 2025" },
+    { q: "When was NEET PG 2025 exam conducted?", a: "03 August 2025 (rescheduled)" },
+    { q: "What is the eligibility for NEET PG 2025?", a: "MBBS degree from any recognized university" },
+    { q: "What is the official website for NEET PG?", a: "https://natboard.edu.in" }
+  ],
+  linksBox: [
+    { label: "Download Result", url: "https://drive.google.com/file/d/1w9ORvmWCGEdI1iNQkV7BuKXL6s6rDz3H/view", color: "text-green-600" },
+    { label: "Download Admit Card", url: "https://natboard.edu.in/neet-pg-admit-card", color: "text-blue-600" },
+    { label: "Check Exam City Notice", url: "https://natboard.edu.in/exam-city", color: "text-purple-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://natboard.edu.in", color: "text-black" }
+  ]
+}, 
+  
+  {  
+  id: "rajasthan-hc-civil-judge-pre-result-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "Rajasthan HC Civil Judge Pre Result 2025 – Out",
+  organization: "Rajasthan High Court (RHC)",
+  postName: "Civil Judge Preliminary Examination 2025 Result",
+  postDate: "19 Aug 2025 | 02:46 PM",
+  shortInfo:
+    "Rajasthan High Court (RHC) has released the Pre Result for the Civil Judge Examination 2025. The application process was held from 01–30 March 2025, and the Pre Exam was conducted on 27 July 2025. Candidates can now check their result online by logging in with Registration Number and Date of Birth.",
+  importantDates: [
+    { label: "Online Apply Start Date", value: "01 March 2025" },
+    { label: "Online Apply Last Date", value: "30 March 2025" },
+    { label: "Last Date For Fee Payment", value: "31 March 2025" },
+    { label: "Admit Card", value: "09 July 2025" },
+    { label: "Exam Date", value: "27 July 2025" },
+    { label: "Result Date", value: "19 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / Other State", value: "₹1500" },
+    { label: "OBC / EWS", value: "₹1250" },
+    { label: "SC / ST / PH", value: "₹800" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "40 Years" },
+    { note: "As on 01 January 2026. Age relaxation applicable as per Rajasthan High Court rules." }
+  ],
+  vacancies: [
+    { post: "Civil Judge PCS J", total: 44 }
+  ],
+  qualifications: [
+    { post: "Civil Judge", eligibility: "Bachelor’s Degree in Law (LLB) – 3-Year or 5-Year Course" }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "LLB degree/mark sheets",
+    "Caste certificate (if applicable)",
+    "EWS certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Disability certificate (if applicable)",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Preliminary Examination",
+    "Mains Examination",
+    "Interview"
+  ],
+  howToApply: [
+    "Visit Rajasthan High Court Official Website – https://hcraj.nic.in/",
+    "Go to the Recruitment/Results section",
+    "Find ‘Civil Judge Pre Result 2025’ notification",
+    "Login with Registration Number & Date of Birth",
+    "Download Result PDF and Print multiple copies"
+  ],
+  importantLinks: [
+    { label: "Download Pre Result", url: "https://hcraj.nic.in/pre-result" },
+    { label: "Download Final Answer Key", url: "https://hcraj.nic.in/final-answer-key" },
+    { label: "Download Answer Key", url: "https://hcraj.nic.in/answer-key" },
+    { label: "Download Pre Admit Card", url: "https://hcraj.nic.in/pre-admit-card" },
+    { label: "Check Admit Card Notice", url: "https://hcraj.nic.in/admit-card-notice" },
+    { label: "Apply Online Link", url: "https://hcraj.nic.in/apply-online" },
+    { label: "Check Official Notification", url: "https://hcraj.nic.in/notification" },
+    { label: "Rajasthan HC Official Website", url: "https://hcraj.nic.in" }
+  ],
+  faqs: [
+    { q: "When did the online application start?", a: "01 March 2025" },
+    { q: "What was the last date for application?", a: "30 March 2025" },
+    { q: "What is the age limit?", a: "21–40 Years as on 01 January 2026" },
+    { q: "What is the eligibility?", a: "LLB Degree (3-Year or 5-Year)" },
+    { q: "What is the official website?", a: "https://hcraj.nic.in" }
+  ],
+  linksBox: [
+    { label: "Download Pre Result", url: "https://hcraj.nic.in/pre-result", color: "text-green-600" },
+    { label: "Download Final Answer Key", url: "https://hcraj.nic.in/final-answer-key", color: "text-blue-600" },
+    { label: "Download Admit Card", url: "https://hcraj.nic.in/pre-admit-card", color: "text-purple-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://hcraj.nic.in", color: "text-black" }
+  ]
+}, 
+
+  {
+  id: "pspcl-assistant-lineman-result-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "PSPCL Assistant Lineman Result 2025 – Out",
+  organization: "Punjab State Power Corporation Limited (PSPCL)",
+  postName: "PSPCL Assistant Lineman Examination 2025 Result",
+  postDate: "19 Aug 2025 | 11:25 AM",
+  shortInfo:
+    "Punjab State Power Corporation Limited (PSPCL) has released the Result for the recruitment of Assistant Lineman Examination 2025. The application process ran from 21 February to 13 March 2025, and the exam was conducted on 24 June 2025. Candidates can now check their result online using Registration Number, Date of Birth, or Enrollment Number.",
+  importantDates: [
+    { label: "Application Start Date", value: "21 February 2025" },
+    { label: "Last Date to Apply Online", value: "13 March 2025" },
+    { label: "Last Date for Fee Payment", value: "13 March 2025" },
+    { label: "Admit Card Date", value: "23 June 2025" },
+    { label: "Exam Date", value: "24 June 2025" },
+    { label: "Result Declared Date", value: "18 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹944" },
+    { label: "SC / ST / PWD", value: "₹590" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "37 Years" },
+    { note: "As on 01 January 2024. Age relaxation applicable as per PSPCL rules." }
+  ],
+  vacancies: [
+    { post: "Assistant Lineman", total: 2500 },
+    { post: "Total Posts", total: 2500 }
+  ],
+  qualifications: [
+    { post: "Assistant Lineman", eligibility: "Passed 10th with Punjabi and ITI in Lineman Trade." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "10th certificate & mark sheet",
+    "ITI Lineman Trade certificate",
+    "Caste certificate (if applicable)",
+    "PWD certificate (if applicable)",
+    "Valid Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Written Exam",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit PSPCL Official Website – https://pspcl.in/Recruitment",
+    "Click on ‘Assistant Lineman Result 2025’ link on homepage",
+    "Login using Registration Number / Roll Number and DOB / Password",
+    "View and download result",
+    "Take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Download Result", url: "https://pspcl.in/Recruitment/result" },
+    { label: "Download Admit Card", url: "https://pspcl.in/Recruitment/admit-card" },
+    { label: "Apply Online Link", url: "https://pspcl.in/Recruitment/apply" },
+    { label: "Check Short Notice", url: "https://pspcl.in/Recruitment/short-notice" },
+    { label: "Check Official Notification", url: "https://pspcl.in/Recruitment/notification" },
+    { label: "Official Website", url: "https://pspcl.in/Recruitment" }
+  ],
+  faqs: [
+    { q: "When did the PSPCL Assistant Lineman application start?", a: "21 February 2025" },
+    { q: "What was the last date to apply online?", a: "13 March 2025" },
+    { q: "When was the exam conducted?", a: "24 June 2025" },
+    { q: "What is the age limit?", a: "18–37 years as on 01 January 2024" },
+    { q: "What is the eligibility?", a: "10th passed with Punjabi and ITI in Lineman Trade" },
+    { q: "What is the official website of PSPCL?", a: "https://pspcl.in/Recruitment" }
+  ],
+  linksBox: [
+    { label: "Download Result", url: "https://pspcl.in/Recruitment/result", color: "text-green-600" },
+    { label: "Download Admit Card", url: "https://pspcl.in/Recruitment/admit-card", color: "text-blue-600" },
+    { label: "Official Notification", url: "https://pspcl.in/Recruitment/notification", color: "text-purple-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://pspcl.in/Recruitment", color: "text-black" }
+  ]
+},
+
+  
+  {  
+  id: "bcece-le-1st-round-allotment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "BCECE LE 2025 1st Round Allotment Result – Out",
+  organization: "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+  postName: "BCECE (LE) 2025 Lateral Entry in Engineering, Para-Medical & Pharmacy Courses",
+  postDate: "18 Aug 2025 | 12:53 PM",
+  shortInfo:
+    "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released the 1st Round Allotment Result for BCECE (LE) 2025 Lateral Entry in Second Year of Graduate Level Engineering, Para-Medical, and Pharmacy Courses. Candidates can now check their seat allotment and download the allotment letter from the official counselling portal.",
+  importantDates: [
+    { label: "Application Start Date", value: "16 April 2025" },
+    { label: "Last Date to Apply Online", value: "18 May 2025" },
+    { label: "Last Date for Fee Payment", value: "18 May 2025" },
+    { label: "Correction Window", value: "19–20 May 2025" },
+    { label: "Admit Card Release", value: "29 May 2025" },
+    { label: "Exam Date", value: "09 June 2025" },
+    { label: "Result Declared", value: "01 July 2025" },
+    { label: "1st Round Allotment Result", value: "18 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / BC / EBC", value: "₹2200" },
+    { label: "SC / ST / DQ", value: "₹2200" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Engineering", value: "No Age Limit" },
+    { label: "Para-Medical & Pharmacy", value: "Minimum 18 Years as on 31 Dec 2025" },
+    { label: "Maximum Age", value: "No Age Limit" }
+  ],
+  vacancies: [
+    { post: "Total Seats", total: "13,780" }
+  ],
+  qualifications: [
+    { post: "Engineering Course Group", eligibility: "Diploma (3 yrs / 2 yrs Lateral) with 45% marks (40% reserved) OR B.Sc with 45% marks + 10+2 with Mathematics OR D.Voc stream in allied sector." },
+    { post: "Para-Medical Course Group", eligibility: "2-year Para Medical Diploma recognized by Govt. of Bihar/India. Final year students eligible but must pass before counselling." },
+    { post: "Pharmacy Course Group", eligibility: "2-year Diploma in Pharmacy recognized by Govt. of Bihar/India. Final year students eligible but must pass before counselling." }
+  ],
+  requiredDocs: [
+    "Allotment Letter (Printed)",
+    "Original educational certificates & mark sheets",
+    "Caste certificate (if applicable)",
+    "Domicile certificate",
+    "Passport-size photographs",
+    "Photo ID proof (Aadhaar / Voter ID / PAN / Driving License)",
+    "Any other document as per official notice"
+  ],
+  selectionProcess: [
+    "Entrance Examination",
+    "Result Declaration",
+    "Online Counselling & Choice Filling",
+    "Seat Allotment",
+    "Document Verification"
+  ],
+  howToApply: [
+    "Visit the BCECEB Official Website – https://bceceboard.bihar.gov.in",
+    "Click on the BCECE-LE 2025 Counselling / Choice Filling Link",
+    "Login using Application Number & Password / DOB",
+    "Register for counselling & pay counselling fee (if applicable)",
+    "Fill and lock choices of colleges & courses",
+    "Download and print confirmation slip",
+    "Check allotment result as per schedule",
+    "Download Provisional Allotment Letter",
+    "Report at allotted institute with required documents"
+  ],
+  importantLinks: [
+    { label: "Download 1st Round Allotment Result (Joint PCM/PCMB)", url: "https://bceceboard.bihar.gov.in/allotment-joint" },
+    { label: "Download 1st Round Allotment Result (Agriculture)", url: "https://bceceboard.bihar.gov.in/allotment-agriculture" },
+    { label: "Download Counselling Schedule", url: "https://bceceboard.bihar.gov.in/counselling-schedule" },
+    { label: "Download Seat Matrix (Engineering)", url: "https://bceceboard.bihar.gov.in/seat-matrix-engineering" },
+    { label: "Online Counselling / Choice Filling", url: "https://bceceboard.bihar.gov.in/choice-filling" },
+    { label: "Download Result", url: "https://bceceboard.bihar.gov.in/result" },
+    { label: "Check Official Notification", url: "https://bceceboard.bihar.gov.in/notification" },
+    { label: "Official Website", url: "https://bceceboard.bihar.gov.in" }
+  ],
+  faqs: [
+    { q: "When did BCECE LE Online Application 2025 start?", a: "It started on 16 April 2025." },
+    { q: "What was the last date to apply online?", a: "18 May 2025." },
+    { q: "When was BCECE LE 2025 Exam conducted?", a: "09 June 2025." },
+    { q: "How many seats are available?", a: "A total of 13,780 seats are available across Engineering, Para-Medical & Pharmacy courses." },
+    { q: "How to check BCECE LE 2025 Allotment Result?", a: "Login at BCECEB counselling portal using Application Number and Password/DOB, then download allotment letter." }
+  ],
+  linksBox: [
+    { label: "Download Allotment Result", url: "https://bceceboard.bihar.gov.in/allotment", color: "text-green-600" },
+    { label: "Download Counselling Schedule", url: "https://bceceboard.bihar.gov.in/counselling-schedule", color: "text-blue-600" },
+    { label: "Download Seat Matrix", url: "https://bceceboard.bihar.gov.in/seat-matrix", color: "text-purple-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://bceceboard.bihar.gov.in", color: "text-black" }
+  ]
+}, 
+
+  {  
+  id: "bihar-dcece-2025-pe-mopup-seat-allotment",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "Bihar DCECE 2025 PE Mop-Up Round Seat Allotment Result – Out",
+  organization: "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+  postName: "Bihar Polytechnic / Diploma (PE, PM, PMM) Mop-Up & 2nd Round Seat Allotment Result 2025",
+  postDate: "18 Aug 2025 | 11:22 AM",
+  shortInfo:
+    "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released the Bihar Polytechnic / Diploma (PE) Mop-Up Round and 2nd Round Seat Allotment Result 2025. This result is essential for candidates appearing in the Diploma Certificate Entrance Competitive Examination (DCECE) for Polytechnic Engineering (PE), Paramedical (PM), and Paramedical Matric (PMM).",
+  importantDates: [
+    { label: "Application Start Date", value: "02 April 2025" },
+    { label: "Last Date to Apply Online", value: "12 May 2025" },
+    { label: "Last Date for Fee Payment", value: "12 May 2025" },
+    { label: "Correction Date", value: "13–14 May 2025" },
+    { label: "PE Exam Date", value: "31 May 2025" },
+    { label: "PM, PMM Exam Date", value: "01 June 2025" },
+    { label: "Admit Card Available", value: "22 May 2025" },
+    { label: "Result Declared", value: "23 June 2025" },
+    { label: "Choice Filling", value: "27 June – 03 July 2025" },
+    { label: "2nd Round Seat Allotment", value: "08 July 2025" },
+    { label: "Document Verification (2nd Round)", value: "11–13 July 2025" },
+    { label: "PE Mop-Up Round Result", value: "18 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "Group I (Gen/BC/EBC)", value: "₹750" },
+    { label: "Group I (SC/ST/DQ)", value: "₹480" },
+    { label: "Group II (Gen/BC/EBC)", value: "₹850" },
+    { label: "Group II (SC/ST/DQ)", value: "₹530" },
+    { label: "Group III (Gen/BC/EBC)", value: "₹950" },
+    { label: "Group III (SC/ST/DQ)", value: "₹630" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "15 Years" },
+    { label: "Maximum Age", value: "32 Years" },
+    { note: "As per BCECEB Rules. Age relaxation applicable as per rules." }
+  ],
+  vacancies: [
+    { post: "Polytechnic Engineering (PE)", total: "NA" },
+    { post: "Paramedical (PM)", total: "NA" },
+    { post: "Paramedical Matric (PMM)", total: "NA" }
+  ],
+  qualifications: [
+    { post: "PE & PMM", eligibility: "10th Pass / Appearing from recognized board." },
+    { post: "PM (Pharmacy)", eligibility: "12th Pass with Physics, Chemistry, English, and Maths/Biology." },
+    { post: "PM (GNM)", eligibility: "12th Pass with Physics, Chemistry, Biology securing 40% marks (35% for SC/ST)." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Class 10th & 12th mark sheets/certificates",
+    "Caste certificate (if applicable)",
+    "EWS certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Allotment Order & Counselling Slip",
+    "Any other document mentioned in the official notification"
+  ],
+  selectionProcess: [
+    "Computer-Based Test (CBT)",
+    "Choice Filling & Counselling",
+    "Seat Allotment",
+    "Document Verification"
+  ],
+  howToApply: [
+    "Visit BCECEB Official Website – https://bceceboard.bihar.gov.in",
+    "Login with Registration ID & Password",
+    "Download Rank Card & Check Seat Matrix",
+    "Fill Choice Preference & Lock Colleges/Branches",
+    "Download Allotment Order",
+    "Report to Counselling Centre with Documents"
+  ],
+  importantLinks: [
+    { label: "Download PE Mop-Up Seat Allotment Result", url: "https://bceceboard.bihar.gov.in/pe-mop-up-allotment" },
+    { label: "Download PE Opening/Closing Rank", url: "https://bceceboard.bihar.gov.in/pe-rank" },
+    { label: "Download 2nd Round Counselling Schedule (PM/PMM)", url: "https://bceceboard.bihar.gov.in/pm-pmm-2nd-round" },
+    { label: "Download 1st Round Allotment Result (PM)", url: "https://bceceboard.bihar.gov.in/pm-1st-allotment" },
+    { label: "Download 1st Round Allotment Result (PMM)", url: "https://bceceboard.bihar.gov.in/pmm-1st-allotment" },
+    { label: "Download Seat Matrix", url: "https://bceceboard.bihar.gov.in/seat-matrix" },
+    { label: "Download Prospectus", url: "https://bceceboard.bihar.gov.in/prospectus" },
+    { label: "Official Website", url: "https://bceceboard.bihar.gov.in" }
+  ],
+  faqs: [
+    { q: "When did Bihar DCECE 2025 online application start?", a: "02 April 2025" },
+    { q: "What was the last date to apply online?", a: "12 May 2025" },
+    { q: "What is the exam date for PE?", a: "31 May 2025" },
+    { q: "What is the exam date for PM/PMM?", a: "01 June 2025" },
+    { q: "How to check the Mop-Up Seat Allotment Result?", a: "Login at BCECEB official website using Registration ID & Password." }
+  ],
+  linksBox: [
+    { label: "Download PE Mop-Up Result", url: "https://bceceboard.bihar.gov.in/pe-mop-up-allotment", color: "text-green-600" },
+    { label: "Download PE Opening/Closing Rank", url: "https://bceceboard.bihar.gov.in/pe-rank", color: "text-blue-600" },
+    { label: "Download PM 1st Round Result", url: "https://bceceboard.bihar.gov.in/pm-1st-allotment", color: "text-purple-600" },
+    { label: "Download PMM 1st Round Result", url: "https://bceceboard.bihar.gov.in/pmm-1st-allotment", color: "text-orange-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://bceceboard.bihar.gov.in", color: "text-black" }
+  ]
+}
+,
+  {
+  id: "sbi-clerk-1st-waitlist-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.COM.CM",
+  category: "Results",
+  title: "SBI Bank Clerk 1st Wait List With Marks 2025 – Out",
+  organization: "State Bank of India (SBI)",
+  postName: "Junior Associate (Customer Support & Sales) Clerk Recruitment 2024-25",
+  postDate: "18 Aug 2025 | 11:14 AM",
+  shortInfo:
+    "State Bank of India (SBI) has released the 1st Wait List With Marks for SBI Clerk Recruitment 2024-25. The Mains Exam was held on 10th–12th April 2025, and candidates can now check their wait list with marks using Enrollment / Registration Number and Date of Birth.",
+  importantDates: [
+    { label: "Notification Date", value: "16 December 2024" },
+    { label: "Application Start Date", value: "17 December 2024" },
+    { label: "Last Date to Apply Online", value: "07 January 2025" },
+    { label: "Last Date for Fee Payment", value: "07 January 2025" },
+    { label: "Pre Exam Date", value: "22, 27, 28 Feb & 01 March 2025" },
+    { label: "Pre Admit Card", value: "10 February 2025" },
+    { label: "Mains Exam Date", value: "10–12 April 2025" },
+    { label: "Mains Admit Card", value: "01 April 2025" },
+    { label: "Mains Result Declared", value: "11 June 2025" },
+    { label: "Score Card Available", value: "12 June 2025" },
+    { label: "1st Wait List Released", value: "13 August 2025", highlight: "yellow" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹750" },
+    { label: "SC / ST / PH", value: "No Fee" },
+    { label: "Payment Mode", value: "Debit, Credit, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "20 Years" },
+    { label: "Maximum Age", value: "28 Years" },
+    { note: "As on 31 December 2024. Age relaxation applicable as per SBI rules." }
+  ],
+  vacancies: [
+    { post: "Junior Associate (Clerk)", total: 13735 }
+  ],
+  qualifications: [
+    { post: "Junior Associate (Clerk)", eligibility: "Bachelor’s Degree in any stream from a recognized University. Knowledge of local language required. Final year students can apply provisionally but must pass by 31st Dec 2024." }
+  ],
+  requiredDocs: [
+    "Recent passport-size photograph",
+    "Signature (scanned copy)",
+    "Class 10th & 12th mark sheets/certificates",
+    "Graduation Certificate / Final Year Proof",
+    "Caste certificate (if applicable)",
+    "EWS certificate (if applicable)",
+    "Photo ID proof (Aadhaar Card / Voter ID / PAN Card / Driving License)",
+    "Disability certificate (if applicable)"
+  ],
+  selectionProcess: [
+    "Preliminary Examination",
+    "Mains Examination",
+    "Document Verification",
+    "Language Proficiency Test",
+    "Final Selection"
+  ],
+  howToApply: [
+    "Visit SBI Official Website – https://sbi.co.in",
+    "Go to the ‘Careers’ section",
+    "Click on ‘SBI Clerk Recruitment 2024-25 – 1st Wait List’",
+    "Login with Registration Number & Date of Birth",
+    "Download Wait List PDF and Marks, save for future reference"
+  ],
+  importantLinks: [
+    { label: "Download 1st Wait List Marks", url: "https://sbi.co.in/waitlist-marks" },
+    { label: "Download 1st Wait List", url: "https://sbi.co.in/waitlist" },
+    { label: "Download Score Card", url: "https://sbi.co.in/scorecard" },
+    { label: "Download Mains Result", url: "https://sbi.co.in/mains-result" },
+    { label: "Download Mains Admit Card", url: "https://sbi.co.in/mains-admit-card" },
+    { label: "Download Pre Result", url: "https://sbi.co.in/pre-result" },
+    { label: "Official Notification", url: "https://sbi.co.in/official-notice" },
+    { label: "Official Website", url: "https://sbi.co.in" }
+  ],
+  faqs: [
+    { q: "What is SBI Clerk 1st Wait List 2025?", a: "It is the first waiting list with marks for SBI Clerk Recruitment 2024-25." },
+    { q: "When was SBI Clerk Mains Exam conducted?", a: "10th–12th April 2025." },
+    { q: "How many total posts?", a: "13,735 Posts." },
+    { q: "What is the age limit?", a: "20–28 Years as on 31 December 2024." },
+    { q: "How to check wait list?", a: "Login with Registration Number and Date of Birth at SBI portal." }
+  ],
+  linksBox: [
+    { label: "Download 1st Wait List Marks", url: "https://sbi.co.in/waitlist-marks", color: "text-green-600" },
+    { label: "Download 1st Wait List", url: "https://sbi.co.in/waitlist", color: "text-blue-600" },
+    { label: "Download Score Card", url: "https://sbi.co.in/scorecard", color: "text-purple-600" },
+    { label: "JOIN YOUTUBE", url: "https://youtube.com/sarkariresult", color: "text-red-600" },
+    { label: "MOCK TESTS QUIZ", url: "/mock-tests", color: "text-blue-600" },
+    { label: "ASK S.R AI ASSISTANT", url: "/ai-helper", color: "text-orange-600" },
+    { label: "STUDENT PROGRESS TRACK", url: "/progress-track", color: "text-green-700" },
+    { label: "Official Website", url: "https://sbi.co.in", color: "text-black" }
+  ]
+},
+
 {
+  
   id: "ssc-steno-cd-final-marks-2025",
   logo: "/images/sarkariresult-logo.png",
   website: "WWW.SARKARIRESULT.COM.CM",
