@@ -26,6 +26,71 @@ const LatestJobs = () => {
 
         {/* Result list */}
         <ul className='list-disc list-inside px-6 py-4 space-y-1'>
+<li>
+  <Link to="/latestjobs/bihar-police-csbc-driver-constable-recruitment-2025" className="text-blue-800 hover:underline">
+    Bihar Police CSBC Driver Constable Online Form 2025 – Last Date Today
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar-jeevika-recruitment-2025" className="text-blue-800 hover:underline">
+    Bihar JEEVIKA Online Form 2025 (2747 Posts) – Date Extend
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/ibps-clerk-15th-recruitment-2025" className="text-blue-800 hover:underline">
+    IBPS Clerk CSA 15th XV Online Form 2025 (10277 Post) – Start
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/up-police-si-recruitment-2025" className="text-blue-800 hover:underline">
+    UP Police SI Online Form 2025 (4543 Post) – Start
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc-2nd-grade-teacher-recruitment-2025" className="text-blue-800 hover:underline">
+    RPSC 2nd Grade Teacher Online Form 2025 (6500 Posts) – Start
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar-vidhan-sabha-mains-recruitment-2025" className="text-blue-800 hover:underline">
+    Bihar Vidhan Sabha 05/2024 Mains Online Form 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/upsc-epfo-eo-ao-apfc-recruitment-2025" className="text-blue-800 hover:underline">
+    UPSC EPFO EO / AO / APFC Online Form 2025 – Date Extend
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian-navy-ssc-executive-it-jan-2026" className="text-blue-800 hover:underline">
+    Indian Navy SSC Executive IT January 2026 Online Form – Last Date Today
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bsf-hc-ro-rm-recruitment-2025" className="text-blue-800 hover:underline">
+    BSF HC RO / RM Online Form 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian-army-dental-corps-recruitment-2025" className="text-blue-800 hover:underline">
+    Indian Army Dental Corps Online Form 2025 – Start
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/dsssb-non-teaching-recruitment-2025" className="text-blue-800 hover:underline">
+    DSSSB Non-Teaching Various Post Online Form 2025 – Start
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bssc-4th-graduate-level-recruitment-2025" className="text-blue-800 hover:underline">
+    Bihar BSSC 4th Graduate Level Online Form 2025 (1481 Posts)
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/lic-aao-ae-recruitment-2025" className="text-blue-800 hover:underline">
+    LIC AAO / AE Online Form 2025 – Start
+  </Link>
+</li>
                     
 <li><Link to="/latestjobs/bihar-shs-anm-recruitment-2025" className="text-blue-800 hover:underline">Bihar SHS ANM Online Form 2025 – Last Date: 28 August 2025</Link></li>
 <li><Link to="/latestjobs/bihar-shs-ophthalmic-assistant-recruitment-2025" className="text-blue-800 hover:underline">Bihar SHS Ophthalmic Assistant Online Form 2025 – Last Date: 28 August 2025</Link></li>
