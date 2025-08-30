@@ -80,7 +80,7 @@ const Main = () => {
 
 
       {/* ✅ In-Article Google Ad (fluid) */}
-      <div className="my-6 flex justify-center">
+      <div className="my-2 flex justify-center">
         <ins
           className="adsbygoogle"
           style={{ display: "block", textAlign: "center" }}
