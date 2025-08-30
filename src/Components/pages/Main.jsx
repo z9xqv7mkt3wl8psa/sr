@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Result from './Result'
 import AdmitCard from './AdmitCard'
 import LatestJobs from './LatestJobs'
@@ -7,11 +7,29 @@ import Syllabus from './Syllabus'
 import Admission from './Admission'
 import CertificateVerification from './CertificateVerification'
 import Important from './Important'
-
 import SomeNotes from './SomeNotes'
 import Footer from '../footer/Footer'
 
 const Main = () => {
+  useEffect(() => {
+    // Load Google Ads script once
+    const script = document.createElement("script");
+    script.async = true;
+    script.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9096209867795576";
+    script.crossOrigin = "anonymous";
+    document.body.appendChild(script);
+
+    // Push adsbygoogle after script loads
+    script.onload = () => {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("Adsbygoogle error", e);
+      }
+    };
+  }, []);
+
   return (
     <div>
       {/* Header */}
@@ -32,6 +50,18 @@ const Main = () => {
         </p>
       </div>
 
+      {/* ✅ Google Ads Banner */}
+      <div className="my-4 flex justify-center">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-9096209867795576"
+          data-ad-slot="9856555475"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </div>
+
       {/* Social Links */}
       <p className='text-center font-semibold text-base sm:text-xl px-4 sm:px-10 space-x-2 sm:space-x-4 flex flex-col sm:flex-row justify-center items-center'>
         <a href="https://www.linkedin.com/company/prasunet-company/" className='text-blue-700 border-b-2 border-blue-700'>Join Linkedin</a>
@@ -40,8 +70,7 @@ const Main = () => {
         <span className="hidden sm:inline">||</span>
         <a href="https://www.instagram.com/prasunet_company/" className='text-blue-700 border-b-2 border-blue-700'>Follow Instagram</a>
       </p>
-
-      {/* Marquees */}
+{/* Marquees */}
       {/* ✅ Mobile View Ticker (visible only on small screens) */}
 <div className="overflow-hidden bg-gray-100 border-y-2 border-blue-500 my-3 block md:hidden">
   <div className="flex whitespace-nowrap animate-scroll font-semibold text-blue-700 text-sm">
@@ -153,13 +182,12 @@ const Main = () => {
         </span>
       </div>
 
-      {/* Main Sections */}
-     <div className="flex flex-col lg:flex-row p-4 sm:px-10 gap-6">
-  <Result />
-  <AdmitCard />
-  <LatestJobs />
-</div>
-
+      {/* ✅ Rest of your existing code below... */}
+      <div className="flex flex-col lg:flex-row p-4 sm:px-10 gap-6">
+        <Result />
+        <AdmitCard />
+        <LatestJobs />
+      </div>
 
       <div className="container mx-auto p-2">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-6">
