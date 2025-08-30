@@ -57,26 +57,27 @@ const Main = () => {
         </p>
       </div>
 
-      {/* ✅ Google Ads Banner (auto) */}
-      <div className="my-4 flex justify-center">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-9096209867795576"
-          data-ad-slot="9856555475"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </div>
+{/* ✅ Google Ads Banner (auto) */}
+<div className="flex justify-center my-2">
+  <ins
+    className="adsbygoogle"
+    style={{ display: "block" }}
+    data-ad-client="ca-pub-9096209867795576"
+    data-ad-slot="9856555475"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+</div>
 
-      {/* Social Links */}
-      <p className='text-center font-semibold text-base sm:text-xl px-4 sm:px-10 space-x-2 sm:space-x-4 flex flex-col sm:flex-row justify-center items-center'>
-        <a href="https://www.linkedin.com/company/prasunet-company/" className='text-blue-700 border-b-2 border-blue-700'>Join Linkedin</a>
-        <span className="hidden sm:inline">||</span>
-        <a href="https://x.com/prasunet" className='text-blue-700 border-b-2 border-blue-700'>Follow Twitter</a>
-        <span className="hidden sm:inline">||</span>
-        <a href="https://www.instagram.com/prasunet_company/" className='text-blue-700 border-b-2 border-blue-700'>Follow Instagram</a>
-      </p>
+{/* ✅ Social Links */}
+<div className='text-center font-semibold text-base sm:text-xl px-4 sm:px-10 space-x-2 sm:space-x-4 flex flex-col sm:flex-row justify-center items-center'>
+  <a href="https://www.linkedin.com/company/prasunet-company/" className='text-blue-700 border-b-2 border-blue-700'>Join Linkedin</a>
+  <span className="hidden sm:inline">||</span>
+  <a href="https://x.com/prasunet" className='text-blue-700 border-b-2 border-blue-700'>Follow Twitter</a>
+  <span className="hidden sm:inline">||</span>
+  <a href="https://www.instagram.com/prasunet_company/" className='text-blue-700 border-b-2 border-blue-700'>Follow Instagram</a>
+</div>
+
 
       {/* ✅ In-Article Google Ad (fluid) */}
       <div className="my-6 flex justify-center">
