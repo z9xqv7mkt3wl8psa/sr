@@ -89,11 +89,7 @@ const Main = () => {
           data-ad-client="ca-pub-9096209867795576"
           data-ad-slot="1148484920"
         ></ins>
-      </div>
-
-      {/* Marquees */}
-      {/* ... your marquees and rest of the code ... */}
-{/* Marquees */}
+      </div> 
       {/* ✅ Mobile View Ticker (visible only on small screens) */}
 <div className="overflow-hidden bg-gray-100 border-y-2 border-blue-500 my-3 block md:hidden">
   <div className="flex whitespace-nowrap animate-scroll font-semibold text-blue-700 text-sm">
