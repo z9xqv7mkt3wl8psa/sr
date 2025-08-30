@@ -30,6 +30,13 @@ const Main = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Try pushing on each render of ad blocks
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {}
+  });
+
   return (
     <div>
       {/* Header */}
@@ -50,7 +57,7 @@ const Main = () => {
         </p>
       </div>
 
-      {/* ✅ Google Ads Banner */}
+      {/* ✅ Google Ads Banner (auto) */}
       <div className="my-4 flex justify-center">
         <ins
           className="adsbygoogle"
@@ -70,6 +77,21 @@ const Main = () => {
         <span className="hidden sm:inline">||</span>
         <a href="https://www.instagram.com/prasunet_company/" className='text-blue-700 border-b-2 border-blue-700'>Follow Instagram</a>
       </p>
+
+      {/* ✅ In-Article Google Ad (fluid) */}
+      <div className="my-6 flex justify-center">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block", textAlign: "center" }}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-9096209867795576"
+          data-ad-slot="1148484920"
+        ></ins>
+      </div>
+
+      {/* Marquees */}
+      {/* ... your marquees and rest of the code ... */}
 {/* Marquees */}
       {/* ✅ Mobile View Ticker (visible only on small screens) */}
 <div className="overflow-hidden bg-gray-100 border-y-2 border-blue-500 my-3 block md:hidden">
@@ -182,7 +204,7 @@ const Main = () => {
         </span>
       </div>
 
-      {/* ✅ Rest of your existing code below... */}
+      {/* Main Sections */}
       <div className="flex flex-col lg:flex-row p-4 sm:px-10 gap-6">
         <Result />
         <AdmitCard />
