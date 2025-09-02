@@ -86,7 +86,8 @@ const AdmitCard = () => {
   { "to": "/admitcard/ibps_revised_exam_calendar_2025_2026", "text": "IBPS Revised Exam Calendar 2025-2026" },
   { "to": "/admitcard/rpsc_ras_mains_admit_card_2025", "text": "RPSC RAS Mains Admit Card 2025" },
   { "to": "/admitcard/rpsc_assistant_engineer_mains_exam_date_2025", "text": "RPSC Assistant Engineer Mains Exam Date 2025" },
-  { "to": "/admitcard/rssb_exam_calendar_2025_revised", "text": "RSSB Exam Calendar 2025 Revised" },
+/*
+    { "to": "/admitcard/rssb_exam_calendar_2025_revised", "text": "RSSB Exam Calendar 2025 Revised" },
   { "to": "/admitcard/cipet_admit_card_2025", "text": "CIPET Admit Card 2025" },
   { "to": "/admitcard/ignou_tee_exam_june_admit_card_2025", "text": "IGNOU TEE Exam June Admit Card 2025" },
   { "to": "/admitcard/idbi_jam_grade_o_admit_card_2025", "text": "IDBI JAM Grade 'O' Admit Card 2025" },
@@ -106,7 +107,7 @@ const AdmitCard = () => {
   { "to": "/admitcard/upsssc_up_gram_panchayat_adhikari_mains_exam_city_details_2025", "text": "UPSSSC UP Gram Panchayat Adhikari Mains Exam City Details 2025" },
   { "to": "/admitcard/rrvunl_junior_engineer_jr_chemist_dv_letter_2025", "text": "RRVUNL Junior Engineer, Jr Chemist DV Letter 2025" },
   { "to": "/admitcard/rpsc_agriculture_officer_admit_card_2025", "text": "RPSC Agriculture Officer Admit Card 2025" },
-
+*/
 
 
 
