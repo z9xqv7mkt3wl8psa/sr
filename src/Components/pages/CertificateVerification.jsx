@@ -5,7 +5,7 @@ const CertificateVerification = () => {
   const [showAll, setShowAll] = useState(false);
 
   // ✅ All certificate verification links in one array
-  const certificates = [ { to: "https://scholarship.up.gov.in", text: "UP Scholarship Online Form 2025-26" },
+  const certificates = [
 { to: "https://ssc.gov.in", text: "SSC OTR Correction Notice 2025 – Out" },
 { to: "https://uppbpb.gov.in", text: "UP Police OTR Registration 2025" },
 { to: "https://upsconline.gov.in", text: "UPSC OTR Online Form 2025" },
