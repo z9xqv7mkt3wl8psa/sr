@@ -26,7 +26,248 @@ const LatestJobs = () => {
 
         {/* Result list */}
         <ul className='list-disc list-inside px-6 py-4 space-y-1'>
+
+
 <li>
+  <Link to="/latestjobs/indian_navy_ssc_officer_june_2026_online_form_extended" className="text-blue-800 hover:underline">
+    Indian Navy SSC Officer June 2026 Online Form
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/ibps_rrb_14th_online_form_2025_13217_posts" className="text-blue-800 hover:underline">
+    IBPS RRB 14th Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/mppgcl_ae_je_other_post_recruitment_2025_extended" className="text-blue-800 hover:underline">
+    MPPGCL AE/ JE & Other Post Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/ccras_group_a_b_c_recruitment_2025" className="text-blue-800 hover:underline">
+    CCRAS Group A B C Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bpsc_hod_recruitment_2025" className="text-blue-800 hover:underline">
+    BPSC HOD Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bpsc_district_sports_officer_dso_recruitment_2025" className="text-blue-800 hover:underline">
+    BPSC District Sports Officer DSO Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/railway_rrc_wcr_apprentice_recruitment_2025_start" className="text-blue-800 hover:underline">
+    Railway RRC WCR Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/supreme_court_sci_court_master_recruitment_2025_start" className="text-blue-800 hover:underline">
+    Supreme Court SCI Court Master Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rcfl_apprentice_recruitment_2025" className="text-blue-800 hover:underline">
+    RCFL Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/iocl_pipelines_division_apprentice_recruitment_2025" className="text-blue-800 hover:underline">
+    IOCL Pipelines Division Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_1st_grade_teacher_agriculture_recruitment_2025" className="text-blue-800 hover:underline">
+    RPSC 1st Grade Teacher (Agriculture) Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/up_police_si_recruitment_2025" className="text-blue-800 hover:underline">
+    UP Police SI Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/ib_junior_intelligence_officer_grade_ii_recruitment_2025" className="text-blue-800 hover:underline">
+    IB Junior Intelligence Officer Grade II Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bpsc_aedo_recruitment_2025" className="text-blue-800 hover:underline">
+    BPSC AEDO Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/aai_junior_executive_recruitment_2025_start" className="text-blue-800 hover:underline">
+    AAI Junior Executive Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar_bpsc_atp_recruitment_2025" className="text-blue-800 hover:underline">
+    Bihar BPSC ATP Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_junior_legal_officer_jlo_recruitment_2025" className="text-blue-800 hover:underline">
+    RPSC Junior Legal Officer JLO Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar_bpsc_aes_recruitment_2025" className="text-blue-800 hover:underline">
+    Bihar BPSC AES Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/dsssb_delhi_high_court_attendant_recruitment_2025" className="text-blue-800 hover:underline">
+    DSSSB Delhi High Court Attendant Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/dsssb_various_post_online_form_2025" className="text-blue-800 hover:underline">
+    DSSSB Various Post Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/railway_rrc_sr_apprentice_recruitment_2025" className="text-blue-800 hover:underline">
+    Railway RRC SR Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bssc_4th_graduate_level_recruitment_2025_chk" className="text-blue-800 hover:underline">
+    Bihar BSSC 4th Graduate Level Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar_bssc_office_attendant_online_form_2025" className="text-blue-800 hover:underline">
+    Bihar BSSC Office Attendant Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bsf_hc_ro_rm_recruitment_2025" className="text-blue-800 hover:underline">
+    BSF HC RO / RM Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/bihar_shs_laboratory_technician_recruitment_2025" className="text-blue-800 hover:underline">
+    Bihar SHS Laboratory Technician Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rrb_section_controller_recruitment_2025" className="text-blue-800 hover:underline">
+    RRB Section Controller Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/patna_high_court_stenographer_recruitment_2025" className="text-blue-800 hover:underline">
+    Patna High Court Stenographer Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_2nd_grade_teacher_recruitment_2025" className="text-blue-800 hover:underline">
+    RPSC 2nd Grade Teacher Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian_army_dental_corps_recruitment_2025" className="text-blue-800 hover:underline">
+    Indian Army Dental Corps Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/dsssb_non_teaching_various_post_recruitment_2025_start" className="text-blue-800 hover:underline">
+    DSSSB Non-Teaching Various Post Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/lic_aao_ae_recruitment_2025" className="text-blue-800 hover:underline">
+    LIC AAO / AE Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rrc_eastern_railway_apprentice_recruitment_2025_start" className="text-blue-800 hover:underline">
+    RRC Eastern Railway Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_1st_grade_teacher_recruitment_2025" className="text-blue-800 hover:underline">
+    RPSC 1st Grade Teacher Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/railway_rrc_cr_apprentice_recruitment_2025" className="text-blue-800 hover:underline">
+    Railway RRC CR Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian_navy_tradesman_skilled_apprentice_recruitment_2025_start" className="text-blue-800 hover:underline">
+    Indian Navy Tradesman Skilled Apprentice Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/uppsc_gic_lecturer_recruitment_2025" className="text-blue-800 hover:underline">
+    UPPSC GIC Lecturer Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian_army_ncc_123rd_course_april_2026_online_form" className="text-blue-800 hover:underline">
+    Indian Army NCC 123rd Course April 2026 Online Form
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_si_platoon_commander_recruitment_2025_start" className="text-blue-800 hover:underline">
+    RPSC SI / Platoon Commander Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rrb_paramedical_staff_recruitment_2025" className="text-blue-800 hover:underline">
+    Railway RRB Paramedical Staff Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/indian_army_jag_123rd_course_april_2026_online_form" className="text-blue-800 hover:underline">
+    Indian Army JAG 123rd Course April 2026 Online Form
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_upper_school_teacher_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Upper School Teacher Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_primary_school_teacher_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Primary School Teacher Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_aayush_officer_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Aayush Officer Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_support_engineer_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Support Engineer Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_forest_guard_forester_surveyor_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Forest Guard, Forester & Surveyor Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rssb_agriculture_supervisor_recruitment_2025" className="text-blue-800 hover:underline">
+    RSSB Agriculture Supervisor Recruitment 2025
+  </Link>
+</li>
+<li>
+  <Link to="/latestjobs/rpsc_veterinary_officer_recruitment_2025" className="text-blue-800 hover:underline">
+    RPSC Veterinary Officer Recruitment 2025
+  </Link>
+</li>
+
+
+
+
+          <li>
   <Link to="/latestjobs/bihar-police-csbc-driver-constable-recruitment-2025" className="text-blue-800 hover:underline">
     Bihar Police CSBC Driver Constable Online Form 2025 – Last Date Today
   </Link>
