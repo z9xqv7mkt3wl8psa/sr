@@ -11,16 +11,72 @@ const admitcardData = [
      postName: "UPSSSC PET Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) , has released Admit Card on official website for the examination of Preliminary Examination Test PET Advt No. 01-Exam/2025. UPSSSC A...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    importantDates: [
+  { label: "Application Start Date", value: "14 May 2025" },
+  { label: "Last Date to Apply Online", value: "17 June 2025" },
+  { label: "Last Date for Fee Payment", value: "17 June 2025" },
+  { label: "Correction Last Date", value: "24 June 2025" },
+  { label: "Admit Card Release Date", value: "01 September 2025" },
+  { label: "Exam Date", value: "06-07 September 2025", highlight: "yellow" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹185" },
+  { label: "SC / ST", value: "₹95" },
+  { label: "PH", value: "₹25" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet, Cash Card" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 July 2025. Age relaxation applicable as per UPSSSC rules." }
+],
+
+vacancies: [
+  { post: "Preliminary Eligibility Test (PET)", total: "N/A" }
+],
+
+qualifications: [
+  { post: "Preliminary Eligibility Test (PET)", eligibility: "Candidates must have passed Class 10 (High School) from any recognized board OR hold any higher qualification from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Admit Card Printout",
+  "Valid Photo ID Proof (Aadhar / PAN / Voter ID / Driving License / Passport)",
+  "Passport size Photograph (if required)"
+],
+
+examPattern: [
+  { label: "Exam Mode", value: "Online" },
+  { label: "Exam Type", value: "Objective (MCQ)" },
+  { label: "Duration", value: "As per official notification" }
+],
+
+selectionProcess: [
+  "Preliminary Eligibility Test (PET)",
+  "Further Mains Exam / Skill Test / Interview (as per specific recruitment)",
+  "Document Verification"
+],
+
+howToApply: [
+  "Visit the official website – https://upsssc.gov.in",
+  "Go to the ‘Examination / Important Alerts’ section",
+  "Find the link ‘Preliminary Eligibility Test (PET) Admit Card 2025’",
+  "Click the link and enter Registration Number & Date of Birth",
+  "Download and take a printout of the admit card"
+],
+
+faqs: [
+  { q: "When did the online application start?", a: "14 May 2025" },
+  { q: "What was the last date to apply online?", a: "17 June 2025" },
+  { q: "What is the exam date?", a: "06-07 September 2025" },
+  { q: "What is the age limit for UPSSSC PET 2025?", a: "Minimum 18 Years, Maximum 40 Years as on 01 July 2025" },
+  { q: "What is the eligibility for UPSSSC PET 2025?", a: "Candidates must have passed Class 10 or higher qualification from a recognized institution." },
+  { q: "What is the official website for UPSSSC?", a: "https://upsssc.gov.in" }
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -90,16 +146,75 @@ const admitcardData = [
      postName: "RRB NTPC 10+2 Inter Level Admit Card / Exam City Details 2025",
     postDate: "Not specified",
     shortInfo: "Railway Recruitment Board (RRB) has released Admit Card for the Non-Technical Popular Categories (NTPC) 10+2 Undergraduate Level Posts . A total of 3,445 vacancies were announced for this recruitme...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+{ q: "When will the RRB NTPC Admit Card 2025 be released?", a: "The admit card is expected to be released a few days before the exam. Candidates should check the official RRB website for updates." },
+{ q: "How can I download the RRB NTPC Admit Card 2025?", a: "Visit the official RRB website, log in using your Registration Number and Date of Birth, and download the admit card." },
+{ q: "What details are required to download the admit card?", a: "Candidates need their Registration Number, Enrollment Number, or Date of Birth to log in and access the admit card." },
+{ q: "What should I do if there is an error in my admit card?", a: "Immediately contact the RRB helpdesk or your respective regional RRB office to get the issue corrected before the exam." },
+
+],
+
+importantDates: [
+{ label: "Application Start Date", value: "Will be updated soon" },
+{ label: "Last Date to Apply Online", value: "Will be updated soon" },
+{ label: "Admit Card Release Date", value: "Few days before the exam" },
+{ label: "Exam Date", value: "Will be notified by RRB" },
+{ label: "Result Date", value: "To be announced after examination" }
+],
+
+applicationFees: [
+{ label: "General / OBC", value: "₹500" },
+{ label: "SC / ST / PH / Female / Ex-Servicemen", value: "₹250 (refundable after appearing in exam)" },
+{ label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, UPI, or Bank Challan" }
+],
+
+ageLimit: [
+{ label: "Minimum Age", value: "18 Years" },
+{ label: "Maximum Age", value: "33 Years" },
+{ note: "Age relaxation applicable as per RRB NTPC recruitment rules." }
+],
+
+vacancies: [
+{ post: "Non-Technical Popular Categories (NTPC)", total: "Various Posts across RRB regions" }
+],
+
+qualifications: [
+{ post: "Undergraduate Level Posts", eligibility: "10+2 (Intermediate) passed from a recognized board." },
+{ post: "Graduate Level Posts", eligibility: "Bachelor’s Degree in any stream from a recognized university." }
+],
+
+requiredDocs: [
+"Recent passport-size colored photograph",
+"Signature on white paper using black/blue pen",
+"Educational Certificates (10th / 12th / Graduation as applicable)",
+"Category / Caste Certificate (if applicable)",
+"Aadhaar Card / Voter ID / Other Government ID Proof",
+"PwD Certificate (if applicable)",
+"No Objection Certificate (for employed candidates)"
+],
+
+examPattern: [
+"First Stage CBT (Computer Based Test)",
+"Second Stage CBT",
+"Typing Skill Test / Computer Based Aptitude Test (as applicable)",
+"Document Verification",
+"Medical Examination"
+],
+
+selectionProcess: [
+"Computer Based Tests (CBT – Stage I & II)",
+"Skill Test / Aptitude Test (if applicable)",
+"Document Verification",
+"Medical Fitness Test"
+],
+
+howToApply: [
+"Visit the official RRB regional website",
+"Click on the link for ‘NTPC Admit Card 2025’",
+"Enter Registration Number and Date of Birth",
+"Download and verify all details mentioned in the admit card",
+"Print a copy of the admit card to carry at the exam centre"
+],
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -194,16 +309,78 @@ const admitcardData = [
      postName: "MPESB Primary School Teacher PSTST Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Madhya Pradesh Employee Selection Board MPESB , has released the Exam Date for the recruitment of Primary School Prathamik Shikshak MP PTST Examination 2025 on its official website. The MPESB appli...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+{ q: "When did the online application for MPESB Primary School Teacher PSTST Recruitment 2025 start?", a: "The online application started on 18 July 2025." },
+{ q: "What is the last date to apply for MPESB Primary School Teacher PSTST Recruitment 2025?", a: "The last date to apply online was 25 August 2025." },
+{ q: "What is the exam date for MPESB Primary School Teacher PSTST Recruitment 2025?", a: "The exam will be held on 09 October 2025." },
+{ q: "What is the age limit for MPESB Primary School Teacher PSTST Recruitment 2025?", a: "Minimum age 21 years, Maximum 40 years for UR/EWS, and Maximum 45 years for OBC/SC/ST/PH/Female candidates as on 01 January 2025." },
+{ q: "What is the eligibility for MPESB Primary School Teacher PSTST Recruitment 2025?", a: "Candidates must have qualified MP TET (2020 or 2024) and hold required educational qualifications as per the post applied." },
+{ q: "What is the official website of MPESB?", a: "The official website is https://esb.mp.gov.in/e_default.html" }
+],
+
+importantDates: [
+{ label: "Application Start Date", value: "18 July 2025" },
+{ label: "Last Date to Apply Online", value: "25 August 2025" },
+{ label: "Last Date for Fee Payment", value: "26 August 2025" },
+{ label: "Correction Window", value: "26 August 2025" },
+{ label: "Admit Card Release Date", value: "Before Exam" },
+{ label: "Exam Date", value: "09 October 2025", highlight: "yellow" },
+{ label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+{ label: "General / Other State", value: "₹560" },
+{ label: "OBC / SC / ST", value: "₹310" },
+{ label: "Portal Charge", value: "Included" },
+{ label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+{ label: "Minimum Age", value: "21 Years" },
+{ label: "Maximum Age (UR / EWS)", value: "40 Years" },
+{ label: "Maximum Age (OBC / SC / ST / PH / Female)", value: "45 Years" },
+{ note: "As on 01 January 2025. Age relaxation applicable as per MPESB rules." }
+],
+
+vacancies: [
+{ post: "Primary School Teacher (Post Code 1 to 4)", total: 10150 },
+{ post: "Primary School Teacher - Science (Post Code 5 to 10)", total: 2939 }
+],
+
+qualifications: [
+{ post: "Primary School Teacher (Post Code 1 to 4)", eligibility: "MP TET 2020 or 2024 qualified and one of the following: 12th with 50% marks + 2-year D.El.Ed. / Special Education; OR 12th with 45% + D.El.Ed. (NCTE 2002); OR 12th with 50% + 4-year B.El.Ed.; OR Graduation + 2-year D.El.Ed. Reserved categories get 5% relaxation." },
+{ post: "Primary School Teacher - Science (Post Code 5 to 10)", eligibility: "12th (Science stream) with 50% marks + 2-year Diploma in Elementary/Special Education OR 4-year B.El.Ed. with relevant subject. SC/ST/OBC/PwD candidates get 5% relaxation." }
+],
+
+requiredDocs: [
+"Recent passport-size colored photograph",
+"Signature on white paper using black/blue pen",
+"Educational Certificates (10th, 12th, Graduation, D.El.Ed./B.El.Ed. as applicable)",
+"MP TET Certificate (2020 or 2024)",
+"Caste / Category Certificate (if applicable)",
+"Aadhaar Card / Voter ID / Other Government ID proof",
+"Domicile Certificate (if applicable)",
+"PwD Certificate (if applicable)"
+],
+
+examPattern: [
+"Written Examination (objective type)",
+"Final Merit List preparation based on exam performance"
+],
+
+selectionProcess: [
+"Written Examination",
+"Final Merit List"
+],
+
+howToApply: [
+"Visit the official MPESB website: https://esb.mp.gov.in/e_default.htm",
+"Click on the link for Primary School Teacher PSTST Recruitment 2025",
+"Register and complete the application form with required details",
+"Upload photograph, signature, and relevant documents",
+"Pay the application fee through the available online payment modes",
+"Submit the application form and take a printout for future reference"
+],
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -255,16 +432,77 @@ const admitcardData = [
      postName: "Bihar Police CSBC Constable PET Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Central Selection Board of Constable (CSBC) , has released the PET Exam Date for the recruitment of Bihar Police CSBC Constable Examination 2025 on its official website. The CSBC application proces...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+{ q: "When did the online application for Bihar Police CSBC Constable Recruitment 2025 start?", a: "The online application started on 18 March 2025." },
+{ q: "What is the last date to apply for Bihar Police CSBC Constable Recruitment 2025?", a: "The last date to apply online was 25 April 2025." },
+{ q: "What is the exam date for Bihar Police CSBC Constable Recruitment 2025?", a: "The PET exam will be conducted in December 2025. Earlier exam dates for other stages: 13, 16, 20, 23, 27, 30 July & 03, 06 August 2025." },
+{ q: "What is the age limit for Bihar Police CSBC Constable Recruitment 2025?", a: "Minimum age 18 Years, Maximum age 30 Years as on 01 August 2024. Age relaxation as per CSBC rules." },
+{ q: "What is the eligibility for Bihar Police CSBC Constable Vacancy 2025?", a: "Candidates must have passed 10+2 (Intermediate) or its equivalent from a recognized board or institution." },
+{ q: "What is the official website for Bihar CSBC?", a: "The official website is https://csbc.bihar.gov.in/" }
+],
+
+importantDates: [
+{ label: "Application Start Date", value: "18 March 2025" },
+{ label: "Last Date to Apply Online", value: "25 April 2025" },
+{ label: "Last Date for Fee Payment", value: "25 April 2025" },
+{ label: "Exam Date", value: "13, 16, 20, 23, 27, 30 July & 03, 06 August 2025" },
+{ label: "PET Exam Date", value: "December 2025", highlight: "yellow" },
+{ label: "Admit Card Release Date", value: "09–27 July 2025" },
+{ label: "Exam City Details", value: "20 June 2025" },
+{ label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+{ label: "General / EWS / BC / EBC", value: "₹675" },
+{ label: "SC / ST / OBC", value: "₹180" },
+{ label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+{ label: "Minimum Age", value: "18 Years" },
+{ label: "Maximum Age", value: "30 Years" },
+{ note: "As on 01 August 2024. Age relaxation applicable as per CSBC rules." }
+],
+
+vacancies: [
+{ post: "Police Constable", total: 19838 }
+],
+
+qualifications: [
+{ post: "Police Constable", eligibility: "Candidates must have passed 10+2 (Intermediate) or its equivalent from a recognized board or institution. Higher qualifications are acceptable with valid proof." }
+],
+
+requiredDocs: [
+"Recent passport-size colored photograph",
+"Signature on white paper using black/blue pen",
+"10th and 12th Marksheet / Certificates",
+"Other educational certificates (if applicable)",
+"Caste / Category Certificate (if applicable)",
+"Aadhaar Card / Voter ID / Other Government ID proof",
+"Documents for age proof",
+"Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+"Written Examination",
+"Physical Efficiency Test (PET)",
+"Document Verification"
+],
+
+selectionProcess: [
+"Written Examination",
+"Physical Test",
+"Document Verification"
+],
+
+howToApply: [
+"Visit the official Bihar CSBC website: https://csbc.bihar.gov.in/",
+"Find the link for Bihar Police Constable Recruitment 2025",
+"Register and fill in the online application form with required details",
+"Upload photograph, signature, and supporting documents",
+"Pay the application fee through available online modes",
+"Submit the application form and print multiple copies for future reference"
+],
     importantLinks: [
       {
         "label": "Check PET Exam Date",
@@ -355,16 +593,80 @@ const admitcardData = [
      postName: "CSBC Bihar Police Driver Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Central Selection Board of Constable (CSBC) , has released the Exam Date on its official website for the Bihar Police Driver Examination 2025. The exam will be conducted on December 2025, and the l...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+{ q: "When did the online application for Bihar Police CSBC Driver Constable Recruitment 2025 start?", a: "The online application started on 21 July 2025." },
+{ q: "What is the last date to apply for Bihar Police CSBC Driver Constable Recruitment 2025?", a: "The last date to apply online was 20 August 2025." },
+{ q: "What is the exam date for Bihar Police CSBC Driver Constable Recruitment 2025?", a: "The exam will be conducted in December 2025." },
+{ q: "What is the age limit for Bihar Police CSBC Driver Constable Recruitment 2025?", a: "Minimum age 20 Years, Maximum age 30 Years as on 20 August 2025. Age relaxation applicable as per CSBC rules." },
+{ q: "What is the eligibility for Bihar Police CSBC Driver Constable Vacancy 2025?", a: "Candidates must have passed 12th grade (10+2) or equivalent and hold a valid LMV or HMV driving license issued at least one year before 17 July 2025." },
+{ q: "What is the official website for CSBC?", a: "The official website is https://csbc.bihar.gov.in/" }
+],
+
+importantDates: [
+{ label: "Application Start Date", value: "21 July 2025" },
+{ label: "Last Date to Apply Online", value: "20 August 2025" },
+{ label: "Last Date for Fee Payment", value: "20 August 2025" },
+{ label: "Exam Date", value: "December 2025", highlight: "yellow" },
+{ label: "Admit Card Release Date", value: "Before Exam" },
+{ label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+{ label: "UR / OBC / EWS / Male", value: "₹675" },
+{ label: "SC / ST / Female (All Category)", value: "₹180" },
+{ label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+{ label: "Minimum Age", value: "20 Years" },
+{ label: "Maximum Age", value: "30 Years" },
+{ note: "As on 20 August 2025. Age relaxation applicable as per CSBC rules." }
+],
+
+vacancies: [
+{ post: "CSBC Bihar Police Driver Constable", total: 4361 }
+],
+
+qualifications: [
+{ post: "CSBC Bihar Police Driver Constable", eligibility: "Candidates must have passed 12th grade (10+2) or equivalent and possess a valid LMV or HMV driving license issued at least one year before 17 July 2025." }
+],
+
+requiredDocs: [
+"Passport-sized colored photograph with white/light background",
+"Signature on white paper with black/blue pen",
+"10+2 or equivalent educational certificates",
+"LMV / HMV Driving License",
+"Caste / Category Certificate (if applicable)",
+"Aadhaar Card / Voter ID / other government ID",
+"Domicile Certificate (if applicable)",
+"Income Certificate (for EWS candidates)",
+"Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+"Written Exam",
+"Physical Efficiency Test (PET)",
+"Driving Skill Test",
+"Document Verification",
+"Medical Examination"
+],
+
+selectionProcess: [
+"Written Exam",
+"Physical Efficiency Test (PET)",
+"Driving Skill Test",
+"Document Verification",
+"Medical Examination"
+],
+
+howToApply: [
+"Visit the official CSBC website: https://csbc.bihar.gov.in/",
+"Find the link for 'Bihar Police Driver Constable Recruitment 2025'",
+"Register and fill in the online application form with required details",
+"Upload photograph, signature, and supporting documents",
+"Pay the application fee through available online modes",
+"Submit the application form and print multiple copies for future reference"
+],
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -416,16 +718,73 @@ const admitcardData = [
      postName: "Oriental Insurance OICL Assistant Phase-I Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Oriental Insurance Company Limited (OICL) , has released the Phase-I Admit Card on its official website for the Recruitment of Examination of Assistant Class-III 2025. The exam will be conducted on...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Oriental Insurance OICL Assistant Recruitment 2025 start?", a: "The online application started on 02 August 2025." },
+  { q: "What is the last date to apply for Oriental Insurance OICL Assistant Recruitment 2025?", a: "The last date to submit the online application was 17 August 2025." },
+  { q: "What is the exam date for Oriental Insurance OICL Assistant Recruitment 2025?", a: "Tier-I Exam will be conducted on 07 September 2025 and Tier-II Exam on 28 October 2025." },
+  { q: "What is the age limit for Oriental Insurance OICL Assistant Recruitment 2025?", a: "Minimum age 21 Years, Maximum age 30 Years as on 31 July 2025. Age relaxation applicable as per OICL rules." },
+  { q: "What is the eligibility for Oriental Insurance OICL Assistant Vacancy 2025?", a: "Candidates must have a graduate degree from a recognized university." },
+  { q: "What is the official website for OICL?", a: "The official website is https://www.orientalinsurance.org.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "02 August 2025" },
+  { label: "Last Date to Apply Online", value: "17 August 2025" },
+  { label: "Last Date for Fee Payment", value: "17 August 2025" },
+  { label: "Tier-I Exam Date", value: "07 September 2025", highlight: "yellow" },
+  { label: "Tier-II Exam Date", value: "28 October 2025" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1000/-" },
+  { label: "SC / ST / PwBD", value: "₹250/-" },
+  { label: "OICL Employees", value: "₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "As on 31 July 2025. Age relaxation applicable as per OICL rules." }
+],
+
+vacancies: [
+  { post: "Assistant (Class-III)", total: 500 }
+],
+
+qualifications: [
+  { post: "Assistant (Class-III)", eligibility: "Graduate degree from a recognized university." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar card, PAN card, Driving Licence, Voter ID, etc.)",
+  "Passport-size photographs (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Prelims Exam",
+  "Mains Exam",
+  "Interview"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official OICL website: https://www.orientalinsurance.org.in/",
+  "Navigate to 'Careers' or 'Recruitment' section",
+  "Find and click the 'OICL Assistant Admit Card 2025 (Phase-I)' link",
+  "Log in with Registration Number/Roll Number and Date of Birth",
+  "Download and print the Admit Card",
+  "Check all details and prepare required documents for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Phase-I Admit Card",
@@ -477,16 +836,74 @@ const admitcardData = [
      postName: "SBI Bank PO Mains Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "State Bank of India (SBI) , has released the Mains Exam Date on its official website for the Probationary Officer PO Examination 2025. The exam will be conducted on 13 September 2025, and the last ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for SBI Probationary Officer PO Recruitment 2025 start?", a: "The online application started on 24 June 2025." },
+  { q: "What is the last date to apply for SBI Probationary Officer PO Recruitment 2025?", a: "The last date to submit the online application was 14 July 2025." },
+  { q: "What is the exam date for SBI Probationary Officer PO Recruitment 2025?", a: "Mains Exam will be conducted on 13 September 2025." },
+  { q: "What is the age limit for SBI Probationary Officer PO Recruitment 2025?", a: "Minimum age 21 Years, Maximum age 30 Years as on 01 April 2025. Age relaxation applicable as per SBI rules." },
+  { q: "What is the eligibility for SBI Probationary Officer PO Vacancy 2025?", a: "Candidates must have a bachelor’s degree in any discipline from a recognized university. Final year students can apply but must submit proof of passing by 30 September 2025. Candidates with professional qualifications like Medical, Engineering, CA, or Cost Accountant are also eligible." },
+  { q: "What is the official website for SBI?", a: "The official website is https://sbi.co.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "24 June 2025" },
+  { label: "Last Date to Apply Online", value: "14 July 2025" },
+  { label: "Last Date for Fee Payment", value: "14 July 2025" },
+  { label: "Pre Exam Date", value: "02, 04 & 05 August 2025" },
+  { label: "Pre Admit Card Release", value: "25 July 2025" },
+  { label: "Pre Result Date", value: "01 September 2025" },
+  { label: "Mains Exam Date", value: "13 September 2025", highlight: "yellow" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹750/-" },
+  { label: "SC / ST / PH", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "As on 01 April 2025. Age relaxation applicable as per SBI rules." }
+],
+
+vacancies: [
+  { post: "SBI Probationary Officer PO", total: 541 }
+],
+
+qualifications: [
+  { post: "SBI Probationary Officer PO", eligibility: "Candidates must have a bachelor’s degree in any discipline from a recognized university. Final year students can apply but must submit proof of passing by 30 September 2025. Candidates with professional qualifications like Medical, Engineering, CA, or Cost Accountant are also eligible." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar card, PAN card, Driving Licence, Voter ID, etc.)",
+  "Passport-size photographs (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Pre Exam",
+  "Mains Exam",
+  "Group Exercise",
+  "Interview"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam",
+  "Group Exercise",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official SBI website: https://sbi.co.in/",
+  "Navigate to 'Careers' → 'Current Openings' or 'Recruitment of Probationary Officers 2025-26'",
+  "Find and click the 'SBI PO Mains Admit Card' link",
+  "Log in with Registration Number/Roll Number and Date of Birth",
+  "Download, save, and take a printout of your admit card",
+  "Prepare required documents for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Check Mains Exam Date Notice",
@@ -556,16 +973,73 @@ const admitcardData = [
      postName: "BPSC ASO Pre Admit Card Date 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Public Service Commission (BPSC) , has released the Admit Card Date on its official website for the Recruitment of Assistant Section Officer ASO Exam 2025. The exam will be conducted on 10 Se...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for BPSC Assistant Section Officer ASO Recruitment 2025 start?", a: "The online application started on 29 May 2025." },
+  { q: "What is the last date to apply for BPSC Assistant Section Officer ASO Recruitment 2025?", a: "The last date to submit the online application was 23 June 2025." },
+  { q: "What is the exam date for BPSC Assistant Section Officer ASO Recruitment 2025?", a: "Pre Exam will be conducted on 10 September 2025." },
+  { q: "What is the age limit for BPSC Assistant Section Officer ASO Recruitment 2025?", a: "Minimum age 21 Years, Maximum age 42 Years as on 01 August 2025. Age relaxation applicable as per BPSC rules." },
+  { q: "What is the eligibility for BPSC Assistant Section Officer ASO Vacancy 2025?", a: "Candidates must have a graduate degree from a recognized university. The degree should be completed on or before the last date specified for submitting the application." },
+  { q: "What is the official website for Bihar BPSC?", a: "The official website is https://bpsc.bihar.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "29 May 2025" },
+  { label: "Last Date to Apply Online", value: "23 June 2025" },
+  { label: "Last Date for Fee Payment", value: "23 June 2025" },
+  { label: "Pre Exam Date", value: "10 September 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "04 September 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹600/-" },
+  { label: "SC / ST / Female Candidates of Bihar", value: "₹150/-" },
+  { label: "PH Candidates", value: "₹200/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age Male", value: "37 Years" },
+  { label: "Maximum Age Female UR, BC/EBC", value: "40 Years" },
+  { label: "Maximum Age SC/ST", value: "42 Years" },
+  { note: "As on 01 August 2025. Age relaxation applicable as per BPSC rules." }
+],
+
+vacancies: [
+  { post: "Assistant Section Officer ASO", total: 41 }
+],
+
+qualifications: [
+  { post: "Assistant Section Officer ASO", eligibility: "Graduate degree from a recognized university. The degree should be completed on or before the last date specified for submitting the application." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar card, PAN card, Driving Licence, Voter ID, etc.)",
+  "Passport-size photographs (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Pre Exam (Online & Offline, 150 MCQs, Total Marks: 150, Duration: 2 Hours 15 Minutes, Subjects: General Studies, Science & Mathematics, Mental Ability Test, Language: Hindi & English)",
+  "Mains Exam Paper I (Written, 100 Questions, Total Marks: 100, Subject: General Hindi, Duration: 2 Hours 15 Minutes, Language: Hindi)",
+  "Mains Exam Paper II (Written, 150 Questions, Total Marks: 150, Subjects: General Knowledge, General Studies, Science & Mathematics, Mental Ability, Duration: 2 Hours 15 Minutes, Language: Hindi & English)"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam"
+],
+
+howToApply: [
+  "Visit the official BPSC website: https://bpsc.bihar.gov.in/",
+  "Go to 'Examination Calendar' or 'Notices' section",
+  "Find the notification titled 'Assistant Section Officer (ASO) Prelims Exam Date 2025'",
+  "Open the PDF to check exam date, shift timing, and important instructions",
+  "Download or print the schedule for reference",
+  "Prepare required documents for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Check Pre Exam Date Notice",
@@ -617,16 +1091,76 @@ const admitcardData = [
      postName: "BPSC 71th Pre Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Public Service Commission (BPSC) , has released the Pre Exam Date on its official website for the Recruitment of 71th Pre Exam 2025. The exam will be conducted on 13 September 2025 , and the ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for BPSC 71th Pre Recruitment 2025 start?", a: "The online application started on 02 June 2025." },
+  { q: "What is the last date to apply for BPSC 71th Pre Recruitment 2025?", a: "The last date to submit the online application was 30 June 2025." },
+  { q: "What is the exam date for BPSC 71th Pre Recruitment 2025?", a: "Pre Exam will be conducted on 13 September 2025." },
+  { q: "What is the age limit for BPSC 71th Pre Recruitment 2025?", a: "Minimum age 21 Years, Maximum age 42 Years as on 01 August 2025. Age relaxation applicable as per BPSC rules." },
+  { q: "What is the eligibility for BPSC 71th Pre Vacancy 2025?", a: "Candidates must have a graduation degree in any stream from a recognized university/college. For Financial Administrative Officer and equivalent posts, degree in Commerce, Economics, Mathematics, or Statistics is required." },
+  { q: "What is the official website for Bihar BPSC?", a: "The official website is https://bpsc.bihar.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "02 June 2025" },
+  { label: "Last Date to Apply Online", value: "30 June 2025" },
+  { label: "Last Date for Fee Payment", value: "30 June 2025" },
+  { label: "Pre Exam Date", value: "13 September 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹600/-" },
+  { label: "SC / ST / Female Candidates of Bihar", value: "₹150/-" },
+  { label: "PH Candidates", value: "₹150/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age UR Male", value: "37 Years" },
+  { label: "Maximum Age Female UR, BC/EBC", value: "40 Years" },
+  { label: "Maximum Age SC/ST", value: "42 Years" },
+  { note: "As on 01 August 2025. Age relaxation applicable as per BPSC rules." }
+],
+
+vacancies: [
+  { post: "Bihar BPSC Various Post Under 71th Pre 2025", total: 1171 },
+  { post: "Financial Administrative Officer and equivalent", total: 79 },
+  { post: "Deputy Superintendent of Police (DSP)", total: 14 },
+  { post: "Various Post Added", total: 34 }
+],
+
+qualifications: [
+  { post: "Bihar BPSC Various Post Under 71th Pre 2025", eligibility: "Graduation degree in any stream from a recognized university/college." },
+  { post: "Financial Administrative Officer and equivalent", eligibility: "Graduation degree in Commerce, Economics, Mathematics, or Statistics from a recognized university/college." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar card, PAN card, Driving Licence, Voter ID, etc.)",
+  "Passport-size photographs (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Pre Exam",
+  "Mains Exam"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam"
+],
+
+howToApply: [
+  "Visit the official BPSC website: https://bpsc.bihar.gov.in/",
+  "Go to 'Examination Calendar' or 'Important Notices' section",
+  "Find the notification titled '71st Combined Competitive (Preliminary) Examination – Exam Date'",
+  "Open the PDF to check confirmed exam date and timing",
+  "Download or print the PDF for records",
+  "Prepare required documents for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Check Pre Exam Date Notice",
@@ -687,16 +1221,72 @@ const admitcardData = [
      postName: "DSSSB Various Post Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Delhi Subordinate Service Selection Commission (DSSSB) , The Admit Card has been released on the official website for the recruitment of Delhi DSSSB July / August Exam Posts . The DSSSB Exam will b...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When was the DSSSB Various Post Admit Card 2025 released?", a: "The admit card was released on the official website on 01 September 2025." },
+  { q: "What are the exam dates for DSSSB Various Post 2025?", a: "The exams will be conducted from 07 July – 04 August 2025 & 27 August – 22 – 26 September 2025." },
+  { q: "Is there any application fee for DSSSB Various Post 2025?", a: "No fee is required to download the admit card. Fee may be applicable to raise objections to the Answer Key." },
+  { q: "What is the official website for DSSSB?", a: "The official website is https://dsssb.delhi.gov.in/" }
+],
+
+importantDates: [
+  { label: "April CBT Exam Date", value: "01-24 April 2025, 06-08 & 22 June 2025" },
+  { label: "May CBT Exam Date", value: "05-07 May 2025" },
+  { label: "Admit Card Release Date", value: "02 May 2025" },
+  { label: "April Answer Key", value: "05 May 2025" },
+  { label: "Various Posts CBT Exam Date June", value: "23 June 2025 to 09 July 2025" },
+  { label: "July Exam Date", value: "08-09 July 2025" },
+  { label: "August Exam Date", value: "07 July – 04 August 2025" },
+  { label: "September Exam Date", value: "27 August – 22 – 26 September 2025", highlight: "yellow" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "Fee for Admit Card Download", value: "₹0" },
+  { label: "Fee for Objections to Answer Key", value: "As per notification" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Age Limit", value: "As per DSSSB rules" }
+],
+
+vacancies: [
+  { post: "Various Posts under DSSSB 2025", total: "N/A" }
+],
+
+qualifications: [
+  { post: "Various Posts under DSSSB 2025", eligibility: "Candidates must meet the educational qualifications as per the official notification for each post." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar card, PAN card, Driving Licence, Voter ID, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Written Examination (Tier-I / Tier-II)",
+  "Skill Test / Typing Test (if applicable)"
+],
+
+selectionProcess: [
+  "Written Examination (Tier-I / Tier-II)",
+  "Skill Test / Typing Test (if applicable)",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official DSSSB website: https://dsssb.delhi.gov.in/",
+  "Go to 'Admit Card' or 'Candidate Login' section",
+  "Select the relevant exam / advertisement number for which the admit card is released",
+  "Enter your Application Number, Date of Birth, and Captcha Code",
+  "Submit and view your admit card",
+  "Check all details (candidate name, photograph, exam date, shift, center, reporting time, and instructions)",
+  "Download and save as PDF and take at least two printouts for exam day",
+  "Carry required documents for verification on exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -835,16 +1425,77 @@ const admitcardData = [
      postName: "Bihar Vidhan Parishad ABO Mains Exam 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Vidhan Parishad, Bihar Legislative Council, has released the Mains Admit Card for the post of Assistant Branch Officer . This recruitment is for 26 posts , and applications were accepted from...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When was the online application for Bihar Vidhan Parishad ABO 2025 open?", a: "Applications were accepted from 18 September 2024 to 27 September 2024." },
+  { q: "What is the exam date for Bihar Vidhan Parishad ABO Mains Exam 2025?", a: "The Mains exam (Stage-II) was scheduled on 23 May 2025 but later cancelled." },
+  { q: "What is the application fee for Bihar Vidhan Parishad ABO 2025?", a: "General, OBC, EWS: ₹300/-, SC, ST, PH: ₹150/-, All Category Female (Bihar): ₹150/-." },
+  { q: "What is the age limit for Bihar Vidhan Parishad ABO 2025?", a: "Minimum age 18 Years, Maximum age 37 Years as on 1 January 2024." },
+  { q: "What is the eligibility for Bihar Vidhan Parishad ABO 2025?", a: "Candidates must have passed Class 10 from a recognized board, know both Hindi and English, and be able to ride a bicycle." },
+  { q: "What is the official website for Bihar Vidhan Parishad?", a: "The official website is https://vidhanparishad.bihar.gov.in/" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "13 September 2024" },
+  { label: "Application Start Date", value: "18 September 2024" },
+  { label: "Last Date to Apply", value: "27 September 2024" },
+  { label: "Fee Payment Last Date", value: "27 September 2024" },
+  { label: "Admit Card Release", value: "14 October 2024" },
+  { label: "Stage-II Exam Date (ABO)", value: "29, 30 January 2025" },
+  { label: "Mains Exam Date", value: "23 May 2025 (Cancelled)", highlight: "yellow" },
+  { label: "Mains Admit Card Release", value: "20 May 2025" },
+  { label: "Answer Key / Objection", value: "12-16 November 2024 (06:00 PM)" },
+  { label: "Result Date (ABO)", value: "31 December 2024" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹300/-" },
+  { label: "SC / ST / PH Candidates", value: "₹150/-" },
+  { label: "All Category Female (Bihar)", value: "₹150/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "37 Years" },
+  { note: "As on 1 January 2024. Age relaxation applicable as per rules." }
+],
+
+vacancies: [
+  { post: "Assistant Branch Officer (ABO)", total: 26 },
+  { post: "Office Attendant (Night Watchman)", total: 5 },
+  { post: "Office Attendant (Darban)", total: 3 },
+  { post: "Office Attendant (Safaikarmi)", total: 18 }
+],
+
+qualifications: [
+  { post: "All Posts", eligibility: "Class 10 pass from a recognized board in India. Knowledge of Hindi & English, and ability to ride a bicycle required." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  "Written Exam",
+  "Interview (if applicable)"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official Bihar Vidhan Parishad website: https://vidhanparishad.bihar.gov.in/",
+  "Check for relevant recruitment notification or admit card link",
+  "Download the admit card using Registration Number and Date of Birth / Password",
+  "Check all exam details carefully",
+  "Take a printout of the admit card for exam day",
+  "Carry required documents for verification"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Exam Cancelled Notice",
@@ -963,16 +1614,97 @@ const admitcardData = [
      postName: "RPSC Senior Teacher Gr II Exam City Details 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Public Service Commission (RPSC) , will be released the Exam City Details on its official website for the Senior Teacher Grade 2 TGT Teacher Examination 2025. The exam will be conducted o...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RPSC Grade 2 Senior Teacher Recruitment 2024 start?", a: "The online application started on 26 December 2024." },
+  { q: "What is the last date to apply for RPSC Grade 2 Senior Teacher Online Form 2024?", a: "The last date to submit the online application was 24 January 2025." },
+  { q: "What is the exam date for RPSC Grade 2 Senior Teacher TGT Exam 2025?", a: "The exam will be conducted on 07, 08, 09, 10, 11, 12 September 2025." },
+  { q: "What is the age limit for RPSC Grade 2 Senior Teacher Bharti 2024?", a: "Minimum age 18 Years, Maximum age 40 Years as on 01 January 2026. Age relaxation applicable as per RPSC rules." },
+  { q: "What is the eligibility for RPSC Grade 2 Senior Teacher Vacancy 2024?", a: "A graduate with the required subject combination and necessary educational qualifications, proficiency in Hindi (Devanagari script), and knowledge of Rajasthan’s culture." },
+  { q: "What is the official website for RPSC?", a: "The official website is https://rpsc.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "11 December 2024" },
+  { label: "Online Application Start Date", value: "26 December 2024" },
+  { label: "Online Application Last Date", value: "24 January 2025" },
+  { label: "Last Date For Fee Payment", value: "24 January 2025" },
+  { label: "Exam Date", value: "07-12 September 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "04 September 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC (Creamy Layer)", value: "₹600/-" },
+  { label: "OBC / EWS (Non-Creamy Layer)", value: "₹400/-" },
+  { label: "SC / ST / PWD", value: "₹400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 January 2026. Age relaxation applicable as per RPSC rules." }
+],
+
+vacancies: [
+  { post: "Hindi Teacher", total: 288 },
+  { post: "English Teacher", total: 327 },
+  { post: "Science Teacher", total: 350 },
+  { post: "Mathematics Teacher", total: 694 },
+  { post: "Social Science Teacher", total: 88 },
+  { post: "Sanskrit Teacher", total: 309 },
+  { post: "Urdu Teacher", total: 9 },
+  { post: "Punjabi Teacher", total: 64 }
+],
+
+qualifications: [
+  { post: "General Subjects", eligibility: "Graduate or equivalent with at least two relevant optional subjects and a degree or diploma in education." },
+  { post: "Specialized Subjects (Science, Mathematics, etc.)", eligibility: "Graduate with required subject combination and necessary educational qualifications. Proficiency in Hindi (Devanagari script) and knowledge of Rajasthan culture required." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  {
+    paper: "Paper I",
+    subjects: ["Rajasthan GK, History, Culture, Geography", "Educational Psychology", "General Knowledge of India and World"],
+    totalMarks: 200,
+    duration: "2 hours",
+    markingScheme: "2 marks for each correct answer, 1/3 marks deducted for wrong answer",
+    minQualificationMarks: "40%"
+  },
+  {
+    paper: "Paper II",
+    subjects: ["Subject Knowledge", "Teaching Methods"],
+    totalMarks: 300,
+    duration: "2 hours 30 minutes",
+    markingScheme: "2 marks for each correct answer, 1/3 marks deducted for wrong answer",
+    minQualificationMarks: "40%"
+  }
+],
+
+selectionProcess: [
+  "Written Examination (Paper I & Paper II)",
+  "Final Merit List"
+],
+
+payScale: [
+  { post: "RPSC 2nd Grade Teacher", salary: "₹9300 – 34800/-", gradePay: "₹4200/-" }
+],
+
+howToApply: [
+  "Visit the official RPSC website: https://rpsc.rajasthan.gov.in/",
+  "Go to Recruitment → Advertisements → Find 'SR. TEACHER (SEC. EDU.) COMP. EXAM 2025' (Adv. No. 07/2025‑26)",
+  "Download the exam date schedule (07–12 September 2025)",
+  "When Admit Card is available, go to 'Admit Card' or 'Candidate Corner', log in with Application Number and DOB/Password, download the PDF",
+  "Check all exam details carefully and take a printout",
+  "Carry required documents for verification on exam day"
+],
+
     importantLinks: [
       {
         "label": "Check Admit Card Notice",
@@ -1033,16 +1765,93 @@ const admitcardData = [
      postName: "Railway RRB ALP 01/2024 CBAT Re-Exam City Details 2025",
     postDate: "Not specified",
     shortInfo: "Railway Recruitment Board (Ministry of Railway) The CBAT Re-Exam City Details for the Railway RRB ALP recruitment Has been released on the official website. The CBAT Exam is scheduled to be conduct...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RRB ALP 01/2024 start?", a: "The online application started on 20 January 2024." },
+  { q: "What is the last date to apply for RRB ALP 01/2024?", a: "The last date to submit the online application was 19 February 2024." },
+  { q: "When is the RRB ALP Stage-II Exam 2025?", a: "The RRB ALP Stage-II Exam is scheduled to be held on 02 – 06 May 2025. The CBAT Re-Exam is on 31 August 2025." },
+  { q: "When will the admit card for Stage-II be released?", a: "The CBT Stage-II Admit Card for RRB ALP recruitment has been released on the official website." },
+  { q: "Where can I check my RRB ALP Stage-II Exam date and center?", a: "You can check by logging into your respective RRB regional website using your registration number and password." },
+  { q: "What happens after the RRB ALP Result 2025 is declared?", a: "Shortlisted candidates will be called for document verification, medical examination, and next stages." },
+  { q: "What is the official website of Railway RRB?", a: "The official website is https://indianrailways.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "20 January 2024" },
+  { label: "Online Apply Last Date", value: "19 February 2024" },
+  { label: "Last Date Pay Exam Fee", value: "19 February 2024" },
+  { label: "Correction / Modified Form", value: "20-29 February 2024" },
+  { label: "Re Upload Photo / Signature", value: "27-31 May 2024" },
+  { label: "Stage-I Result Declared Date", value: "26 February 2025" },
+  { label: "Stage-II Exam Date", value: "02-06 May 2025" },
+  { label: "Exam City Details", value: "22 April 2025" },
+  { label: "Admit Card Stage-II", value: "30 April 2025" },
+  { label: "CBAT Re-Exam Date", value: "31 August 2025", highlight: "yellow" },
+  { label: "Re-Exam City Details", value: "21 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹500/-" },
+  { label: "SC / ST / PH / Female", value: "₹250/-" },
+  { label: "Fee Refund After Stage-I", value: "UR, OBC, EWS: ₹400/-; SC, ST, PH, Female: ₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "33 Years" },
+  { note: "As on 1 July 2024. Relaxation applicable for ex-servicemen and central government employees as per RRB ALP guidelines." }
+],
+
+vacancies: [
+  
+  { post: "General", total: 8149 },
+  { post: "OBC", total: 4538 },
+  { post: "EWS", total: 1798 },
+  { post: "SC", total: 2735 },
+  { post: "ST", total: 1579 },
+  { post: "Total", total: 18799 }
+],
+
+qualifications: [
+  { post: "Assistant Loco Pilot / Technician", eligibility: "Class 10th pass with ITI certificate, or Class 10th with diploma in Mechanical/Electrical/Electronics/Automobile Engineering, or BE/B.Tech in Mechanical/Electrical/Electronics/Automobile Engineering from a recognized university." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  {
+    stage: "CBT Stage-I",
+    totalMarks: "75-100",
+    duration: "60-90 minutes",
+    markingScheme: "Correct answer: +1 mark, Wrong answer: -1/3 mark"
+  },
+  {
+    stage: "CBT Stage-II / CBAT Re-Exam",
+    totalMarks: "Based on ALP/Technician syllabus",
+    duration: "Varies per post",
+    markingScheme: "Correct answer: +1 mark, Wrong answer: -1/3 mark"
+  }
+],
+
+selectionProcess: [
+  "CBT Stage-I Exam",
+  "CBT Stage-II Exam (including CBAT / Re-Exam)",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official Railway Recruitment Board portal of your region.",
+  "Find the ALP CBAT Re-Exam 2025 City Intimation link on the homepage.",
+  "Click on the link and enter your Registration Number and Date of Birth/Password.",
+  "Submit details to log in and view Exam City, Date, and Shift.",
+  "Download and take a printout for reference."
+],
+
     importantLinks: [
       {
         "label": "Download CBAT Re-Exam City Details",
@@ -1193,16 +2002,86 @@ const admitcardData = [
      postName: "UKPSC Lower PCS Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Uttarakhand Combined State Civil Lower Subordinate Services (UKPSC) , has released the Admit Card on its official website for the Combined State Civil/ Lower Subordinate Service PCS Exam 2025. The ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for UKPSC Lower Subordinate Recruitment 2024 start?", a: "The online application will start on 13 December 2024." },
+  { q: "What is the last date to apply for UKPSC Lower Subordinate Recruitment 2025?", a: "The last date to submit the online application is 04 January 2025." },
+  { q: "What is the age limit for UKPSC Lower Subordinate Recruitment 2024?", a: "Minimum age: 21 Years, Maximum age: 42 Years as on 01 July 2024." },
+  { q: "What is the eligibility for UKPSC Lower Subordinate Recruitment 2024?", a: "All candidates must have a Bachelor’s Degree (any subject) from a recognized university." },
+  { q: "What is the official website of UKPSC?", a: "The official website is https://www.psc.uk.gov.in/" },
+  { q: "When is the UKPSC Lower PCS Mains Exam 2025?", a: "The Mains Exam will be conducted on 13-14 September 2025." },
+  { q: "When was the Mains Admit Card released?", a: "The Mains Admit Card was released on 29 August 2025." }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "13 December 2024" },
+  { label: "Online Apply Start Date", value: "13 December 2024" },
+  { label: "Online Apply Last Date", value: "04 January 2025" },
+  { label: "Last Date For Fee Payment", value: "04 January 2025" },
+  { label: "Pre Exam Date", value: "11 May 2025" },
+  { label: "Pre Admit Card", value: "25 April 2025" },
+  { label: "Pre Answer Key", value: "27 May 2025" },
+  { label: "Mains Exam Date", value: "13-14 September 2025" },
+  { label: "Mains Admit Card", value: "29 August 2025" },
+  { label: "Result Date", value: "To be updated" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹172.30/-" },
+  { label: "SC / ST", value: "₹82.30/-" },
+  { label: "PH", value: "₹22.30/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "42 Years" },
+  { note: "Age relaxation as per UKPSC rules for Lower Subordinate positions." }
+],
+
+vacancies: [
+  { post: "Nayab Tehsildar", department: "Revenue Department", total: 36 },
+  { post: "Deputy Jailor", department: "Home Department", total: 14 },
+  { post: "Supply Inspector", department: "Food, Civil Supply And Consumer Affairs Department", total: 36 },
+  { post: "Marketing Inspector", department: "Food, Civil Supply And Consumer Affairs Department", total: 6 },
+  { post: "Labour Enforcement Officer", department: "Labour Department", total: 5 },
+  { post: "Excise Inspector", department: "Excise Department", total: 5 },
+  { post: "Senior Cane Development Inspector", department: "Sugarcane Development & Sugar Industry Department", total: 2 },
+  { post: "Cane Development Inspector", department: "Sugarcane Development & Sugar Industry Department", total: 6 },
+  { post: "Khandsari Inspector", department: "Sugarcane Development & Sugar Industry Department", total: 3 },
+  { post: "Total", total: 113 }
+],
+
+qualifications: [
+  { post: "All Posts", eligibility: "Candidate must have a Bachelor’s Degree (any subject) from a recognized university." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Preliminary Exam", description: "Objective type questions based on general knowledge and aptitude" },
+  { stage: "Mains Exam", description: "Descriptive papers covering relevant subjects" },
+  { stage: "Interview / Personality Test", description: "Evaluation of candidates' suitability for service" }
+],
+
+selectionProcess: [
+  "Preliminary Exam",
+  "Main Exam",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official UKPSC website: https://www.psc.uk.gov.in",
+  "Navigate to Admit Card / Examination Notifications section",
+  "Find the link for 'Lower PCS Mains Admit Card 2025'",
+  "Enter Registration Number / Roll Number and Date of Birth",
+  "Download the admit card and take a printout for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -1285,16 +2164,87 @@ const admitcardData = [
      postName: "SIDBI Bank Officer Grade A, B Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Small Industries Development Bank of India (SIDBI) , has released the Admit Card on its official website for the Recruitment of Examination of SIDBI Bank Officer Grade A, B (Assistant Manager) 2025...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for SIDBI Assistant Manager Recruitment 2025 start?", a: "The online application started on 14 July 2025." },
+  { q: "What is the last date for online application for SIDBI Assistant Manager Online Form 2025?", a: "The last date to submit the online application was 18 August 2025." },
+  { q: "What is the age limit for SIDBI Assistant Manager Bharti 2025?", a: "Minimum age: 21 Years, Maximum age: 33 Years as on 18 August 2025." },
+  { q: "What is the eligibility for SIDBI Assistant Manager Vacancy 2025?", a: "Candidates must have graduation degree or relevant professional qualifications as per post-wise eligibility." },
+  { q: "What is the official website for SIDBI?", a: "The official website is https://www.sidbi.in/index" },
+  { q: "When will the SIDBI Officer Grade A, B Exam 2025 be conducted?", a: "The exam will be conducted on 06 September 2025." },
+  { q: "When was the Admit Card released?", a: "The admit card was released on 29 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "14 July 2025" },
+  { label: "Online Apply Last Date", value: "18 August 2025" },
+  { label: "Last Date For Fee Payment", value: "18 August 2025" },
+  { label: "Exam Date", value: "06 September 2025" },
+  { label: "Admit Card", value: "29 August 2025" },
+  { label: "Result Date", value: "To be updated" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1100/-" },
+  { label: "SC / ST / PwBD", value: "₹175/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Grade-A Minimum Age", value: "21 Years" },
+  { label: "Grade-A Maximum Age", value: "30 Years" },
+  { label: "Grade-B Minimum Age", value: "25 Years" },
+  { label: "Grade-B Maximum Age", value: "33 Years" },
+  { note: "Age relaxation as per SIDBI rules for Assistant Manager positions." }
+],
+
+vacancies: [
+  { post: "Assistant Manager Grade A – UR", total: 20 },
+  { post: "Assistant Manager Grade A – OBC", total: 15 },
+  { post: "Assistant Manager Grade A – EWS", total: 5 },
+  { post: "Assistant Manager Grade A – SC", total: 7 },
+  { post: "Assistant Manager Grade A – ST", total: 3 },
+  { post: "Assistant Manager Grade B – General", total: 11 },
+  { post: "Assistant Manager Grade B – Legal", total: 8 },
+  { post: "Assistant Manager Grade B – IT", total: 7 },
+  { post: "Total", total: 76 }
+],
+
+qualifications: [
+  { post: "Assistant Manager Grade A – General Stream", eligibility: "Graduation in Commerce, Economics, Mathematics, Statistics, Business Administration, Engineering OR professional qualifications like CS, CMA, CFA, CA, MBA, PGDM with at least 60% marks (50% for SC/ST/PwBD). Candidates without CA/MBA/PGDM must have 2 years of experience in MSME or Corporate Credit." },
+  { post: "Assistant Manager Grade B – General", eligibility: "Graduation/PG with minimum 60% marks & 5 years experience in RBI/SEBI/Banks/NBFCs." },
+  { post: "Assistant Manager Grade B – Legal", eligibility: "LLB, enrolled with Bar Council & 5 years experience in legal departments." },
+  { post: "Assistant Manager Grade B – IT", eligibility: "B.E./B.Tech in CS/IT or MCA with 60% marks & 5 years experience with relevant skill set." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Phase I", description: "Objective Test" },
+  { stage: "Phase II", description: "Descriptive & (Possibly) Subjective Test" },
+  { stage: "Psychometric Test", description: "Assessment of personality and aptitude" },
+  { stage: "Interview", description: "Final evaluation for selection" }
+],
+
+selectionProcess: [
+  "Phase I: Objective Test",
+  "Phase II: Descriptive / Subjective Test",
+  "Psychometric Test",
+  "Interview",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official SIDBI website: https://www.sidbi.in",
+  "Navigate to Career / Recruitment section",
+  "Find the link for 'Officer Grade A, B Admit Card 2025'",
+  "Enter Registration Number & Password / Date of Birth",
+  "Download the admit card and take a printout for exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -1346,16 +2296,84 @@ const admitcardData = [
      postName: "Bihar Vidhan Sabha 05/2024 Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Vidhan Sabha Sachivalaya , has released the Mains Admit Card on its official website for the Recruitment of Examination of Library Assistant, Urdu Translator, Urdu Assistant & Translator (Hin...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for Bihar Vidhan Sabha 05/2024 Recruitment 2025 start?", a: "The online application (Mains Form) started on 20 August 2025." },
+  { q: "What is the last date to apply for Bihar Vidhan Sabha 05/2024 Mains Form?", a: "The last date to submit the online application form was 25 August 2025." },
+  { q: "What is the age limit for Bihar Vidhan Sabha 05/2024 Recruitment 2025?", a: "Minimum age: 21 Years, Maximum age: 37 Years as on 01 August 2024." },
+  { q: "What is the eligibility for Bihar Vidhan Sabha 05/2024 Recruitment 2025?", a: "Eligibility varies by post: Library Assistant – Graduate in Library Science with Postgraduate degree; Urdu Translator – Bachelor’s in Hindi with Urdu subject or vice versa; Urdu Assistant – Bachelor’s with Urdu subject; Translator (Hindi/English) – Bachelor’s in Hindi with English or vice versa." },
+  { q: "What is the official website of Bihar Vidhan Sabha?", a: "The official website is https://vidhansabha.bih.nic.in/" },
+  { q: "When will the Mains Exam 2025 be conducted?", a: "The Mains Exam date will be notified later." },
+  { q: "When was the Mains Admit Card released?", a: "The Mains Admit Card was released between 27–29 August 2025." }
+],
+
+importantDates: [
+  { label: "Starting Date", value: "29 November 2024" },
+  { label: "Last Date for Registration", value: "13 December 2024" },
+  { label: "Fee Payment Last Date", value: "18 – 21 December 2024" },
+  { label: "Exam Date", value: "23 February 2025" },
+  { label: "Admit Card", value: "12 February 2025" },
+  { label: "Result Declared Date", value: "07 May 2025" },
+  { label: "Online Apply Start Date (Mains Form)", value: "20 August 2025" },
+  { label: "Online Apply Last Date (Mains Form)", value: "25 August 2025" },
+  { label: "Fee Payment Last Date (Mains Form)", value: "25 August 2025" },
+  { label: "Mains Admit Card", value: "27–29 August 2025" },
+  { label: "Mains Exam Date", value: "To be notified" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / Other State", value: "₹600/-" },
+  { label: "SC / ST / PH", value: "₹150/-" },
+  { label: "All Category Female Candidates", value: "₹150/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "37 Years" },
+  { note: "Age relaxation as per Bihar Vidhan Sabha rules for respective posts." }
+],
+
+vacancies: [
+  { post: "Library Assistant", total: 2 },
+  { post: "Urdu Translator", total: 1 },
+  { post: "Urdu Assistant", total: 2 },
+  { post: "Translator (Hindi/ English)", total: 2 },
+  { post: "Total", total: 7 }
+],
+
+qualifications: [
+  { post: "Library Assistant", eligibility: "Graduate in Library Science with a Postgraduate degree in any subject from a recognized university." },
+  { post: "Urdu Translator", eligibility: "Bachelor’s degree in Hindi with Urdu subject or Bachelor’s degree in Urdu with Hindi subject from a recognized university." },
+  { post: "Urdu Assistant", eligibility: "Bachelor’s degree from a recognized university with Urdu as a subject." },
+  { post: "Translator (Hindi/ English)", eligibility: "Bachelor’s degree in Hindi with English as a subject or Bachelor’s degree in English with Hindi as a subject from a recognized university." }
+],
+
+requiredDocs: [
+  "Printed Mains Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Written Exam", description: "Objective and/or descriptive papers as per post" },
+  { stage: "Document Verification", description: "Verification of eligibility and documents" },
+  { stage: "Medical Examination", description: "Assessment of physical fitness if applicable" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official Bihar Vidhan Sabha website: https://vidhansabha.bih.nic.in",
+  "Navigate to Recruitment / Admit Card section",
+  "Find the link for 'Admit Card for 05/2024 Mains Examination 2025'",
+  "Enter Registration Number & Password / Date of Birth",
+  "Download the admit card and take a printout for exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -1450,16 +2468,124 @@ const admitcardData = [
      postName: "Indian Navy Civilian Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Join Indian Navy (Nausena Bharti) , has been released the Admit Card for the Indian Navy Civilian INCET 01/2025 Recruitment 2025. The examination will be conducted on Last Week Of August 2025 . Thi...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for Indian Navy Civilian Recruitment 2025 start?", a: "The online application for this recruitment started on 05 July 2025." },
+  { q: "What is the last date to apply for Indian Navy Civilian Recruitment 2025?", a: "The last date to submit the online application was 18 July 2025." },
+  { q: "What is the age limit for Indian Navy Civilian Recruitment 2025?", a: "Minimum age: 18 Years, Maximum age: 45 Years as on 18 July 2025." },
+  { q: "What is the eligibility for Indian Navy Civilian Recruitment 2025?", a: "Candidates must have passed Class 10th from a recognized board. Some posts may require additional trade or diploma qualifications." },
+  { q: "What is the official website of the Indian Navy?", a: "The official website is https://www.joinindiannavy.gov.in/" },
+  { q: "When will the Indian Navy Civilian Exam 2025 be conducted?", a: "The examination will be conducted in the last week of August 2025." },
+  { q: "When was the Admit Card released?", a: "The Admit Card was released on 21 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "05 July 2025" },
+  { label: "Online Apply Last Date", value: "18 July 2025" },
+  { label: "Last Date For Fee Payment", value: "18 July 2025" },
+  { label: "Exam Date", value: "Last Week Of August 2025" },
+  { label: "Admit Card", value: "21 August 2025" },
+  { label: "Result Date", value: "To be updated" }
+],
+
+applicationFees: [
+  { label: "General / EWS / OBC", value: "₹295/-" },
+  { label: "SC / ST / PH / ESM", value: "₹0/-" },
+  { label: "All Category Female", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Staff Nurse / Lady Health Visitor", value: "18-45 Years" },
+  { label: "Chargeman (AW), Cameraman", value: "18-30 Years" },
+  { label: "Pharmacist, Fire Engine Driver", value: "18-27 Years" },
+  { label: "Fireman, Draughtsman", value: "18-27 Years" },
+  { label: "All Other Posts", value: "18-25 Years" },
+  { note: "Age relaxation as per Indian Navy rules for Civilian positions." }
+],
+
+vacancies: [
+  { post: "Staff Nurse", total: 1 },
+  { post: "Chargeman (Naval Aviation)", total: 1 },
+  { post: "Chargeman (Ammunition Workshop)", total: 9 },
+  { post: "Chargeman (Mechanic)", total: 49 },
+  { post: "Chargeman (Ammunition and Explosive)", total: 53 },
+  { post: "Chargeman (Electrical)", total: 19 },
+  { post: "Chargeman (Electronics and Gyro)", total: 5 },
+  { post: "Chargeman (Weapon Electronics)", total: 5 },
+  { post: "Chargeman (Instrument)", total: 2 },
+  { post: "Chargeman (Mechanical)", total: 11 },
+  { post: "Chargeman (Heat Engine)", total: 7 },
+  { post: "Chargeman (Mechanical Systems)", total: 4 },
+  { post: "Chargeman (Metal)", total: 21 },
+  { post: "Chargeman (Ship Building)", total: 11 },
+  { post: "Chargeman (Millwright)", total: 5 },
+  { post: "Chargeman (Auxiliary)", total: 3 },
+  { post: "Chargeman (Ref & AC)", total: 4 },
+  { post: "Chargeman (Mechatronics)", total: 1 },
+  { post: "Chargeman (Civil Works)", total: 3 },
+  { post: "Chargeman (Machine)", total: 2 },
+  { post: "Chargeman (Planning, Production and Control)", total: 13 },
+  { post: "Assistant Artist Retoucher", total: 2 },
+  { post: "Pharmacist", total: 6 },
+  { post: "Cameraman", total: 1 },
+  { post: "Store Superintendent (Armament)", total: 8 },
+  { post: "Fire Engine Driver", total: 18 },
+  { post: "Fireman", total: 103 },
+  { post: "Storekeeper/ Storekeeper (Armament)", total: 176 },
+  { post: "Civilian Motor Driver Ordinary Grade", total: 117 },
+  { post: "Tradesman Mate", total: 469 },
+  { post: "Pest Control Worker", total: 75 },
+  { post: "Bhandari", total: 1 },
+  { post: "Lady Health Visitor", total: 1 },
+  { post: "Multi Tasking Staff (Ministerial)", total: 94 },
+  { post: "Multi Tasking Staff (Non Industrial)/ Ward Sahaika", total: 81 },
+  { post: "Multi Tasking Staff (Non Industrial)/ Dresser", total: 2 },
+  { post: "Multi Tasking Staff (Non Industrial)/ Dhobi", total: 4 },
+  { post: "Multi Tasking Staff (Non Industrial)/ Mali", total: 6 },
+  { post: "Multi Tasking Staff (Non Industrial)/ Barber", total: 4 },
+  { post: "Draughtsman (Construction)", total: 2 },
+  { post: "Total", total: "1400+" }
+],
+
+qualifications: [
+  { post: "Staff Nurse", eligibility: "10th pass + training in approved hospital + registered as trained nurse; knowledge of Hindi/local language desirable." },
+  { post: "Chargeman (All Trades)", eligibility: "Diploma or relevant experience as per trade; specific details vary by post." },
+  { post: "Assistant Artist Retoucher", eligibility: "10th pass + diploma/certificate in Commercial Art/Printing Technology + experience 2-7 years depending on ex-servicemen status." },
+  { post: "Pharmacist", eligibility: "12th pass with Science + Diploma in Pharmacy + registered under Pharmacy Act + 2 years experience." },
+  { post: "Cameraman", eligibility: "10th pass + diploma/certificate + 5-10 years experience depending on ex-servicemen status." },
+  { post: "Fire Engine Driver / Fireman", eligibility: "12th pass + HMV License + physical & endurance standards." },
+  { post: "Storekeeper / Civilian Motor Driver / Tradesman Mate / Multi Tasking Staff / Draughtsman", eligibility: "10th / 12th pass + ITI or experience as specified per post." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Written Examination", description: "Objective/Trade-related questions depending on post" },
+  { stage: "Physical / Trade Test", description: "Applicable for Fireman, Fire Engine Driver and other physical posts" },
+  { stage: "Document Verification", description: "Verification of eligibility and submitted documents" },
+  { stage: "Medical Examination", description: "Assessment of fitness for the post" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Physical / Trade Test (If Applicable)",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official Indian Navy website: https://www.joinindiannavy.gov.in",
+  "Navigate to Admit Card / Recruitment section",
+  "Click on the link for 'Indian Navy Civilian Admit Card 2025'",
+  "Enter Registration Number / Roll Number and Password / Date of Birth",
+  "Submit details to view your admit card",
+  "Download the admit card and take a printout for the exam"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -1529,16 +2655,77 @@ const admitcardData = [
      postName: "UPSC NDA II Exam Time Table 2025",
     postDate: "Not specified",
     shortInfo: "Union Public Service Commission UPSC , has released the Exam Schedule on its official website for the Recruitment of Examination of National Defence Academy & Naval Academy II 2025. The exam will b...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for UPSC NDA II Recruitment 2025 start?", a: "The online application started on 28 May 2025." },
+  { q: "What is the last date to apply for UPSC NDA II Online Form 2025?", a: "The last date to submit the online application form was 20 June 2025." },
+  { q: "What is the age limit for UPSC NDA II Bharti 2025?", a: "Candidates must be born between 2nd January 2007 and 1st January 2010. Age relaxation as per UPSC rules." },
+  { q: "What is the eligibility for UPSC NDA II Vacancy 2025?", a: "For Army Wing: Must have passed or be appearing in 10+2 (any stream) from a recognized board in India. For Air Force & Naval Wing: Must have passed or be appearing in 10+2 with Physics and Mathematics as subjects." },
+  { q: "What is the official website of UPSC?", a: "The official website is https://upsc.gov.in/" },
+  { q: "When will the UPSC NDA II Exam be conducted?", a: "The exam will be conducted on 14 September 2025." },
+  { q: "When will the admit card be released?", a: "Admit cards will be available before the exam on the official UPSC website." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "28 May 2025" },
+  { label: "Online Apply Last Date", value: "20 June 2025" },
+  { label: "Last Date for Fee Payment", value: "20 June 2025" },
+  { label: "Correction / Edit Form", value: "07–09 July 2025" },
+  { label: "Exam Date", value: "14 September 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹100/-" },
+  { label: "SC / ST", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "15 Years (as on 1st January 2025)" },
+  { label: "Maximum Age", value: "18 Years (as on 1st January 2025)" },
+  { note: "Age relaxation as per UPSC rules for respective categories." }
+],
+
+vacancies: [
+  { post: "Army", total: 208 },
+  { post: "Navy", total: 42 },
+  { post: "Airforce", total: 120 },
+  { post: "Naval Academy", total: 36 },
+  { post: "Total", total: 409 }
+],
+
+qualifications: [
+  { post: "Army Wing", eligibility: "Must have passed or be appearing in 10+2 (any stream) from a recognized board in India." },
+  { post: "Air Force & Naval Wing", eligibility: "Must have passed or be appearing in 10+2 with Physics and Mathematics as subjects." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Written Test", description: "Objective type test covering Maths, General Ability, and other subjects as per syllabus." },
+  { stage: "SSB Interview", description: "Includes Intelligence Test, Psychological Test, Group Test, and Personal Interview." }
+],
+
+selectionProcess: [
+  "Written Test",
+  "SSB Interview",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official UPSC website: https://upsc.gov.in",
+  "Navigate to the Examination / Time Table section",
+  "Find the link for 'NDA II Exam Time Table 2025'",
+  "Click on the link to view and download the PDF schedule",
+  "Check exam date, timing, and subject-wise details",
+  "Save the PDF for future reference"
+]
+,
     importantLinks: [
       {
         "label": "Check Exam Time Table Notice",
@@ -1599,16 +2786,89 @@ const admitcardData = [
      postName: "PFRDA Assistant Manager Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Pension Fund Regulatory and Development Authority PFRDA , has released the Admit Card on its official website for the Recruitment of Examination of PFRDA Officer Grade ‘A’ (Assistant Manager) 2025....",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for PFRDA Assistant Manager Grade A Recruitment 2025 start?", a: "The online application started on 23 June 2025." },
+  { q: "What is the last date to apply for PFRDA Assistant Manager Grade A Online Form 2025?", a: "The last date to submit the online application form was 06 August 2025." },
+  { q: "What is the age limit for PFRDA Assistant Manager Grade A Bharti 2025?", a: "Minimum age: 18 Years, Maximum age: 30 Years as on 31 July 2025. Age relaxation as per PFRDA rules." },
+  { q: "What is the eligibility for PFRDA Assistant Manager Grade A Vacancy 2025?", a: "Eligibility varies by post:\n- General: Master’s degree, or Bachelor’s in Law/Engineering, or ACA/FCA from ICAI.\n- Finance and Accounts: Bachelor’s degree + ACA, FCA, ACMA, FCMA, or CFA.\n- Information Technology (AI/ML): B.E. / B.Tech in Electrical, Electronics & Communication, IT, or Computer Science.\n- Research (Economics/Statistics): Master’s in Statistics, Economics, Commerce, Business Administration (Finance), or Econometrics.\n- Actuary: Bachelor’s degree + passed Actuaries exam.\n- Legal: Bachelor’s degree in Law (LLB).\n- Official Language (Rajbhasha): Master’s in Hindi with English at graduation level OR Master’s in Sanskrit, English, Economics, or Commerce with Hindi at graduation level." },
+  { q: "What is the official website for PFRDA?", a: "The official website is https://www.pfrda.org.in/" },
+  { q: "When will the Tier-I and Tier-II exams be conducted?", a: "Tier-I Exam: 06 September 2025, Tier-II Exam: 06 October 2025." },
+  { q: "When was the admit card released?", a: "The admit card was released on 28 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "23 June 2025" },
+  { label: "Online Apply Last Date", value: "06 August 2025" },
+  { label: "Last Date for Fee Payment", value: "06 August 2025" },
+  { label: "Tier-I Exam Date", value: "06 September 2025" },
+  { label: "Tier-II Exam Date", value: "06 October 2025" },
+  { label: "Admit Card", value: "28 August 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1000/-" },
+  { label: "SC / ST", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per PFRDA rules for respective categories." }
+],
+
+vacancies: [
+  { post: "General", total: 8 },
+  { post: "Finance and Accounts", total: 2 },
+  { post: "Information Technology (AI/ML)", total: 2 },
+  { post: "Research (Economics)", total: 1 },
+  { post: "Research (Statistics)", total: 2 },
+  { post: "Actuary", total: 2 },
+  { post: "Legal", total: 2 },
+  { post: "Official Language (Rajbhasha)", total: 1 },
+  { post: "Total", total: 20 }
+],
+
+qualifications: [
+  { post: "General", eligibility: "Master’s degree, or Bachelor’s in Law/Engineering, or ACA/FCA from ICAI." },
+  { post: "Finance and Accounts", eligibility: "Bachelor’s degree + ACA, FCA, ACMA, FCMA, or CFA qualification." },
+  { post: "Information Technology (AI/ML)", eligibility: "B.E. / B.Tech in Electrical, Electronics & Communication, IT, or Computer Science." },
+  { post: "Research (Economics)", eligibility: "Master’s degree in Statistics, Economics, Commerce, Business Administration (Finance), or Econometrics." },
+  { post: "Research (Statistics)", eligibility: "Master’s degree in Statistics, Economics, Commerce, Business Administration (Finance), or Econometrics." },
+  { post: "Actuary", eligibility: "Bachelor’s degree and passed Actuaries exam." },
+  { post: "Legal", eligibility: "Bachelor’s degree in Law (LLB)." },
+  { post: "Official Language (Rajbhasha)", eligibility: "Master’s in Hindi with English at graduation level OR Master’s in Sanskrit, English, Economics, or Commerce with Hindi at graduation level." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Pre Exam", description: "Objective type preliminary examination to shortlist candidates for Mains Exam." },
+  { stage: "Mains Exam", description: "Detailed written examination based on post-wise syllabus." },
+  { stage: "Interview", description: "Personal interview to assess suitability for the post." },
+  { stage: "Final Merit List", description: "Final selection based on performance in Mains Exam and Interview." }
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam",
+  "Interview",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official PFRDA website: https://www.pfrda.org.in",
+  "Navigate to the Careers / Recruitment section",
+  "Find the link for 'Assistant Manager Admit Card 2025'",
+  "Enter Registration Number & Password / Date of Birth",
+  "Download the admit card and take a printout for the exam day"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -1651,16 +2911,74 @@ const admitcardData = [
      postName: "Bank Of Baroda LBO Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bank of Baroda (BOB) , has released the Admit Card on its official website for the Recruitment of Examination of Local Bank Officer (LBO) 2025. The exam will be conducted on 06 September 2025 , and...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for BOB Local Bank Officer LBO Recruitment 2025 start?", a: "The online application started on 04 July 2025." },
+  { q: "What is the last date to apply for BOB Local Bank Officer LBO Online Form 2025?", a: "The last date to submit the online application form was 03 August 2025." },
+  { q: "What is the age limit for BOB Local Bank Officer LBO Bharti 2025?", a: "Minimum age: 21 Years, Maximum age: 30 Years as on 01 July 2025. Age relaxation as per BOB rules." },
+  { q: "What is the eligibility for BOB Local Bank Officer LBO Vacancy 2025?", a: "Candidates must be graduates or hold professional qualifications like CA, Engineering, or Medical, with at least 1 year of experience as an officer in a Scheduled or Regional Rural Bank. Proficiency in the local language is required." },
+  { q: "What is the official website for BOB?", a: "The official website is https://www.bankofbaroda.in" },
+  { q: "When will the BOB LBO Exam be conducted?", a: "The exam will be conducted on 06 September 2025." },
+  { q: "When was the admit card released?", a: "The admit card was released on 27 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "04 July 2025" },
+  { label: "Online Apply Last Date", value: "03 August 2025" },
+  { label: "Last Date for Fee Payment", value: "03 August 2025" },
+  { label: "Exam Date", value: "06 September 2025" },
+  { label: "Admit Card", value: "27 August 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹850/-" },
+  { label: "SC / ST / PwBD", value: "₹175/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per BOB rules for respective categories." }
+],
+
+vacancies: [
+  { post: "Local Bank Officer (LBO)", total: 2500 },
+  { post: "Total", total: 2500 }
+],
+
+qualifications: [
+  { post: "Local Bank Officer (LBO)", eligibility: "Graduate or professional qualification like CA, Engineering, or Medical with at least 1 year experience as an officer in a Scheduled or Regional Rural Bank. Proficiency in the local language is required." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Online Examination", description: "Objective type test to assess knowledge, aptitude, and banking awareness." },
+  { stage: "Psychometric Test", description: "Personality and behavior assessment test." },
+  { stage: "Personal Interview", description: "Face-to-face interview to assess suitability for the post." },
+  { stage: "Final Merit List", description: "Final selection based on performance in all stages." }
+],
+
+selectionProcess: [
+  "Online Examination",
+  "Psychometric Test (Personality Assessment)",
+  "Personal Interview",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official BOB website: https://www.bankofbaroda.in",
+  "Navigate to the Careers / Recruitment section",
+  "Find the link for 'Local Bank Officer (LBO) Admit Card 2025'",
+  "Enter Registration Number & Password / Date of Birth",
+  "Download the admit card and take a printout for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -1739,16 +3057,79 @@ const admitcardData = [
      postName: "ASRB NET/ SMS/ STO Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Agricultural Scientists Recruitment Board ASRB , has released the Admit Card today on its official website for the Recruitment of Examination of NET-2025, ARS, SMS (T-6) and STO (T-6) Exam 2025. Th...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for ASRB NET, ARS, SMS, STO Recruitment 2025 start?", a: "The online application started on 22 April 2025." },
+  { q: "What is the last date to apply for ASRB NET, ARS, SMS, STO Online Form 2025?", a: "The last date to submit the online application form was 21 May 2025." },
+  { q: "What is the age limit for ASRB NET, ARS, SMS, STO Bharti 2025?", a: "Minimum age: 21 Years, Maximum age: 32 Years for ARS, Maximum age: 35 Years for SMS & STO as on 01/08/2025. Age relaxation as per ASRB rules." },
+  { q: "What is the eligibility for ASRB NET, ARS, SMS, STO Vacancy 2025?", a: "Candidates must have a Master’s Degree in the relevant subject from a recognized university in India. For detailed subject-wise eligibility and other specific requirements, refer to the official notification." },
+  { q: "What is the official website for ASRB?", a: "The official website is https://www.asrb.org.in/" },
+  { q: "When was the exam conducted?", a: "The exam was conducted on 02–04 September 2025." },
+  { q: "When was the admit card released?", a: "The admit card was released on 26 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "22 April 2025" },
+  { label: "Online Apply Last Date", value: "21 May 2025" },
+  { label: "Last Date for Fee Payment", value: "21 May 2025" },
+  { label: "Pre Exam Date", value: "02–04 September 2025" },
+  { label: "Admit Card", value: "26 August 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "UR (NET/ARS/SMS/STO)", value: "₹1000/- for NET, ₹1000/- for ARS/SMS/STO" },
+  { label: "OBC / EWS", value: "₹500/- for NET, ₹800/- for ARS/SMS/STO" },
+  { label: "SC / ST / Female", value: "₹250/- for NET, ₹0/- for ARS/SMS/STO" },
+  { label: "NET with Any Combination ARS/SMS/STO", value: "General: ₹2000/-, OBC/EWS: ₹1300/-, SC/ST/Female: ₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "32 Years for ARS, 35 Years for SMS & STO" },
+  { note: "Age relaxation as per ASRB rules for respective posts." }
+],
+
+vacancies: [
+  { post: "Subject Matter Specialist (SMS)", total: 41 },
+  { post: "Senior Technical Officer (STO)", total: 83 },
+  { post: "National Eligibility Test (NET)", total: "—" },
+  { post: "Agricultural Research Service (ARS)", total: 458 },
+  { post: "Total", total: 582 }
+],
+
+qualifications: [
+  { post: "SMS / STO / ARS / NET", eligibility: "Master’s Degree in the relevant subject from a recognized university in India. For detailed subject-wise eligibility and specific requirements, refer to the official notification." }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Pre Exam", description: "Objective type preliminary examination to shortlist candidates for Mains Exam." },
+  { stage: "Mains Exam", description: "Detailed written examination based on post-wise syllabus." },
+  { stage: "Interview", description: "Personal interview to assess suitability for the post." },
+  { stage: "Final Selection", description: "Final selection based on performance in all stages." }
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official ASRB website: https://www.asrb.org.in",
+  "Navigate to the Admit Card / Download Call Letter section",
+  "Find the link for 'ASRB NET, ARS, SMS, STO Admit Card 2025'",
+  "Enter Registration Number & Password / Date of Birth",
+  "Download the admit card and take a printout for the exam"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -1791,16 +3172,79 @@ const admitcardData = [
      postName: "SSC Phase 13 Re-Exam Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC) has released the Re-Exam Admit Card today on its official website for the Recruitment of Examination of A Various Selection Post Phase-13 2025. The exam was conduct...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the online application for SSC Phase 13 Recruitment 2025 start?", a: "The online application started on 02 June 2025." },
+  { q: "What is the last date to apply for SSC Phase 13 Online Form 2025?", a: "The last date to submit the online application form was 23 June 2025." },
+  { q: "What is the age limit for SSC Phase 13 Bharti 2025?", a: "Minimum age: 18 Years, Maximum age: 30 Years as on 01 January 2025. Age relaxation as per SSC rules." },
+  { q: "What is the eligibility for SSC Phase 13 Vacancy 2025?", a: "Matric Level: Passed Class 10th from recognized board. Intermediate Level: Passed Class 12th from recognized board. Graduate Level: Bachelor’s degree in any stream from recognized university." },
+  { q: "What is the official website for SSC?", a: "The official website is https://ssc.gov.in/" },
+  { q: "When was the exam conducted?", a: "The exam was conducted from 24 July to 01 August 2025." },
+  { q: "When was the Re-Exam conducted?", a: "The Re-Exam was conducted on 29 August 2025." },
+  { q: "When was the Re-Exam Admit Card released?", a: "The Re-Exam Admit Card was released on 26 August 2025." }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "02 June 2025" },
+  { label: "Online Apply Last Date", value: "23 June 2025" },
+  { label: "Last Date for Fee Payment", value: "23 June 2025" },
+  { label: "Exam Date", value: "24 July – 01 August 2025" },
+  { label: "Exam City Details", value: "16 July 2025" },
+  { label: "Admit Card", value: "21 July 2025" },
+  { label: "Re-Exam Date", value: "29 August 2025" },
+  { label: "Re-Exam City Details", value: "22 August 2025" },
+  { label: "Re-Exam Admit Card", value: "26 August 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "PH Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per SSC rules for respective posts." }
+],
+
+vacancies: [
+  { post: "Various Selection Post Phase-13 (XIII)", total: 2423 }
+],
+
+qualifications: [
+  { post: "Matric Level", eligibility: "Candidates must have passed Class 10th (High School) from a recognized board." },
+  { post: "Intermediate Level", eligibility: "Candidates must have passed Class 12th (Intermediate) from a recognized board." },
+  { post: "Graduate Level", eligibility: "Candidates must have a Bachelor’s degree in any stream from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Printed Admit Card / Re-Exam Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { stage: "Computer Based Test (CBT)", description: "Online exam with 100 objective-type questions on General Intelligence, General Awareness, Quantitative Aptitude, English Language (Basic Knowledge). Duration: 1 hour, Extra 20 minutes for scribes. Marking scheme: +2 for correct, -0.5 for wrong answer." },
+  { stage: "Descriptive", description: "Post-wise descriptive paper if applicable." },
+  { stage: "Skill Test", description: "Assessment of post-specific skills if applicable." }
+],
+
+selectionProcess: [
+  "CBT",
+  "Descriptive",
+  "Skill Test"
+],
+
+howToApply: [
+  "Go to the official SSC website: https://ssc.gov.in",
+  "Navigate to the 'Re-Exam Admit Card' section",
+  "Find the Phase 13 (Selection Post) Re-Exam Admit Card 2025 link",
+  "Log in using registration credentials (Registration ID/Roll Number and Password)",
+  "Download the Re-Exam Admit Card PDF and save it"
+],
+
     importantLinks: [
       {
         "label": "Download Re-Exam Admit Card",
@@ -1879,16 +3323,77 @@ const admitcardData = [
      postName: "MPESB Excise Constable Revised Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Madhya Pradesh Employee Selection Board (MPESB), has released the Revised Exam Date on its official website for the Excise Constable. The exam will be conducted on 09 September 2025, and the last d...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for MPESB Excise Constable Recruitment 2025 start?", a: "15 February 2025" },
+  { q: "What was the last date for online application?", a: "01 March 2025" },
+  { q: "What is the age limit for MPESB Excise Constable Bharti 2025?", a: "Minimum 18 Years, Maximum 33 Years as on 01 January 2024" },
+  { q: "What is the eligibility for MPESB Excise Constable Vacancy 2025?", a: "Passed 10+2 (Intermediate) or equivalent from a recognized board/institution. Higher qualification acceptable with proof." },
+  { q: "What is the official website for MPESB?", a: "https://esb.mp.gov.in/e_default.html" },
+  { q: "When is the revised exam date?", a: "09 September 2025" },
+  { q: "When will the admit card be available?", a: "Before the exam on the official portal" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "15 February 2025" },
+  { label: "Online Apply Last Date", value: "01 March 2025" },
+  { label: "Last Date For Fee Payment", value: "01 March 2025" },
+  { label: "Revised Exam Date", value: "09 September 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General", value: "₹500/-" },
+  { label: "SC / ST / OBC", value: "₹250/-" },
+  { label: "Portal Charge", value: "₹60/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "33 Years" },
+  { note: "Age relaxation as per MPESB rules" }
+],
+
+vacancies: [
+  { post: "Excise Constable", total: 253 }
+],
+
+qualifications: [
+  { post: "Excise Constable", eligibility: "Passed 10+2 (Intermediate) or equivalent from recognized board/institution. Higher qualification acceptable with proof." }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "As per official notification" },
+  { label: "Subjects", value: "General Knowledge, Reasoning, Numerical Ability, etc. (as per official notification)" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "Correct Answer: +X marks, Wrong Answer: -X marks (as per official notification)" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Document Verification",
+  "Physical Test"
+],
+
+howToApply: [
+  "Visit the official website: https://esb.mp.gov.in",
+  "Navigate to Latest Updates / Examination Schedule section",
+  "Find the link for 'Excise Constable Exam Date / Apply Online'",
+  "Follow instructions to fill the application form",
+  "Upload required documents",
+  "Pay the application fee online",
+  "Submit and take a printout for records"
+],
+
     importantLinks: [
       {
         "label": "Check Revised Exam Date Notice",
@@ -1949,16 +3454,77 @@ const admitcardData = [
      postName: "RSSB 4th Class (Group D) Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Rajasth an Staff Selection Board (RSSB) , has released the Exam Date on its official website for the 4th Class Employee Group-D. The exam will be conducted on 19, 20 & 21 September 2025, and the la...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RSSB Group D Recruitment 2025 start?", a: "21 March 2025" },
+  { q: "What was the last date for online application?", a: "19 April 2025" },
+  { q: "What is the age limit for RSSB Group D Bharti 2025?", a: "Minimum 18 Years, Maximum 40 Years as on 01 January 2026" },
+  { q: "What is the eligibility for RSSB Group D Vacancy 2025?", a: "Candidates should have passed 10th grade or its equivalent from a recognized board" },
+  { q: "What is the official website for RSMSSB?", a: "https://rsmssb.rajasthan.gov.in/" },
+  { q: "When is the exam date?", a: "19, 20 & 21 September 2025" },
+  { q: "When will the admit card be available?", a: "Before the exam on the official portal" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "12 December 2024" },
+  { label: "Online Apply Start Date", value: "21 March 2025" },
+  { label: "Online Apply Last Date", value: "19 April 2025" },
+  { label: "Last Date For Fee Payment", value: "19 April 2025" },
+  { label: "Exam Date", value: "19, 20 & 21 September 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS (Creamy Layer)", value: "₹600/-" },
+  { label: "SC / ST / OBC / EWS (Non-Creamy Layer)", value: "₹400/-" },
+  { label: "Divyang (Handicap)", value: "₹400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "Age relaxation as per RSMSSB rules" }
+],
+
+vacancies: [
+  { post: "4th Class Employee (Group D)", total: 53749 }
+],
+
+qualifications: [
+  { post: "4th Class Employee (Group D)", eligibility: "Passed 10th grade or equivalent from a recognized board" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "As per official notification" },
+  { label: "Subjects", value: "Rajasthan GK, Reasoning, Mathematics, General Science, General Knowledge" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "Correct Answer: +X marks, Wrong Answer: -X marks (as per official notification)" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Document Verification"
+],
+
+howToApply: [
+  "Visit the official website: https://rsmssb.rajasthan.gov.in/",
+  "Navigate to Latest News / Recruitment Advertisement section",
+  "Find the link for 'RSMSSB Group D Exam Date / Apply Online'",
+  "Follow instructions to fill the application form",
+  "Upload required documents",
+  "Pay the application fee online",
+  "Submit and take a printout for records"
+],
+
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -2028,16 +3594,76 @@ const admitcardData = [
      postName: "RSSB Village Development Officer VDO New Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Rajasth an Staff Selection Board (RSSB) , has released the New Exam Date on its official website for the Village Development Officer VDO . The exam will be conducted on 02 November 2025, and the la...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RSSB VDO Recruitment 2025 start?", a: "19 June 2025" },
+  { q: "What is the last date for online application?", a: "25 July 2025" },
+  { q: "What is the age limit for RSSB VDO Bharti 2025?", a: "Minimum 18 Years, Maximum 40 Years as on 01 January 2026" },
+  { q: "What is the eligibility for RSSB VDO Vacancy 2025?", a: "Candidates must have a Bachelor’s Degree in any stream from a recognized university, along with a computer qualification such as O Level, COPA/DPCS, Diploma in Computer Science/Application, or RS-CIT" },
+  { q: "What is the official website for RSSB?", a: "https://rssb.rajasthan.gov.in/" },
+  { q: "When is the exam date?", a: "02 November 2025" },
+  { q: "When will the admit card be available?", a: "Before the exam on the official portal" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "19 June 2025" },
+  { label: "Online Apply Last Date", value: "25 July 2025" },
+  { label: "Last Date For Fee Payment", value: "25 July 2025" },
+  { label: "Exam Date", value: "02 November 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹600/-" },
+  { label: "SC / ST / OBC (Non-Creamy Layer)", value: "₹400/-" },
+  { label: "Correction Charge", value: "₹300/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "Age relaxation as per RSSB rules" }
+],
+
+vacancies: [
+  { post: "Village Development Officer (VDO)", total: 850 }
+],
+
+qualifications: [
+  { post: "Village Development Officer (VDO)", eligibility: "Bachelor’s Degree in any stream from a recognized university + computer qualification such as O Level, COPA/DPCS, Diploma in Computer Science/Application, or RS-CIT" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates & Computer Qualification Proofs"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "As per official notification" },
+  { label: "Subjects", value: "General Knowledge, Reasoning, Mathematics, Computer Knowledge (as per official syllabus)" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "Correct Answer: +X marks, Wrong Answer: -X marks (as per official notification)" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Document Verification"
+],
+
+howToApply: [
+  "Visit the official website: https://rssb.rajasthan.gov.in/ or rssb.rajasthan.gov.in",
+  "Navigate to 'Candidate Corner' → 'Download' or 'News / Latest Notifications' section",
+  "Find the notification labeled 'VDO 2025: Exam Schedule and Guidelines' or 'VDO Exam Date 2025'",
+  "Follow instructions to fill the application form online",
+  "Upload required documents and pay the application fee",
+  "Submit the form and keep a copy for future reference"
+],
+
     importantLinks: [
       {
         "label": "Download New Exam Date Notice",
@@ -2098,16 +3724,89 @@ const admitcardData = [
      postName: "IBPS SO XV 15th Pre Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Institute of Banking Personnel Selection (IBPS) , The Pre Admit Card for the recruitment of Specialist Officer SO 2025 Recruitment has released on the official website . The IBPS SO application for...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for IBPS SO XV Recruitment 2025 start?", a: "01 July 2025" },
+  { q: "What is the last date for online application?", a: "28 July 2025 (Extended)" },
+  { q: "What is the age limit for IBPS SO XV 2025?", a: "Minimum 20 Years, Maximum 30 Years as on 01 August 2025" },
+  { q: "What is the eligibility for IBPS SO XV Vacancy 2025?", a: "Depends on post: IT Officer - Engineering/PG in relevant fields; Agricultural Field Officer - Graduation in Agriculture/Horticulture/related fields; Rajbhasha Adhikari - PG in Hindi/Sanskrit; Law Officer - LLB; HR/Personnel Officer - Graduation/PG/Diploma in relevant HR fields; Marketing Officer - Graduation + MBA/MMS/PG Diploma in Marketing" },
+  { q: "What is the official website for IBPS?", a: "https://www.ibps.in/" },
+  { q: "When is the Pre Exam date?", a: "30 August 2025" },
+  { q: "When will the Pre Admit Card be available?", a: "22 August 2025" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "01 July 2025" },
+  { label: "Registration Last Date", value: "28 July 2025" },
+  { label: "Pay Exam Fee Last Date", value: "28 July 2025" },
+  { label: "Edit Application Window", value: "31 July to 01 August 2025" },
+  { label: "Pre Exam Admit Card", value: "22 August 2025" },
+  { label: "Pre Exam Date", value: "30 August 2025" },
+  { label: "Result Declared Date", value: "Soon" },
+  { label: "Mains Exam Date", value: "Soon" },
+  { label: "Mains Admit Card Date", value: "Soon" },
+  { label: "Mains Result Declared Date", value: "Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹850/-" },
+  { label: "SC / ST / PH", value: "₹175/-" },
+  { label: "Payment Mode", value: "IBPS Online Kiosk, Debit Card, Credit Card, Net Banking" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per IBPS rules" }
+],
+
+vacancies: [
+  { post: "IT Officer Scale I", total: 203 },
+  { post: "Agricultural Field Officer Scale I", total: 310 },
+  { post: "Rajbhasha Adhikari Scale I", total: 78 },
+  { post: "Law Officer Scale I", total: 56 },
+  { post: "HR / Personnel Officer Scale I", total: 10 },
+  { post: "Marketing Officer Scale I", total: 350 }
+],
+
+qualifications: [
+  { post: "IT Officer Scale I", eligibility: "4 Year Engineering/Technology/PG in Computer Science, IT, Electronics, Telecommunication, Electronics Communication, Electronics Instrumentation. DOEACC B Level passed eligible" },
+  { post: "Agricultural Field Officer Scale I", eligibility: "Graduation in Agriculture/Horticulture/Animal Husbandry/Veterinary Science/Dairy Science/Fishery Science/Pisciculture/Agri. Marketing & Cooperation/Co-Operation & Banking/Agro-Forestry/Forestry/Agricultural Biotechnology/Food Science/Agriculture Business Management/Food Technology/Dairy Technology/Agricultural Engineering" },
+  { post: "Rajbhasha Adhikari Scale I", eligibility: "PG Degree in Hindi with English as a Subject at Graduation level OR PG Degree in Sanskrit with English and Hindi as Subjects at Graduation level" },
+  { post: "Law Officer Scale I", eligibility: "Bachelor Degree in Law (LLB) and Enrolled as an Advocate with Bar Council" },
+  { post: "HR / Personnel Officer Scale I", eligibility: "Graduate / 2 Year full-time PG/Diploma in Personnel Management / Industrial Relations / HR / HRD / Social Work / Labor Law" },
+  { post: "Marketing Officer Scale I", eligibility: "Graduation + 2 Year Full-Time MMS (Marketing) / MBA (Marketing) / 2 Year PGDBA / PGDBM / PGPM / PGDM with Specialization in Marketing" }
+],
+
+requiredDocs: [
+  "Pre Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates & Post-specific Eligibility Proofs"
+],
+
+examPattern: [
+  { label: "Selection Stages", value: "Prelims Written Exam, Mains Written Exam, Interview, Document Verification, Medical Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Subjects", value: "As per post-specific syllabus (e.g., IT, Agriculture, Law, Marketing, etc.)" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "As per official notification" }
+],
+
+selectionProcess: [
+  "Prelims Written Exam",
+  "Mains Written Exam",
+  "Interview",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official IBPS website: https://www.ibps.in/",
+  "Register and fill the online application form between 01 July to 28 July 2025",
+  "Upload required documents and pay the examination fee",
+  "Submit the form before the deadline",
+  "Download and save the confirmation/receipt for future reference"
+],
     importantLinks: [
       {
         "label": "Download Pre Admit Card",
@@ -2177,16 +3876,94 @@ const admitcardData = [
      postName: "AIIMS CRE Group B, C Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "All India Institute of Medical Sciences (AIIMS), New Delhi, has released the Admit Card on its official website for the Recruitment of Various Group B & C Exam 2025. The exam will be conducted on 2...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for AIIMS Group B & C Recruitment 2025 start?", a: "12 July 2025" },
+  { q: "What is the last date for online application?", a: "31 July 2025" },
+  { q: "What is the age limit for AIIMS Group B & C 2025?", a: "Minimum 18 Years, Maximum 35 Years (Post-wise)" },
+  { q: "What is the eligibility for AIIMS Group B & C Vacancy 2025?", a: "Depends on post. Examples: Assistant Dietician – M.Sc. Food & Nutrition; Assistant/Admin Officer – Bachelor's degree + computer knowledge; Data Entry Operator – 12th pass + 8000 KPH typing; Assistant Engineer – Graduate in relevant Engineering + 5 years experience; Audiometer Technician – 4-year degree/Diploma in Audiology; Electrician – 10th + ITI Diploma + 5 years experience; Manifold Technician – 10+2 or ITI + relevant experience" },
+  { q: "What is the official website for AIIMS?", a: "https://www.aiimsexams.ac.in" },
+  { q: "When is the exam date?", a: "25 – 26 August 2025" },
+  { q: "When will the Admit Card be available?", a: "22 August 2025" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "12 July 2025" },
+  { label: "Online Apply Start Date", value: "12 July 2025" },
+  { label: "Online Apply Last Date", value: "31 July 2025" },
+  { label: "Last Date For Fee Payment", value: "31 July 2025" },
+  { label: "Form Status Check Date", value: "07 August 2025" },
+  { label: "Admit Card", value: "22 August 2025" },
+  { label: "Exam Date", value: "25 – 26 August 2025" },
+  { label: "Exam City Details Available Date", value: "7 Days Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹3000/-" },
+  { label: "SC / ST / EWS", value: "₹2400/-" },
+  { label: "PwD", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "35 Years" },
+  { note: "Age relaxation as per AIIMS rules and post-wise" }
+],
+
+vacancies: [
+  { post: "Assistant Dietician/Dietician/Demonstrator (Dietetics & Nutrition)", total: "Check Notification" },
+  { post: "Assistant(NS)/Assistant Administrative Officer/Executive Assistant/Junior Administrative Officer/Office Assistant(NS)", total: "Check Notification" },
+  { post: "Data Entry Operator Grade A/Junior Administrative Assistant/Lower Division Clerk/Senior Administrative Assistant/UDC/Upper Division Clerk", total: "Check Notification" },
+  { post: "Assistant Engineer (Civil)/Jr. Engineer (Civil)", total: "Check Notification" },
+  { post: "Assistant Engineer (Electrical)/Junior Engineer (Electrical)", total: "Check Notification" },
+  { post: "Assistant Engineer (A/C&R)/Jr. Engineer (A/C&R)", total: "Check Notification" },
+  { post: "Audiometer Technician/Speech Therapist/Junior Audiologist/Technical Assistant(ENT)", total: "Check Notification" },
+  { post: "Electrician/Lineman(Electrical)/Wireman", total: "Check Notification" },
+  { post: "Manifold Technicians (Gas Steward)/Manifold Room Attendants/Gas Mechanic/Pump Mechanic", total: "Check Notification" },
+  { post: "Draftsman Grade III", total: "Check Notification" }
+],
+
+qualifications: [
+  { post: "Assistant Dietician/Dietician/Demonstrator", eligibility: "M.Sc. (Food and Nutrition) + 2 years experience in hospital environment" },
+  { post: "Assistant/Admin Officer", eligibility: "Bachelor’s degree + Computer knowledge (MS Office/PowerPoint) + 3 years experience" },
+  { post: "Data Entry Operator", eligibility: "12th pass + 8000 KPH typing speed" },
+  { post: "Assistant Engineer (Civil)", eligibility: "Graduate in Civil Engineering + 5 years experience in civil projects (preferably hospital)" },
+  { post: "Assistant Engineer (Electrical)", eligibility: "Graduate in Electrical Engineering + 5 years experience in electrical projects (preferably hospital)" },
+  { post: "Assistant Engineer (A/C&R)", eligibility: "Graduate in Mechanical/Electrical Engineering + 5 years experience (preferably hospital)" },
+  { post: "Audiometer Technician", eligibility: "4-year degree in Audiology with 1-year internship OR 2-year diploma + 2 years experience" },
+  { post: "Electrician/Lineman", eligibility: "10th + ITI Diploma + Electrical Supervisory Certificate + 5 years experience" },
+  { post: "Manifold Technician", eligibility: "10+2 in Science + 5 years experience OR ITI Diploma + 3 years experience in medical gas pipeline system" },
+  { post: "Draftsman Grade III", eligibility: "Matriculation or equivalent" }
+],
+
+requiredDocs: [
+  "Admit Card",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph",
+  "Educational Certificates & Post-specific Eligibility Proofs"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Computer Based Test (CBT)" },
+  { label: "Medium of Examination", value: "Hindi & English (as applicable)" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Marking Scheme", value: "As per official notification" }
+],
+
+selectionProcess: [
+  "Computer Based Test (CBT)",
+  "Document Verification",
+  "Medical Examination (if applicable per post)"
+],
+
+howToApply: [
+  "Visit the official AIIMS examination portal: https://www.aiimsexams.ac.in",
+  "Click on the link 'AIIMS CRE Group B, C Admit Card 2025'",
+  "Enter Registration Number, Date of Birth, and Password to access Admit Card",
+  "Download and print the Admit Card for reference"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -2238,16 +4015,78 @@ const admitcardData = [
      postName: "Railway RRB Paramedical Staff CEN 04/2024 DV Call Letter 2025",
     postDate: "Not specified",
     shortInfo: "Railway Recruitment Board (RRB) , The DV Call Latter for the recruitment of RRB Paramedical Categories CEN 04/2024 has been released on the official website. and the last date to submit the applica...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RRB Paramedical Staff Recruitment 2024 start?", a: "17 August 2024" },
+  { q: "What is the last date for online application?", a: "16 September 2024" },
+  { q: "What is the age limit for RRB Paramedical Staff 2025?", a: "Minimum 18 Years, Maximum 43 Years as on 01 January 2025" },
+  { q: "What is the eligibility for RRB Paramedical Staff Vacancy?", a: "Candidates must have a Medical Degree, Diploma, or Certificate in the relevant trade/branch; post-specific eligibility varies" },
+  { q: "What is the official website for RRB?", a: "Visit regional RRB website (e.g., rrbcdg.gov.in) for official details" },
+  { q: "When was the exam conducted?", a: "28 – 30 April 2025" },
+  { q: "When was the DV Call Letter released?", a: "22 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "17 August 2024" },
+  { label: "Online Apply Last Date", value: "16 September 2024" },
+  { label: "Fee Payment Last Date", value: "16 September 2024" },
+  { label: "Application Status", value: "22 November 2024" },
+  { label: "Exam Date", value: "28 – 30 April 2025" },
+  { label: "Admit Card", value: "24 April 2025" },
+  { label: "Answer Key", value: "06 May 2025" },
+  { label: "Re-Open Answer Key Available", value: "15 – 20 May 2025" },
+  { label: "Result Declared Date", value: "11 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹500/-" },
+  { label: "SC / ST / PH", value: "₹250/-" },
+  { label: "All Category Female", value: "₹250/-" },
+  { label: "Fee Refund after Stage I Exam: UR/OBC/EWS", value: "₹400/-" },
+  { label: "Fee Refund after Stage I Exam: SC / ST / PH / Female", value: "₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "43 Years" },
+  { note: "Age relaxation as per Railway rules" }
+],
+
+vacancies: [
+  { post: "Paramedical Categories Various Post", total: "1376 Post" }
+],
+
+qualifications: [
+  { post: "Paramedical Categories Various Post", eligibility: "Medical Degree, Diploma, or Certificate in relevant trade/branch; specific eligibility may vary by post" }
+],
+
+requiredDocs: [
+  "DV Call Letter",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph",
+  "Educational Certificates & Post-specific Eligibility Proofs",
+  "Medical Fitness Certificate (if applicable)"
+],
+
+examPattern: [
+  { label: "Stage I Exam", value: "Computer-Based Test (CBT)" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Marking Scheme", value: "As per official RRB notification" }
+],
+
+selectionProcess: [
+  "Computer-Based Test (CBT)",
+  "Document Verification (DV)",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official regional RRB website (e.g., rrbcdg.gov.in)",
+  "Check the link for 'CEN‑04/2024 Result / DV Call Letter'",
+  "Download DV Call Letter or Result PDF",
+  "Follow instructions for further stages (Document Verification / Medical Examination)"
+]
+,
     importantLinks: [
       {
         "label": "RRB Mumbai",
@@ -2374,16 +4213,68 @@ const admitcardData = [
      postName: "BSCB Bihar Co-operative Bank Assistant/ CSA Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar State Co-operative Bank Ltd. (BSCB) , has released the Admit Card on its official website for the Recruitment of Assistant (Multipurpose)/ Customer Service Executive (CSA) Exam 2025. The exam...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar BSCB Co-operative Bank Assistant Recruitment 2025 start?", a: "21 June 2025" },
+  { q: "What is the last date for online application?", a: "10 July 2025" },
+  { q: "What is the age limit for Bihar BSCB Co-operative Bank Assistant 2025?", a: "Minimum 21 Years, Maximum 38 Years as on 01 June 2025" },
+  { q: "What is the eligibility for Bihar BSCB Co-operative Bank Assistant Vacancy?", a: "Graduation in any stream from a recognized university, along with basic computer knowledge and a Diploma in Computer Application (DCA)" },
+  { q: "What is the official website for Bihar BSCB?", a: "https://biharscb.co.in/" },
+  { q: "When will the exam be conducted?", a: "31 August 2025" },
+  { q: "When was the Admit Card released?", a: "21 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "21 June 2025" },
+  { label: "Online Apply Last Date", value: "10 July 2025" },
+  { label: "Fee Payment Last Date", value: "10 July 2025" },
+  { label: "Exam Date", value: "31 August 2025" },
+  { label: "Admit Card", value: "21 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / Other", value: "₹1000/-" },
+  { label: "SC / ST / PH", value: "₹800/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years (UR/OBC/EWS: 33 Years, MBC/WBC: 36 Years)" },
+  { label: "Maximum Age", value: "38 Years (SC/ST)" },
+  { note: "Age relaxation as per BSCB rules" }
+],
+
+vacancies: [
+  { post: "Assistant (Multipurpose)/CSA", total: "257 Post" },
+  { post: "Category-wise Vacancies", value: { General: 126, MBC: 36, WBC: 14, EWS: 23, BC: 24, SC: 39, ST: 8 } }
+],
+
+qualifications: [
+  { post: "Assistant (Multipurpose)/CSA", eligibility: "Graduation in any stream from a recognized university + basic computer knowledge + Diploma in Computer Application (DCA)" }
+],
+
+requiredDocs: [
+  "Passport-sized colored photo (white/light background)",
+  "Signature on white paper (black/blue pen)",
+  "Caste Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / Govt ID",
+  "Domicile Certificate",
+  "Income Certificate (for EWS category)",
+  "Other relevant certificates (PH, Ex-servicemen, etc.)"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam"
+],
+
+howToApply: [
+  "Visit the Bihar BSCB official website (https://biharscb.co.in/)",
+  "Click on 'Assistant Exam Date 2025' link for exam notice",
+  "Download and save the notice",
+  "Fill application online before the last date with all required documents"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -2444,16 +4335,81 @@ const admitcardData = [
      postName: "BPSSC Bihar Police Enforcement SI Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Police Subordinate Services Commission BPSSC , has released the Admit Card on its official website for the Recruitment of Bihar Police Enforcement Sub Inspector in Transport Department . The ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar Police Enforcement SI Recruitment 2025 start?", a: "30 May 2025" },
+  { q: "What is the last date for online application?", a: "30 June 2025" },
+  { q: "What is the age limit for Bihar Police Enforcement SI 2025?", a: "Minimum 21 Years, Maximum 40 Years as on 01 August 2025" },
+  { q: "What is the eligibility for Bihar Police Enforcement SI Vacancy?", a: "Bachelor's degree from a recognized university; minimum height 165 cm for males, 150 cm for females; chest measurement for males 79–84 cm" },
+  { q: "What is the official website for BPSSC?", a: "https://bpssc.bihar.gov.in/" },
+  { q: "When will the exam be conducted?", a: "07 September 2025" },
+  { q: "When was the Admit Card released?", a: "22 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "30 May 2025" },
+  { label: "Online Apply Last Date", value: "30 June 2025" },
+  { label: "Fee Payment Last Date", value: "30 June 2025" },
+  { label: "Exam Date", value: "07 September 2025" },
+  { label: "Admit Card", value: "22 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General/OBC/EWS/Other State", value: "₹700/-" },
+  { label: "SC/ST", value: "₹400/-" },
+  { label: "Female (All Categories of Bihar)", value: "₹400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "37 Years (Male), 40 Years (Female)" },
+  { note: "Age relaxation as per BPSSC rules" }
+],
+
+vacancies: [
+  { post: "Enforcement Sub Inspector in Transport Department", total: "33 Post" }
+],
+
+qualifications: [
+  { post: "Enforcement Sub Inspector in Transport Department", eligibility: "Bachelor's degree from a recognized university; minimum height 165 cm for males, 150 cm for females; chest measurement for males 79–84 cm" }
+],
+
+requiredDocs: [
+  "Passport-sized colored photo (white/light background)",
+  "Signature on white paper (black/blue pen)",
+  "Educational Certificates (10+2 or equivalent, higher qualification documents if applicable)",
+  "Caste Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / Govt ID",
+  "Domicile Certificate",
+  "Income Certificate (for EWS category)",
+  "Other relevant certificates (PH, Ex-servicemen, etc.)"
+],
+
+selectionProcess: [
+  "Pre Exam",
+  "Mains Exam",
+  "PST / PMT",
+  "Document Verification",
+  "Medical Examination"
+],
+
+examPattern: [
+  { stage: "Pre Exam", mode: "Online or Offline", questions: 100, marks: 200, subjects: "General Knowledge & Current Events", duration: "2 Hours", markingScheme: "Correct +2, Wrong -0.2", language: "Hindi & English" },
+  { stage: "Mains Stage I", mode: "Written", questions: 100, marks: 200, subjects: "General Hindi", duration: "2 Hours", markingScheme: "Correct +2, Wrong -0.2", language: "Hindi" },
+  { stage: "Mains Stage II", mode: "Written", questions: 100, marks: 200, subjects: "General Studies, General Science, Civics, Indian History, Geography, Mathematics, Reasoning", duration: "2 Hours", markingScheme: "Correct +2, Wrong -0.2", language: "Hindi & English" },
+  { stage: "Interview", marks: 30 }
+],
+
+howToApply: [
+  "Visit BPSSC official website: https://bpssc.bihar.gov.in/",
+  "Locate 'Admit Card of Written Examination for SI Enforcement (Advt. No. 03/2025)'",
+  "Click the relevant link",
+  "Login with registration number, DOB, and captcha/password",
+  "Download and print the Admit Card",
+  "Verify details and contact BPSSC for discrepancies"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -2523,16 +4479,77 @@ const admitcardData = [
      postName: "Bihar BSEB DELED Admit Card 2025-27",
     postDate: "Not specified",
     shortInfo: "Bihar School Examination Board BSEB Patna , has released Admit Card on official website for the Admission Of Diploma In Elementary Education (D.El.Ed) For Two Years Course Program For Session 2025-...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for BSEB Bihar DELED Recruitment 2025 start?", a: "11 January 2025" },
+  { q: "What is the last date for online application?", a: "05 February 2025" },
+  { q: "What is the age limit for BSEB Bihar DELED Bharti 2025?", a: "Minimum 17 Years, Maximum NA Years as on 01 January 2025" },
+  { q: "What is the eligibility for BSEB Bihar DELED Vacancy 2025?", a: "Candidates who have passed Intermediate (Class 12) with 50% marks (General/OBC) & 45% marks (SC/ST) from a recognized board are eligible for the Diploma in Elementary Education (D.El.Ed) program" },
+  { q: "What is the official website for BSEB Bihar?", a: "http://biharboardonline.bihar.gov.in/" },
+  { q: "When is the exam date?", a: "26 August 2025" },
+  { q: "When will the admit card be available?", a: "August 2025 on the official portal" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "11 January 2025" },
+  { label: "Online Apply Start Date", value: "11 January 2025" },
+  { label: "Online Apply Last Date", value: "05 February 2025" },
+  { label: "Last Date For Fee Payment", value: "06 February 2025" },
+  { label: "Dummy Admit Card", value: "13 May 2025" },
+  { label: "Dummy Admit Card Correction Date", value: "13-17 May 2025" },
+  { label: "Exam Date", value: "26 August 2025" },
+  { label: "Admit Card", value: "August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / UR", value: "₹960/-" },
+  { label: "SC / ST / Divyang", value: "₹760/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "17 Years" },
+  { label: "Maximum Age", value: "NA Years" },
+  { note: "Age relaxation as per BSEB Bihar rules" }
+],
+
+vacancies: [
+  { post: "Diploma in Elementary Education (D.El.Ed) Program", total: "Not Available" }
+],
+
+qualifications: [
+  { post: "D.El.Ed (Face-to-Face Course)", eligibility: "Intermediate (Class 12) with 50% marks (General/OBC) & 45% marks (SC/ST) from a recognized board" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "2 Hours 30 Minutes" },
+  { label: "Subjects", value: "General Hindi/Urdu, Mathematics, Science, Social Studies, General English, Logical & Analytical Reasoning" },
+  { label: "Total Questions / Marks", value: "120 Questions / 120 Marks" }
+],
+
+selectionProcess: [
+  "Online Examination",
+  "Written Examination"
+],
+
+howToApply: [
+  "Visit the official website: https://deledbihar.in",
+  "Access the Admit Card Section on the homepage",
+  "Login using your Enrollment number / Registration number / Date of Birth",
+  "Fill the application form online (if not already filled) and upload required documents",
+  "Pay the application fee as per the category",
+  "Submit the form and download a copy for future reference"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -2602,16 +4619,79 @@ const admitcardData = [
      postName: "NICL AO Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "National Insurance Company Limited (NICL) , has been released the Mains Admit Card for the Administrative Officer (AO) Recruitment 2025. The mains examination will be conducted on 31 August 2025 . ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for NICL AO Recruitment 2025 start?", a: "12 June 2025" },
+  { q: "What is the last date for online application?", a: "03 July 2025" },
+  { q: "What is the age limit for NICL AO Bharti 2025?", a: "Minimum 21 Years, Maximum 30 Years as on 01 May 2025" },
+  { q: "What is the eligibility for NICL AO Vacancy 2025?", a: "Graduation (any stream), B.Com, B.Tech/B.E, MBBS, Postgraduate Degree, LLM, M.Com, M.E/M.Tech, or MS/MD in relevant fields" },
+  { q: "What is the official website for NICL?", a: "https://www.nationalinsuranceindia.com/" },
+  { q: "When is the mains exam date?", a: "31 August 2025" },
+  { q: "When will the mains admit card be available?", a: "21 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "12 June 2025" },
+  { label: "Online Apply Last Date", value: "03 July 2025" },
+  { label: "Last Date For Fee Payment", value: "03 July 2025" },
+  { label: "Preliminary Exam Date", value: "20 July 2025" },
+  { label: "Preliminary Admit Card", value: "13 July 2025" },
+  { label: "Preliminary Result Date", value: "08 August 2025" },
+  { label: "Mains Exam Date", value: "31 August 2025" },
+  { label: "Mains Admit Card", value: "21 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1000/-" },
+  { label: "SC / ST / PwBD", value: "₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per NICL rules" }
+],
+
+vacancies: [
+  { post: "Administrative Officer (AO)", total: 266 }
+],
+
+qualifications: [
+  { post: "Administrative Officer (AO)", eligibility: "Graduation (any stream), B.Com, B.Tech/B.E, MBBS, Postgraduate Degree, LLM, M.Com, M.E/M.Tech, or MS/MD in relevant fields" }
+],
+
+requiredDocs: [
+  "Mains Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "As per official notification" },
+  { label: "Subjects", value: "As per official notification for AO Mains Exam" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "As per official notification" }
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Main Examination",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official website: https://www.nationalinsuranceindia.com/",
+  "Go to the Recruitment/Admit Card section",
+  "Find and click on the link for NICL AO Mains Admit Card 2025",
+  "Enter your Registration Number / Roll Number and Password / Date of Birth",
+  "Submit the details and download the admit card",
+  "Take a printout for the exam"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -2672,16 +4752,81 @@ const admitcardData = [
      postName: "UPPSC Assistant Engineer Mains Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Uttar Pradesh Public Service Commission (UPPSC) , has released the Mains Exam Date on its official website for the Recruitment of Assistant Engineer Examination 2025. The mains exam will be conduct...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UPPSC Assistant Engineer Recruitment 2024 start?", a: "17 December 2024" },
+  { q: "What is the last date for online application?", a: "17 January 2025" },
+  { q: "What is the age limit for UPPSC Assistant Engineer Recruitment 2024?", a: "Minimum 21 Years, Maximum 40 Years as on 01 July 2024" },
+  { q: "What is the eligibility for UPPSC Assistant Engineer Vacancy 2024?", a: "BE / B.Tech Engineering Degree in Related Stream / Branch" },
+  { q: "What is the official website for UPPSC?", a: "https://uppsc.up.nic.in/" },
+  { q: "When is the mains exam date?", a: "28-29 September 2025" },
+  { q: "When will the admit card be available?", a: "09 April 2025" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "17 December 2024" },
+  { label: "Online Apply Start Date", value: "17 December 2024" },
+  { label: "Online Apply Last Date", value: "17 January 2025" },
+  { label: "Last Date For Fee Payment", value: "17 January 2025" },
+  { label: "Form Submission Last Date", value: "24 January 2025" },
+  { label: "Preliminary Exam Date", value: "20 April 2025" },
+  { label: "Admit Card", value: "09 April 2025" },
+  { label: "Answer Key Date", value: "23 April 2025" },
+  { label: "Result Declared Date", value: "26 May 2025" },
+  { label: "Mains Exam Date", value: "28-29 September 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹225/-" },
+  { label: "SC / ST", value: "₹105/-" },
+  { label: "PH", value: "₹25/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "Age relaxation as per UPPSC rules" }
+],
+
+vacancies: [
+  { post: "Assistant Engineer", total: 604 }
+],
+
+qualifications: [
+  { post: "Assistant Engineer", eligibility: "BE / B.Tech Engineering Degree in Related Stream / Branch" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Type of Questions", value: "Objective / Multiple Choice Questions" },
+  { label: "Duration", value: "As per official notification" },
+  { label: "Subjects", value: "As per official notification for Assistant Engineer Exam" },
+  { label: "Language", value: "Hindi & English" },
+  { label: "Marking Scheme", value: "As per official notification" }
+],
+
+selectionProcess: [
+  "Preliminary Exam",
+  "Main Exam",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official website: https://uppsc.up.nic.in/",
+  "Go to the Examination/Notice section",
+  "Look for the link related to Assistant Engineer Mains Exam Date 2025",
+  "Click on the link to view the exam schedule",
+  "Download the exam date notice and save it for reference"
+],
+
     importantLinks: [
       {
         "label": "Check Mains Exam Date Notice",
@@ -2768,16 +4913,82 @@ const admitcardData = [
      postName: "Bihar Vidhan Sabha Security Guard 01/2023 PET New Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Vidhan Sabha Sachivalaya , will be released the PET Admit Card on its official website for the Recruitment of Security Guard Examination 2025. The pet exam will be conducted in 11 – 13 August...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for Bihar Vidhan Sabha Security Guard Recruitment 2024 start?", a: "26 April 2023 (Initial), 29 November 2024 (Re-open)" },
+  { q: "What is the last date for online application?", a: "26 May 2023 (Initial), 13 December 2024 (Re-open)" },
+  { q: "What is the age limit for Bihar Vidhan Sabha Security Guard Recruitment 2024?", a: "Minimum 18 Years, Maximum 25 Years as on 01 August 2022" },
+  { q: "What is the eligibility for Bihar Vidhan Sabha Security Guard Vacancy 2024?", a: "Candidates must have passed 12th (Intermediate) examination from any recognized board in India" },
+  { q: "What is the official website for Bihar Vidhan Sabha?", a: "https://vidhansabha.bih.nic.in/" },
+  { q: "When is the PET exam date?", a: "24 – 26 August 2025" },
+  { q: "When will the PET admit card be available?", a: "August 2025 on the official portal" }
+],
+
+importantDates: [
+  { label: "Initial Online Apply Start Date", value: "26 April 2023" },
+  { label: "Initial Online Apply Last Date", value: "26 May 2023" },
+  { label: "Initial Last Date For Fee Payment", value: "25 May 2023" },
+  { label: "Initial Exam Date", value: "10 September 2023" },
+  { label: "Initial Admit Card", value: "28 August 2023" },
+  { label: "Initial Pre Result", value: "15 December 2023" },
+  { label: "Re-open Online Apply Start Date", value: "29 November 2024" },
+  { label: "Re-open Online Apply Last Date", value: "13 December 2024" },
+  { label: "Re-open Last Date For Fee Payment", value: "18-21 December 2024" },
+  { label: "Postponed Exam Date", value: "20 April 2025" },
+  { label: "New Pre Exam Date", value: "13 July 2025" },
+  { label: "Pre Admit Card", value: "05 July 2025" },
+  { label: "Pre Result", value: "30 July 2025" },
+  { label: "PET Exam Date", value: "24 – 26 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / Other State", value: "₹675/-" },
+  { label: "SC / ST", value: "₹180/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "25 Years" },
+  { note: "Age relaxation as per Bihar Vidhan Sabha rules" }
+],
+
+vacancies: [
+  { post: "Security Guard (Suraksha Prahari)", total: 69 }
+],
+
+qualifications: [
+  { post: "Security Guard (Suraksha Prahari)", eligibility: "12th (Intermediate) pass from any recognized board in India" }
+],
+
+requiredDocs: [
+  "PET Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Exam + PET + Document Verification + Medical Examination" },
+  { label: "Physical Eligibility - Male", value: "Height: 167.5 CMS, Chest: 76.5-81 CMS, Running: 1.6 Km in 6 Minutes" },
+  { label: "Physical Eligibility - Female", value: "Height: 154.6 CMS, Running: 1 Km in 6 Minutes" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "PET Exam",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official website: https://vidhansabha.bih.nic.in/",
+  "In the Recruitment section, find the link for Security Guard PET Admit Card related to Advt. No. 01/2023",
+  "Click the link to reach the login screen",
+  "Enter your Registration Number or Roll Number, Date of Birth or Password, and Captcha if required",
+  "Submit the details and download the PET admit card",
+  "Take multiple printouts for use on exam day"
+],
+
     importantLinks: [
       {
         "label": "Download PET New Exam Date Notice",
@@ -2880,16 +5091,93 @@ const admitcardData = [
      postName: "AFCAT 02/2025 Admit Card",
     postDate: "Not specified",
     shortInfo: "Indian Air Force (Bhartiya Vayu Sena) , has released the Admit Card on its official website for the Recruitment of Air Force Common Admission Test (AFCAT) 02/2025 . The exam will be conducted on Au...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for AFCAT 02/2025 start?", a: "02 June 2025" },
+  { q: "What is the last date for online application?", a: "01 July 2025" },
+  { q: "What is the age limit for AFCAT 02/2025?", a: "Flying: 20-24 Years, Ground Duty Technical / Non-Technical: 20-26 Years as on 01 July 2026" },
+  { q: "What is the eligibility for AFCAT 02/2025?", a: "Flying: Bachelor Degree in Any Stream with Physics and Mathematics at 10+2 Level / B.E / B.Tech. Ground Duty Technical: Engineering degree with minimum 60% marks. Ground Duty Non-Technical: Bachelor degree with minimum 60% marks (Admin / Accounts / Education / WS Branch). NCC Special Entry: NCC Air Wing Senior Division ‘C’ certificate." },
+  { q: "What is the official website for AFCAT?", a: "https://afcat.cdac.in/" },
+  { q: "When is the exam date?", a: "August 2025" },
+  { q: "When will the admit card be available?", a: "19 August 2025 on the official portal" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "02 June 2025" },
+  { label: "Online Apply Last Date", value: "01 July 2025" },
+  { label: "Last Date for Exam Fee Payment", value: "01 July 2025" },
+  { label: "Correction / Edit Form", value: "14-15 July 2025" },
+  { label: "Exam Date", value: "August 2025" },
+  { label: "Exam City Details", value: "07 August 2025" },
+  { label: "Admit Card", value: "19 August 2025" }
+],
+
+applicationFees: [
+  { label: "All Categories", value: "₹550/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Flying Candidates", value: "20-24 Years" },
+  { label: "Ground Duty Technical / Non-Technical", value: "20-26 Years" },
+  { note: "Age relaxation as per AFCAT rules for NCC Special Entry" }
+],
+
+vacancies: [
+  { post: "Flying", total: 3 },
+  { post: "Ground Duty Technical (AE - L)", total: 108 },
+  { post: "Ground Duty Technical (AE - M)", total: 48 },
+  { post: "Ground Duty Non Technical (Admin)", total: 58 },
+  { post: "Ground Duty Non Technical (LGS)", total: 15 },
+  { post: "Ground Duty Non Technical (Accounts)", total: 11 },
+  { post: "GD Non Technical (Education)", total: 9 },
+  { post: "GD Non Technical (WS Branch)", total: 24 },
+  { post: "Meteorology", total: 8 },
+  { post: "NCC Special Entry", total: "10% seats out of AFCAT / CDSE vacancies" }
+],
+
+qualifications: [
+  { post: "Flying", eligibility: "Bachelor Degree in Any Stream with Physics and Mathematics at 10+2 Level / B.E / B.Tech." },
+  { post: "Ground Duty Technical (AE - L / AE - M)", eligibility: "Engineering Degree with minimum 60% marks in related branch" },
+  { post: "Ground Duty Non Technical", eligibility: "Bachelor degree with at least 60% marks (Admin / Accounts / Education / WS Branch)" },
+  { post: "Meteorology", eligibility: "As per notification" },
+  { post: "NCC Special Entry", eligibility: "NCC Air Wing Senior Division ‘C’ certificate and other criteria as per flying branch eligibility" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates",
+  "NCC Certificate (if applicable)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Online (CBT-Based)" },
+  { label: "Question Type", value: "Objective / Multiple Choice Questions" },
+  { label: "Number of Questions", value: "100" },
+  { label: "Total Marks", value: "300" },
+  { label: "Subjects", value: "General Intelligence, Reasoning, General Knowledge, General Awareness, Quantitative Aptitude, English Comprehension" },
+  { label: "Duration", value: "2 Hours" },
+  { label: "Marking Scheme", value: "Correct Answer: +3, Wrong Answer: -1" },
+  { label: "Exam Language", value: "Hindi & English" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Air Force Selection Board (AFSB) Interview",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official website: https://afcat.cdac.in/",
+  "Click on 'Candidate Login' and select AFCAT‑02/2025 cycle",
+  "Log in using your registered email ID and password",
+  "Look for the link to download the admit card / hall ticket",
+  "Check your assigned exam city and centre details on the admit card",
+  "For application, follow instructions to fill the form online and pay the exam fee"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -2932,16 +5220,76 @@ const admitcardData = [
      postName: "WBSSC Assistant Teacher Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "West Bengal Staff Selection Commissions WBSSC , has released the Admit Card on its official website for the Recruitment of Assistant Teacher Exam 2025. The exam will be conducted on 07-14 September...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for WBSSC Assistant Teacher Recruitment 2025 start?", a: "16 June 2025" },
+  { q: "What is the last date for online application?", a: "21 July 2025" },
+  { q: "What is the age limit for WBSSC Assistant Teacher Recruitment 2025?", a: "Minimum 21 Years & Maximum 40 Years as on 01 January 2025" },
+  { q: "What is the eligibility for WBSSC Assistant Teacher Vacancy 2025?", a: "For Classes 9-10: Bachelor's or Master's degree with at least 50% marks + B.Ed or BA.Ed/B.Sc.Ed integrated course. For Classes 11-12: Master's degree with at least 50% marks + B.Ed or BA B.Ed / B.Sc B.Ed integrated qualification." },
+  { q: "What is the official website for WBSSC?", a: "https://www.westbengalssc.com/otr/recruitment/" },
+  { q: "When is the exam date?", a: "Classes IX-X: 07 September 2025, Classes XI-XII: 14 September 2025" },
+  { q: "When will the admit card be available?", a: "15 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "16 June 2025" },
+  { label: "Online Apply Last Date", value: "21 July 2025" },
+  { label: "Last Date For Fee Payment", value: "21 July 2025" },
+  { label: "Exam Date (Classes IX-X)", value: "07 September 2025" },
+  { label: "Exam Date (Classes XI-XII)", value: "14 September 2025" },
+  { label: "Admit Card", value: "15 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / Other State", value: "₹500/-" },
+  { label: "SC / ST / PH", value: "₹200/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "Age relaxation as per WBSSC rules" }
+],
+
+vacancies: [
+  { post: "Assistant Teacher Class 9-10", total: 23212 },
+  { post: "Assistant Teacher Class 11-12", total: 12514 }
+],
+
+qualifications: [
+  { post: "Assistant Teacher Class 9-10", eligibility: "Bachelor’s or Master’s degree with at least 50% marks + B.Ed or BA.Ed/B.Sc.Ed integrated course" },
+  { post: "Assistant Teacher Class 11-12", eligibility: "Master’s degree with at least 50% marks + B.Ed or BA B.Ed / B.Sc B.Ed integrated qualification" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Degree, B.Ed, etc.)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Additional Evaluation", value: "Academic Qualification, Prior Teaching Experience, Oral Interview, Lecture Demonstration" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Academic Qualification",
+  "Prior Teaching Experience",
+  "Oral Interview",
+  "Lecture Demonstration"
+],
+
+howToApply: [
+  "Visit the official WBSSC website: https://www.westbengalssc.com/otr/recruitment/",
+  "Click on 'Assistant Teacher Admit Card 2025'",
+  "Enter registration number/roll number and date of birth/password",
+  "Download the admit card and take a printout for the exam day",
+  "For application, fill the online form and pay the required fee as per instructions"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -3002,16 +5350,71 @@ const admitcardData = [
      postName: "Bihar BTSC Tutor Nursing Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Technical Service Commission (BTSC) , has released the Admit Card on its official website for the Recruitment of Tutor (Nursing) Exam 2025. The exam will be conducted on 22 August 2025 , and ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar BTSC Tutor Nursing Recruitment 2025 start?", a: "04 July 2025" },
+  { q: "What is the last date for online application?", a: "01 August 2025" },
+  { q: "What is the age limit for Bihar BTSC Tutor Nursing Bharti 2025?", a: "Minimum 21 Years, Maximum 42 Years as on 01 August 2024" },
+  { q: "What is the eligibility for Bihar BTSC Tutor Nursing Vacancy 2025?", a: "Candidates must have M.Sc Nursing, B.Sc Nursing (Basic/Post Basic), or D.N.E.A. from a recognized institution approved by the Indian Nursing Council or Bihar Health Department. They should also have 2 years of nursing experience with valid certificates and be registered with the Bihar Nurses Registration Council, Patna." },
+  { q: "What is the official website for Bihar BTSC?", a: "https://btsc.bihar.gov.in/" },
+  { q: "When is the exam date?", a: "22 August 2025" },
+  { q: "When will the admit card be available?", a: "15 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "04 July 2025" },
+  { label: "Online Apply Last Date", value: "01 August 2025" },
+  { label: "Last Date For Fee Payment", value: "01 August 2025" },
+  { label: "Exam Date", value: "22 August 2025" },
+  { label: "Admit Card", value: "15 August 2025" }
+],
+
+applicationFees: [
+  { label: "General, EWS, BC, EBC", value: "₹200/-" },
+  { label: "Other State (All Category)", value: "₹200/-" },
+  { label: "SC, ST, EBC of Bihar", value: "₹50/-" },
+  { label: "All Category Female of Bihar", value: "₹50/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "37 Years (UR-Male), 40 Years (UR-Female, BC/EBC), 42 Years (SC/ST)" },
+  { note: "Age relaxation as per BTSC rules" }
+],
+
+vacancies: [
+  { post: "Tutor Nursing", total: 498 }
+],
+
+qualifications: [
+  { post: "Tutor Nursing", eligibility: "M.Sc Nursing, B.Sc Nursing (Basic/Post Basic), or D.N.E.A. from a recognized institution approved by Indian Nursing Council or Bihar Health Department, 2 years nursing experience, registered with Bihar Nurses Registration Council" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (B.Sc/M.Sc Nursing, D.N.E.A, Registration Certificate)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Evaluation", value: "Merit List" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Merit List"
+],
+
+howToApply: [
+  "Visit the official BTSC website: https://btsc.bihar.gov.in/",
+  "Click on 'Recruitment' or 'Notices' section for Tutor (Nursing) Recruitment 2025",
+  "Check latest announcements regarding exam date",
+  "Download admit card once available",
+  "Fill online application form and pay required fee as per instructions"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -3072,21 +5475,81 @@ const admitcardData = [
      postName: "IBPS PO MT XV 15 Pre  Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Institute of Banking Personnel Selection (IBPS) , has released the Pre Admit Card for the Recruitment of Probationary Officer PO, Management Trainee MT XV 15th Exam on the official website. It is t...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
-    importantLinks: [
-      {
-        "label": "Download Pre Admit Card",
-        "url": "https://ibpsreg.ibps.in/crppoxvjun25/oecla_aug25/login.php?appid=f685699dad181c4349a2b421b8427275"
-      },
+   faqs: [
+  { q: "When did the online application for IBPS PO MT XV 15 start?", a: "01 July 2025" },
+  { q: "What is the last date for online application?", a: "28 July 2025" },
+  { q: "What is the age limit for IBPS PO MT XV 15 Recruitment 2025?", a: "Minimum 20 Years & Maximum 30 Years as on 01 August 2025" },
+  { q: "What is the eligibility for IBPS PO MT XV 15 Vacancy 2025?", a: "Bachelor’s degree in any field from a recognized university in India." },
+  { q: "What is the official website for IBPS?", a: "https://www.ibps.in/" },
+  { q: "When is the Pre Exam date?", a: "24 August 2025" },
+  { q: "When will the Pre Admit Card be available?", a: "14 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "01 July 2025" },
+  { label: "Online Apply Last Date", value: "28 July 2025" },
+  { label: "Last Date For Fee Payment", value: "28 July 2025" },
+  { label: "Edit Application Window", value: "31 July to 01 August 2025" },
+  { label: "PET Admit Card SC/ST", value: "11 August 2025" },
+  { label: "Pre Exam Date", value: "24 August 2025" },
+  { label: "Pre Exam Admit Card", value: "14 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" },
+  { label: "Mains Exam Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹850/-" },
+  { label: "SC / ST / PH", value: "₹175/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "Age relaxation as per IBPS rules" }
+],
+
+vacancies: [
+  { post: "Probationary Officer / Management Trainee", total: 5208 }
+],
+
+qualifications: [
+  { post: "Probationary Officer / Management Trainee", eligibility: "Bachelor’s degree in any field from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Pre Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Degree, etc.)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Preliminary Examination followed by Main Examination and Interview" },
+  { label: "Additional Evaluation", value: "Interview for final selection" }
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Main Examination",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official IBPS website: https://www.ibps.in/",
+  "Go to 'CRP PO/MT-XV' or 'Recruitment' section",
+  "Click on 'Download Pre Call Letter' or 'Pre Admit Card'",
+  "Log in using Registration Number and Date of Birth/Password",
+  "Download and print the Pre Admit Card for exam day",
+  "For application, fill the online form and pay the required fee as per instructions"
+],
+
+importantLinks: [
+  {
+    "label": "Download Pre Admit Card",
+    "url": "https://ibpsreg.ibps.in/crppoxvjun25/oecla_aug25/login.php?appid=f685699dad181c4349a2b421b8427275"
+  },
       {
         "label": "Download PET Admit Card",
         "url": "https://ibpsonline.ibps.in/crppo25pet/login.php?appid=b47b81ebf9f316911d04531f86381eee"
@@ -3160,16 +5623,79 @@ const admitcardData = [
      postName: "UPSC Civil Services IAS Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Union Public Service Commission UPSC , has released the Mains Admit Card on its official website for the Recruitment of Civil Services and Forest Service IAS / IFS Pre Examination 2025 . The exam w...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UPSC Civil Services IAS/IFS Pre Recruitment 2025 start?", a: "22 January 2025" },
+  { q: "What is the last date for online application?", a: "21 February 2025" },
+  { q: "What is the age limit for UPSC Civil Services IAS/IFS Pre Bharti 2025?", a: "Minimum 21 Years & Maximum 32 Years as on 01 August 2025" },
+  { q: "What is the eligibility for UPSC Civil Services IAS/IFS Pre Vacancy 2025?", a: "Indian Administrative Services (IAS): Bachelor’s degree in any discipline from a recognized university in India. Indian Forest Services (IFS): Bachelor’s degree in subjects like Animal Husbandry, Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology, Agriculture, or equivalent qualifications." },
+  { q: "What is the official website for UPSC?", a: "https://upsc.gov.in/" },
+  { q: "When is the Mains exam date?", a: "22 August 2025" },
+  { q: "When will the Mains admit card be available?", a: "14 August 2025" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "20 January 2025" },
+  { label: "Online Apply Start Date", value: "22 January 2025" },
+  { label: "Online Apply Last Date", value: "21 February 2025" },
+  { label: "Last Date For Fee Payment", value: "21 February 2025" },
+  { label: "Correction / Edit Form", value: "22-28 February 2025" },
+  { label: "Pre Exam Date", value: "25 May 2025" },
+  { label: "Pre Admit Card", value: "13 May 2025" },
+  { label: "Pre Exam Result Date", value: "11 June 2025" },
+  { label: "Mains Exam Date", value: "22 August 2025" },
+  { label: "Mains Admit Card", value: "14 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / PH", value: "₹0/-" },
+  { label: "All Female Category", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "32 Years" },
+  { note: "Must have been born not earlier than 2nd August, 1993 and not later than 1st August, 2004. Age relaxation as per UPSC rules." }
+],
+
+vacancies: [
+  { post: "Indian Administrative Services (IAS)", total: 979 },
+  { post: "Indian Forest Services (IFS)", total: 150 }
+],
+
+qualifications: [
+  { post: "Indian Administrative Services (IAS)", eligibility: "Bachelor’s degree in any discipline from a recognized university in India." },
+  { post: "Indian Forest Services (IFS)", eligibility: "Bachelor’s degree in subjects like Animal Husbandry, Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology, Agriculture, or equivalent qualifications." }
+],
+
+requiredDocs: [
+  "Mains Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Degree, etc.)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Preliminary Examination, Main Examination, Interview" },
+  { label: "Additional Evaluation", value: "Final selection based on Mains marks and Interview" }
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Main Examination",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official UPSC website: https://upsc.gov.in/",
+  "Go to 'Civil Services (IAS) Mains Admit Card 2025' link",
+  "Enter registration number/enrollment number and date of birth",
+  "Download and print the Mains admit card for exam day",
+  "For application, fill the online form and pay the required fee as per instructions"
+]
+,
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -3239,16 +5765,78 @@ const admitcardData = [
      postName: "Bihar Police BPSSC SI Prohibition Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Police Subordinate Services Commission BPSSC , has released the Mains Admit Card on its official website for the Recruitment of Bihar Police Sub Inspector, Prohibition in Prohibition, Excise ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar Police BPSSC Sub Inspector SI Recruitment 2025 start?", a: "26 February 2025" },
+  { q: "What is the last date for online application?", a: "27 March 2025" },
+  { q: "What is the age limit for Bihar Police BPSSC Sub Inspector SI Bharti 2025?", a: "Minimum 20 Years & Maximum 37 Years (Male), 40 Years (Female) as on 01 August 2024" },
+  { q: "What is the eligibility for Bihar Police BPSSC Sub Inspector SI Vacancy 2025?", a: "Candidates must have a Bachelor’s Degree from any recognized university in India." },
+  { q: "What is the official website for Bihar BPSSC?", a: "https://bpssc.bihar.gov.in/" },
+  { q: "When is the Mains exam date?", a: "31 August 2025" },
+  { q: "When will the Mains admit card be available?", a: "14 August 2025" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "26 February 2025" },
+  { label: "Online Apply Last Date", value: "27 March 2025" },
+  { label: "Last Date For Fee Payment", value: "27 March 2025" },
+  { label: "Pre Exam Date", value: "18 May 2025" },
+  { label: "Pre Admit Card", value: "03 May 2025" },
+  { label: "Result Date", value: "29 May 2025" },
+  { label: "Mains Exam Date", value: "31 August 2025" },
+  { label: "Mains Admit Card", value: "14 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹700/-" },
+  { label: "SC / ST", value: "₹400/-" },
+  { label: "All Female Candidates of Bihar", value: "₹400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age (Male)", value: "37 Years" },
+  { label: "Maximum Age (Female)", value: "40 Years" },
+  { note: "Age relaxation as per BPSSC rules" }
+],
+
+vacancies: [
+  { post: "Sub-Inspectors Prohibition", total: 28 }
+],
+
+qualifications: [
+  { post: "Sub-Inspectors Prohibition", eligibility: "Bachelor’s Degree from any recognized university in India." }
+],
+
+requiredDocs: [
+  "Mains Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Degree, etc.)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Preliminary Examination, Main Written Examination, Physical Eligibility Test (PET), Medical Examination" },
+  { label: "Physical Standards", value: "Height, Chest, Running, High Jump, Long Jump, Gola Fek as per official guidelines" }
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Main Written Examination",
+  "Physical Eligibility Test (PET)",
+  "Medical Examination",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official BPSSC website: https://bpssc.bihar.gov.in/",
+  "Locate 'Admit Card of Mains Written Examination for SI Prohibition (Advt. No. 01/2025)' link",
+  "Log in using registration number, date of birth, and required password/captcha",
+  "Download and print the Mains admit card",
+  "Verify all details (name, roll number, exam center, date/time, photograph) and contact BPSSC in case of discrepancies",
+  "For application, fill the online form and pay the required fee as per instructions"
+]
+,
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -3335,16 +5923,75 @@ const admitcardData = [
      postName: "Bihar Vidhan Sabha Office Attendant 05/2023 Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Vidhan Sabha (BVS), Government of Bihar , has released the Admit Card for the Recruitment of Office Attendant Exam on the official Bihar Vidhan Sabha website. It is to note that Bihar Vidhan ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar Vidhan Sabha Office Attendant 05/2023 start?", a: "01 January 2024" },
+  { q: "What is the last date for online application?", a: "21 January 2024" },
+  { q: "What is the age limit for Bihar Vidhan Sabha Office Attendant 05/2023?", a: "Minimum 18 Years & Maximum 37 Years as on 01 August 2023" },
+  { q: "What is the eligibility for Office Attendant vacancy?", a: "Passed Class 10th (High School) or its equivalent" },
+  { q: "What is the official website for Bihar Vidhan Sabha?", a: "https://vidhansabha.bihar.gov.in/" },
+  { q: "When is the Office Attendant Exam Date?", a: "23 August 2025" },
+  { q: "When will the OA Admit Card be available?", a: "12 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "01 January 2024" },
+  { label: "Online Apply Last Date", value: "21 January 2024" },
+  { label: "Last Date For Fee Payment", value: "23 January 2024" },
+  { label: "OA Exam Date", value: "23 August 2025" },
+  { label: "OA Admit Card Available On", value: "12 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / Other State", value: "₹400/-" },
+  { label: "SC / ST / PH Candidates", value: "₹100/-" },
+  { label: "All Category Female Candidates", value: "₹100/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "37 Years" },
+  { note: "Age relaxation as per Bihar Vidhan Sabha official rules" }
+],
+
+vacancies: [
+  { post: "Office Attendant", total: 180 }
+],
+
+qualifications: [
+  { post: "Office Attendant", eligibility: "Passed Class 10th (High School) or its equivalent" }
+],
+
+requiredDocs: [
+  "Admit Card (once downloaded)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Class 10th Marksheet / Certificate)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination followed by Physical Standard Test (if applicable) and Document Verification" },
+  { label: "Additional Evaluation", value: "Medical Examination" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Skill Test (if applicable)",
+  "Physical Standard Test (if applicable)",
+  "Document Verification",
+  "Medical Examination",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official Bihar Vidhan Sabha recruitment portal: https://vidhansabha.bihar.gov.in/",
+  "Go to the 'Admit Card' or 'Recruitment' section",
+  "Find and click the link for the OA Admit Card 2025",
+  "Log in using your Application/Registration Number and Date of Birth",
+  "Download and save the PDF of your admit card",
+  "Print a clear copy to bring with you to the examination center"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card (OA)",
@@ -3459,16 +6106,85 @@ const admitcardData = [
      postName: "SSC Constable GD 2024 PET/ PST Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC) , The Admit Card for the recruitment of GD Constable has been released soon. The SSC GD Exam was conducted from February 4 to February 25, 2025 . The last date to s...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for SSC GD Constable 2024 start?", a: "05 September 2024" },
+  { q: "What is the last date for online application?", a: "15 October 2024" },
+  { q: "What is the age limit for SSC GD Constable 2024?", a: "Minimum 18 Years & Maximum 23 Years as on 01 May 2024" },
+  { q: "What is the eligibility for SSC GD Constable 2024?", a: "Passed Class 10th examination from any recognized board in India" },
+  { q: "What is the official website for SSC?", a: "https://ssc.gov.in/" },
+  { q: "When is the PET / PST Physical Test Date?", a: "20 August – 11 September 2025" },
+  { q: "When will the Admit Card for PET / PST be available?", a: "31 January 2025" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "05 September 2024" },
+  { label: "Online Apply Start Date", value: "05 September 2024" },
+  { label: "Online Apply Last Date", value: "15 October 2024" },
+  { label: "Fee Payment Last Date", value: "15 October 2024" },
+  { label: "Correction Date", value: "05-07 November 2024" },
+  { label: "Exam Date", value: "04 – 25 February 2025" },
+  { label: "Application Status", value: "21 January 2025" },
+  { label: "Exam City Details Available", value: "26 January 2025" },
+  { label: "Admit Card", value: "31 January 2025" },
+  { label: "Answer Key", value: "04 March 2025" },
+  { label: "Final Answer Key", value: "26 June 2025" },
+  { label: "Result Declared Date", value: "17 June 2025" },
+  { label: "Score Card Available", value: "20 June 2025" },
+  { label: "Physical Test Date", value: "20 August – 11 September 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100" },
+  { label: "SC / ST", value: "₹0" },
+  { label: "All Category Female", value: "₹0" },
+  { label: "Payment Mode", value: "Online: Debit Card, Credit Card, Net Banking; Offline: E-Challan" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "23 Years" },
+  { note: "Age relaxation as per SSC GD Constable 2023 Recruitment Rules" }
+],
+
+vacancies: [
+  { post: "GD Constable", total: 53690 }
+],
+
+qualifications: [
+  { post: "GD Constable", eligibility: "Passed Class 10th examination from any recognized board in India" }
+],
+
+requiredDocs: [
+  "PET / PST Admit Card (once downloaded)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates (Class 10th Marksheet / Certificate)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination followed by Physical Efficiency Test (PET), Physical Standards Test (PST), Interview, Document Verification, and Medical Examination" },
+  { label: "Additional Evaluation", value: "Expected Cutoff Marks applied category-wise for final selection" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Physical Efficiency Test (PET)",
+  "Physical Standards Test (PST)",
+  "Interview",
+  "Document Verification",
+  "Medical Examination",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official SSC website: https://ssc.gov.in/",
+  "Go to the 'Apply Online' section for GD Constable Recruitment",
+  "Fill the online application form and submit before the last date",
+  "Pay the application fee as per your category and payment mode",
+  "Download the PET / PST Admit Card from the official portal once released",
+  "Print a clear copy to bring on the day of the physical test"
+]
+,
     importantLinks: [
       {
         "label": "Download PET / PST Admit Card",
@@ -3583,16 +6299,85 @@ const admitcardData = [
      postName: "Railway RRB Ministerial & Isolated CEN 07/2024 Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Railway Recruitment Boards (RRB) , has released the Exam Date on its official website for the Ministerial & Isolated CEN: 07/2024 Examination 2025. The exam will be conducted on 10 to 12 September ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RRB Ministerial & Isolated Categories Recruitment 2025 start?", a: "07 January 2025" },
+  { q: "What is the last date for online application?", a: "28 February 2025" },
+  { q: "What is the age limit for RRB Ministerial & Isolated Categories 2025?", a: "Minimum 18 Years & Maximum 48 Years as on 01 January 2025" },
+  { q: "What is the eligibility for RRB Ministerial & Isolated Categories 2025?", a: "Eligibility varies post-wise. Generally, Graduation or Postgraduate degree, B.Ed, Diploma, or relevant qualification as per RRB notification." },
+  { q: "What is the official website for RRB?", a: "https://rsmssb.rajasthan.gov.in/" },
+  { q: "When is the Exam Date?", a: "10 to 12 September 2025" },
+  { q: "When will the Admit Card be available?", a: "Before Exam" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "16 December 2024" },
+  { label: "Online Apply Start Date", value: "07 January 2025" },
+  { label: "Online Apply Last Date", value: "28 February 2025" },
+  { label: "Last Date For Fee Payment", value: "28 February 2025" },
+  { label: "Exam Date", value: "10 to 12 September 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹500/-" },
+  { label: "SC / ST / Ex-Servicemen / PwBD / Women", value: "₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "48 Years" },
+  { note: "Age relaxation as per RRB rules and post-wise regulations" }
+],
+
+vacancies: [
+  { post: "Ministerial & Isolated Categories", total: 1036 }
+],
+
+qualifications: [
+  { post: "Post Graduate Teachers (PGT)", eligibility: "Postgraduate degree in relevant subject and B.Ed." },
+  { post: "Trained Graduate Teachers (TGT)", eligibility: "Graduate with B.Ed and qualified CTET" },
+  { post: "Chief Law Assistant", eligibility: "Law degree" },
+  { post: "Public Prosecutor", eligibility: "Degree/Diploma in Law or relevant field" },
+  { post: "Junior Translator (Hindi)", eligibility: "Postgraduate degree in Hindi or English" },
+  { post: "Senior Publicity Inspector", eligibility: "Graduate with Diploma in Public Relations, Advertising, Journalism, or Mass Communication" },
+  { post: "Staff and Welfare Inspector", eligibility: "Diploma in Labour/Social Welfare, LLB, or HR degree/ MBA" },
+  { post: "Laboratory Assistant / Lab Assistant Grade III", eligibility: "12th with Science and relevant Diploma/Certificate" },
+  { post: "PGT Teacher Physics / Biology / Computer Science / Political Science", eligibility: "Postgraduate degree in subject + B.Ed + experience" },
+  { post: "TGT Teacher Computer Science / Home Science / Hindi / Social Science", eligibility: "Graduation or relevant degree + B.Ed / TET qualification" },
+  { post: "Assistant Teacher (Female) / Music Teacher / Librarian / Laboratory Assistant", eligibility: "Postgraduate or Graduate / Diploma / 10+2 with experience as per post" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates / Relevant Post-wise Certificates"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Computer-Based Test (CBT) followed by Skill Test/Typing Test (if applicable), Document Verification, and Medical Examination" },
+  { label: "Additional Evaluation", value: "Post-wise skill or typing test for final selection" }
+],
+
+selectionProcess: [
+  "Written Examination (CBT)",
+  "Skill Test / Typing Test (Post-wise)",
+  "Document Verification",
+  "Medical Examination",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official RRB website of your respective region",
+  "Go to 'Centralized Employment Notice (CEN) 07/2024 – Ministerial and Isolated Categories'",
+  "Fill the online application form before the last date",
+  "Pay the application fee as per your category",
+  "Download the Admit Card once available from the official portal",
+  "Print a clear copy to bring on the day of the examination"
+],
+
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -3679,16 +6464,81 @@ const admitcardData = [
      postName: "RBI Grade A, B Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Reserve Bank of India (RBI) , has released the Admit Card on its official website for the Officer Grade B (Officer & Manager) & Grade A (Assistant Manager) Examination 2025. The exam will be conduc...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RBI Bank Grade A, B Recruitment 2025 start?", a: "11 July 2025" },
+  { q: "What is the last date to apply for RBI Bank Grade A, B Recruitment 2025?", a: "31 July 2025" },
+  { q: "What is the age limit for RBI Bank Grade A, B Recruitment 2025?", a: "Minimum 21 Years & Maximum 40 Years as on 01 July 2025" },
+  { q: "What is the eligibility for RBI Bank Grade A, B Recruitment 2025?", a: "Candidates must have a degree or master’s degree based on the specific post. Some positions also require relevant work experience. Check official notification for post-wise details." },
+  { q: "What is the official website for RBI?", a: "https://www.rbi.org.in/" },
+  { q: "When is the Phase-I Exam Date?", a: "16 August 2025" },
+  { q: "When will the Admit Card be available?", a: "11 August 2025" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "11 July 2025" },
+  { label: "Online Apply Last Date", value: "31 July 2025" },
+  { label: "Last Date For Fee Payment", value: "31 July 2025" },
+  { label: "Phase-I Exam Date", value: "16 August 2025" },
+  { label: "Admit Card", value: "11 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹850/-" },
+  { label: "SC / ST / PH", value: "₹100/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30–40 Years depending on post" },
+  { note: "Age relaxation as per RBI rules and post-wise regulations" }
+],
+
+vacancies: [
+  { post: "Legal Officer in Grade B", total: 5 },
+  { post: "Manager (Technical-Civil) in Grade B", total: 6 },
+  { post: "Manager (Technical-Electrical) in Grade B", total: 4 },
+  { post: "Assistant Manager (Rajbhasha) in Grade A", total: 3 },
+  { post: "Assistant Manager (Protocol and Security) in Grade A", total: 10 },
+  { totalPosts: 28 }
+],
+
+qualifications: [
+  { post: "Legal Officer in Grade B", eligibility: "Bachelor’s degree in Law (50% marks, 45% SC/ST/PwBD), enrolled as Advocate with Bar Council, 2+ years experience, age 21–32" },
+  { post: "Manager (Technical-Civil) in Grade B", eligibility: "Bachelor’s degree in Civil Engineering (60% marks, 55% SC/ST), 3+ years relevant experience, age 21–35" },
+  { post: "Manager (Technical-Electrical) in Grade B", eligibility: "Bachelor’s degree in Electrical/Electrical & Electronics Engineering (60% marks, 55% SC/ST), 3+ years experience, age 21–35" },
+  { post: "Assistant Manager (Rajbhasha) in Grade A", eligibility: "Second Class Master’s degree in Hindi/English, bilingual proficiency, PG diploma if required, age 21–30" },
+  { post: "Assistant Manager (Protocol & Security) in Grade A", eligibility: "10 years commissioned service in Army/Navy/Air Force (5 years for PwBD), valid Ex-Serviceman ID, age 25–40, responsible for security/protocol/fire safety/admin" }
+],
+
+requiredDocs: [
+  "Admit Card (once released)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (same as uploaded during registration)",
+  "Educational Certificates / Relevant Post-wise Certificates",
+  "Experience Certificates (if applicable)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Online Exam followed by Interview" }
+],
+
+selectionProcess: [
+  "Online Exam",
+  "Interview",
+  "Final Selection based on combined performance"
+],
+
+howToApply: [
+  "Visit the RBI official website",
+  "Go to 'Opportunities @ RBI' section",
+  "Access the 'Call Letters' page for Admit Card download",
+  "Log in with Registration Number/Roll Number and DOB/Password",
+  "Download and print the admit card",
+  "Appear for the exam as per schedule"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -3740,16 +6590,74 @@ const admitcardData = [
      postName: "BPSSC Range Officer of Forest Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Police Subordinate Services Commission BPSSC , has released the Admit Card on its official website for the Range Officer of Forest in Environment, Forest and Climate Change Dept., Govt. of Bi...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for BPSSC Range Officer of Forest Recruitment 2025 start?", a: "01 May 2025" },
+  { q: "What was the last date for online application?", a: "01 June 2025" },
+  { q: "What is the exam date for BPSSC Range Officer of Forest?", a: "24 August 2025" },
+  { q: "When was the Admit Card released?", a: "08 August 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum 20 Years, Maximum 37 Years (Male), Maximum 40 Years (Female) as on 01 January 2025" },
+  { q: "What is the eligibility for BPSSC Range Officer of Forest Vacancy 2025?", a: "Bachelor’s degree in Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Biotechnology, Zoology, Agriculture, Forestry, or Engineering" },
+  { q: "What is the official website for BPSSC?", a: "https://bpssc.bihar.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "01 May 2025" },
+  { label: "Online Apply Last Date", value: "01 June 2025" },
+  { label: "Last Date For Fee Payment", value: "01 June 2025" },
+  { label: "Exam Date", value: "24 August 2025" },
+  { label: "Admit Card Release Date", value: "08 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS / Other State", value: "₹700/-" },
+  { label: "SC / ST", value: "₹400/-" },
+  { label: "All Category Female (Bihar)", value: "₹400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age (Male)", value: "37 Years" },
+  { label: "Maximum Age (Female)", value: "40 Years" },
+  { note: "Age relaxation as per BPSSC rules" }
+],
+
+vacancies: [
+  { post: "Range Officer of Forest", total: 24 }
+],
+
+qualifications: [
+  { post: "Range Officer of Forest", eligibility: "Bachelor’s degree in Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Biotechnology, Zoology, Agriculture, Forestry, or Engineering" }
+],
+
+requiredDocs: [
+  "Admit Card (downloaded from BPSSC official website)",
+  "Valid Photo ID Proof (Aadhaar, PAN, Voter ID, Driving Licence, etc.)",
+  "Passport-size photograph (as uploaded during registration)",
+  "Educational Certificates (Degree or equivalent qualification)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Written Examination" },
+  { label: "Additional Evaluation", value: "Interview and Physical Endurance Test (PET)" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Interview",
+  "Physical Endurance Test (PET)"
+],
+
+howToApply: [
+  "Visit the official BPSSC website: https://bpssc.bihar.gov.in/",
+  "Go to the 'Recruitment' or 'Admit Card' section",
+  "Click on the 'Range Officer of Forest Admit Card 2025' link",
+  "Log in using Registration Number and Date of Birth/Password",
+  "Download and save the Admit Card PDF",
+  "Print a clear copy to carry to the examination center"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -3801,16 +6709,80 @@ const admitcardData = [
      postName: "SSC CHSL 10+2 Tentative Vacancy Details 2025",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC), The Tentative Vacancy Notice for the recruitment of Combined Higher Secondary Level CHSL Exam 2025 Recruitment has released on the official website . This recruitm...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for SSC 10+2 CHSL Recruitment 2025 start?", a: "23 June 2025" },
+  { q: "What was the last date for online application?", a: "18 July 2025" },
+  { q: "What is the last date for fee payment?", a: "19 July 2025" },
+  { q: "When is the correction window open?", a: "25–26 July 2025" },
+  { q: "What is the exam date for SSC 10+2 CHSL Tier-I?", a: "08–18 September 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum 18 Years, Maximum 27 Years as on 01 August 2025" },
+  { q: "What is the eligibility for SSC 10+2 CHSL Vacancy 2025?", a: "12th Pass (Intermediate) from a recognized board. For DEO, must have 12th in Science stream with Mathematics as a subject." },
+  { q: "What is the total number of vacancies?", a: "3131" },
+  { q: "What is the official website for SSC?", a: "https://ssc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "23 June 2025" },
+  { label: "Online Apply Last Date", value: "18 July 2025" },
+  { label: "Last Date For Fee Payment", value: "19 July 2025" },
+  { label: "Correction Date", value: "25–26 July 2025" },
+  { label: "Tier-I Exam Date", value: "08–18 September 2025" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "PH Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "27 Years" },
+  { note: "Age relaxation as per SSC rules" }
+],
+
+vacancies: [
+  { post: "SSC CHSL (LDC, PA/SA, DEO)", total: 3131 }
+],
+
+qualifications: [
+  { post: "LDC & PA/SA", eligibility: "12th Class Pass (Intermediate) from a recognized board" },
+  { post: "DEO", eligibility: "12th Pass in Science stream with Mathematics as a subject" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "10+2 (Intermediate) certificate or equivalent",
+  "Caste Certificate (for reserved categories)",
+  "Aadhaar Card / Voter ID / Govt-issued ID proof",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for PH / Ex-Servicemen (if applicable)"
+],
+
+examPattern: [
+  { label: "Tier-I", value: "Computer-Based Exam (Objective)" },
+  { label: "Tier-II", value: "Descriptive Paper" }
+],
+
+selectionProcess: [
+  "Tier-I Examination",
+  "Tier-II Examination"
+],
+
+howToApply: [
+  "Visit the official SSC website: https://ssc.gov.in/",
+  "Go to the 'Apply Online' section under CHSL Recruitment 2025",
+  "Complete registration with basic details",
+  "Fill out the application form and upload required documents",
+  "Pay the application fee (if applicable)",
+  "Submit and download the final application form"
+]
+,
     importantLinks: [
       {
         "label": "Download Tentative Vacancy Notice",
@@ -3880,16 +6852,88 @@ const admitcardData = [
      postName: "SSC JE 2025 Tentative Vacancy",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC), The Tentative Vacancy Notice for the recruitment of Junior Engineer JE Civil, Mechanical and Electrical Engineer 2025 Recruitment has released on the official webs...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for SSC JE 2025 start?", a: "30 June 2025" },
+  { q: "What was the last date for online application?", a: "21 July 2025" },
+  { q: "What is the last date for fee payment?", a: "22 July 2025" },
+  { q: "When is the correction window open?", a: "26–28 July 2025" },
+  { q: "When is the SSC JE 2025 Exam?", a: "27–31 October 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "No minimum age; maximum age 30–32 years (as on 01 August 2025)" },
+  { q: "What is the total number of vacancies?", a: "1731" },
+  { q: "What is the eligibility for SSC JE 2025?", a: "Degree or Diploma in Civil, Mechanical, or Electrical Engineering (with work experience required for some posts)" },
+  { q: "What is the official website for SSC?", a: "https://ssc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "30 June 2025" },
+  { label: "Online Apply Last Date", value: "21 July 2025" },
+  { label: "Last Date For Fee Payment", value: "22 July 2025" },
+  { label: "Correction Date", value: "26–28 July 2025" },
+  { label: "Exam Date", value: "27–31 October 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "PH Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "Not Required" },
+  { label: "Maximum Age", value: "30–32 Years (as per department)" },
+  { note: "Age relaxation applicable as per SSC rules" }
+],
+
+vacancies: [
+  { dept: "Central Water Commission", posts: ["Junior Engineer (Civil)", "Junior Engineer (Mechanical)"] },
+  { dept: "CPWD", posts: ["Junior Engineer (Civil)", "Junior Engineer (Electrical)"] },
+  { dept: "Border Road Organization (BRO)", posts: ["Junior Engineer (Civil)", "Junior Engineer (Electrical & Mechanical)"] },
+  { dept: "Military Engineer Services (MES)", posts: ["Junior Engineer (Civil)", "Junior Engineer (Electrical & Mechanical)"] },
+  { dept: "Farrakka Barrage Project", posts: ["Junior Engineer (Civil)", "Junior Engineer (Mechanical)"] },
+  { dept: "Brahmaputra Board (WR, RD & GR)", posts: ["Junior Engineer (Civil)"] },
+  { dept: "Andaman Lakshadweep Harbour Works", posts: ["Junior Engineer (Civil)", "Junior Engineer (Mechanical)"] },
+  { dept: "NTRO", posts: ["Junior Engineer (Civil)", "Junior Engineer (Electrical)", "Junior Engineer (Mechanical)"] }
+],
+
+qualifications: [
+  { post: "JE (Civil)", eligibility: "Degree or Diploma in Civil Engineering" },
+  { post: "JE (Mechanical)", eligibility: "Degree or Diploma in Mechanical Engineering" },
+  { post: "JE (Electrical)", eligibility: "Degree or Diploma in Electrical Engineering" },
+  { post: "JE (Electrical & Mechanical) – BRO/MES", eligibility: "Degree or Diploma in Electrical/Mechanical Engineering + 2 years relevant work experience" },
+  { post: "JE (Civil) – MES/Other Depts", eligibility: "Degree or Diploma in Civil Engineering + 2 years relevant work experience (where specified)" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "Engineering Degree/Diploma certificate",
+  "Work experience certificate (if applicable)",
+  "Caste Certificate (for reserved categories)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for PH / Ex-Servicemen (if applicable)"
+],
+
+selectionProcess: [
+  "Tier-I (Computer Based Test)",
+  "Tier-II (Descriptive/Technical Paper)",
+  "Document Verification",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official SSC website: https://ssc.gov.in/",
+  "Go to the 'Apply Online' section for SSC JE 2025",
+  "Complete the registration process with basic details",
+  "Fill the application form and upload required documents",
+  "Pay the application fee (if applicable)",
+  "Submit and download/print the final application form"
+]
+,
     importantLinks: [
       {
         "label": "Check Tentative Vacancy Notice",
@@ -3941,16 +6985,80 @@ const admitcardData = [
      postName: "SSC JHT Exam City Details 2025",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC), has released the Exam City Details on its official website for the Recruitment of Junior Hindi Translator, Hindi Translator, Senior Translator & Hindi Pradhyapak C...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for SSC JHT, JT, CHT 2025 start?", a: "05 June 2025" },
+  { q: "What was the last date for online application?", a: "26 June 2025" },
+  { q: "What is the last date for fee payment?", a: "27 June 2025" },
+  { q: "When was the correction window open?", a: "01–02 July 2025" },
+  { q: "When is the SSC JHT, JT, CHT 2025 Exam?", a: "12 August 2025" },
+  { q: "When were the Exam City Details released?", a: "05 August 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum 18 Years; Maximum 27–30 Years (as on 01 August 2025)" },
+  { q: "What is the total number of vacancies?", a: "457" },
+  { q: "What is the eligibility for SSC JHT, JT, CHT 2025?", a: "Master’s degree in Hindi/English with the other as compulsory subject, OR Master’s degree in any subject with English medium & Hindi as compulsory at graduation level + Diploma/2 years translation experience" },
+  { q: "What is the official website for SSC?", a: "https://ssc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "05 June 2025" },
+  { label: "Online Apply Last Date", value: "26 June 2025" },
+  { label: "Last Date For Fee Payment", value: "27 June 2025" },
+  { label: "Correction Date", value: "01–02 July 2025" },
+  { label: "Exam Date", value: "12 August 2025" },
+  { label: "Exam City Details", value: "05 August 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "PH Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "27–30 Years" },
+  { note: "Age relaxation applicable as per SSC rules" }
+],
+
+vacancies: [
+  { post: "Junior Hindi Translator (JHT)", total: "457" },
+  { post: "Senior Hindi Translator (SHT)", total: "Included in above count" }
+],
+
+qualifications: [
+  { post: "JHT / SHT", eligibility: "Master’s degree in Hindi or English with the other as compulsory subject, OR Master’s degree in any subject with English medium and Hindi as compulsory subject at graduation level, + Diploma/2 years translation experience" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "Master’s Degree certificate (Hindi/English/Other relevant)",
+  "Translation Diploma / Experience Certificate",
+  "Caste Certificate (if applicable)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "PH/Ex-Servicemen certificates (if applicable)"
+],
+
+selectionProcess: [
+  "Computer Based Test (CBT)",
+  "Skill Test (Translation/Typing)",
+  "Document Verification",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official SSC website: https://ssc.gov.in/",
+  "Go to the 'Apply Online' section for SSC JHT 2025",
+  "Complete the registration process with basic details",
+  "Fill the application form and upload required documents",
+  "Pay the application fee (if applicable)",
+  "Submit and download/print the final application form"
+]
+,
     importantLinks: [
       {
         "label": "Check Exam City Details",
@@ -4020,16 +7128,72 @@ const admitcardData = [
      postName: "DSSSB Assistant Teacher 08/2023 Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Delhi Subordinate Service Selection Board (DSSSB) , has released the Admit Card on its official website for the Assistant Teacher, PGT, LDC, JA, SO & Stenographer Examination 2025. The exam will be...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for DSSSB Assistant Teacher 2025 start?", a: "09 January 2024" },
+  { q: "What was the last date for online application?", a: "07 February 2024" },
+  { q: "What is the last date for fee payment?", a: "07 February 2024" },
+  { q: "When is the DSSSB Assistant Teacher 2025 Exam?", a: "10–14 August 2025" },
+  { q: "When was the DSSSB Assistant Teacher Admit Card released?", a: "02 August 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum: 18 years, Maximum: 37 years (as on 07 February 2024)" },
+  { q: "What is the total number of vacancies?", a: "4214" },
+  { q: "What is the eligibility for DSSSB Assistant Teacher 2025?", a: "Senior Secondary (Class 12) with 45% marks + Diploma/Certificate in Nursery Teacher Education (2 years) or B.Ed. (Nursery) + Hindi at 10th level" },
+  { q: "What is the official website for DSSSB?", a: "https://dsssbonline.nic.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "09 January 2024" },
+  { label: "Online Apply Last Date", value: "07 February 2024" },
+  { label: "Last Date For Fee Payment", value: "07 February 2024" },
+  { label: "Exam Date", value: "10–14 August 2025" },
+  { label: "Admit Card", value: "02 August 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "37 Years (as on 07 February 2024)" },
+  { note: "Age relaxation applicable as per DSSSB rules" }
+],
+
+vacancies: [
+  { dept: "DSSSB", posts: ["Assistant Teacher (Nursery) - 4214 Posts"] }
+],
+
+qualifications: [
+  { post: "Assistant Teacher", eligibility: "Senior Secondary (12th) with 45% marks + 2-year Diploma in Nursery Teacher Education OR B.Ed. (Nursery) + Hindi as a subject in 10th class" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "Class 12th mark sheet and certificate",
+  "Diploma/B.Ed. certificate",
+  "Caste Certificate (for reserved categories)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)"
+],
+
+selectionProcess: [
+  "Computer-Based Test (CBT)",
+  "Document Verification",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official DSSSB website: https://dsssbonline.nic.in/",
+  "Go to the 'Generate/Print eAdmit Card' section",
+  "Click on the 'DSSSB Assistant Teacher (Nursery) Admit Card 2025' link under Advt 08/2023",
+  "Enter your Registration Number, Date of Birth, and Captcha",
+  "Download the admit card PDF and print it for exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -4072,16 +7236,80 @@ const admitcardData = [
      postName: "UKSSSC Police Constable Written Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Uttarakhand Subordinate Service Selection Commission (UKSSSC) , has released Admit Card on official website for the Recruitment of Uttarakhand Police Constable Post. The UKSSSC Exam will be Conduct...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UKSSSC Police Constable 2024 start?", a: "08 November 2024" },
+  { q: "What was the last date for online application?", a: "29 November 2024" },
+  { q: "What is the last date for fee payment?", a: "29 November 2024" },
+  { q: "When was the PET / PST exam conducted?", a: "24 February 2025" },
+  { q: "When is the UKSSSC Police Constable Written Exam?", a: "03 August 2025" },
+  { q: "When was the written admit card released?", a: "30 July 2025" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum: 18 years, Maximum: 22 years (as on 01 July 2024)" },
+  { q: "What is the total number of vacancies?", a: "2000" },
+  { q: "What is the eligibility for UKSSSC Police Constable 2024?", a: "Class 12th (Intermediate) passed or equivalent from a recognized board. Only for male candidates." },
+  { q: "What is the official website for UKSSSC?", a: "https://sssc.uk.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "08 November 2024" },
+  { label: "Application Last Date", value: "29 November 2024" },
+  { label: "Fee Payment Last Date", value: "29 November 2024" },
+  { label: "PET / PST Exam Date", value: "24 February 2025" },
+  { label: "PET / PST Admit Card", value: "20 February 2025" },
+  { label: "Written Exam Date", value: "03 August 2025" },
+  { label: "Written Admit Card", value: "30 July 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹300/-" },
+  { label: "EWS / SC / ST / PWD", value: "₹150/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "22 Years (as on 01 July 2024)" },
+  { note: "Age relaxation applicable as per UKSSSC rules" }
+],
+
+vacancies: [
+  { dept: "UKSSSC", posts: [
+      "Constable – 1600 Posts (General: 848, OBC: 224, EWS: 160, SC: 304, ST: 64)",
+      "Constable IRB / PAC – 400 Posts (General: 212, OBC: 56, EWS: 40, SC: 76, ST: 16)"
+    ]
+  }
+],
+
+qualifications: [
+  { post: "Constable (Male)", eligibility: "12th pass (Intermediate) or equivalent from any recognized board" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "12th Mark Sheet and Certificate",
+  "Caste Certificate (for reserved categories)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)"
+],
+
+selectionProcess: [
+  "Physical Test (PET/ PST)",
+  "Written Exam",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official UKSSSC website: https://sssc.uk.gov.in/",
+  "Go to the 'Admit Card' section",
+  "Find and click on 'Police Constable Written Exam Admit Card (आरक्षी पुलिस (पुरुष) लिखित परीक्षा प्रवेश पत्र)' link",
+  "Enter Registration Number or Roll Number, Date of Birth, and Captcha",
+  "Submit and download the admit card PDF",
+  "Print it for exam use"
+],
+
     importantLinks: [
       {
         "label": "Download Witten Admit Card",
@@ -4160,16 +7388,76 @@ const admitcardData = [
      postName: "SSC CGL 2025 Tentative Vacancy",
     postDate: "Not specified",
     shortInfo: "Staff Selection Commission (SSC), The Tentative Vacancy for the recruitment of Various Post Under Combined Graduate Level CGL Exam 2025 Recruitment has released on the official website . This recru...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for SSC CGL Recruitment 2025 start?", a: "09 June 2025" },
+  { q: "What was the last date for online application?", a: "04 July 2025" },
+  { q: "What is the last date for fee payment?", a: "05 July 2025" },
+  { q: "When is the correction window open?", a: "09–11 July 2025" },
+  { q: "When is the SSC CGL 2025 Exam?", a: "13–30 August 2025" },
+  { q: "When will the admit card be released?", a: "Before Exam" },
+  { q: "What is the minimum and maximum age limit?", a: "Minimum: 18 Years, Maximum: 30 Years (as on 01 August 2025)" },
+  { q: "What is the total number of vacancies?", a: "14,582" },
+  { q: "What is the eligibility for SSC CGL Vacancy 2025?", a: "Graduation in any stream for most posts. For JSO: Graduation with 60% in Maths at 12th level or Statistics as a subject in degree." },
+  { q: "What is the official website for SSC?", a: "https://ssc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "09 June 2025" },
+  { label: "Online Apply Last Date", value: "04 July 2025" },
+  { label: "Last Date For Fee Payment", value: "05 July 2025" },
+  { label: "Correction Date", value: "09–11 July 2025" },
+  { label: "Exam Date", value: "13–30 August 2025" },
+  { label: "Admit Card", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹100/-" },
+  { label: "SC / ST / Female", value: "₹0/-" },
+  { label: "PH Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "30 Years (as on 01 August 2025)" },
+  { note: "Age relaxation applicable as per SSC rules" }
+],
+
+vacancies: [
+  { dept: "SSC CGL", posts: ["Various Posts – 14,582 Vacancies"] }
+],
+
+qualifications: [
+  { post: "All Other Posts", eligibility: "Graduation in any stream from a recognized university" },
+  { post: "Junior Statistical Officer (JSO)", eligibility: "Graduation in any stream with 60% in Mathematics at 12th level OR Degree with Statistics as a subject" }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "10th, 12th & Graduation mark sheets/certificates",
+  "Caste Certificate (for reserved categories)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for PH / Ex-Servicemen (if applicable)"
+],
+
+selectionProcess: [
+  "Tier-I Exam",
+  "Tier-II Exam"
+],
+
+howToApply: [
+  "Visit the official SSC website: https://ssc.gov.in/",
+  "Go to the 'Apply Online' section for SSC CGL 2025",
+  "Register using basic details and verify through OTP/email",
+  "Fill the application form and upload required documents",
+  "Pay the application fee (if applicable)",
+  "Submit and download/print the final application form"
+],
+
     importantLinks: [
       {
         "label": "Download Tentative Vacancy Details",
@@ -4230,16 +7518,80 @@ const admitcardData = [
      postName: "Bihar BSSC Field Assistant Pre Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Staff Selection Commission (BSSC) , has released the Pre Admit Card on its official website for the Recruitment of Examination of Field Assistant Exam 2025. The Revised exam will be conducted...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Bihar BSSC Field Assistant Recruitment 2025 start?", a: "25 April 2025" },
+  { q: "What was the last date for online application?", a: "21 May 2025" },
+  { q: "What is the last date for fee payment?", a: "23 May 2025" },
+  { q: "When was the original exam date?", a: "11 July 2025" },
+  { q: "What is the revised exam date?", a: "10 August 2025" },
+  { q: "When was the admit card released?", a: "30 July 2025" },
+  { q: "What is the age limit for Bihar BSSC Field Assistant 2025?", a: "Minimum age: 18 years; Maximum age: 42 years (as on 01 August 2024)" },
+  { q: "What is the total number of vacancies?", a: "201" },
+  { q: "What is the eligibility for Bihar BSSC Field Assistant 2025?", a: "Passed 10+2 (Intermediate) or Diploma in Agriculture from a recognized institute. No other equivalent qualification allowed." },
+  { q: "What is the official website for Bihar BSSC?", a: "https://bssc.bihar.gov.in" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "25 April 2025" },
+  { label: "Online Apply Last Date", value: "21 May 2025" },
+  { label: "Last Date For Fee Payment", value: "23 May 2025" },
+  { label: "Original Exam Date", value: "11 July 2025" },
+  { label: "Revised Exam Date", value: "10 August 2025" },
+  { label: "Admit Card", value: "30 July 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / BC / EBC / Other State", value: "₹540/-" },
+  { label: "SC / ST / PH Candidates", value: "₹135/-" },
+  { label: "Female (Bihar Domicile)", value: "₹135/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age (Male - General/EWS)", value: "37 Years" },
+  { label: "Maximum Age (Female - General)", value: "40 Years" },
+  { label: "Maximum Age (OBC/EBC - Male & Female)", value: "40 Years" },
+  { label: "Maximum Age (SC/ST - Male & Female)", value: "42 Years" },
+  { note: "As on 01 August 2024. Age relaxation applicable as per Bihar BSSC rules" }
+],
+
+vacancies: [
+  { dept: "Bihar BSSC", posts: ["Field Assistant – 201 Posts"] }
+],
+
+qualifications: [
+  { post: "Field Assistant", eligibility: "Passed 10+2 (Intermediate) or Diploma in Agriculture from a recognized institute or university. Equivalent qualifications not accepted." }
+],
+
+requiredDocs: [
+  "Passport-size photograph (white/light background)",
+  "Signature on white paper with black/blue pen",
+  "10+2 or Agriculture Diploma certificate",
+  "Caste Certificate (for reserved categories)",
+  "Government-issued ID proof (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for PH / Ex-Servicemen (if applicable)"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Mental Ability Test",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official website: https://bssc.bihar.gov.in/",
+  "Go to the 'Notice Board' section on the homepage",
+  "Find the notice for Advt No. 03/25 Field Assistant (Agriculture Department)",
+  "Click on the relevant admit card or exam date notification PDF",
+  "Download and check details",
+  "Use your registration number and DOB to login and download admit card",
+  "Print the admit card for exam day use"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -4318,16 +7670,75 @@ const admitcardData = [
      postName: "UPSC Engineering Services Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Union Public Service Commission UPSC , has released the Mains Admit Card on its official website for the Recruitment of Engineering Services Examination 2024 . The exam will be conducted from 10 Au...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for UPSC Engineering Services Pre 2024 start?", a: "18 September 2024" },
+  { q: "What was the last date for online application?", a: "08 October 2024" },
+  { q: "What was the re-open window for application form?", a: "18 October 2024 to 22 November 2024" },
+  { q: "When was the Pre Exam conducted?", a: "08 June 2025" },
+  { q: "When was the Mains Exam scheduled?", a: "10 August 2025" },
+  { q: "When was the Mains Admit Card released?", a: "30 July 2025" },
+  { q: "What is the age limit for UPSC Engineering Services 2025?", a: "Minimum age: 21 years; Maximum age: 30 years (born between 2nd Jan 1995 and 1st Jan 2004)" },
+  { q: "What is the total number of vacancies?", a: "232" },
+  { q: "What is the eligibility for UPSC Engineering Services 2025?", a: "Passed / Appearing Engineering Degree in related trade/stream from a recognized university in India" },
+  { q: "What is the official website for UPSC?", a: "https://upsc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "18 September 2024" },
+  { label: "Online Apply Last Date", value: "08 October 2024" },
+  { label: "Last Date For Fee Payment", value: "08 October 2024" },
+  { label: "Form Reopen Date", value: "18 October 2024 to 22 November 2024" },
+  { label: "Pre Exam Date", value: "08 June 2025" },
+  { label: "Pre Admit Card", value: "28 May 2025" },
+  { label: "Mains Exam Date", value: "10 August 2025" },
+  { label: "Mains Admit Card", value: "30 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹200/-" },
+  { label: "SC / ST / PH / All Female Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { label: "Date Range", value: "Born between 2nd January 1995 and 1st January 2004" },
+  { note: "Age relaxation applicable as per UPSC rules." }
+],
+
+vacancies: [
+  { dept: "UPSC", posts: ["Engineering Services – 232 Posts"] }
+],
+
+qualifications: [
+  { post: "Engineering Services", eligibility: "Passed / Appearing Engineering Degree in related trade/stream from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Passport-size color photograph",
+  "Signature on white paper using black/blue pen",
+  "Engineering Degree (or proof of appearing)",
+  "Government-issued ID (Aadhaar/Voter ID etc.)",
+  "Caste Certificate (if applicable)",
+  "Disability Certificate (if applicable)"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Mains Examination",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official UPSC website: https://upsc.gov.in",
+  "Navigate to 'What’s New' or 'Active Examinations'",
+  "Click on 'ESE Admit Card 2025 (Mains)'",
+  "Enter registration ID / roll number, DOB, and captcha",
+  "Download the admit card (PDF) and print multiple copies",
+  "Check exam centre, date, shift, name, and photo/signature for accuracy"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -4388,16 +7799,91 @@ const admitcardData = [
      postName: "SCI Junior Court Assistant Descriptive Test Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Supreme Court of India SCI, has released the Descriptive Test Admit Card on its official website for the Junior Court Assistant JCA Examination 2025 . The Descriptive Test will be conducted on 01 A...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for SCI Junior Court Assistant Recruitment 2025 start?", a: "05 February 2025" },
+  { q: "What was the last date for online application?", a: "08 March 2025" },
+  { q: "When was the Exam conducted?", a: "13 April 2025" },
+  { q: "When was the Admit Card released?", a: "09 April 2025" },
+  { q: "When was the Typing Test conducted?", a: "04 June 2025" },
+  { q: "When is the Descriptive Test scheduled?", a: "01 August 2025" },
+  { q: "What is the age limit for SCI Junior Court Assistant 2025?", a: "Minimum age: 18 years; Maximum age: 30 years as on 08 March 2025" },
+  { q: "What is the total number of vacancies?", a: "241" },
+  { q: "What is the eligibility for SCI Junior Court Assistant 2025?", a: "Bachelor Degree in Any Stream with 35 WPM typing speed and knowledge of computer operation" },
+  { q: "What is the official website for SCI?", a: "https://www.sci.gov.in/" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "05 February 2025" },
+  { label: "Online Apply Last Date", value: "08 March 2025" },
+  { label: "Last Date For Fee Payment", value: "08 March 2025" },
+  { label: "Exam City Date", value: "02 April 2025" },
+  { label: "Admit Card Release Date", value: "09 April 2025" },
+  { label: "Exam Date", value: "13 April 2025" },
+  { label: "Answer Key Date", value: "16 April 2025" },
+  { label: "Result Date", value: "09 May 2025" },
+  { label: "Typing Test Exam City Details", value: "21 May 2025" },
+  { label: "Typing Test Date", value: "04 June 2025" },
+  { label: "Typing Test Result Date", value: "14 July 2025" },
+  { label: "Descriptive Test Date", value: "01 August 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1000/-" },
+  { label: "SC / ST / PH", value: "₹250/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { label: "As on", value: "08 March 2025" },
+  { note: "Age relaxation applicable as per SCI rules." }
+],
+
+vacancies: [
+  { dept: "Supreme Court of India", posts: ["Junior Court Assistant – 241 Posts"] }
+],
+
+qualifications: [
+  { post: "Junior Court Assistant", eligibility: "Bachelor Degree in Any Stream from a recognized university in India with 35 WPM typing speed and computer operation knowledge." }
+],
+
+requiredDocs: [
+  "Recent passport-size photograph",
+  "Signature in black/blue pen on white paper",
+  "Graduation degree or proof of eligibility",
+  "Government-issued ID (Aadhaar, Voter ID, etc.)",
+  "Category certificate (if applicable)",
+  "Disability certificate (if applicable)"
+],
+
+examPattern: [
+  "Written Examination (Objective Type)",
+  "Descriptive Test",
+  "Typing Speed Test (35 WPM)",
+  "Computer Knowledge Test",
+  "Interview"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Descriptive Test",
+  "Typing Test",
+  "Computer Knowledge Test",
+  "Interview",
+  "Final Selection"
+],
+
+howToApply: [
+  "Visit the official SCI recruitment portal: https://www.sci.gov.in/",
+  "Go to the Recruitments section and find 'Junior Court Assistant Examination – 2025'.",
+  "Click on the appropriate notification or application form.",
+  "Fill in the required personal, educational, and communication details.",
+  "Upload required documents including photo and signature.",
+  "Pay the application fee through the available payment modes.",
+  "Download and print the final submitted form and payment receipt."
+]
+,
     importantLinks: [
       {
         "label": "Download Descriptive Test Admit Card",
@@ -4484,16 +7970,64 @@ const admitcardData = [
      postName: "Bihar Board Class 10th & 12th Dummy Registration Card 2026",
     postDate: "Not specified",
     shortInfo: "The Bihar School Examination Board (BSEB) Dummy Admit Card 2026 for the Bihar High School and Intermediate Annual Board Exams has been released. These cards are meant to help students verify their ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When was the Dummy Registration Card released?", a: "05 July 2025" },
+  { q: "What is the last date to download the Dummy Registration Card?", a: "25 July 2025" },
+  { q: "When will the Dummy Admit Card be released?", a: "To be notified later" },
+  { q: "What is the application fee for Bihar Board exams?", a: "There is no application fee for students" },
+  { q: "What is the official website for Bihar Board?", a: "https://biharboardonline.bihar.gov.in/" },
+  { q: "Who can download the dummy admit card?", a: "Only school principals or administrators using school credentials" },
+  { q: "Why is the Dummy Admit Card issued?", a: "To verify student details before issuing the final admit card" },
+  { q: "Which classes does this Dummy Registration Card apply to?", a: "Class 10th (High School) and Class 12th (Intermediate)" }
+],
+
+importantDates: [
+  { label: "Dummy Registration Card Release", value: "05 July 2025" },
+  { label: "Dummy Registration Card Last Date", value: "25 July 2025" },
+  { label: "Dummy Admit Card", value: "Notify Later" }
+],
+
+applicationFees: [
+  { label: "All Students", value: "₹0/- (No Application Fee)" }
+],
+
+ageLimit: [
+  { note: "Age limit is as per Bihar Board rules" }
+],
+
+vacancies: [
+  { dept: "Bihar Board", posts: ["Class 10th & 12th Annual Board Exam 2026"] }
+],
+
+qualifications: [
+  { post: "Class 10th / Class 12th Students", eligibility: "Students enrolled under Bihar School Examination Board (BSEB) for the academic year 2025–2026" }
+],
+
+requiredDocs: [
+  "Student's registration details",
+  "School ID and login credentials",
+  "Accurate personal information (Name, DOB, Subjects, etc.) for verification"
+],
+
+examPattern: [
+  "As per Bihar Board academic guidelines for Class 10th and 12th"
+],
+
+selectionProcess: [
+  "Annual Written Examination conducted by BSEB for Class 10th and 12th"
+],
+
+howToApply: [
+  "Visit the official Bihar Board website: https://biharboardonline.bihar.gov.in/",
+  "Go to the 'Dummy Admit Card 2026' section",
+  "Select Class 10 or 12 as per requirement",
+  "Log in with school’s credentials",
+  "Select student(s) from the list",
+  "Download and print dummy admit cards",
+  "Distribute to students for verification",
+  "Report errors to Bihar Board for corrections"
+],
+
     importantLinks: [
       {
         "label": "Download 10th Dummy Registration Card",
@@ -4536,16 +8070,93 @@ const admitcardData = [
      postName: "HPCL Junior Executive Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Hindustan Petroleum Corporation Limited (HPCL) , has released the Exam Date for the recruitment of Junior Executive on its official website. The HPCL application process started on 26 March 2025 , ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When did the online application for HPCL Junior Executive start?", a: "26 March 2025" },
+  { q: "What was the last date for online application?", a: "21 May 2025" },
+  { q: "When is the HPCL Junior Executive Exam scheduled?", a: "16 August 2025" },
+  { q: "When will the Admit Card be released?", a: "Before Exam (Exact date not disclosed)" },
+  { q: "What is the application fee for General/OBC/EWS?", a: "₹1180/-" },
+  { q: "What is the application fee for SC/ST/PwD?", a: "₹0/-" },
+  { q: "What is the age limit for HPCL Junior Executive?", a: "18 to 25 years as on 30 April 2025" },
+  { q: "What is the total number of vacancies?", a: "103 Posts" },
+  { q: "What is the eligibility for Junior Executive (Mechanical)?", a: "Diploma in Mechanical Engineering" },
+  { q: "What is the official website for HPCL?", a: "https://hindustanpetroleum.com" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "26 March 2025" },
+  { label: "Online Apply Last Date", value: "21 May 2025" },
+  { label: "Last Date For Fee Payment", value: "21 May 2025" },
+  { label: "Exam Date", value: "16 August 2025" },
+  { label: "Admit Card Release", value: "Before Exam" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹1180/-" },
+  { label: "SC / ST / PwD", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "25 Years" },
+  { label: "As on", value: "30 April 2025" },
+  { note: "Age relaxation applicable as per HPCL rules." }
+],
+
+vacancies: [
+  { dept: "HPCL", posts: [
+    "Junior Executive (Mechanical) – 11 Posts",
+    "Junior Executive (Electrical) – 17 Posts",
+    "Junior Executive (Instrumentation) – 6 Posts",
+    "Junior Executive (Chemical) – 41 Posts",
+    "Junior Executive (Fire & Safety) – 28 Posts"
+  ]}
+],
+
+qualifications: [
+  { post: "Junior Executive (Mechanical)", eligibility: "Diploma in Mechanical Engineering" },
+  { post: "Junior Executive (Electrical)", eligibility: "Diploma in Electrical Engineering" },
+  { post: "Junior Executive (Instrumentation)", eligibility: "Diploma in Instrumentation Engineering" },
+  { post: "Junior Executive (Chemical)", eligibility: "Diploma in Chemical Engineering" },
+  { post: "Junior Executive (Fire & Safety)", eligibility: "Science Graduate + Diploma in Fire & Safety" }
+],
+
+requiredDocs: [
+  "Passport-size color photograph",
+  "Signature on white paper using black/blue pen",
+  "Diploma/Graduation Certificate",
+  "Government-issued ID (Aadhaar/Voter ID etc.)",
+  "Caste Certificate (if applicable)",
+  "PwD Certificate (if applicable)"
+],
+
+examPattern: [
+  "CBT Written Exam",
+  "Group Task / Group Discussion",
+  "Skill Test",
+  "Personal Interview"
+],
+
+selectionProcess: [
+  "CBT Written Exam",
+  "Group Task / Group Discussion",
+  "Skill Test",
+  "Personal Interview",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official HPCL website: https://hindustanpetroleum.com",
+  "Go to the 'Careers' or 'Job Openings' section",
+  "Find 'Recruitment of Officers & Junior Executive Officers (2025–26)'",
+  "Click on the notification for Junior Executive Exam Date 2025",
+  "Download the official notice for exam schedule and instructions",
+  "Use registration number, DOB, or enrollment number to log in and download admit card"
+],
+
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -4597,16 +8208,84 @@ const admitcardData = [
      postName: "UPSC CAPF AC Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Union Public Service Commission UPSC , has released the Admit Card on its official website for the Recruitment of Combined Central Armed Police Force CAPF Exam 2025. The exam will be conducted on 0...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UPSC CAPF AC 2025 start?", a: "05 March 2025" },
+  { q: "What was the last date to apply online?", a: "25 March 2025" },
+  { q: "When is the UPSC CAPF AC 2025 Exam?", a: "03 August 2025" },
+  { q: "When was the Admit Card released?", a: "25 July 2025" },
+  { q: "What is the age limit for CAPF AC 2025?", a: "Minimum age: 20 years; Maximum age: 25 years as on 01 August 2025" },
+  { q: "What is the application fee for General/OBC?", a: "₹200/-" },
+  { q: "Is there any fee for SC/ST/Female/PH candidates?", a: "No, they are exempted from fee" },
+  { q: "What is the total number of vacancies?", a: "357 Posts" },
+  { q: "What is the eligibility for UPSC CAPF AC?", a: "Bachelor’s degree in any stream + Physical eligibility requirements" },
+  { q: "What is the official website for UPSC?", a: "https://upsc.gov.in/whats-new" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "05 March 2025" },
+  { label: "Online Apply Last Date", value: "25 March 2025" },
+  { label: "Last Date For Fee Payment", value: "25 March 2025" },
+  { label: "Correction Window", value: "26 March – 01 April 2025" },
+  { label: "Exam Date", value: "03 August 2025" },
+  { label: "Admit Card Release Date", value: "25 July 2025" },
+  { label: "Result Date", value: "Will Be Updated Soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹200/-" },
+  { label: "SC / ST / PH / All Female Candidates", value: "₹0/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age", value: "25 Years" },
+  { label: "As on", value: "01 August 2025" },
+  { note: "Age relaxation applicable as per UPSC rules." }
+],
+
+vacancies: [
+  { dept: "BSF", posts: ["24 Posts"] },
+  { dept: "CRPF", posts: ["204 Posts"] },
+  { dept: "CISF", posts: ["92 Posts"] },
+  { dept: "ITBP", posts: ["4 Posts"] },
+  { dept: "SSB", posts: ["33 Posts"] }
+],
+
+qualifications: [
+  { post: "Assistant Commandant (All CAPF Units)", eligibility: "Bachelor’s degree in any stream from a recognized university + Must meet physical eligibility standards" }
+],
+
+requiredDocs: [
+  "Recent passport-size photo",
+  "Signature scanned image",
+  "Bachelor's degree certificate or provisional",
+  "Government-issued ID (Aadhaar, PAN, Voter ID, etc.)",
+  "Category certificate (if applicable)",
+  "Disability certificate (if applicable)"
+],
+
+examPattern: [
+  "Paper I: General Ability and Intelligence (Objective) – 250 Marks",
+  "Paper II: General Studies, Essay and Comprehension (Descriptive) – 200 Marks"
+],
+
+selectionProcess: [
+  "Written Examination (Paper I & II)",
+  "Physical Efficiency Test (PET)",
+  "Interview/Personality Test",
+  "Final Merit List based on total marks"
+],
+
+howToApply: [
+  "Visit the official UPSC website: https://upsc.gov.in",
+  "Navigate to 'What’s New' section or 'Examination Notices'",
+  "Click on 'CAPF (AC) 2025 Admit Card' link",
+  "Enter Registration ID / Roll Number and DOB",
+  "Download and print the admit card for the exam",
+  "Check the details like name, exam center, date, and time carefully"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -4667,16 +8346,65 @@ const admitcardData = [
      postName: "UP NCVT MIS ITI Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "National Council for Vocational Training (NCVT) , has released the Admit Card on its official website for the NCVT MIS ITI Examination 2025. The exam will be conducted on 28 July – 20 August 2025, ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When is the UP NCVT MIS ITI Exam 2025 scheduled?", a: "28 July 2025 to 20 August 2025" },
+  { q: "When was the admit card released for NCVT ITI 2025?", a: "23 July 2025" },
+  { q: "What is the official website to download NCVT MIS ITI Admit Card?", a: "https://ncvtmis.gov.in" },
+  { q: "Who is eligible to appear for this ITI exam?", a: "Students enrolled in 1st and 2nd Year ITI courses under SCVT UP" },
+  { q: "Where will the theory and practical exams be held?", a: "Theory: Designated CBT centers; Practical: ITI workshops" },
+  { q: "What is the mode of admit card download?", a: "Online, through Trainee Login with Registration No. & DOB" }
+],
+
+importantDates: [
+  { label: "Exam Date", value: "28 July 2025 to 20 August 2025" },
+  { label: "Admit Card Release Date", value: "23 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "Not Specified" },
+  { label: "SC / ST / PH", value: "Not Specified" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "Not Specified" },
+  { label: "Maximum Age", value: "Not Specified" },
+  { note: "Refer to NCVT official rules for eligibility criteria." }
+],
+
+vacancies: [
+  { dept: "NCVT", posts: ["N/A"] }
+],
+
+qualifications: [
+  { post: "ITI Trainee", eligibility: "Enrolled in 1st or 2nd Year ITI course under SCVT UP" }
+],
+
+requiredDocs: [
+  "NCVT MIS ITI Admit Card printout",
+  "Government-issued ID (Aadhaar/Voter ID etc.)",
+  "Student ITI ID card",
+  "Passport-size photograph"
+],
+
+examPattern: [
+  "Theory Exam: Computer Based Test (CBT)",
+  "Practical Exam: Conducted in ITI Workshops"
+],
+
+selectionProcess: [
+  "Written Theory Exam (CBT)",
+  "Practical Skill Evaluation"
+],
+
+howToApply: [
+  "Visit the NCVT MIS portal: https://ncvtmis.gov.in or https://skillindiadigital.gov.in",
+  "Click on 'Trainee Login' under the Admit Card section",
+  "Enter your Registration Number / PRN, Date of Birth, and Father’s Name",
+  "Complete CAPTCHA verification and log in",
+  "Download the admit card and print multiple copies"
+]
+,
     importantLinks: [
       {
         "label": "Download Pre Admit Card",
@@ -4710,16 +8438,77 @@ const admitcardData = [
      postName: "RSSB Librarian Gr-III Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Staff Selection Board (RSSB) , has released the Admit Card on its official website for the Librarian Grade III Examination 2025. The exam will be conducted on 27 July 2025, and the last d...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the RSSB Librarian Grade-III Exam be conducted?", a: "27 July 2025" },
+  { q: "When was the admit card released for Librarian Grade-III 2025?", a: "24 July 2025" },
+  { q: "When was the Exam City information released?", a: "21 July 2025" },
+  { q: "What is the eligibility for Rajasthan Librarian Grade-III Vacancy 2025?", a: "12th pass + Certificate/Diploma/Degree in Library Science recognized by NCTE or equivalent" },
+  { q: "What is the age limit for the Librarian Grade-III post?", a: "18–40 years as on 01 January 2026 (age relaxation as per rules)" },
+  { q: "What is the official website for RSSB?", a: "https://rsmssb.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Notification Date", value: "12 December 2024" },
+  { label: "Application Start Date", value: "05 March 2025" },
+  { label: "Last Date to Apply", value: "03 April 2025" },
+  { label: "Last Date for Fee Payment", value: "03 April 2025" },
+  { label: "Exam City Details", value: "21 July 2025" },
+  { label: "Admit Card Release Date", value: "24 July 2025" },
+  { label: "Exam Date", value: "27 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS (Creamy Layer)", value: "₹ 600/-" },
+  { label: "SC / ST / OBC / EWS (Non-Creamy Layer)", value: "₹ 400/-" },
+  { label: "Divyang (PwD)", value: "₹ 400/-" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 January 2026. Age relaxation applicable as per RSSB rules." }
+],
+
+vacancies: [
+  { dept: "Madhyamik Shiksha Vibhag", posts: "500" },
+  { dept: "Sanskrit Shiksha Vibhag", posts: "48" }
+],
+
+qualifications: [
+  {
+    post: "Librarian Grade-III",
+    eligibility: "12th pass + Certificate, Diploma, or Degree in Library Science (recognized by NCTE or equivalent)"
+  }
+],
+
+requiredDocs: [
+  "RSSB Librarian Grade-III Admit Card (printout)",
+  "Government-issued Photo ID (Aadhaar, Voter ID, etc.)",
+  "Recent Passport-size Photograph",
+  "12th Marks Sheet and Library Science Qualification Certificate"
+],
+
+examPattern: [
+  "Written Examination consisting of objective-type questions",
+  "Questions likely based on General Knowledge and Library Science",
+  "Detailed syllabus available in official notification"
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Document Verification",
+  "Final Merit List based on written exam score and document validation"
+],
+
+howToApply: [
+  "Visit the official website: https://rsmssb.rajasthan.gov.in/",
+  "Go to 'Candidate Corner' → 'Admit Card'",
+  "Click on 'Librarian Grade III – Admit Card' or 'Exam City Intimation'",
+  "Login using Registration Number and Date of Birth/Password",
+  "Download and print your Admit Card and City Slip"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -4798,16 +8587,73 @@ const admitcardData = [
      postName: "Indian Navy Agniveer MR Musician Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Join Indian Navy (Nausena Bharti) , has released the Admit Card on its official website for the Recruitment of MR Agniveer Musician 02/2025 Batch Exam 2025. The exam will be conducted on August 202...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When will the Indian Navy Agniveer MR Musician Exam 2025 be conducted?", a: "August 2025" },
+  { q: "When was the admit card released for Indian Navy Agniveer MR Musician?", a: "23 July 2025" },
+  { q: "What is the age limit for Indian Navy Agniveer MR Musician?", a: "Candidates must be born between 01 September 2004 and 29 February 2005 (both dates inclusive)" },
+  { q: "What is the eligibility for Agniveer MR Musician Recruitment 2025?", a: "10th pass with at least 50% marks and basic musical ability; must meet physical fitness standards as per gender" },
+  { q: "What is the total number of posts available for MR Musician 02/2025 Batch?", a: "13 Posts" },
+  { q: "What is the official website for Indian Navy?", a: "https://www.joinindiannavy.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "05 July 2025" },
+  { label: "Last Date to Apply", value: "13 July 2025" },
+  { label: "Last Date for Fee Payment", value: "13 July 2025" },
+  { label: "Admit Card Release Date", value: "23 July 2025" },
+  { label: "Exam Date", value: "August 2025" }
+],
+
+applicationFees: [
+  { label: "All Categories", value: "₹ 0/- (No application fee)" }
+],
+
+ageLimit: [
+  { label: "Date of Birth Range", value: "01 September 2004 to 29 February 2005 (both dates inclusive)" },
+  { note: "Age relaxation as per Indian Navy recruitment rules" }
+],
+
+vacancies: [
+  { dept: "Indian Navy", posts: "13" }
+],
+
+qualifications: [
+  {
+    post: "Agniveer MR Musician",
+    eligibility: "Passed Class 10th (Matric) with minimum 50% marks and basic musical ability. Must meet physical test criteria."
+  }
+],
+
+requiredDocs: [
+  "Admit Card (printed copy)",
+  "Valid Photo ID (Aadhaar Card, PAN, etc.)",
+  "10th Marks Sheet",
+  "Proof of musical qualification or ability (if applicable)",
+  "Recent passport-size photos"
+],
+
+examPattern: [
+  "Stage I – Preliminary Screening",
+  "Stage II – Final Screening",
+  "Final Medical Examination"
+],
+
+selectionProcess: [
+  "Shortlisting",
+  "Preliminary Screening",
+  "Final Screening",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official site: https://www.joinindiannavy.gov.in/",
+  "Navigate to the 'Admit Card' or 'Call Letters' section",
+  "Find 'Agniveer MR (Musician) – 02/2025 Batch Admit Card'",
+  "Login using Registration Number and Date of Birth",
+  "Download and print at least two color copies of the admit card",
+  "Verify your name, roll number, exam date, and instructions"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -4859,16 +8705,71 @@ const admitcardData = [
      postName: "RPSC Various Post Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Public Service Commission (RPSC) , has released the Exam Date on its official website for the Rajasthan Various Post Examination 2025. The exam will be conducted on May 2025 – December 20...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "What is the exam date range for RPSC Various Posts 2025?", a: "May 2025 to December 2025, and April 2026 to July 2026 (Exam Wise)" },
+  { q: "When was the RPSC Exam Calendar 2025 released?", a: "27 December 2024" },
+  { q: "Where can I find the RPSC Exam Calendar 2025?", a: "You can find it on the official RPSC website under the 'Exam Dashboard' or 'Exam Calendar' section." },
+  { q: "What is the mode of selection for RPSC Various Posts?", a: "Written Exam, Interview, Document Verification, and Final Merit List" },
+  { q: "What is the official website for RPSC?", a: "https://rpsc.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Exam Calendar Release Date", value: "27 December 2024" },
+  { label: "Exam Dates", value: "May 2025 to December 2025 (Exam Wise)" },
+  { label: "Additional Exam Dates", value: "April 2026 to July 2026 (Exam Wise)" },
+  { label: "Admit Card Release", value: "Before Exam" }
+],
+
+applicationFees: [
+  { label: "All Categories", value: "Visit Official Website for details" }
+],
+
+ageLimit: [
+  { label: "Age Limit", value: "As per RPSC rules" },
+  { note: "Age relaxation applicable as per RPSC recruitment norms" }
+],
+
+vacancies: [
+  { dept: "Rajasthan Public Service Commission (RPSC)", posts: "N/A (Multiple Posts via Calendar)" }
+],
+
+qualifications: [
+  {
+    post: "Various Posts (e.g. TGT, Assistant Professor, Sub Inspector, Librarian, JLO, etc.)",
+    eligibility: "Eligibility differs by post; refer to individual notifications on RPSC website."
+  }
+],
+
+requiredDocs: [
+  "Admit Card (Printed)",
+  "Valid Photo ID Proof",
+  "Educational Certificates",
+  "Category Certificate (if applicable)",
+  "Other documents as per specific post notification"
+],
+
+examPattern: [
+  "Written Examination (Post-wise pattern varies)",
+  "Interview (for select posts)",
+  "Document Verification"
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Interview (if applicable)",
+  "Document Verification",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the RPSC official site: https://rpsc.rajasthan.gov.in/",
+  "Navigate to the 'Exam Dashboard' or 'Exam Calendar' section",
+  "Find and click on the link titled 'Exam Schedule 2025'",
+  "Download the PDF containing all upcoming exam dates",
+  "Check the schedule based on your applied post (e.g., Senior Teacher, SI, JLO)",
+  "Save or print the calendar for future reference"
+]
+,
     importantLinks: [
       {
         "label": "Check Various Post Exam Date",
@@ -4911,16 +8812,105 @@ const admitcardData = [
      postName: "UPSSSC Auditor & Assistant Accountant 05/2023 DV Letter",
     postDate: "Not specified",
     shortInfo: "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) , The DV Letter for the recruitment of Auditor & Assistant Accountant posts has been released on the official website. This recruitme...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UPSSSC Auditor & Assistant Accountant Recruitment 2023 start?", a: "The application started on 11 July 2023." },
+  { q: "What was the last date to apply for UPSSSC Auditor & Assistant Accountant Recruitment 2023?", a: "01 August 2023." },
+  { q: "When was the exam conducted?", a: "The written exam was held on 05 January 2025." },
+  { q: "When was the DV (Document Verification) letter released?", a: "22 July 2025." },
+  { q: "What is the official website of UPSSSC?", a: "http://upsssc.gov.in/" }
+],
+
+importantDates: [
+  { label: "Apply Online Start Date", value: "11 July 2023" },
+  { label: "Last Date to Apply", value: "01 August 2023" },
+  { label: "Last Date for Fee Payment", value: "01 August 2023" },
+  { label: "Correction Last Date", value: "08 August 2023" },
+  { label: "Exam Date", value: "05 January 2025" },
+  { label: "Admit Card Release", value: "02 January 2025" },
+  { label: "Answer Key Release", value: "09 January 2025" },
+  { label: "Objection Window", value: "10–16 January 2025" },
+  { label: "Revised Answer Key", value: "30 April 2025" },
+  { label: "Result Declared", value: "09 July 2025" },
+  { label: "DV Letter Released", value: "22 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹ 25/-" },
+  { label: "SC / ST", value: "₹ 25/-" },
+  { label: "PH (Divyang)", value: "₹ 25/-" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years as on 01 July 2023" },
+  { label: "Maximum Age", value: "40 Years as on 01 July 2023" },
+  { note: "Age relaxation applicable as per UPSSSC rules" }
+],
+
+vacancies: [
+  {
+    post: "Auditor (Local Audit)",
+    EWS: 13,
+    OBC: 33,
+    General: 63,
+    SC: 28,
+    ST: 3
+  },
+  {
+    post: "Auditor (Cooperative Societies)",
+    EWS: 39,
+    OBC: 107,
+    General: 155,
+    SC: 83,
+    ST: 7
+  },
+  {
+    post: "Assistant Accountant",
+    EWS: 0,
+    OBC: 0,
+    General: 1,
+    SC: 0,
+    ST: 0
+  }
+],
+
+qualifications: [
+  {
+    post: "Auditor & Assistant Accountant",
+    eligibility: "Candidates must meet educational and eligibility criteria as per official notification; generally includes commerce/accounting-related qualification and UPSSSC PET score."
+  }
+],
+
+requiredDocs: [
+  "Printed DV Call Letter",
+  "Valid Photo ID (Aadhaar/PAN/Voter ID etc.)",
+  "Educational Certificates (Original and Photocopy)",
+  "Category Certificate (if applicable)",
+  "Passport Size Photographs",
+  "Domicile Certificate (if required)",
+  "Other documents mentioned in the DV letter"
+],
+
+examPattern: [
+  "Written Examination with objective-type questions",
+  "Answer Key and Revised Key released post exam"
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Skill Test (if applicable)",
+  "Document Verification (DV)",
+  "Final Merit List based on written exam marks and document scrutiny"
+],
+
+howToApply: [
+  "Visit the UPSSSC official website: http://upsssc.gov.in/",
+  "Navigate to the 'Notices' or 'DV Letters' section",
+  "Find 'Auditor & Assistant Accountant DV Letter – Advt. No. 05-Exam/2023'",
+  "Click on 'Download DV Letter'",
+  "Log in using Registration Number, DOB, and Gender",
+  "Download and print your Document Verification letter (PDF)"
+],
+
     importantLinks: [
       {
         "label": "Download DV Letter",
@@ -5031,16 +9021,89 @@ const admitcardData = [
      postName: "BSEB Bihar JEE/ NEET Free Coaching Admit Card 2025-2027",
     postDate: "Not specified",
     shortInfo: "Bihar School Examination Board (BSEB) , has released the admit card for the Examination of Bihar JEE/ NEET Free Coaching examinations 2024. Those Candidates who are appearing for the exam which wil...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  {
+    q: "When was the BSEB Bihar JEE/ NEET Free Coaching Admit Card 2024 released?",
+    a: "The admit card was released on 18 July 2025."
+  },
+  {
+    q: "What is the exam date for BSEB Bihar JEE/ NEET Free Coaching 2024?",
+    a: "The exam will be held on 27 July 2025."
+  },
+  {
+    q: "What is the eligibility for BSEB Bihar JEE/ NEET Free Coaching?",
+    a: "Candidates must have passed Class 10th (CBSE, ICSE, or BSEB appearing) and possess a valid Bihar domicile."
+  },
+  {
+    q: "What is the official website of BSEB?",
+    a: "The official website is https://coaching.biharboardonline.com/"
+  }
+],
+
+importantDates: [
+  { label: "Apply Online Start Date", value: "30 October 2024" },
+  { label: "Last Date to Apply", value: "15 November 2024" },
+  { label: "Last Date for Fee Payment", value: "25 November 2024" },
+  { label: "Admit Card Release Date", value: "18 July 2025" },
+  { label: "Exam Date", value: "27 July 2025" },
+  { label: "Result Date", value: "Will Be Updated Here Soon" }
+],
+
+applicationFees: [
+  { label: "General / EWS / OBC / BC", value: "₹0/-" },
+  { label: "SC / ST / Divyang", value: "₹0/-" },
+  { note: "No fee required for any category" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "Not Applicable" },
+  { label: "Maximum Age", value: "Not Applicable" },
+  { note: "Age criteria as per BSEB rules" }
+],
+
+vacancies: [
+  { post: "Engineering (JEE)", total: "N/A" },
+  { post: "Medical (NEET)", total: "N/A" }
+],
+
+qualifications: [
+  {
+    post: "JEE/NEET Free Coaching",
+    eligibility: "Candidates must have passed Class 10th from CBSE or ICSE or be appearing from BSEB. Bihar domicile is mandatory."
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID (Aadhaar, Voter ID, etc.)",
+  "Domicile Certificate",
+  "Class 10th Marksheet or Admit Card",
+  "Recent Passport Size Photographs"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Offline (OMR Sheet Based)" },
+  { label: "Question Type", value: "Multiple Choice Questions (MCQs)" },
+  { label: "Subjects for JEE", value: "Physics, Chemistry, Mathematics" },
+  { label: "Subjects for NEET", value: "Physics, Chemistry, Biology" },
+  { label: "Exam Duration", value: "3 Hours" },
+  { label: "Marking Scheme", value: "+1 for correct answer, Negative Marking if applicable" },
+  { label: "Language", value: "Hindi and English" }
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Interview (Viva-Voce)"
+],
+
+howToApply: [
+  "Visit the official website: https://biharboardonline.bihar.gov.in",
+  "Click on 'JEE/NEET Free Coaching Admit Card 2024' in the latest updates section",
+  "Login using Registration Number and Date of Birth",
+  "Download and verify admit card details",
+  "Print a copy for the exam day"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card (Class 11th 2025-27)",
@@ -5083,16 +9146,93 @@ const admitcardData = [
      postName: "Indian Territorial Army Officer Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Join Indian Army , has released the Admit Card on its official website for the Territorial Army Officer Examination 2025. The exam will be conducted on 20 July 2025 , and the last date to submit th...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  {
+    q: "When will the online application for Indian Territorial Army Officer Recruitment 2025 start?",
+    a: "The online application started on 12 May 2025."
+  },
+  {
+    q: "What is the last date to apply for Indian Territorial Army Officer Recruitment 2025?",
+    a: "The last date to apply was 10 June 2025."
+  },
+  {
+    q: "What is the exam date for Indian Territorial Army Officer 2025?",
+    a: "The exam will be conducted on 20 July 2025."
+  },
+  {
+    q: "What is the eligibility for Indian Territorial Army Officer?",
+    a: "Candidates must have completed a Bachelor's degree in any stream from a recognized university."
+  },
+  {
+    q: "What is the official website of the Indian Army?",
+    a: "The official website is https://indianarmy.nic.in/"
+  }
+],
+
+importantDates: [
+  { label: "Apply Online Start Date", value: "12 May 2025" },
+  { label: "Apply Online Last Date", value: "10 June 2025" },
+  { label: "Last Date for Fee Payment", value: "10 June 2025" },
+  { label: "Admit Card Release Date", value: "17 July 2025" },
+  { label: "Exam Date", value: "20 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹500/-" },
+  { label: "SC / ST", value: "₹500/-" },
+  { note: "Fee is same for all categories." }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "42 Years" },
+  { note: "As on 10 June 2025. Age relaxation as per Indian Army rules." }
+],
+
+vacancies: [
+  { postName: "Territorial Army Officer (Male)", total: "18" },
+  { postName: "Territorial Army Officer (Female)", total: "01" }
+],
+
+qualifications: [
+  {
+    post: "Territorial Army Officer",
+    eligibility: "Bachelor's degree in any stream from a recognized university."
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID (Aadhar, Passport, Driving License, etc.)",
+  "Passport-size Photographs (if mentioned)",
+  "Educational Certificates (for DV, if called)",
+  "Caste/Category Certificate (if applicable)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Computer-Based Test (CBT)" },
+  { label: "Type of Questions", value: "Objective Type" },
+  { label: "Subjects", value: "As per official notification" },
+  { label: "Duration", value: "Not Mentioned" },
+  { label: "Negative Marking", value: "As per rules" }
+],
+
+selectionProcess: [
+  "Written Examination (CBT)",
+  "Preliminary Interview Board (PIB)",
+  "Service Selection Board (SSB) Interview",
+  "Medical Examination",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official Territorial Army portal: https://territorialarmy.in",
+  "Click on 'Admit Card' or 'Hall Ticket' link on homepage",
+  "Login using Registration Number and Password",
+  "Download and print the admit card",
+  "Carry the admit card and a valid photo ID to the exam centre"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5144,16 +9284,93 @@ const admitcardData = [
      postName: "JCECEB Para Medical Entrance Exam Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Jharkhand Combined Entrance Competitive Examination Board (JCECEB) , has released the Admit Card on its official website for the Para Medical Entrance Competitive Examination 2025. The exam will be...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  {
+    q: "When did the application for JCECEB Para Medical Exam 2025 start?",
+    a: "The application started on 16 May 2025."
+  },
+  {
+    q: "What is the last date to apply for JCECEB Para Medical Exam 2025?",
+    a: "The last date to apply online and pay fees was 16 June 2025."
+  },
+  {
+    q: "What is the exam date for JCECEB Para Medical Entrance 2025?",
+    a: "The exam will be conducted on 20 July 2025."
+  },
+  {
+    q: "What is the official website to download the JCECEB Para Medical Admit Card?",
+    a: "The official website is https://jceceb.jharkhand.gov.in"
+  },
+  {
+    q: "What is the eligibility for JCECEB Para Medical Courses?",
+    a: "Eligibility depends on the course level. For intermediate level: 12th Science with relevant subjects. For matric level: 10th pass with specified certificate course."
+  }
+],
+
+importantDates: [
+  { label: "Application Start", value: "16 May 2025" },
+  { label: "Last Date to Apply", value: "16 June 2025" },
+  { label: "Fee Payment Last Date", value: "16 June 2025" },
+  { label: "Admit Card Available", value: "16 July 2025" },
+  { label: "Exam Date", value: "20 July 2025" }
+],
+
+applicationFees: [
+  { label: "UR / EWS / BC I / BC II", value: "₹900/-" },
+  { label: "SC / ST / Female", value: "₹450/-" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "17 Years" },
+  { label: "Maximum Age", value: "N/A" },
+  { note: "As on 31 December 2025. Age relaxation as per JCECEB rules." }
+],
+
+vacancies: [
+  { postName: "Para Medical Courses", total: "Not Specified" }
+],
+
+qualifications: [
+  {
+    post: "2 Years 3 Months Diploma in Pharmacy",
+    eligibility: "12th pass with Physics, Chemistry, and Mathematics or Biology"
+  },
+  {
+    post: "2 Years Diploma in Para-Medical",
+    eligibility: "12th pass in Science stream"
+  },
+  {
+    post: "1 Year Certificate Course (Dresser / Lab Attendant / Radiographer Attendant)",
+    eligibility: "10th pass or equivalent"
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card (color print preferred)",
+  "Valid Photo ID (Aadhar Card, Voter ID, etc.)",
+  "Photographs (as per admit card instructions)",
+  "Educational Qualification Certificates (if required)"
+],
+
+examPattern: [
+  { label: "Mode of Exam", value: "Offline (Pen & Paper based)" },
+  { label: "Type of Questions", value: "Objective Type (MCQs)" },
+  { label: "Subjects", value: "As per course (Science subjects for Intermediate, General for Matric level)" },
+  { label: "Duration", value: "Not Specified" }
+],
+
+selectionProcess: [
+  "Entrance Test (Written Examination)"
+],
+
+howToApply: [
+  "Visit the official website: https://jceceb.jharkhand.gov.in",
+  "Click on the ‘Admit Card’ link on homepage",
+  "Select 'Para Medical Entrance Competitive Examination'",
+  "Login using Application Number and Date of Birth",
+  "Download and print your admit card"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5214,16 +9431,87 @@ const admitcardData = [
      postName: "Haryana High Court Stenographer Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Haryana High Court, Chandigarh (Haryana) , has released the Admit Card on its official website for the Recruitment of Stenographer Exam 2025. The exam will be conducted on 19 July 2025 , and the la...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  {
+    q: "When did the application for Haryana High Court Stenographer Recruitment 2025 start?",
+    a: "The application started on 07 April 2025."
+  },
+  {
+    q: "What was the last date to apply for the Haryana High Court Stenographer Exam?",
+    a: "The last date to apply and pay fees was 05 May 2025."
+  },
+  {
+    q: "What is the exam date for the Haryana High Court Stenographer 2025?",
+    a: "The exam will be held on 19 July 2025."
+  },
+  {
+    q: "What is the eligibility for Haryana High Court Stenographer?",
+    a: "Bachelor’s degree in any stream, basic computer knowledge, and stenography skills (English dictation at 80 WPM and transcription at 20 WPM)."
+  },
+  {
+    q: "What is the official website for downloading the Haryana HC Stenographer Admit Card?",
+    a: "The official recruitment portal is https://sssc.gov.in"
+  }
+],
+
+importantDates: [
+  { label: "Application Start", value: "07 April 2025" },
+  { label: "Last Date to Apply", value: "05 May 2025" },
+  { label: "Fee Payment Last Date", value: "05 May 2025" },
+  { label: "Admit Card Available", value: "11 July 2025" },
+  { label: "Exam Date", value: "19 July 2025" }
+],
+
+applicationFees: [
+  { label: "General (Male)", value: "₹825/-" },
+  { label: "General (Female)", value: "₹625/-" },
+  { label: "SC / BC / EWS / ESM", value: "₹525/-" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "42 Years" },
+  { note: "As on 01 January 2025. Age relaxation as per Haryana High Court rules." }
+],
+
+vacancies: [
+  { post: "Stenographer Grade-III", total: "419 Posts" }
+],
+
+qualifications: [
+  {
+    post: "Stenographer Grade-III",
+    eligibility: "Bachelor’s degree in any stream, basic computer knowledge, English dictation at 80 WPM and transcription at 20 WPM."
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card (preferably color)",
+  "Valid Photo ID (Aadhar Card, Driving License, etc.)",
+  "Passport-size Photographs",
+  "Any additional documents mentioned in the admit card"
+],
+
+examPattern: [
+  { label: "Phase 1", value: "Written Examination" },
+  { label: "Phase 2", value: "Stenography Skill Test (dictation and transcription)" }
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Stenography Skill Test",
+  "Document Verification",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official recruitment portal: https://sssc.gov.in",
+  "Click on the ‘Admit Card’ section on the homepage",
+  "Find and click on ‘Stenographer Grade III Admit Card 2025’ link",
+  "Login with your Registration ID and Password",
+  "Download and print your admit card"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5266,16 +9554,89 @@ const admitcardData = [
      postName: "SBI Circle Based Officers CBO Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "State Bank of India (SBI) , will be released the Admit Card on its official website for the Examination of Circle Based Officers CBO Exam 2025. The exam will be conducted on 28 July 2025 , and the ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  {
+    q: "When will the SBI Circle Based Officer CBO Admit Card 2025 be released?",
+    a: "The admit card has been released on 10 July 2025."
+  },
+  {
+    q: "What is the SBI CBO 2025 Exam Date?",
+    a: "The exam will be held on 20 July 2025."
+  },
+  {
+    q: "What is the eligibility for SBI Circle Based Officer CBO?",
+    a: "Bachelor’s degree in any discipline from a recognized university and knowledge of the local language."
+  },
+  {
+    q: "What is the age limit for SBI CBO 2025?",
+    a: "Minimum age is 21 years and maximum age is 30 years as on 30 April 2025. Age relaxation as per rules."
+  },
+  {
+    q: "What is the official website to download SBI CBO Admit Card?",
+    a: "You can download it from the SBI Careers portal: https://sbi.co.in/"
+  }
+],
+
+importantDates: [
+  { label: "Initial Application Start", value: "09 May 2025" },
+  { label: "Initial Application Last Date", value: "29 May 2025" },
+  { label: "Re-Open Start Date", value: "21 June 2025" },
+  { label: "Re-Open Last Date", value: "30 June 2025" },
+  { label: "Fee Payment Last Date", value: "30 June 2025" },
+  { label: "Admit Card Release", value: "10 July 2025" },
+  { label: "Exam Date", value: "20 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹750/-" },
+  { label: "SC / ST / PH", value: "₹0/-" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "As on 30 April 2025. Age relaxation applicable as per SBI rules." }
+],
+
+vacancies: [
+  { post: "Circle Based Officer (CBO)", total: "2600 Posts" }
+],
+
+qualifications: [
+  {
+    post: "Circle Based Officer (CBO)",
+    eligibility: "Bachelor’s degree in any discipline from a recognized university in India. Candidate must be familiar with the local language of the state."
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhar Card, PAN Card, etc.)",
+  "Photographs (as per notification)",
+  "Any additional documents mentioned in the admit card or official notification"
+],
+
+examPattern: [
+  { label: "Phase 1", value: "Online Written Examination" },
+  { label: "Phase 2", value: "Screening Test" },
+  { label: "Phase 3", value: "Interview" }
+],
+
+selectionProcess: [
+  "Online Exam",
+  "Screening",
+  "Interview",
+  "Final Selection based on merit"
+],
+
+howToApply: [
+  "Visit the SBI Careers page: https://sbi.co.in/web/careers",
+  "Navigate to the ‘Current Openings’ section",
+  "Click on 'Download Admit Card for CBO 2025'",
+  "Login using Registration Number and Date of Birth",
+  "Download and print the admit card"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5336,16 +9697,89 @@ const admitcardData = [
      postName: "UPSC Combined Medical Services CMS Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Union Public Service Commission UPSC , has released the Admit Card for the recruitment of Combined Medical Services CMS 2025 on its official website. The UPSC application process started on 19 Febr...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  {
+    q: "When was the UPSC CMS Admit Card 2025 released?",
+    a: "The UPSC Combined Medical Services CMS Admit Card 2025 was released on 10 July 2025."
+  },
+  {
+    q: "What is the UPSC CMS Exam Date 2025?",
+    a: "The exam is scheduled to be conducted on 20 July 2025."
+  },
+  {
+    q: "What is the age limit for UPSC CMS Recruitment 2025?",
+    a: "Maximum age is 32 years as per UPSC rules. Age relaxation is applicable as per rules."
+  },
+  {
+    q: "What is the eligibility criteria for UPSC CMS 2025?",
+    a: "Candidates must have passed the written and practical parts of the final M.B.B.S. examination. Final year candidates awaiting results may apply, but must show proof at Personality Test."
+  },
+  {
+    q: "What is the official website of UPSC?",
+    a: "The official website of UPSC is https://upsc.gov.in/"
+  }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "19 February 2025" },
+  { label: "Last Date to Apply", value: "11 March 2025" },
+  { label: "Fee Payment Last Date", value: "11 March 2025" },
+  { label: "Admit Card Release Date", value: "10 July 2025" },
+  { label: "Exam Date", value: "20 July 2025" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹200/-" },
+  { label: "SC / ST / PH / All Female", value: "₹0/-" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "Not Applicable" },
+  { label: "Maximum Age", value: "32 Years" },
+  { note: "Age relaxation applicable as per UPSC Combined Medical Services rules." }
+],
+
+vacancies: [
+  { post: "Medical Officers Grade in General Duty Medical Officers Sub Cadre of Central Health Service", total: "226" },
+  { post: "Assistant Division Medical Officer (ADMO) in Railway", total: "450" },
+  { post: "General Duty Medical Officer (GDMO) Grade II in NDMS", total: "09" },
+  { post: "General Duty Medical Officer (GDMO) in Various Delhi Municipal Council", total: "20" }
+],
+
+qualifications: [
+  {
+    post: "All Posts under CMS",
+    eligibility: "Must have passed the written and practical parts of the final M.B.B.S. examination. Candidates awaiting results may apply, but must produce proof during the Personality Test."
+  }
+],
+
+requiredDocs: [
+  "Printed Admit Card",
+  "Valid Photo ID Proof (Aadhar Card, Voter ID, PAN Card, etc.)",
+  "Passport size photographs",
+  "Any other documents mentioned in the official notification"
+],
+
+examPattern: [
+  { label: "Paper I", value: "Computer Based Test (CBT)" },
+  { label: "Paper II", value: "Computer Based Test (CBT)" },
+  { label: "Stage 3", value: "Personality Test / Interview" }
+],
+
+selectionProcess: [
+  "Computer Based Written Examination (Paper I & II)",
+  "Personality Test",
+  "Final Merit List based on performance"
+],
+
+howToApply: [
+  "Visit the official UPSC website: https://upsc.gov.in/",
+  "Click on the 'Admit Card' link from the homepage",
+  "Select 'UPSC CMS 2025 Admit Card'",
+  "Enter your Registration Number or Enrollment Number and Date of Birth",
+  "Download and print your admit card for the exam"
+]
+,
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5388,16 +9822,87 @@ const admitcardData = [
      postName: "Rajasthan Police Constable New Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Department of Police Rajasthan , has released the Exam Date on its official website for the Recruitment of Examination of Police Constable 2025. The exam will be conducted on 13-14 September 2025 ,...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Rajasthan Police Constable Recruitment 2025 start?", a: "The online application started on 28 April 2025." },
+  { q: "What was the last date to apply for Rajasthan Police Constable Recruitment 2025?", a: "The last date to apply online was 17 May 2025." },
+  { q: "What is the exam date for Rajasthan Police Constable Recruitment 2025?", a: "The exam will be conducted on 13-14 September 2025." },
+  { q: "What is the age limit for Rajasthan Police Constable Recruitment 2025?", a: "For Constable posts: Minimum DOB 01/01/2008. Maximum DOB: 02/01/2002 (Male), 02/01/1997 (Female). For Driver posts: Maximum DOB 02/01/1999 (Male), 02/01/1994 (Female). Age relaxation applicable as per Rajasthan Police rules." },
+  { q: "What is the eligibility for Rajasthan Police Constable Vacancy 2025?", a: "Candidates must have passed 10+2 (Intermediate) from any recognized board in India. For detailed eligibility, refer to the official notification." },
+  { q: "What is the official website for Rajasthan Police?", a: "The official website is https://www.police.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "28 April 2025" },
+  { label: "Last Date to Apply Online", value: "17 May 2025" },
+  { label: "Last Date for Fee Payment", value: "17 May 2025" },
+  { label: "Correction Window", value: "26 May 2025 to 04 June 2025" },
+  { label: "Initial Exam Date", value: "19-20 July 2025" },
+  { label: "Revised Exam Date", value: "13-14 September 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹600" },
+  { label: "SC / ST", value: "₹400" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Constable (General)", value: "Born between 01/01/2008 and 02/01/2002 (Male), 02/01/1997 (Female)" },
+  { label: "Constable (Driver)", value: "Born between 01/01/2008 and 02/01/1999 (Male), 02/01/1994 (Female)" },
+  { note: "As on 01 January 2026. Age relaxation applicable as per Rajasthan Police rules." }
+],
+
+vacancies: [
+  { post: "Constable GD", tsp: 867, nonTsp: 6751, total: 7618 },
+  { post: "Constable Driver", tsp: 47, nonTsp: 412, total: 459 },
+  { post: "Constable Band", tsp: 0, nonTsp: 71, total: 71 },
+  { post: "Increased Post", total: 383 },
+  { post: "Total", tsp: 914, nonTsp: 7234, total: 8531 }
+],
+
+qualifications: [
+  { post: "Rajasthan Police Constable", eligibility: "Candidates must have passed 10+2 (Intermediate) from a recognized board in India." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "10th/12th educational certificates",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / PAN or other government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+  "Paper-I: 75 Marks, 150 Questions, 3 Hours",
+  "Paper-II: 75 Marks, 150 Questions, 3 Hours",
+  "Paper-III: 50 Marks, 100 Questions, 2 Hours",
+  "Exam Mode: Offline (Pen & Paper)",
+  "Question Type: Objective (MCQs)"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Physical Efficiency Test (PET)",
+  "Physical Standard Test (PST)",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official Rajasthan Police website: https://police.rajasthan.gov.in/",
+  "Go to the 'Recruitment/Results' section",
+  "Click on 'Constable Recruitment 2025 – Apply Online'",
+  "Register and fill in the online application form with required details",
+  "Upload photograph, signature, and supporting documents",
+  "Pay the application fee using available online modes",
+  "Submit the form and take multiple printouts for future use"
+],
+
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -5476,16 +9981,78 @@ const admitcardData = [
      postName: "Jharkhand High Court Assistant Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Jharkhand High Court (JHC) , has released the Admit Card on its official website for the Recruitment of Assistant Exam 2025. The exam will be conducted on 20 July 2025 , and the last date to submit...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for Jharkhand High Court Assistant Recruitment 2025 start?", a: "The online application started on 20 February 2024." },
+  { q: "What was the last date to apply for Jharkhand High Court Assistant Recruitment 2025?", a: "The last date to apply online was 22 March 2024." },
+  { q: "What is the exam date for Jharkhand High Court Assistant Recruitment 2025?", a: "The exam will be conducted on 20 July 2025." },
+  { q: "What is the age limit for Jharkhand High Court Assistant Recruitment 2025?", a: "Minimum Age: 21 Years. Maximum Age: 35 Years (UR/EWS), 37 Years (BC-I/BC-II), 38 Years (Female UR/BC-I/BC-II), 40 Years (SC/ST). Age relaxation applicable as per JHC rules." },
+  { q: "What is the eligibility for Jharkhand High Court Assistant Vacancy 2025?", a: "Candidates must have a Graduation degree or equivalent from a recognized university, basic computer knowledge, and typing speed of 20 words per minute." },
+  { q: "What is the official website for Jharkhand High Court?", a: "The official website is https://jharkhandhighcourt.nic.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "20 February 2024" },
+  { label: "Last Date to Apply Online", value: "22 March 2024" },
+  { label: "Last Date for Fee Payment", value: "22 March 2024" },
+  { label: "Exam Date", value: "20 July 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "07 July 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "UR / BC-I / BC-II / EWS", value: "₹500" },
+  { label: "SC / ST", value: "₹125" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age (UR/EWS)", value: "35 Years" },
+  { label: "Maximum Age (BC-I/BC-II)", value: "37 Years" },
+  { label: "Maximum Age (Female UR/BC-I/BC-II)", value: "38 Years" },
+  { label: "Maximum Age (SC/ST)", value: "40 Years" },
+  { note: "As on 01 January 2024. Age relaxation applicable as per JHC rules." }
+],
+
+vacancies: [
+  { post: "Assistant", total: 55 }
+],
+
+qualifications: [
+  { post: "Assistant", eligibility: "Graduation or equivalent degree from a recognized university with basic computer knowledge and typing speed of 20 words per minute." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "Graduation degree or equivalent certificate",
+  "Computer literacy proof (if available)",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / PAN or other government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)"
+],
+
+examPattern: [
+  "Written Exam",
+  "Interview"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official Jharkhand High Court website: https://jharkhandhighcourt.nic.in/",
+  "Go to the 'Recruitment' or 'Notices' section",
+  "Find and click on 'Assistant Recruitment 2025 – Apply Online'",
+  "Register and fill in the application form with required details",
+  "Upload photograph, signature, and documents",
+  "Pay the application fee using online payment modes",
+  "Submit the form and download a copy for future reference"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5528,16 +10095,76 @@ const admitcardData = [
      postName: "RPSC Research Assistant Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Public Service Commission (RPSC) , has released the Admit Card for the recruitment of Research Assistant Examination 2025 on its official website. The RPSC application process started on ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RPSC Research Assistant Recruitment 2025 start?", a: "The online application started on 15 October 2024." },
+  { q: "What was the last date to apply for RPSC Research Assistant Recruitment 2025?", a: "The last date to apply online was 13 November 2024." },
+  { q: "What is the exam date for RPSC Research Assistant Recruitment 2025?", a: "The exam will be conducted on 10 July 2025." },
+  { q: "What is the age limit for RPSC Research Assistant Recruitment 2025?", a: "Minimum Age: 18 Years. Maximum Age: 40 Years as on 01 January 2025. Age relaxation applicable as per RPSC rules." },
+  { q: "What is the eligibility for RPSC Research Assistant Vacancy 2025?", a: "Candidates must hold a Second Class Postgraduate degree in Economics, Sociology, Mathematics, Commerce, or Statistics. Those with PG in Mathematics or Statistics must have studied Economics or Sociology in their Bachelor's. RS-CIT certificate, knowledge of Hindi in Devnagari script, and awareness of Rajasthani culture are also required." },
+  { q: "What is the official website for RPSC?", a: "The official website is https://rpsc.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "15 October 2024" },
+  { label: "Last Date to Apply Online", value: "13 November 2024" },
+  { label: "Complete Form Last Date", value: "13 November 2024" },
+  { label: "Exam Date", value: "10 July 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "07 July 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / Other State", value: "₹600" },
+  { label: "OBC / BC", value: "₹400" },
+  { label: "SC / ST", value: "₹400" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 January 2025. Age relaxation applicable as per RPSC rules." }
+],
+
+vacancies: [
+  { post: "Research Assistant", total: 26 }
+],
+
+qualifications: [
+  { post: "Research Assistant", eligibility: "Second Class PG degree in Economics, Sociology, Mathematics, Commerce, or Statistics. For PG in Mathematics or Statistics, Economics or Sociology must be studied at Bachelor's level. RS-CIT certificate, Hindi knowledge in Devnagari script, and awareness of Rajasthani culture are required." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "Postgraduate degree certificate",
+  "Bachelor’s degree certificate (if applicable for subject verification)",
+  "RS-CIT certificate",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / PAN or other government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)"
+],
+
+examPattern: [
+  "Written Examination (objective type, subject-related)",
+  "Merit List Preparation"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Merit List"
+],
+
+howToApply: [
+  "Visit the official RPSC website: https://rpsc.rajasthan.gov.in/",
+  "Click on 'Apply Online' for Research Assistant Recruitment 2025",
+  "Register and fill in required details in the application form",
+  "Upload scanned copies of photograph, signature, and required documents",
+  "Pay the application fee using available online payment modes",
+  "Submit the form and take a printout for future reference"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5589,16 +10216,77 @@ const admitcardData = [
      postName: "IOB Local Bank Officer LBO Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Indian Overseas Bank IOB , has released the Admit Card on its official website for the Recruitment of Local Bank Officer LBO Exam 2025. The exam will be conducted on 12 July 2025 , and the last dat...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for IOB Local Bank Officer LBO Recruitment 2025 start?", a: "The online application started on 12 May 2025." },
+  { q: "What was the last date to apply for IOB Local Bank Officer LBO Recruitment 2025?", a: "The last date to apply online was 31 May 2025." },
+  { q: "What is the exam date for IOB Local Bank Officer LBO Recruitment 2025?", a: "The exam will be conducted on 12 July 2025." },
+  { q: "What is the age limit for IOB Local Bank Officer LBO Recruitment 2025?", a: "Minimum Age: 20 Years. Maximum Age: 30 Years as on 01 May 2025. Age relaxation is applicable as per IOB rules." },
+  { q: "What is the eligibility for IOB Local Bank Officer LBO Recruitment 2025?", a: "Candidates must have a Bachelor’s degree in any stream from a recognized university in India." },
+  { q: "What is the official website for IOB?", a: "The official website is https://www.iob.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "12 May 2025" },
+  { label: "Last Date to Apply Online", value: "31 May 2025" },
+  { label: "Last Date for Fee Payment", value: "31 May 2025" },
+  { label: "Exam Date", value: "12 July 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "07 July 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹850" },
+  { label: "SC / ST / PH", value: "₹175" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "20 Years" },
+  { label: "Maximum Age", value: "30 Years" },
+  { note: "As on 01 May 2025. Age relaxation applicable as per IOB rules." }
+],
+
+vacancies: [
+  { post: "Local Bank Officer (LBO)", total: 400 }
+],
+
+qualifications: [
+  { post: "Local Bank Officer (LBO)", eligibility: "Bachelor’s degree in any stream from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Recent passport-sized photograph",
+  "Signature scanned copy",
+  "Bachelor’s degree certificate/mark sheet",
+  "Caste / Category Certificate (if applicable)",
+  "Disability Certificate (if applicable for PH)",
+  "Aadhaar Card / PAN Card / Voter ID or other valid ID proof",
+  "Domicile Certificate (if required)",
+  "EWS Certificate (if applicable)"
+],
+
+examPattern: [
+  "Online Examination (Objective type test covering Reasoning, Quantitative Aptitude, English, Banking Awareness, and General Awareness)",
+  "Language Proficiency Test (LPT)",
+  "Personal Interview"
+],
+
+selectionProcess: [
+  "Online Examination",
+  "Language Proficiency Test (LPT)",
+  "Personal Interview"
+],
+
+howToApply: [
+  "Visit the official website of IOB: https://www.iob.in/",
+  "Navigate to the Careers/Recruitment section",
+  "Select 'Apply Online' for Local Bank Officer (LBO) Recruitment 2025",
+  "Fill in the application form with required details",
+  "Upload scanned photograph, signature, and necessary documents",
+  "Pay the application fee online",
+  "Submit the application form and take a printout for future reference"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5659,16 +10347,83 @@ const admitcardData = [
      postName: "UPPSC PCS Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Uttar Pradesh Public Service Commission (UPPSC) , has released the Mains Admit Card for the recruitment of Combined Upper Subordinate Service UP PSC Post on its official website. The UPPSC applicat...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UPPSC PCS Mains Exam 2025 start?", a: "The online application started on 07 March 2025." },
+  { q: "What was the last date to apply for UPPSC PCS Mains Exam 2025?", a: "The last date to apply online was 24 March 2025." },
+  { q: "What is the exam date for UPPSC PCS Mains Exam 2025?", a: "The exam is scheduled on 29, 30 June & 01, 02 July 2025." },
+  { q: "What is the age limit for UPPSC PCS Mains 2025?", a: "Minimum age 21 Years, Maximum age 40 Years as on 01 July 2024. Age relaxation applicable as per UPPSC rules." },
+  { q: "What is the eligibility for UPPSC PCS Mains Exam 2025?", a: "Only candidates who qualified the Preliminary Exam are eligible to apply for the Mains Exam." },
+  { q: "What is the official website for UPPSC?", a: "The official website is https://uppsc.up.nic.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "07 March 2025" },
+  { label: "Last Date to Apply Online", value: "24 March 2025" },
+  { label: "Last Date for Fee Payment", value: "24 March 2025" },
+  { label: "Last Date Receipt Hard Copy", value: "01 April 2025" },
+  { label: "Mains Exam Date", value: "29, 30 June & 01, 02 July 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "19 June 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC / EWS", value: "₹225" },
+  { label: "SC / ST", value: "₹105" },
+  { label: "Ex-Servicemen", value: "₹65" },
+  { label: "PH (Divyang)", value: "₹25" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 July 2024. Age relaxation applicable as per UPPSC rules." }
+],
+
+vacancies: [
+  { post: "Combined State / Upper Subordinate Services (PCS) Examination 2024", total: 220 }
+],
+
+qualifications: [
+  { post: "UPPSC PCS Mains Exam 2025", eligibility: "Only candidates who passed the Preliminary Exam can apply for the Mains Exam." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "Prelims Qualified Proof / Admit Card",
+  "Educational Certificates (as required)",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / other valid ID proof",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+  "Preliminary Exam – Objective Type (450 Marks, 2 Hours, -1/3 Negative Marking)",
+  "Mains Exam – Written Exam (600 Marks, 3 Hours per paper)",
+  "Interview – 100 Marks"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Mains Examination",
+  "Interview (Viva-Voce)",
+  "Document Verification"
+],
+
+howToApply: [
+  "Visit the official UPPSC website: https://uppsc.up.nic.in/",
+  "Click on 'Apply Online' under the Mains Exam section",
+  "Login using Registration Number, Date of Birth, or Enrollment Number",
+  "Fill in the application form carefully",
+  "Upload photograph, signature, and required documents",
+  "Pay the application fee via available online payment modes",
+  "Submit the form and take a printout of the application for record",
+  "Send the hard copy (if required) to UPPSC by 01 April 2025"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -5738,16 +10493,76 @@ const admitcardData = [
      postName: "UKSSSC Group C Forester Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Uttarakhand Subordinate Service Selection Commission UKSSSC , has released Admit Card on official website for the recruitment of Group C Forester Examination 2025. This recruitment is for 124 posit...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for UKSSSC Group C Forester Recruitment 2025 start?", a: "The online application started in April 2025." },
+  { q: "What was the last date to apply for UKSSSC Group C Forester Recruitment 2025?", a: "The last date to apply online was 15 May 2025." },
+  { q: "What is the exam date for UKSSSC Group C Forester Recruitment 2025?", a: "The exam will be conducted on 22 June 2025." },
+  { q: "What is the age limit for UKSSSC Group C Forester Recruitment 2025?", a: "Minimum age 18 Years, Maximum age 28 Years as on 15 May 2025. Age relaxation applicable as per UKSSSC rules." },
+  { q: "What is the eligibility for UKSSSC Group C Forester Vacancy 2025?", a: "Candidates must have passed 12th class, preferably with Science or Agriculture subjects." },
+  { q: "What is the official website for UKSSSC?", a: "The official website is https://sssc.uk.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "April 2025" },
+  { label: "Last Date to Apply Online", value: "15 May 2025" },
+  { label: "Last Date for Fee Payment", value: "15 May 2025" },
+  { label: "Exam Date", value: "22 June 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "16 June 2025" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / OBC", value: "₹300" },
+  { label: "SC / ST / EWS / PwD", value: "₹150" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "18 Years" },
+  { label: "Maximum Age", value: "28 Years" },
+  { note: "As on 15 May 2025. Age relaxation applicable as per UKSSSC rules." }
+],
+
+vacancies: [
+  { post: "UKSSSC Group C Forester", total: 124 }
+],
+
+qualifications: [
+  { post: "UKSSSC Group C Forester", eligibility: "Candidates must have passed 12th class, preferably with Science or Agriculture subjects." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "12th Class Marksheet / Certificate",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / other valid government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for special categories (PwD, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+  "Written Examination",
+  "Physical Efficiency Test (PET)",
+  "Physical Measurement Test (PMT)"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "PET / PMT",
+  "Document Verification"
+],
+
+howToApply: [
+  "Visit the official UKSSSC website: https://sssc.uk.gov.in/",
+  "Find the link for 'UKSSSC Group C Forester Recruitment 2025'",
+  "Register and complete the online application form",
+  "Upload required documents, photograph, and signature",
+  "Pay the application fee using online payment methods",
+  "Submit the form and keep a printout for future reference"
+],
+
     importantLinks: [
       {
         "label": "Download Admit Card",
@@ -5781,16 +10596,79 @@ const admitcardData = [
      postName: "BSSC LDC & Welfare Organiser Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Bihar Staff Selection Commission (BSSC) , has released the Exam Date on its official website for the Recruitment of Welfare Organiser and Lower Division Clerk Exam 2025. The exam will be conducted ...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for BSSC Welfare Organiser and Lower Division Clerk Recruitment 2025 start?", a: "The online application started on 25 April 2025." },
+  { q: "What was the last date to apply for BSSC Welfare Organiser and Lower Division Clerk Recruitment 2025?", a: "The last date to apply online was 21 May 2025." },
+  { q: "What is the exam date for BSSC Welfare Organiser and Lower Division Clerk Recruitment 2025?", a: "The exam will be conducted on 29 June 2025." },
+  { q: "What is the age limit for BSSC Welfare Organiser and Lower Division Clerk Bharti 2025?", a: "Minimum age 21 Years, Maximum age 57 Years as on 01 August 2024. Age relaxation applicable as per BSSC rules." },
+  { q: "What is the eligibility for BSSC Welfare Organiser and Lower Division Clerk Vacancy 2025?", a: "Only for Ex-Servicemen: Candidates must have passed Class 12th (Intermediate) from any recognized board in India and should have knowledge of computer operation and typing." },
+  { q: "What is the official website for BSSC?", a: "The official website is https://bssc.bihar.gov.in" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "25 April 2025" },
+  { label: "Last Date to Apply Online", value: "21 May 2025" },
+  { label: "Last Date for Fee Payment", value: "21 May 2025" },
+  { label: "Exam Date", value: "29 June 2025", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / BC / EBC", value: "₹540" },
+  { label: "SC / ST / PH", value: "₹135" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "57 Years" },
+  { note: "As on 01 August 2024. Age relaxation applicable as per BSSC rules." }
+],
+
+vacancies: [
+  { post: "Welfare Organiser", total: 25 },
+  { post: "Lower Division Clerk (LDC)", total: 31 }
+],
+
+qualifications: [
+  { post: "Welfare Organiser", eligibility: "Only for Ex-Servicemen: Candidates must have passed Class 12th (Intermediate) and should have knowledge of computer operation and typing." },
+  { post: "Lower Division Clerk (LDC)", eligibility: "Details as per official notification." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "12th Class Marksheet / Certificate",
+  "Ex-Servicemen Proof (for Welfare Organiser)",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / other valid government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+  "Written Examination",
+  "Document Verification",
+  "Medical Examination"
+],
+
+selectionProcess: [
+  "Written Exam",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official BSSC website: https://bssc.bihar.gov.in/",
+  "Click on 'Apply Online' link for Welfare Organiser and LDC Recruitment 2025",
+  "Register and complete the application form with required details",
+  "Upload scanned photograph, signature, and documents",
+  "Pay the application fee via available online payment modes",
+  "Submit the application form and take a printout for reference"
+],
+
     importantLinks: [
       {
         "label": "Check Exam Date Notice",
@@ -5842,16 +10720,69 @@ const admitcardData = [
      postName: "NIELIT CCC Admit Card June 2025",
     postDate: "Not specified",
     shortInfo: "National Institute of Electronics and Information Technology (NIELIT) , The Admit Card for the CCC Examination 2025 has been released. The exam is scheduled to take place from June, 2025 . Both the...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+   faqs: [
+  { q: "When will the NIELIT CCC June 2025 exam be conducted?", a: "The CCC exam will be conducted in June 2025." },
+  { q: "When was the NIELIT CCC June 2025 Admit Card released?", a: "The admit card was released in June 2025." },
+  { q: "Is there any application fee for the NIELIT CCC June 2025 exam?", a: "No, there is no application fee required for any candidate." },
+  { q: "What is the age limit for NIELIT CCC June 2025 exam?", a: "There is no age limit for candidates." },
+  { q: "Who conducts the NIELIT CCC exam?", a: "The National Institute of Electronics and Information Technology (NIELIT), under the Ministry of Electronics and Information Technology, Government of India, conducts the exam." },
+  { q: "What is the official website to download NIELIT CCC Admit Card?", a: "The official website is https://student.nielit.gov.in" }
+],
+
+importantDates: [
+  { label: "Exam Date", value: "June 2025", highlight: "yellow" },
+  { label: "Admit Card Available", value: "June 2025" },
+  { label: "Result Available", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "All Candidates", value: "No Fee" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "No Limit" },
+  { label: "Maximum Age", value: "No Limit" },
+  { note: "As per NIELIT rules" }
+],
+
+vacancies: [
+  { post: "Course on Computer Concepts (CCC)", total: "Not Available" }
+],
+
+qualifications: [
+  { post: "NIELIT CCC Examination", eligibility: "Candidates must be enrolled for the Course on Computer Concepts (CCC) as per NIELIT rules." }
+],
+
+requiredDocs: [
+  "Passport-sized photograph",
+  "Signature",
+  "Valid ID proof (Aadhaar Card / Voter ID / PAN Card / Passport)",
+  "Enrollment / Registration details",
+  "Educational qualification certificates (if required)"
+],
+
+examPattern: [
+  "Online Written Exam (Objective Type)",
+  "No Negative Marking",
+  "Passing Marks as per NIELIT guidelines"
+],
+
+selectionProcess: [
+  "Written Examination",
+  "Result Declaration",
+  "Certificate Issuance"
+],
+
+howToApply: [
+  "Visit the official website: https://student.nielit.gov.in/",
+  "Click on 'Download Admit Card' under Student Zone",
+  "Select 'CCC' from the course list",
+  "Enter Enrollment/Registration Number or Date of Birth",
+  "Enter the security captcha code",
+  "Click on 'Submit' to view the admit card",
+  "Download and print the admit card for future use"
+],
+
     importantLinks: [
       {
         "label": "Download June Admit Card",
@@ -5894,16 +10825,72 @@ const admitcardData = [
      postName: "IBPS Revised Exam Calendar 2025-2026",
     postDate: "Not specified",
     shortInfo: "Institute of Banking Personnel Selection IBPS , is one of the most prominent recruitment bodies in India, responsible for conducting exams for various government jobs . IBPS has released the notifi...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When was the IBPS Revised Exam Calendar 2025-2026 released?", a: "The IBPS Revised Exam Calendar 2025-2026 was released on 16 June 2025." },
+  { q: "What is the IBPS Exam Calendar 2025-2026?", a: "The IBPS Exam Calendar 2025-2026 provides the schedule of exams conducted by IBPS, including application timelines, exam dates, and result dates for various posts." },
+  { q: "When will the IBPS exams be conducted as per the calendar?", a: "The exam dates will be notified soon in the official calendar PDF." },
+  { q: "Is there any application fee for the IBPS Exam Calendar 2025-2026?", a: "The application fee details are not available yet." },
+  { q: "What is the age limit for IBPS exams as per the 2025-2026 calendar?", a: "The age limit details will be updated soon." },
+  { q: "Where can I download the IBPS Exam Calendar 2025-2026?", a: "The IBPS Exam Calendar can be downloaded from the official IBPS website: http://www.ibps.in/." }
+],
+
+importantDates: [
+  { label: "Calendar Released Date", value: "16 June 2025", highlight: "yellow" },
+  { label: "Exam Date", value: "Notify Soon" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "All Candidates", value: "Not Available" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "Will be updated soon" },
+  { label: "Maximum Age", value: "Will be updated soon" },
+  { note: "As per IBPS rules." }
+],
+
+vacancies: [
+  { post: "Various IBPS Recruitment Exams", total: "Not Available" }
+],
+
+qualifications: [
+  { post: "IBPS Recruitment Exams", eligibility: "Eligibility details will be mentioned in individual recruitment notifications." }
+],
+
+requiredDocs: [
+  "Passport-sized photograph",
+  "Signature",
+  "Valid ID proof (Aadhaar Card / Voter ID / PAN Card / Passport)",
+  "Educational qualification certificates (as per specific exam)",
+  "Caste / Category Certificate (if applicable)",
+  "Other documents as required by IBPS for specific posts"
+],
+
+examPattern: [
+  "Preliminary Examination (where applicable)",
+  "Main Examination",
+  "Interview (for select posts)",
+  "Document Verification"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Main Examination",
+  "Interview / Skill Test (if applicable)",
+  "Final Merit List"
+],
+
+howToApply: [
+  "Visit the official IBPS website: http://www.ibps.in/",
+  "Navigate to the 'Latest News' or 'Notices' section",
+  "Find the notification for 'IBPS Annual Calendar 2025-2026'",
+  "Click on the link to open the PDF",
+  "Download and save the calendar for reference",
+  "Check exam dates, application dates, and plan accordingly"
+],
+
     importantLinks: [
       {
         "label": "Download Revised Exam Calendar",
@@ -5937,16 +10924,86 @@ const admitcardData = [
      postName: "RPSC RAS Mains Admit Card 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Public Service Commission (RPSC) , The Mains Admit Card has been released on the official website for the recruitment of State Service and State Subordinate Service Post . This recruitmen...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When was the RPSC RAS Mains Admit Card 2025 released?", a: "The admit card was released on 14 June 2025." },
+  { q: "When will the RPSC RAS Mains Exam 2025 be conducted?", a: "The mains exam will be held on 17-18 June 2025." },
+  { q: "What is the total number of vacancies for RPSC RAS / RTS Recruitment 2024?", a: "The total number of vacancies is 1096 posts." },
+  { q: "What is the age limit for RPSC RAS / RTS 2024?", a: "Minimum age is 21 years and maximum age is 40 years as on 01 January 2025. Age relaxation is applicable as per RPSC rules." },
+  { q: "What is the application fee for RPSC RAS / RTS 2024?", a: "For Gen/EWS/OBC/Other State: ₹600, For OBC/MBC of Rajasthan: ₹400, For SC/ST: ₹400." },
+  { q: "What is the official website to download the RPSC RAS Admit Card?", a: "The official website is https://rpsc.rajasthan.gov.in" }
+],
+
+importantDates: [
+  { label: "Online Apply Start Date", value: "19 September 2024" },
+  { label: "Last Date to Apply Online", value: "18 October 2024" },
+  { label: "Fee Payment Last Date", value: "18 October 2024" },
+  { label: "Pre Exam District Available", value: "26 January 2025" },
+  { label: "Pre Admit Card Available", value: "30 January 2025" },
+  { label: "Pre Exam Date", value: "02 February 2025" },
+  { label: "Pre Answer Key", value: "02 February 2025" },
+  { label: "Pre Result", value: "20 February 2025" },
+  { label: "Mains Exam City Details", value: "10 June 2025" },
+  { label: "Mains Admit Card", value: "14 June 2025" },
+  { label: "Mains Exam Date", value: "17-18 June 2025", highlight: "yellow" }
+],
+
+applicationFees: [
+  { label: "Gen / EWS / OBC / Other State", value: "₹600" },
+  { label: "OBC / MBC of Rajasthan", value: "₹400" },
+  { label: "SC / ST Candidates", value: "₹400" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, Challan" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 January 2025. Age relaxation applicable as per RPSC rules." }
+],
+
+vacancies: [
+  { post: "Rajasthan State Service Exam", total: 428 },
+  { post: "Rajasthan Subordinate Service", total: 668 }
+],
+
+qualifications: [
+  { post: "RPSC RAS / RTS Examination", eligibility: "Candidates must hold a Bachelor’s degree in any stream from a recognized university in India." }
+],
+
+requiredDocs: [
+  "Passport-sized photograph",
+  "Signature",
+  "Valid ID proof (Aadhaar Card / Voter ID / PAN Card / Passport)",
+  "Bachelor’s Degree Certificate",
+  "Caste / Category Certificate (if applicable)",
+  "Domicile Certificate (if applicable)"
+],
+
+examPattern: [
+  "Preliminary Examination (OMR Based)",
+  "Mains Examination (OMR Based)",
+  "Interview",
+  "Skill Test (if applicable)",
+  "Document Verification",
+  "Medical Examination"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Mains Examination",
+  "Interview",
+  "Document Verification",
+  "Medical Examination"
+],
+
+howToApply: [
+  "Visit the official website: https://rpsc.rajasthan.gov.in/",
+  "Go to the 'Admit Card' section",
+  "Select the relevant exam: 'RPSC RAS / RTS Mains Exam 2024'",
+  "Enter your Application ID and Date of Birth",
+  "Submit the details to view the admit card",
+  "Download and print the admit card for exam use"
+],
+
     importantLinks: [
       {
         "label": "Download Mains Admit Card",
@@ -6041,16 +11098,77 @@ const admitcardData = [
      postName: "RPSC Assistant Engineer Mains Exam Date 2025",
     postDate: "Not specified",
     shortInfo: "Rajasthan Public Service Commission (RPSC) , has released the Mains Exam Date on its official website for the Assistant Engineer AE Examination 2025 . The exam will be conducted on 15-18 March 2026...",
-    faqs: [],
-    importantDates: [],
-    applicationFees: [],
-    ageLimit: [],
-    vacancies: [],
-    qualifications: [],
-    requiredDocs: [],
-    examPattern: [],
-    selectionProcess: [],
-    howToApply: [],
+    faqs: [
+  { q: "When did the online application for RPSC Assistant Engineer AE Recruitment 2024 start?", a: "The online application started on 14 August 2024." },
+  { q: "What was the last date to apply for RPSC Assistant Engineer AE Recruitment 2024?", a: "The last date to apply online was 15 September 2024." },
+  { q: "What is the exam date for RPSC Assistant Engineer AE Recruitment 2024?", a: "The Pre Exam was conducted on 28 September 2025, and the Mains Exam is scheduled from 15 to 18 March 2026." },
+  { q: "What is the age limit for RPSC Assistant Engineer AE Recruitment 2024?", a: "Minimum age 21 Years, Maximum age 40 Years as on 01 January 2025. Age relaxation applicable as per RPSC rules." },
+  { q: "What is the eligibility for RPSC Assistant Engineer AE Vacancy 2024?", a: "Candidates must have a B.E. (Civil) degree or an equivalent qualification recognized by the government. They must also have knowledge of Hindi written in Devanagari script and familiarity with Rajasthani culture." },
+  { q: "What is the official website for RPSC?", a: "The official website is https://rpsc.rajasthan.gov.in/" }
+],
+
+importantDates: [
+  { label: "Application Start Date", value: "14 August 2024" },
+  { label: "Last Date to Apply Online", value: "15 September 2024" },
+  { label: "Last Date for Fee Payment", value: "15 September 2024" },
+  { label: "Pre Exam Date", value: "28 September 2025" },
+  { label: "Mains Exam Date", value: "15–18 March 2026", highlight: "yellow" },
+  { label: "Admit Card Release Date", value: "Before Exam" },
+  { label: "Result Date", value: "Will be updated soon" }
+],
+
+applicationFees: [
+  { label: "General / Other State", value: "₹600" },
+  { label: "OBC / MBC / SC / ST", value: "₹400" },
+  { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Cash Card, Mobile Wallet" }
+],
+
+ageLimit: [
+  { label: "Minimum Age", value: "21 Years" },
+  { label: "Maximum Age", value: "40 Years" },
+  { note: "As on 01 January 2025. Age relaxation applicable as per RPSC rules." }
+],
+
+vacancies: [
+  { post: "Assistant Engineer AE", total: 1014 }
+],
+
+qualifications: [
+  { post: "Assistant Engineer AE", eligibility: "B.E. (Civil) degree or an equivalent qualification recognized by the government, with knowledge of Hindi in Devanagari script and familiarity with Rajasthani culture." }
+],
+
+requiredDocs: [
+  "Passport-sized colored photograph with white/light background",
+  "Signature on white paper with black/blue pen",
+  "B.E. (Civil) or equivalent degree certificate",
+  "Caste / Category Certificate (if applicable)",
+  "Aadhaar Card / Voter ID / other government ID",
+  "Domicile Certificate (if applicable)",
+  "Income Certificate (for EWS candidates)",
+  "Certificates for special categories (PH, Ex-servicemen) if applicable"
+],
+
+examPattern: [
+  "Preliminary Examination",
+  "Mains Examination",
+  "Interview"
+],
+
+selectionProcess: [
+  "Preliminary Examination",
+  "Mains Examination",
+  "Interview"
+],
+
+howToApply: [
+  "Visit the official RPSC website: https://rpsc.rajasthan.gov.in/",
+  "Find the link for 'RPSC Assistant Engineer AE Recruitment 2024'",
+  "Register and fill in the online application form with required details",
+  "Upload photograph, signature, and supporting documents",
+  "Pay the application fee through available online modes",
+  "Submit the application form and print multiple copies for future reference"
+],
+
     importantLinks: [
       {
         "label": "Check Mains Exam Date Notice",
