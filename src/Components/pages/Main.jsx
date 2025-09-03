@@ -171,35 +171,37 @@ const Main = () => {
       
 
       {/* Box Links */}
-      <div className='flex flex-wrap font-semibold text-white text-center pt-6 sm:pt-10 px-2 sm:px-10 gap-2'>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box1 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/up-police-otr-registration-2025">UP Police OTR<br />Registration 2025</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box2 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/rrb-ntpc-12th-level-admit-card-2025">RRB NTPC 12th Level<br />Admit Card 2025</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box3 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/rrb-paramedical-recruitment-2025">RRB Paramedical<br />Recruitment 2025</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box4 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/up-police-si-vacancy-2025">UP Police SI Vacancy<br />4543 Posts</a>
-        </span>
-      </div>
+      <div className='flex flex-wrap font-semibold text-white text-center pt-6 sm:pt-10 px-2 sm:px-10 gap-2'> 
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box1 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/up-police-si-recruitment-2025">UP Police SI<br />Online Form (4543 Post)</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box2 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/bsf-hc-ro-rm-recruitment-2025">BSF HC RO / RM<br />Form (1121 Posts)</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box3 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/bssc-office-attendant-recruitment-2025">BSSC Office Attendant<br />Form (3727 Posts)</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box4 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/lic-aao-ae-recruitment-2025">LIC AAO / AE<br />Online Form 2025</a>
+  </span>
+</div>
 
-      <div className='flex flex-wrap font-semibold text-white text-center px-2 sm:px-10 gap-2 mt-2'>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box5 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/ssc-stenographer-admit-card-2025">SSC Stenographer<br />Admit Card</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box6 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/up-lt-grade-teacher-recruitment-2025">UP LT Grade Teacher<br />Recruitment 2025</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box7 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/up-police-si-recruitment-2025">UP Police SI<br />4543 Post</a>
-        </span>
-        <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box8 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
-          <a href="/box/bsf-constable-tradesman-recruitment-2025">BSF Constable<br />3588 Posts</a>
-        </span>
-      </div>
+<div className='flex flex-wrap font-semibold text-white text-center px-2 sm:px-10 gap-2 mt-2'>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box5 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/ib-jio-grade-ii-recruitment-2025">IB JIO-II/ Tech<br />Online Form 2025</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box6 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/rrb-section-controller-recruitment-2025">RRB Section Controller<br />Online Form</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box7 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/up-scholarship-online-form-2025-26">UP Scholarship<br />Online Form 2025-26</a>
+  </span>
+  <span className='flex-1 min-w-[45%] sm:min-w-[20%] bg-box8 h-14 border-2 flex items-center justify-center text-sm sm:text-base'>
+    <a href="/box/up-police-constable-recruitment-2025">UP Police Constable<br />Form (19,220 Post)</a>
+  </span>
+</div>
+
+
 
       {/* Main Sections */}
       <div className="flex flex-col lg:flex-row p-4 sm:px-10 gap-6">
