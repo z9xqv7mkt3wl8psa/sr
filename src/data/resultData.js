@@ -131,8 +131,8 @@ const resultData = [
     { label: "Download Answer Key", url: "https://drive.google.com/file/d/1smktZBK_cUJDxQUSiIcBwtOT4jiNmAOZ/view", color: "text-black" },
     { label: "Check Official Notification", url: "https://upsssc.gov.in/", color: "text-black" }
   ]
-},
-
+}
+,
 
 
 {
@@ -164,11 +164,10 @@ const resultData = [
   applicationFees: [
     { label: "General / OBC / EWS", value: "₹800" },
     { label: "SC / ST / Female", value: "₹400" },
-    {
-      label: "Payment Mode",
-      value: "Bihar Civil Court Online Kiosk, Debit Card, Credit Card, Net Banking"
+    {label: "Payment Mode",value: ["Bihar Civil Court Online Kiosk, Debit Card, Credit Card, Net Banking"]
     }
   ],
+  
   ageLimit: [
     { label: "Minimum Age", value: "20 Years" },
     { label: "Maximum Age", value: "25 Years" },
@@ -184,26 +183,20 @@ const resultData = [
     { post: "Total", total: 7692 }
   ],
   qualifications: [
-    {
-      post: "Clerk",
-      eligibility:
-        "Graduate in any discipline with computer knowledge from a recognized university."
-    },
-    {
-      post: "Stenographer",
-      eligibility:
-        "Graduate in any stream with stenographer certificate and computer proficiency. English shorthand: 80 WPM, Hindi shorthand: 60 WPM, English typing: 40 WPM, Hindi typing: 30 WPM."
-    },
-    {
-      post: "Court Reader Cum Deposition Writer",
-      eligibility:
-        "Graduate in any stream with certification in English and Hindi typing."
-    },
-    {
-      post: "Peon / Orderly (Group D)",
-      eligibility: "Passed Class 10th (Matriculation) exam."
-    }
-  ],
+  {
+    post: "Clerk - Graduate in any discipline with computer knowledge from a recognized university."
+  },
+  {
+    post: "Stenographer - Graduate in any stream with stenographer certificate and computer proficiency. English shorthand: 80 WPM, Hindi shorthand: 60 WPM, English typing: 40 WPM, Hindi typing: 30 WPM."
+  },
+  {
+    post: "Court Reader Cum Deposition Writer - Graduate in any stream with certification in English and Hindi typing."
+  },
+  {
+    post: "Peon / Orderly (Group D) - Passed Class 10th (Matriculation) exam."
+  }
+],
+
   requiredDocs: [
     "Graduation Certificate/Marksheet",
     "Typing/Stenography Certificate (if applicable)",
@@ -341,7 +334,7 @@ const resultData = [
       url: "https://patna.dcourts.gov.in/",
       color: "text-black"
     }
-  ],
+  ]},
 
 
 
@@ -352,7 +345,7 @@ const resultData = [
 
 
 
-
+{
 
     id: "bsf_hcm_asi_steno_pet_pst_result_2025",
     logo: "/images/logo.png",
