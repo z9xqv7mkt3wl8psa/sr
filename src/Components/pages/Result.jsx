@@ -6,7 +6,7 @@ const Result = () => {
 
   // ✅ Put all results in one array
   const results = [
-{ to: "/result/bihar_civil_court_clerk_mains_results_2025", text: "Bihar Civil Court UDC (Upper Divisional Clerk) Mains Result 2025 – Out" },
+{ to: "/result/bihar-civil-court-clerk-mains-result-2025", text: "Bihar Civil Court UDC (Upper Divisional Clerk) Mains Result 2025 – Out" },
 { to: "/result/upsssc_homoeopathic_pharmacist_2024_result", text: "UPSSSC Homoeopathic Pharmacist 2024 Result – Out" },
 { to: "/result/bsf_hcm_asi_steno_pet_pst_result_2025", text: "BSF HCM & ASI Steno PET/ PST Result 2025" },
 { to: "/result/aai_junior_executive_atc_result_2025", text: "AAI Junior Executive ATC Result 2025" },
