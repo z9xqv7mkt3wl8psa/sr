@@ -1,5 +1,368 @@
 const resultData = [
-  {
+  
+
+
+{
+  id: "upsssc_homoeopathic_pharmacist_2024_result",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  label: "Result",
+  title: "UPSSSC Homoeopathic Pharmacist 2024 Result",
+  organization: "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
+  post: "Homeopathic Pharmacist Eligibility Examination 2024",
+  postDate: "02 September 2025",
+  shortInfo: "UPSSSC has released the result for the Homeopathic Pharmacist Eligibility Examination 2024. The eligibility result was declared on 27 December 2024 and the mains result has been declared on 02 September 2025. Candidates can download the result, cut-off, and other related notices from the official website.",
+  
+  faqs: [
+    {
+      q: "When did the online application for UPSSSC Homeopathic Pharmacist Recruitment 2024 start?",
+      a: "The online application started on 20 June 2024."
+    },
+    {
+      q: "What was the last date for online application for UPSSSC Homeopathic Pharmacist 2024?",
+      a: "The last date for online application was 19 July 2024."
+    },
+    {
+      q: "What is the age limit for UPSSSC Homeopathic Pharmacist 2024?",
+      a: "Minimum age is 21 years and maximum age is 40 years as on 01 July 2024. Age relaxation is applicable as per UPSSSC recruitment rules."
+    },
+    {
+      q: "What is the eligibility for UPSSSC Homeopathic Pharmacist 2024?",
+      a: "Candidates must have completed 10+2 (Intermediate) with Science, hold a 2-year Diploma in Homeopathic Pharmacist, and be registered with the Homeopathic Medicine Board."
+    },
+    {
+      q: "What is the official website of UPSSSC?",
+      a: "The official website of UPSSSC is https://upsssc.gov.in/."
+    }
+  ],
+  
+  importantDates: [
+    { label: "Online Apply Start", value: "20 June 2024" },
+    { label: "Registration Last Date", value: "19 July 2024" },
+    { label: "Fee Payment Last Date", value: "19 July 2024" },
+    { label: "Correction Last Date", value: "26 July 2024" },
+    { label: "Eligibility Result", value: "27 December 2024" },
+    { label: "Exam City Intimation", value: "23 January 2025" },
+    { label: "Exam Date", value: "02 February 2025" },
+    { label: "Admit Card Available", value: "30 January 2025" },
+    { label: "Answer Key Available", value: "04 February 2025" },
+    { label: "Revised Answer Key", value: "09 May 2025" },
+    { label: "Result Declared", value: "02 September 2025" }
+  ],
+  
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹25/-" },
+    { label: "SC / ST", value: "₹25/-" },
+    { label: "PH Candidates", value: "₹25/-" },
+    { label: "Payment Mode", value: ["Debit Card", "Credit Card", "Internet Banking", "IMPS", "Cash Card / Mobile Wallet"] }
+  ],
+  
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "40 Years" },
+    { note: "Age relaxation extra as per UPSSSC Bharti 2024 rules." }
+  ],
+  
+  vacancies: [
+    { post: "Homeopathic Pharmacist", total: 397 }
+  ],
+  
+  qualifications: [
+    { post: "10+2 (Intermediate) with Science" },
+    { post: "2-year Diploma in Homeopathic Pharmacist" },
+    { post: "Registered with the Homeopathic Medicine Board" }
+  ],
+  
+  requiredDocs: [
+    "10+2 Certificate/Marksheet",
+    "Diploma Certificate in Homeopathic Pharmacist",
+    "Registration Certificate from Homeopathic Medicine Board",
+    "Category Certificate (if applicable)",
+    "PWD Certificate (if applicable)",
+    "Photo ID Proof",
+    "Passport Size Photograph"
+  ],
+  
+  examPattern: [
+    "Preliminary Examination",
+    "Mains Examination",
+    "Document Verification",
+    "Final Merit List"
+  ],
+  
+  selectionProcess: [
+    "Preliminary Examination",
+    "Mains Examination",
+    "Document Verification",
+    "Final Merit List"
+  ],
+  
+  howToApply: [
+    "Visit the official UPSSSC website (https://upsssc.gov.in/).",
+    "Click on the ‘Results’ tab on the homepage.",
+    "Find the notification for the Homeopathic Pharmacist Examination 2024.",
+    "Click the link to download the result or answer key in PDF format.",
+    "Check your roll number and details in the result PDF."
+  ],
+  
+  importantLinks: [
+    { label: "Download Homeopathic Pharmacist Result", url: "https://upsssc.gov.in/Online_App/Results.aspx?ID=130&Result_Type=M&Exam_Code=5&Advt_Code=563&Dept_Code=545&Post_Code=1&OnlyIntview=No" },
+    { label: "Download Homeopathic Pharmacist Cut Off", url: "https://upsssc.gov.in/ViewPdf.aspx?mL7VrGlGaXRRKX5Vf+2dyasuebftt0jvwyW8fqK3qIg=" },
+    { label: "Download Jr. Assistant Mains Result", url: "https://upsssc.gov.in/Online_App/Results.aspx?ID=131&Result_Type=M&Exam_Code=5&Advt_Code=546&Dept_Code=514&Post_Code=1&OnlyIntview=No" },
+    { label: "Download Jr. Assistant Mains Cut Off", url: "https://upsssc.gov.in/ViewPdf.aspx?mL7VrGlGaXTFHkAFajTRcOUV02VsQ4QTOF/6sPPqVGo=" },
+    { label: "Download Revised Answer Key", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/02/UPSSSC09Exam2024_Revised_AnswerKey.pdf" },
+    { label: "Download Answer Key", url: "https://drive.google.com/file/d/1smktZBK_cUJDxQUSiIcBwtOT4jiNmAOZ/view" },
+    { label: "Download Answer Key Notice", url: "http://upsssc.gov.in/ViewPdf.aspx?XmMtFX0dIBX5Z7DTs1tREfcGLKx4Fb9xexOTInA3afo=" },
+    { label: "Download Exam City Intimation", url: "https://upsssc.gov.in/upssscadvdistinti/AdmitCard_wc.aspx?ID=MAIN&L=ac" },
+    { label: "Download Notice For Exam City Intimation", url: "https://upsssc.gov.in/ViewPdf.aspx?1rZjLeuFDrJHrLgeAl+b6Ievv1XtrNCeYEMySRx3NN8=" },
+    { label: "Download Eligibility Result", url: "https://upsssc.gov.in/ResultsDire.aspx" },
+    { label: "Eligibility Result Notice", url: "https://upsssc.gov.in/ViewPdf.aspx?IMVi3syZoGkcN3fW1UefjC0ItXlLRaMRLQNMfRRvvXU=" },
+    { label: "Download Syllabus", url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/upsssc-09-eXAM-2024-Syllabus.pdf" },
+    { label: "Apply Online Link", url: "https://upsssc.gov.in/AllNotifications.aspx" },
+    { label: "Check Official Notification", url: "https://upsssc.gov.in/" }
+  ],
+  
+  linksBox: [
+    { label: "Download Homeopathic Pharmacist Result", url: "https://upsssc.gov.in/Online_App/Results.aspx?ID=130&Result_Type=M&Exam_Code=5&Advt_Code=563&Dept_Code=545&Post_Code=1&OnlyIntview=No", color: "text-green-600" },
+    { label: "Download Homeopathic Pharmacist Cut Off", url: "https://upsssc.gov.in/ViewPdf.aspx?mL7VrGlGaXRRKX5Vf+2dyasuebftt0jvwyW8fqK3qIg=", color: "text-blue-600" },
+    { label: "Download Jr. Assistant Mains Result", url: "https://upsssc.gov.in/Online_App/Results.aspx?ID=131&Result_Type=M&Exam_Code=5&Advt_Code=546&Dept_Code=514&Post_Code=1&OnlyIntview=No", color: "text-black" },
+    { label: "Download Jr. Assistant Mains Cut Off", url: "https://upsssc.gov.in/ViewPdf.aspx?mL7VrGlGaXTFHkAFajTRcOUV02VsQ4QTOF/6sPPqVGo=", color: "text-black" },
+    { label: "Download Revised Answer Key", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/02/UPSSSC09Exam2024_Revised_AnswerKey.pdf", color: "text-black" },
+    { label: "Download Answer Key", url: "https://drive.google.com/file/d/1smktZBK_cUJDxQUSiIcBwtOT4jiNmAOZ/view", color: "text-black" },
+    { label: "Check Official Notification", url: "https://upsssc.gov.in/", color: "text-black" }
+  ]
+}
+,
+
+
+{
+  id: "bihar_civil_court_clerk_mains_result_2025",
+  logo: "/images/logo.png",
+  website: "www.sarkari.result.prasunet.com",
+  label: "Result",
+  title: "Bihar Civil Court UDC (Upper Divisional Clerk) Mains Result 2025",
+  organization: "Civil Courts of Bihar (District Court)",
+  post: "Bihar Civil Court Clerk Mains Result 2025",
+  postDate: "03 September 2025",
+  shortInfo:
+    "Civil Courts of Bihar (District Court), The Mains Result for the Recruitment of Civil Court Clerk Post has been released. The Mains Exam was conducted on 18th May 2025. The Pre Answer Key was declared on 24 December 2024. Candidates can check their result using Enrollment number / Registration number / Date of birth by login into the portal.",
+  faqs: [
+    {
+      q: "When was the Bihar Civil Court Clerk online application started?",
+      a: "The online application started on 20 September 2022.",
+    },
+    {
+      q: "What was the last date for Bihar Civil Court Clerk registration?",
+      a: "The last date for registration was 20 October 2022.",
+    },
+    {
+      q: "When was the Bihar Civil Court Clerk Mains Exam conducted?",
+      a: "The Mains Exam was conducted on 18 May 2025.",
+    },
+    {
+      q: "What is the age limit for Bihar Civil Court Clerk Recruitment 2024?",
+      a: "The minimum age is 20 years and the maximum age is 25 years as on 01 October 2024. Age relaxation is applicable as per Bihar Civil Court rules.",
+    },
+    {
+      q: "What is the eligibility for Bihar Civil Court Clerk Vacancy 2024?",
+      a: "Candidates must have a Graduation degree in any discipline from a recognized university in India, along with knowledge of computers.",
+    },
+    {
+      q: "What is the official website for Bihar Civil Court?",
+      a: "The official website is https://patna.dcourts.gov.in/.",
+    },
+  ],
+  importantDates: [
+    { label: "Application Start Date", value: "20 September 2022" },
+    { label: "Registration Last Date", value: "20 October 2022" },
+    { label: "Pay Exam Fee Last Date", value: "20 October 2022" },
+    { label: "Court Reader, Steno Exam Date", value: "17 December 2023" },
+    { label: "Admit Card Date", value: "10 December 2023" },
+    { label: "Court Reader Final Result", value: "12 September 2024" },
+    { label: "Exam Date (Pre)", value: "22 December 2024" },
+    { label: "Admit Card Date (Pre)", value: "13 December 2024" },
+    { label: "Answer Key Available Date", value: "24 December 2024" },
+    { label: "Result Declared Date (Pre)", value: "10 April 2025" },
+    { label: "Mains Exam Date", value: "18 May 2025" },
+    { label: "Mains Admit Card Date", value: "14 May 2025" },
+    { label: "Mains Result Date", value: "03 September 2025" },
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹800/-" },
+    { label: "SC / ST / Female", value: "₹400/-" },
+    {
+      label: "Payment Mode",
+      value: [
+        "Bihar Civil Court Online Kiosk",
+        "Debit Card",
+        "Credit Card",
+        "Net Banking",
+      ],
+    },
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "20 Years" },
+    { label: "Maximum Age", value: "25 Years" },
+    { note: "Age relaxation as per Bihar Civil Court recruitment rules." },
+  ],
+  vacancies: [
+    { post: "Clerk", total: 3325 },
+    { post: "Stenographer", total: 1562 },
+    { post: "Court Reader Cum Deposition Writer", total: 1132 },
+    { post: "Peon / Orderly (Group D)", total: 1673 },
+    { post: "Total", total: 7692 },
+  ],
+  qualifications: [
+    { post: "Clerk", eligibility: "Graduate in any discipline with computer knowledge." },
+    { post: "Stenographer", eligibility: "Graduate in any stream with stenographer certificate and computer proficiency. English shorthand: 80 WPM, Hindi shorthand: 60 WPM, English typing: 40 WPM, Hindi typing: 30 WPM." },
+    { post: "Court Reader Cum Deposition Writer", eligibility: "Graduate in any stream with certification in English and Hindi typing." },
+    { post: "Peon / Orderly (Group D)", eligibility: "Passed Class 10th (Matriculation) exam." },
+  ],
+  requiredDocs: [
+    "Graduation Certificate/Marksheet",
+    "Typing/Stenography Certificate (if applicable)",
+    "Category Certificate (if applicable)",
+    "PWD Certificate (if applicable)",
+    "Photo ID Proof",
+    "Recent Passport Size Photograph",
+  ],
+  examPattern: ["Screening Test", "Subject Knowledge Test", "Interview (Viva-Voce)"],
+  selectionProcess: [
+    "Screening Test",
+    "Subject Knowledge Test",
+    "Interview (Viva-Voce)",
+    "Document Verification",
+    "Medical Examination",
+  ],
+  howToApply: [
+    "Visit the official Bihar Civil Court website (https://patna.dcourts.gov.in/).",
+    "Go to the ‘Notification’ section on the homepage.",
+    "Click on the link ‘Download the Result for the Mains Exam of Post of Clerk – Advt. No.- 01/2022’.",
+    "Login using Registration Number and Password.",
+    "Download and save the result PDF.",
+    "Print a copy for future reference.",
+  ],
+  importantLinks: [
+    {
+      label: "Download Mains Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2025/09/2025090391.pdf",
+    },
+    {
+      label: "Download Mains Admit Card",
+      url: "https://dcprequirement.in/admit-card-clerk-login-wtest.aspx",
+    },
+    {
+      label: "Mains Exam Date Notice",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2025/04/Bihar-Civil-Court-Clerk-2022-Mains-Exam-Date-Notice-2025.pdf",
+    },
+    {
+      label: "Download Result (Pre)",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/Bihar-Civil-Court-Clerk-PT-Result.pdf",
+    },
+    {
+      label: "Download Answer Key Clerk",
+      url: "https://dcprequirement.in/download/clerk-f-Ans.pdf",
+    },
+    {
+      label: "Download Clerk Exam Date Notice",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/11/2024111344.pdf",
+    },
+    {
+      label: "Download Court Reader Final Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/09/2024091211.pdf",
+    },
+    {
+      label: "Download Stenographer Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/04/2024042645.pdf",
+    },
+    {
+      label: "Download Admit Card Notice",
+      url: "https://districts.ecourts.gov.in/sites/default/files/Notice%20dated%2004.12.2023%20-%20Admit%20Card%20-%20Court%20Reader-cum-Deposition%20Writer.pdf",
+    },
+    {
+      label: "Download Exam Notice",
+      url: "https://districts.ecourts.gov.in/sites/default/files/Notice%20dated%2025-09-2023%20-%20Date%20of%20Examination%20for%20the%20post%20of%20Stenographer%20and%20Court%20Reader-cum-Deposit.pdf",
+    },
+    {
+      label: "Apply Online Link",
+      url: "https://dcprequirement.in/",
+    },
+    {
+      label: "Download Notification",
+      url: "https://patna.dcourts.gov.in/",
+    },
+    {
+      label: "Bihar Civil Court Official Website",
+      url: "https://patna.dcourts.gov.in/",
+    },
+  ],
+  linksBox: [
+    {
+      label: "Download Mains Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2025/09/2025090391.pdf",
+      color: "text-green-600",
+    },
+    {
+      label: "Download Mains Admit Card",
+      url: "https://dcprequirement.in/admit-card-clerk-login-wtest.aspx",
+      color: "text-blue-600",
+    },
+    {
+      label: "Mains Exam Date Notice",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2025/04/Bihar-Civil-Court-Clerk-2022-Mains-Exam-Date-Notice-2025.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Download Result (Pre)",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/Bihar-Civil-Court-Clerk-PT-Result.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Download Answer Key Clerk",
+      url: "https://dcprequirement.in/download/clerk-f-Ans.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Download Clerk Exam Date Notice",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/11/2024111344.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Download Court Reader Final Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/09/2024091211.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Download Stenographer Result",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/04/2024042645.pdf",
+      color: "text-black",
+    },
+    {
+      label: "Apply Online Link",
+      url: "https://dcprequirement.in/",
+      color: "text-black",
+    },
+    {
+      label: "Download Notification",
+      url: "https://patna.dcourts.gov.in/",
+      color: "text-black",
+    },
+    {
+      label: "Bihar Civil Court Official Website",
+      url: "https://patna.dcourts.gov.in/",
+      color: "text-black",
+    },
+  ],
+
+
+
+
+
+
+
+
+
+
     id: "bsf_hcm_asi_steno_pet_pst_result_2025",
     logo: "/images/logo.png",
     website: "www.sarkari.result.prasunet.com",
