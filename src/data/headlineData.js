@@ -69,15 +69,37 @@ const HeadlineData = [
     "Download and save the Admit Card",
     "Take a printout and carry to exam hall"
   ],
-  importantLinks: [
-    { label: "Download Admit Card", url: "#", },
-    { label: "Download City Intimation Slip", url: "#", },
-    { label: "Check Application Status", url: "#", },
-    { label: "RRB NTPC Exam Date Notice", url: "#", },
-    { label: "RRB NTPC Notification", url: "#", },
-    { label: "Official Website", url: "https://indianrailways.gov.in" },
-    { label: "Homepage", url: "/" }
-  ],
+ importantLinks: [
+  {
+    label: "Download Admit Card",
+    url: "https://rrb.digialm.com//EForms/configuredHtml/2667/95125/login.html",
+  },
+  {
+    label: "Download City Intimation Slip",
+    url: "https://www.rrbapply.gov.in/#/auth/home",
+  },
+  {
+    label: "Check Application Status",
+    url: "https://www.rrbapply.gov.in/#/auth/home",
+  },
+  {
+    label: "RRB NTPC Exam Date Notice",
+    url: "https://sarkariresult.com.im/wp-content/uploads/2025/07/RRB-NTPC-Exam-Date-Notice.pdf",
+  },
+  {
+    label: "RRB NTPC Notification",
+    url: "https://www.rrbapply.gov.in/assets/forms/CEN_06-2024_NTPC_UnderGraduate_a11y.pdf",
+  },
+  {
+    label: "Official Website",
+    url: "https://indianrailways.gov.in",
+  },
+  {
+    label: "Homepage",
+    url: "/",
+  }
+],
+
   faqs: [
     { q: "What is the Railway NTPC Admit Card Release Date 2025?", a: "3 August 2025." },
     { q: "What is the Railway NTPC Exam Date 2025?", a: "7 August 2025 to 8 September 2025." },
@@ -180,13 +202,15 @@ const HeadlineData = [
     "Pay the application fee as per your category",
     "Download and print the final submitted form for future reference"
   ],
-  importantLinks: [
-    { label: "Apply Online", url: "#", },
-    { label: "Login", url: "#", },
-    { label: "Download Notification", url: "#", },
-    { label: "Official Website", url: "https://brlps.in" },
-    { label: "Homepage", url: "/" }
-  ],
+importantLinks: [
+  { label: "Apply Online", url: "https://cdn3.digialm.com//EForms/configuredHtml/1631/95045/Registration.html" },
+  { label: "Login", url: "https://cdn3.digialm.com/EForms/configuredHtml/1631/95045/login.html" },
+  { label: "Download Notification", url: "https://brlps.in/UplodFiles/Career/Detailed%20Advertisement%202025%20-%20Final%20ONLY%20BPIU%20Level.pdf" },
+  { label: "Official Website", url: "https://brlps.in" },
+  { label: "Homepage", url: "/" }
+],
+
+  
   faqs: [
     { q: "What is the Bihar JEEViKA Online Form Start Date?", a: "30 July 2025" },
     { q: "What is the last date to apply for Bihar JEEViKA 2025?", a: "18 August 2025" },
@@ -262,11 +286,11 @@ const HeadlineData = [
     "Submit the form and print a copy for reference"
   ],
   importantLinks: [
-    { label: "Apply Online", url: "#"},
-    { label: "Download Notification", url: "#" },
-    { label: "Official Website", url: "https://www.joinindiannavy.gov.in" },
-    { label: "Homepage", url: "/" }
-  ],
+  { label: "Apply Online", url: "https://www.joinindiannavy.gov.in/en/account/account/register" },
+  { label: "Download Notification", url: "https://sarkariresult.com.im/wp-content/uploads/2025/08/Indian-Navy-SSC-IT-Notification.pdf" },
+  { label: "Official Website", url: "https://www.joinindiannavy.gov.in" },
+  { label: "Homepage", url: "/" }
+],
   faqs: [
     { q: "What is the last date to apply for Indian Navy SSC IT 2025?", a: "17 August 2025" },
     { q: "How many vacancies are available?", a: "15 Posts" },
@@ -348,16 +372,17 @@ const HeadlineData = [
     "Save or print for future reference"
   ],
 
-  importantLinks: [
-    { label: "Download Result", url: "#", note: "Link Activate Soon" },
-    { label: "Download Answer Key", url: "#" },
-    { label: "Check Answer Key Notice", url: "#" },
-    { label: "Download Admit Card", url: "#" },
-    { label: "Download Exam Date Notice", url: "#" },
-    { label: "Download Notification", url: "#" },
-    { label: "Official Website", url: "https://hssc.gov.in" },
-    { label: "Homepage", url: "/" }
-  ],
+ importantLinks: [
+  { label: "Download Result", url: "https://www.whatsapp.com/channel/0029VaCqVSE7oQhW1AVSxi1O", note: "Link Activate Soon" },
+  { label: "Download Answer Key", url: "https://hssc.gov.in/publicnotice" },
+  { label: "Check Answer Key Notice", url: "https://cet2025groupc.hryssc.com/#/login" },
+  { label: "Download Admit Card", url: "https://hssc.gov.in/publicnotice" },
+  { label: "Download Exam Date Notice", url: "https://hssc.gov.in/cet_c/CET-012025.pdf" },
+  { label: "Download Notification", url: "https://hssc.gov.in/cet_c/CET-012025.pdf" },
+  { label: "Official Website", url: "https://hssc.gov.in" },
+  { label: "Homepage", url: "/" }
+],
+
 
   faqs: [
     { q: "What is the HSSC CET Group C Result Date 2025?", a: "August 2025 (Expected)" },
@@ -447,11 +472,12 @@ const HeadlineData = [
   ],
 
   importantLinks: [
-    { label: "Apply Online", url: "#"},
-    { label: "Download Short Notice", url: "#" },
-    { label: "Official Website", url: "https://orientalinsurance.org.in" },
-    { label: "Homepage", url: "/" }
-  ],
+  { label: "Apply Online", url: "https://ibpsonline.ibps.in/oicljul25/" },
+  { label: "Download Short Notice", url: "https://oicl-cms-media.s3.ap-south-1.amazonaws.com/Advertisement_for_Asstt_Cadre_in_English_1efded0f57.pdf" },
+  { label: "Official Website", url: "https://orientalinsurance.org.in/careers" },
+  { label: "Homepage", url: "/" }
+],
+
 
   faqs: [
     { q: "What is the total number of vacancies for OICL Assistant 2025?", a: "There are 500 vacancies." },
@@ -530,14 +556,15 @@ const HeadlineData = [
     "Download and print for future reference"
   ],
 
-  importantLinks: [
-    { label: "Download 2nd Sem Result (2023 Batch)", url: "#" },
-    { label: "Download 4th Sem Result (2022 Batch)", url: "#" },
-    { label: "All Semester Result (2021 Batch)", url: "#" },
-    { label: "4th Sem Result (2019 Batch)", url: "#" },
-    { label: "All Semester Result (2018 Batch)", url: "#" },
-    { label: "Official Website", url: "https://btcexam.in" }
-  ],
+importantLinks: [
+  { label: "Download 2nd Sem Result (2023 Batch)", url: "https://meratime.in/Reports/Searchmarksheet.aspx?STAT=D23AL" },
+  { label: "Download 4th Sem Result (2022 Batch)", url: "https://updeledinfo.in/June25/checkFourResult" },
+  { label: "All Semester Result (2021 Batch)", url: "https://btcexam.in/Reports/Searchmarksheet.aspx?STAT=D21AL" },
+  { label: "4th Sem Result (2019 Batch)", url: "https://updeledinfo.in/June25/res2019" },
+  { label: "All Semester Result (2018 Batch)", url: "https://btcexam.in/Reports/Searchmarksheet.aspx?STAT=D18AL" },
+  { label: "Official Website", url: "https://updeled.gov.in" }
+],
+
 
   faqs: [
     { q: "When was UP BTC DElEd 2nd & 4th Result 2025 declared?", a: "On 09 July 2025." },
@@ -620,11 +647,12 @@ const HeadlineData = [
     "Take a printout and carry it to the exam center with valid ID"
   ],
 
-  importantLinks: [
-    { label: "Download Admit Card", url: "#", color: "text-green-600" },
-    { label: "Download Notification", url: "#", color: "text-blue-600" },
-    { label: "Official Website", url: "https://dsssb.delhi.gov.in", color: "text-black" }
-  ],
+importantLinks: [
+  { label: "Download Admit Card", url: "https://cdn.digialm.com//EForms/configuredHtml/1258/95135/login.html", color: "text-green-600" },
+  { label: "Download Notification", url: "https://dsssb.delhi.gov.in/home/Delhi-Subordinate-Services-Selection-Board", color: "text-blue-600" },
+  { label: "Official Website", url: "https://dsssb.delhi.gov.in", color: "text-black" }
+],
+
 
   faqs: [
     { q: "When was the DSSSB Assistant Teacher Admit Card released?", a: "02 August 2025." },
@@ -717,12 +745,13 @@ const HeadlineData = [
     "Print a copy and carry to exam center with a valid photo ID"
   ],
 
-  importantLinks: [
-    { label: "Download Admit Card", url: "#", color: "text-green-600" },
-    { label: "Download Exam City Intimation Slip", url: "#", color: "text-blue-600" },
-    { label: "Download Notification", url: "#", color: "text-blue-600" },
-    { label: "Official Website", url: "https://ssc.gov.in", color: "text-black" }
-  ],
+ importantLinks: [
+  { label: "Download Admit Card", url: "https://ssc.gov.in/login", color: "text-green-600" },
+  { label: "Download Exam City Intimation Slip", url: "https://ssc.gov.in/login", color: "text-blue-600" },
+  { label: "Download Notification", url: "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_steno_2025.pdf", color: "text-blue-600" },
+  { label: "Official Website", url: "https://ssc.gov.in", color: "text-black" }
+],
+
 
   faqs: [
     { q: "What is the SSC Stenographer Admit Card release date 2025?", a: "2 to 3 days before the exam." },
@@ -809,11 +838,12 @@ const HeadlineData = [
     "Submit the form and take a printout for future reference"
   ],
 
-  importantLinks: [
-    { label: "Apply Online", url: "#", color: "text-green-600" },
-    { label: "RRC ER Apprentice Notification", url: "#", color: "text-blue-600" },
-    { label: "Official Website", url: "https://er.indianrailways.gov.in", color: "text-black" }
-  ],
+ importantLinks: [
+  { label: "Apply Online", url: "https://rrcrecruit.co.in/ActAprt2526VD01/", color: "text-green-600" },
+  { label: "RRC ER Apprentice Notification", url: "https://rrcer.org/Notification%20for%20Engagement%20of%20Act%20Apprentices%20for%20Training%20Slot%20in%20Eastern%20Railway%20Units,%20Notice%20No.%20RRCERAct%20Apprentices%202025-26.pdf", color: "text-blue-600" },
+  { label: "Official Website", url: "https://er.indianrailways.gov.in", color: "text-black" }
+],
+
 
   faqs: [
     { q: "What is the last date to apply for RRC ER Apprentice 2025?", a: "13 September 2025" },
