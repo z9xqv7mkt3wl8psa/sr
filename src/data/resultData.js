@@ -131,47 +131,21 @@ const resultData = [
     { label: "Download Answer Key", url: "https://drive.google.com/file/d/1smktZBK_cUJDxQUSiIcBwtOT4jiNmAOZ/view", color: "text-black" },
     { label: "Check Official Notification", url: "https://upsssc.gov.in/", color: "text-black" }
   ]
-}
-,
+},
+
 
 
 {
-  id: "bihar_civil_court_clerk_mains_result_2025",
-  logo: "/images/logo.png",
-  website: "www.sarkari.result.prasunet.com",
-  label: "Result",
-  title: "Bihar Civil Court UDC (Upper Divisional Clerk) Mains Result 2025",
+  id: "bihar-civil-court-clerk-mains-result-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM",
+  label: "Results",
+  title: "Bihar Civil Court UDC (Clerk) Mains Result 2025 – Out",
   organization: "Civil Courts of Bihar (District Court)",
   post: "Bihar Civil Court Clerk Mains Result 2025",
-  postDate: "03 September 2025",
+  postDate: "03 Sep 2025 | 11:00 AM",
   shortInfo:
-    "Civil Courts of Bihar (District Court), The Mains Result for the Recruitment of Civil Court Clerk Post has been released. The Mains Exam was conducted on 18th May 2025. The Pre Answer Key was declared on 24 December 2024. Candidates can check their result using Enrollment number / Registration number / Date of birth by login into the portal.",
-  faqs: [
-    {
-      q: "When was the Bihar Civil Court Clerk online application started?",
-      a: "The online application started on 20 September 2022.",
-    },
-    {
-      q: "What was the last date for Bihar Civil Court Clerk registration?",
-      a: "The last date for registration was 20 October 2022.",
-    },
-    {
-      q: "When was the Bihar Civil Court Clerk Mains Exam conducted?",
-      a: "The Mains Exam was conducted on 18 May 2025.",
-    },
-    {
-      q: "What is the age limit for Bihar Civil Court Clerk Recruitment 2024?",
-      a: "The minimum age is 20 years and the maximum age is 25 years as on 01 October 2024. Age relaxation is applicable as per Bihar Civil Court rules.",
-    },
-    {
-      q: "What is the eligibility for Bihar Civil Court Clerk Vacancy 2024?",
-      a: "Candidates must have a Graduation degree in any discipline from a recognized university in India, along with knowledge of computers.",
-    },
-    {
-      q: "What is the official website for Bihar Civil Court?",
-      a: "The official website is https://patna.dcourts.gov.in/.",
-    },
-  ],
+    "Civil Courts of Bihar has released the Mains Result for the post of Upper Divisional Clerk (UDC). The exam was held on 18 May 2025. Candidates can check their result using Registration Number / DOB from the official result portal.",
   importantDates: [
     { label: "Application Start Date", value: "20 September 2022" },
     { label: "Registration Last Date", value: "20 October 2022" },
@@ -185,38 +159,50 @@ const resultData = [
     { label: "Result Declared Date (Pre)", value: "10 April 2025" },
     { label: "Mains Exam Date", value: "18 May 2025" },
     { label: "Mains Admit Card Date", value: "14 May 2025" },
-    { label: "Mains Result Date", value: "03 September 2025" },
+    { label: "Mains Result Date", value: "03 September 2025", highlight: "yellow" }
   ],
   applicationFees: [
-    { label: "General / OBC / EWS", value: "₹800/-" },
-    { label: "SC / ST / Female", value: "₹400/-" },
+    { label: "General / OBC / EWS", value: "₹800" },
+    { label: "SC / ST / Female", value: "₹400" },
     {
       label: "Payment Mode",
-      value: [
-        "Bihar Civil Court Online Kiosk",
-        "Debit Card",
-        "Credit Card",
-        "Net Banking",
-      ],
-    },
+      value: "Bihar Civil Court Online Kiosk, Debit Card, Credit Card, Net Banking"
+    }
   ],
   ageLimit: [
     { label: "Minimum Age", value: "20 Years" },
     { label: "Maximum Age", value: "25 Years" },
-    { note: "Age relaxation as per Bihar Civil Court recruitment rules." },
+    {
+      note: "Age relaxation as per Bihar Civil Court recruitment rules."
+    }
   ],
   vacancies: [
     { post: "Clerk", total: 3325 },
     { post: "Stenographer", total: 1562 },
     { post: "Court Reader Cum Deposition Writer", total: 1132 },
     { post: "Peon / Orderly (Group D)", total: 1673 },
-    { post: "Total", total: 7692 },
+    { post: "Total", total: 7692 }
   ],
   qualifications: [
-    { post: "Clerk", eligibility: "Graduate in any discipline with computer knowledge." },
-    { post: "Stenographer", eligibility: "Graduate in any stream with stenographer certificate and computer proficiency. English shorthand: 80 WPM, Hindi shorthand: 60 WPM, English typing: 40 WPM, Hindi typing: 30 WPM." },
-    { post: "Court Reader Cum Deposition Writer", eligibility: "Graduate in any stream with certification in English and Hindi typing." },
-    { post: "Peon / Orderly (Group D)", eligibility: "Passed Class 10th (Matriculation) exam." },
+    {
+      post: "Clerk",
+      eligibility:
+        "Graduate in any discipline with computer knowledge from a recognized university."
+    },
+    {
+      post: "Stenographer",
+      eligibility:
+        "Graduate in any stream with stenographer certificate and computer proficiency. English shorthand: 80 WPM, Hindi shorthand: 60 WPM, English typing: 40 WPM, Hindi typing: 30 WPM."
+    },
+    {
+      post: "Court Reader Cum Deposition Writer",
+      eligibility:
+        "Graduate in any stream with certification in English and Hindi typing."
+    },
+    {
+      post: "Peon / Orderly (Group D)",
+      eligibility: "Passed Class 10th (Matriculation) exam."
+    }
   ],
   requiredDocs: [
     "Graduation Certificate/Marksheet",
@@ -224,135 +210,140 @@ const resultData = [
     "Category Certificate (if applicable)",
     "PWD Certificate (if applicable)",
     "Photo ID Proof",
-    "Recent Passport Size Photograph",
+    "Recent Passport Size Photograph"
   ],
-  examPattern: ["Screening Test", "Subject Knowledge Test", "Interview (Viva-Voce)"],
   selectionProcess: [
     "Screening Test",
     "Subject Knowledge Test",
     "Interview (Viva-Voce)",
     "Document Verification",
-    "Medical Examination",
+    "Medical Examination"
   ],
   howToApply: [
-    "Visit the official Bihar Civil Court website (https://patna.dcourts.gov.in/).",
+    "Visit the official Bihar Civil Court website – https://patna.dcourts.gov.in/",
     "Go to the ‘Notification’ section on the homepage.",
-    "Click on the link ‘Download the Result for the Mains Exam of Post of Clerk – Advt. No.- 01/2022’.",
+    "Click on the ‘Download the Result for the Mains Exam of Post of Clerk – Advt. No.- 01/2022’.",
     "Login using Registration Number and Password.",
     "Download and save the result PDF.",
-    "Print a copy for future reference.",
+    "Print a copy for future reference."
   ],
   importantLinks: [
     {
       label: "Download Mains Result",
-      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2025/09/2025090391.pdf",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2025/09/2025090391.pdf"
     },
     {
       label: "Download Mains Admit Card",
-      url: "https://dcprequirement.in/admit-card-clerk-login-wtest.aspx",
+      url: "https://dcprequirement.in/admit-card-clerk-login-wtest.aspx"
     },
     {
       label: "Mains Exam Date Notice",
-      url: "http://sarkariresult.com.cm/wp-content/uploads/2025/04/Bihar-Civil-Court-Clerk-2022-Mains-Exam-Date-Notice-2025.pdf",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2025/04/Bihar-Civil-Court-Clerk-2022-Mains-Exam-Date-Notice-2025.pdf"
     },
     {
       label: "Download Result (Pre)",
-      url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/Bihar-Civil-Court-Clerk-PT-Result.pdf",
+      url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/Bihar-Civil-Court-Clerk-PT-Result.pdf"
     },
     {
       label: "Download Answer Key Clerk",
-      url: "https://dcprequirement.in/download/clerk-f-Ans.pdf",
+      url: "https://dcprequirement.in/download/clerk-f-Ans.pdf"
     },
     {
       label: "Download Clerk Exam Date Notice",
-      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/11/2024111344.pdf",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/11/2024111344.pdf"
     },
     {
       label: "Download Court Reader Final Result",
-      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/09/2024091211.pdf",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/09/2024091211.pdf"
     },
     {
       label: "Download Stenographer Result",
-      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/04/2024042645.pdf",
-    },
-    {
-      label: "Download Admit Card Notice",
-      url: "https://districts.ecourts.gov.in/sites/default/files/Notice%20dated%2004.12.2023%20-%20Admit%20Card%20-%20Court%20Reader-cum-Deposition%20Writer.pdf",
-    },
-    {
-      label: "Download Exam Notice",
-      url: "https://districts.ecourts.gov.in/sites/default/files/Notice%20dated%2025-09-2023%20-%20Date%20of%20Examination%20for%20the%20post%20of%20Stenographer%20and%20Court%20Reader-cum-Deposit.pdf",
-    },
-    {
-      label: "Apply Online Link",
-      url: "https://dcprequirement.in/",
+      url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/04/2024042645.pdf"
     },
     {
       label: "Download Notification",
-      url: "https://patna.dcourts.gov.in/",
+      url: "https://patna.dcourts.gov.in/"
     },
     {
-      label: "Bihar Civil Court Official Website",
-      url: "https://patna.dcourts.gov.in/",
+      label: "Official Website",
+      url: "https://patna.dcourts.gov.in/"
+    }
+  ],
+  faqs: [
+    {
+      q: "When was the Bihar Civil Court Clerk online application started?",
+      a: "The online application started on 20 September 2022."
     },
+    {
+      q: "What was the last date for Bihar Civil Court Clerk registration?",
+      a: "The last date for registration was 20 October 2022."
+    },
+    {
+      q: "When was the Bihar Civil Court Clerk Mains Exam conducted?",
+      a: "The Mains Exam was conducted on 18 May 2025."
+    },
+    {
+      q: "What is the age limit for Bihar Civil Court Clerk Recruitment 2024?",
+      a: "The minimum age is 20 years and the maximum age is 25 years as on 01 October 2024. Age relaxation is applicable as per Bihar Civil Court rules."
+    },
+    {
+      q: "What is the eligibility for Bihar Civil Court Clerk Vacancy 2024?",
+      a: "Candidates must have a Graduation degree in any discipline from a recognized university in India, along with knowledge of computers."
+    },
+    {
+      q: "What is the official website for Bihar Civil Court?",
+      a: "https://patna.dcourts.gov.in/"
+    }
   ],
   linksBox: [
     {
       label: "Download Mains Result",
       url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2025/09/2025090391.pdf",
-      color: "text-green-600",
+      color: "text-green-600"
     },
     {
       label: "Download Mains Admit Card",
       url: "https://dcprequirement.in/admit-card-clerk-login-wtest.aspx",
-      color: "text-blue-600",
+      color: "text-blue-600"
     },
     {
       label: "Mains Exam Date Notice",
       url: "http://sarkariresult.com.cm/wp-content/uploads/2025/04/Bihar-Civil-Court-Clerk-2022-Mains-Exam-Date-Notice-2025.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
       label: "Download Result (Pre)",
       url: "http://sarkariresult.com.cm/wp-content/uploads/2024/12/Bihar-Civil-Court-Clerk-PT-Result.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
       label: "Download Answer Key Clerk",
       url: "https://dcprequirement.in/download/clerk-f-Ans.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
       label: "Download Clerk Exam Date Notice",
       url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/11/2024111344.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
       label: "Download Court Reader Final Result",
       url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/09/2024091211.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
       label: "Download Stenographer Result",
       url: "https://cdnbbsr.s3waas.gov.in/s3ec05a18630ab1c3b9f14454cf70dc711/uploads/2024/04/2024042645.pdf",
-      color: "text-black",
+      color: "text-black"
     },
     {
-      label: "Apply Online Link",
-      url: "https://dcprequirement.in/",
-      color: "text-black",
-    },
-    {
-      label: "Download Notification",
+      label: "Official Website",
       url: "https://patna.dcourts.gov.in/",
-      color: "text-black",
-    },
-    {
-      label: "Bihar Civil Court Official Website",
-      url: "https://patna.dcourts.gov.in/",
-      color: "text-black",
-    },
-  ],
+      color: "text-black"
+    }
+  ]
+},
+
 
 
 
