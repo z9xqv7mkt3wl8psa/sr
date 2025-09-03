@@ -341,8 +341,8 @@ const resultData = [
       url: "https://patna.dcourts.gov.in/",
       color: "text-black"
     }
-  ]
-},
+  ],
+
 
 
 
