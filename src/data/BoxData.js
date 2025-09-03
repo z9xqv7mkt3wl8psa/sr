@@ -1,5 +1,756 @@
 const BoxData = [
 
+
+{ 
+  id: "up-police-si-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM", 
+  category: "Latest Job",
+  title: "UP Police SI Online Form 2025 (4543 Post) Apply Now",
+  organization: "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB)",
+  postName: "Sub Inspector, Platoon Commander, Special Security Force SI",
+  postDate: "28 Aug 2025 | 05:49 PM",
+  shortInfo:
+    "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) has released the notification for Sub Inspector, Platoon Commander, and Special Security Force SI posts. A total of 4543 vacancies are available. The online application started on 12 August 2025 and will close on 11 September 2025. Read the full notification for eligibility, age, syllabus, and selection process.",
+  importantDates: [
+    { label: "Short Notice Date", value: "28 March 2025" },
+    { label: "Application Start Date", value: "12 August 2025" },
+    { label: "Last Date to Apply Online", value: "11 September 2025" },
+    { label: "Last Date for Fee Payment", value: "11 September 2025" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card", value: "Before Exam" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹500" },
+    { label: "SC / ST", value: "₹400" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "28 Years" },
+    { note: "Age relaxation will be given as per UP Police SI Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Sub Inspector (Civil Police)", total: "4242" },
+    { post: "Sub Inspector (Civil Police) - Female", total: "106" },
+    { post: "Platoon Commander / SI Civil Police", total: "135" },
+    { post: "SI / Platoon Commander (Special Security Force)", total: "60" }
+  ],
+  qualifications: [
+    {
+      post: "All Posts",
+      eligibility: "Graduation degree in any stream from a recognized university in India. Preference will be given to candidates with O Level Computer Certificate (NIELIT), Territorial Army service, or NCC 'B' Certificate."
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "10th, 12th & Graduation Certificates/Marksheet",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Other Govt. ID",
+    "Income Certificate (for EWS)",
+    "Other Special Category Certificates (if applicable)"
+  ],
+  selectionProcess: [
+    "Written Examination",
+    "Physical Efficiency Test (PET)",
+    "Physical Standard Test (PST)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the official website – https://uppbpb.in",
+    "Click on Apply Online under UP Police SI Recruitment 2025",
+    "Register and login with credentials",
+    "Fill the application form carefully",
+    "Upload documents, photo, and signature",
+    "Pay the application fee online",
+    "Submit the form and take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://www.upprpb.in/#/auth/landing" },
+    { label: "Check Degree Related Notice", url: "https://uppbpb.gov.in/FilesUploaded/Notice/SI-Form-Clarification312c6d42-dfe4-49a6-9f97-a4e1d6f52940.pdf" },
+    { label: "Download Official Notification", url: "https://uppbpb.gov.in/FilesUploaded/Notice/SI_vigyapti_202567e84cf2-8d04-4072-bdbc-56f3c8e1ccbe.pdf" },
+    { label: "Download Syllabus / Exam Pattern", url: "https://sarkariresult.com.cm/up-police-si-syllabus-exam-pattern-2025/" },
+    { label: "UP Police Official Website", url: "https://uppbpb.gov.in/Home/Index" },
+    { label: "Homepage", url: "#" }
+  ],
+  faqs: [
+    { q: "When did the UP Police SI Online Form 2025 start?", a: "The online application started on 12 August 2025." },
+    { q: "What is the last date for UP Police SI Recruitment 2025?", a: "The last date to apply online is 11 September 2025." },
+    { q: "What is the age limit for UP Police SI Vacancy 2025?", a: "Minimum age is 21 years and maximum age is 28 years as on 01 July 2025." },
+    { q: "What is the eligibility for UP Police SI Recruitment 2025?", a: "Candidates must have a Graduation degree in any stream from a recognized university in India." },
+    { q: "What is the official website of UP Police?", a: "https://uppbpb.gov.in" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://www.upprpb.in/#/auth/landing", color: "text-green-600" },
+    { label: "Download Notification", url: "https://uppbpb.gov.in/FilesUploaded/Notice/SI_vigyapti_202567e84cf2-8d04-4072-bdbc-56f3c8e1ccbe.pdf", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://uppbpb.gov.in/Home/Index", color: "text-black" }
+  ]
+},{ 
+  id: "bsf-hc-ro-rm-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM", 
+  category: "Latest Job",
+  title: "BSF HC RO / RM Recruitment 2025 Apply Online for 1121 Posts",
+  organization: "Border Security Force (BSF)",
+  postName: "Head Constable (Radio Operator & Radio Mechanic)",
+  postDate: "25 Aug 2025 | 09:21 AM",
+  shortInfo:
+    "Border Security Force (BSF) has released the notification for the recruitment of Head Constable Radio Operator (RO) and Head Constable Radio Mechanic (RM) posts. A total of 1121 vacancies are available. The online application started on 24 August 2025 and will close on 23 September 2025. Read the full notification for eligibility, age limit, syllabus, and selection process.",
+  importantDates: [
+    { label: "Application Start Date", value: "24 August 2025" },
+    { label: "Last Date to Apply Online", value: "23 September 2025" },
+    { label: "Last Date for Fee Payment", value: "23 September 2025" },
+    { label: "Exam Date", value: "Notify Later" },
+    { label: "Admit Card", value: "Before Exam" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹100" },
+    { label: "SC / ST", value: "₹0" },
+    { label: "All Female Candidates", value: "₹0" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (General)", value: "25 Years" },
+    { label: "Maximum Age (OBC)", value: "28 Years" },
+    { label: "Maximum Age (SC/ST)", value: "30 Years" },
+    { note: "Age relaxation will be given as per BSF HC RO / RM Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Head Constable (Radio Operator)", total: "910" },
+    { post: "Head Constable (Radio Mechanic)", total: "211" }
+  ],
+  qualifications: [
+    {
+      post: "Head Constable (RO)",
+      eligibility: "10th with 2-year ITI in Radio & Television / Electronics / Computer Operator & Programming Assistant / Data Preparation or related trade OR 12th pass with PCM (Physics, Chemistry, Mathematics)."
+    },
+    {
+      post: "Head Constable (RM)",
+      eligibility: "10th with 2-year ITI in Radio & Television / General Electronics / Computer Operator & Programming Assistant or related trade OR 12th pass with PCM (Physics, Chemistry, Mathematics)."
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "10th / 12th Marksheet and Certificates",
+    "ITI Certificate (if applicable)",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Other Govt. ID"
+  ],
+  selectionProcess: [
+    "Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+    "Computer Based Test (CBT)",
+    "Document Verification",
+    "Dictation & Paragraph Reading Test",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the official website – https://rectt.bsf.gov.in",
+    "Click on the Apply Online link for BSF HC RO / RM Recruitment 2025",
+    "Register and login with credentials",
+    "Fill the application form carefully",
+    "Upload documents, photo, and signature",
+    "Pay the application fee online (if applicable)",
+    "Submit the form and take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://rectt.bsf.gov.in/registration/basic-details?guid=55c6c141-5288-11f0-8331-0a1dcac2b80f" },
+    { label: "Download Official Notification", url: "https://rectt.bsf.gov.in/static/bsf/pdf/55c6c141-5288-11f0-8331-0a1dcac2b80f.pdf?rel=2025082302" },
+    { label: "BSF Official Website", url: "https://www.bsf.gov.in/" },
+    { label: "Homepage", url: "#" }
+  ],
+  faqs: [
+    { q: "When did the BSF HC RO / RM Online Form 2025 start?", a: "The online application started on 24 August 2025." },
+    { q: "What is the last date to apply for BSF Head Constable RO / RM Recruitment 2025?", a: "The last date to apply online is 23 September 2025." },
+    { q: "What is the age limit for BSF HC RO / RM 2025?", a: "The minimum age is 18 years and maximum age varies between 25 to 30 years based on category." },
+    { q: "What is the eligibility for BSF Head Constable RO / RM Recruitment 2025?", a: "Candidates must have 10th + ITI in related trades or 12th with PCM subjects." },
+    { q: "What is the official website of BSF?", a: "https://www.bsf.gov.in/" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://rectt.bsf.gov.in/registration/basic-details?guid=55c6c141-5288-11f0-8331-0a1dcac2b80f", color: "text-green-600" },
+    { label: "Download Notification", url: "https://rectt.bsf.gov.in/static/bsf/pdf/55c6c141-5288-11f0-8331-0a1dcac2b80f.pdf?rel=2025082302", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.bsf.gov.in/", color: "text-black" }
+  ]
+},
+{ 
+  id: "bssc-office-attendant-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM", 
+  category: "Latest Job",
+  title: "Bihar BSSC Office Attendant Recruitment 2025 Apply Online for 3727 Posts",
+  organization: "Bihar Staff Selection Commission (BSSC)",
+  postName: "Office Attendant",
+  postDate: "25 Aug 2025 | 08:03 PM",
+  shortInfo:
+    "Bihar Staff Selection Commission (BSSC) has released the notification for the recruitment of Office Attendant posts. A total of 3727 vacancies are available. The online application started on 25 August 2025 and will close on 24 September 2025. Read the full notification for eligibility, age limit, syllabus, and selection process.",
+  importantDates: [
+    { label: "Application Start Date", value: "25 August 2025" },
+    { label: "Last Date to Apply Online", value: "24 September 2025" },
+    { label: "Last Date for Fee Payment", value: "24 September 2025" },
+    { label: "Final Submit Last Date", value: "26 September 2025" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Here Soon" }
+  ],
+  applicationFees: [
+    { label: "All Candidates", value: "₹100" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age (UR Male)", value: "37 Years" },
+    { label: "Maximum Age (UR Female)", value: "40 Years" },
+    { label: "Maximum Age (BC/EBC Male, Female)", value: "40 Years" },
+    { label: "Maximum Age (SC/ST Male, Female)", value: "42 Years" },
+    { note: "Age relaxation will be given as per BSSC Office Attendant Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Office Attendant", total: "3727" }
+  ],
+  qualifications: [
+    {
+      post: "Office Attendant",
+      eligibility: "Candidates must have passed the 10th (High School) exam from any recognized board in India. For full eligibility details, please check the official notification."
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "10th Marksheet and Certificate",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Other Govt. ID"
+  ],
+  selectionProcess: [
+    "Pre Exam",
+    "Mains Exam"
+  ],
+  howToApply: [
+    "Visit the official website – https://bssc.bihar.gov.in",
+    "Click on the Apply Online link for BSSC Office Attendant Recruitment 2025",
+    "Register and login with credentials",
+    "Fill the application form carefully",
+    "Upload documents, photo, and signature",
+    "Pay the application fee online (if applicable)",
+    "Submit the form before 24 September 2025 and take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://www.onlinebssc.com/officeattendantspecial/" },
+    { label: "Check Fees Payment Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/3279_notice.pdf" },
+    { label: "Check Official Notification", url: "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf" },
+    { label: "BSSC Official Website", url: "https://bssc.bihar.gov.in/NoticeBoard.htm" }
+  ],
+  faqs: [
+    { q: "When did the BSSC Office Attendant Online Form 2025 start?", a: "The online application started on 25 August 2025." },
+    { q: "What is the last date to apply for BSSC Office Attendant Recruitment 2025?", a: "The last date to apply online is 24 September 2025." },
+    { q: "What is the age limit for BSSC Office Attendant 2025?", a: "The minimum age is 18 years and maximum age varies between 37 to 42 years based on category." },
+    { q: "What is the eligibility for BSSC Office Attendant Recruitment 2025?", a: "Candidates must have passed 10th (High School) from a recognized board in India." },
+    { q: "What is the official website of BSSC?", a: "https://bssc.bihar.gov.in" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://www.onlinebssc.com/officeattendantspecial/", color: "text-green-600" },
+    { label: "Check Fees Payment Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/3279_notice.pdf", color: "text-red-600" },
+    { label: "Check Notification", url: "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://bssc.bihar.gov.in/NoticeBoard.htm", color: "text-black" }
+  ]
+},
+{ 
+  id: "lic-aao-ae-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM", 
+  category: "Latest Job",
+  title: "LIC AAO / AE Recruitment 2025 Apply Online for 841 Posts",
+  organization: "Life Insurance Corporation of India (LIC)",
+  postName: "Assistant Administrative Officer (AAO) / Assistant Engineer (AE)",
+  postDate: "16 Aug 2025 | 11:23 AM",
+  shortInfo:
+    "Life Insurance Corporation of India (LIC) has released the notification for the recruitment of Assistant Administrative Officer AAO Generalist, AAO Specialist, and Assistant Engineer AE posts. A total of 841 vacancies are available. The online application started on 16 August 2025 and will close on 08 September 2025. Read the full notification for eligibility, age limit, syllabus, and selection process.",
+  importantDates: [
+    { label: "Application Start Date", value: "16 August 2025" },
+    { label: "Last Date to Apply Online", value: "08 September 2025" },
+    { label: "Last Date for Fee Payment", value: "08 September 2025" },
+    { label: "Exam Date", value: "Notify Soon" },
+    { label: "Admit Card", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Here Soon" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹700" },
+    { label: "SC / ST / PwBD", value: "₹85" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "21 Years" },
+    { label: "Maximum Age", value: "32 Years" },
+    { note: "Candidates born not earlier than 02.08.1993 and not later than 01.08.2004 (both dates inclusive) are eligible. Age relaxation will be given as per LIC AAO / AE Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "AAO (Generalist)", total: "341" },
+    { post: "AAO (Generalist Backlog)", total: "09" },
+    { post: "Assistant Engineer AE (Civil)", total: "50" },
+    { post: "Assistant Engineer AE (Electrical)", total: "31" },
+    { post: "AAO (CA)", total: "30" },
+    { post: "AAO (CS)", total: "10" },
+    { post: "AAO (Actuarial)", total: "30" },
+    { post: "AAO (Insurance Specialist)", total: "310" },
+    { post: "AAO (Legal)", total: "30" }
+  ],
+  qualifications: [
+    {
+      post: "AAO (Generalist)",
+      eligibility: "Bachelor’s degree in any discipline from a recognized Indian university. Age limit 21–30 years (Born between 02 August 1995 and 01 August 2004)."
+    },
+    {
+      post: "Assistant Engineer AE (Civil)",
+      eligibility: "B.Tech/B.E. in Civil Engineering from AICTE-recognized university with at least 3 years of post-qualification experience in multi-storied building projects."
+    },
+    {
+      post: "Assistant Engineer AE (Electrical)",
+      eligibility: "B.Tech/B.E. in Electrical Engineering from AICTE-recognized university with at least 3 years of post-qualification experience in multi-storied building projects."
+    },
+    {
+      post: "AAO (CA)",
+      eligibility: "Bachelor’s degree + Passed Final Exam of ICAI and Associate Member of ICAI."
+    },
+    {
+      post: "AAO (CS)",
+      eligibility: "Bachelor’s degree + Qualified member of ICSI."
+    },
+    {
+      post: "AAO (Actuarial)",
+      eligibility: "Bachelor’s degree + Passed at least 6 papers of Institute of Actuaries of India / UK with valid membership number."
+    },
+    {
+      post: "AAO (Insurance Specialist)",
+      eligibility: "Bachelor’s degree + Fellowship of Insurance Institute of India with at least 5 years’ experience in IRDAI-regulated Life Insurance Companies."
+    },
+    {
+      post: "AAO (Legal)",
+      eligibility: "Bachelor’s degree in Law with 50% marks (45% for SC/ST/PwBD) + enrolled as Advocate with 2 years’ experience as Advocate or Law Officer."
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "Graduation Marksheet and Certificates",
+    "Professional Qualification Certificates (if applicable)",
+    "Experience Certificate (if applicable)",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Other Govt. ID"
+  ],
+  selectionProcess: [
+    "Pre Exam",
+    "Mains Exam",
+    "Interview"
+  ],
+  howToApply: [
+    "Visit the official website – https://www.licindia.in",
+    "Click on the Apply Online link for LIC AAO / AE Recruitment 2025",
+    "Register and login with credentials",
+    "Fill the application form carefully",
+    "Upload documents, photo, and signature",
+    "Pay the application fee online",
+    "Submit the form before 08 September 2025 and take a printout for future reference"
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://ibpsonline.ibps.in/licjul25/basic_details.php" },
+    { label: "Check Official Notification (Generalist)", url: "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-hindi" },
+    { label: "Check Official Notification (AE / Specialist)", url: "https://licindia.in/documents/d/guest/aao-specialist-notification-2025-hindi" },
+    { label: "LIC Official Website", url: "https://www.licindia.in/" }
+  ],
+  faqs: [
+    { q: "When did the LIC AAO / AE Online Form 2025 start?", a: "The online application started on 16 August 2025." },
+    { q: "What is the last date to apply for LIC AAO / AE Recruitment 2025?", a: "The last date to apply online is 08 September 2025." },
+    { q: "What is the age limit for LIC AAO / AE 2025?", a: "The minimum age is 21 years and maximum age is 32 years as on 08 September 2025." },
+    { q: "What is the eligibility for LIC AAO / AE Recruitment 2025?", a: "Eligibility varies by post – Bachelor’s degree (for Generalist), Engineering degree (for AE), CA/CS/Actuarial/Insurance/Legal qualifications for Specialist posts." },
+    { q: "What is the official website of LIC?", a: "https://www.licindia.in/" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://ibpsonline.ibps.in/licjul25/basic_details.php", color: "text-green-600" },
+    { label: "Check Notification (Generalist)", url: "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-hindi", color: "text-blue-600" },
+    { label: "Check Notification (AE / Specialist)", url: "https://licindia.in/documents/d/guest/aao-specialist-notification-2025-hindi", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://www.licindia.in/", color: "text-black" }
+  ]
+},
+{ 
+  id: "ib-jio-grade-ii-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM", 
+  category: "Latest Job",
+  title: "IB Junior Intelligence Officer Grade II Recruitment 2025 Apply Online for 394 Posts",
+  organization: "Intelligence Bureau (IB)",
+  postName: "Junior Intelligence Officer (JIO) Grade II",
+  postDate: "28 Aug 2025 | 05:48 PM",
+  shortInfo:
+    "Intelligence Bureau (IB) has released the notification for the recruitment of Junior Intelligence Officer (JIO) Grade II for the year 2025. A total of 394 vacancies are available. The application process started on 23 August 2025 and will remain open until 14 September 2025. Interested candidates must check eligibility, age limit, syllabus, and selection process before applying online.",
+  importantDates: [
+    { label: "Application Start Date", value: "23 August 2025" },
+    { label: "Last Date to Apply Online", value: "14 September 2025" },
+    { label: "Last Date for Fee Payment", value: "14 September 2025" },
+    { label: "Exam Date", value: "Notify Later" },
+    { label: "Admit Card", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Here Soon" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹650" },
+    { label: "SC / ST", value: "₹550" },
+    { label: "All Female Candidates", value: "₹550" },
+    { label: "Payment Mode", value: "Through Debit Card, Credit Card, Net Banking, IB Kiosk" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years" },
+    { label: "Maximum Age", value: "27 Years" },
+    { note: "Age relaxation will be given as per IB JIO Grade II Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Junior Intelligence Officer (JIO) Grade II", total: "394" }
+  ],
+  qualifications: [
+    {
+      post: "Junior Intelligence Officer (JIO) Grade II",
+      eligibility: "Candidates must have one of the following qualifications from a government-recognized university or institute: \n- Diploma in Engineering (Electronics, Electronics & Telecommunication, Electronics & Communication, Electrical & Electronics, Information Technology, Computer Science, Computer Engineering, or Computer Applications)\n- Bachelor’s Degree in Science with Electronics, Computer Science, Physics, or Mathematics as a main subject\n- Bachelor’s Degree in Computer Applications"
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "Educational Qualification Certificates",
+    "Caste Certificate (if applicable)",
+    "Experience Certificate (if applicable)",
+    "Aadhaar Card / Other Govt. ID"
+  ],
+  selectionProcess: [
+    "Written Exam (100 Marks)",
+    "Skill Test (30 Marks)",
+    "Interview Test (20 Marks)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the official application portal through the Apply Online link.",
+    "Complete the registration and login process.",
+    "Fill in the application form with accurate details.",
+    "Upload required documents, photo, and signature.",
+    "Pay the examination fee through the available payment modes.",
+    "Submit the application before 14 September 2025 and take a printout for future reference."
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "https://cdn.digialm.com/EForms/configuredHtml/1258/94260/Registration.html" },
+    { label: "Check Official Notification", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/IB-JIO-2025-Official-Notification.pdf" },
+    { label: "IB Official Website", url: "https://गृहमंत्रालय.सरकार.भारत/en" }
+  ],
+  faqs: [
+    { q: "When did the IB JIO Grade II Online Form 2025 start?", a: "The application process started on 23 August 2025." },
+    { q: "What is the last date to apply for IB JIO Recruitment 2025?", a: "The last date to apply online is 14 September 2025." },
+    { q: "What is the age limit for IB JIO Grade II 2025?", a: "The minimum age is 18 years and maximum age is 27 years as on 14 September 2025." },
+    { q: "What is the eligibility for IB JIO Recruitment 2025?", a: "Eligibility includes Diploma in Engineering, Bachelor’s Degree in Science (Electronics/CS/Physics/Maths), or Bachelor’s Degree in Computer Applications from a recognized institute." },
+    { q: "What is the official website of IB?", a: "https://गृहमंत्रालय.सरकार.भारत/en" }
+  ],
+  linksBox: [
+    { label: "Apply Online", url: "https://cdn.digialm.com/EForms/configuredHtml/1258/94260/Registration.html", color: "text-green-600" },
+    { label: "Check Notification", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/IB-JIO-2025-Official-Notification.pdf", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "Official Website", url: "https://गृहमंत्रालय.सरकार.भारत/en", color: "text-black" }
+  ]
+},
+{
+  id: "rrb-section-controller-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM",
+  category: "Latest Job",
+  title: "RRB Section Controller Recruitment 2025 Apply Online for 368 Posts",
+  organization: "Railway Recruitment Board (RRB)",
+  postName: "Section Controller",
+  postDate: "22 Aug 2025 | 04:07 PM",
+  advtNo: "CEN 04/2025",
+  shortInfo:
+    "Railway Recruitment Board (RRB) has released a short notice for the recruitment of Section Controller 2025. A total of 368 vacancies are available. The application process will begin on 15 September 2025 and remain open until 14 October 2025. Interested candidates must check eligibility, age limit, application fees, and selection process before applying.",
+  importantDates: [
+    { label: "Application Start Date", value: "15 September 2025" },
+    { label: "Last Date to Apply Online", value: "14 October 2025" },
+    { label: "Last Date for Fee Payment", value: "14 October 2025" },
+    { label: "Exam Date", value: "Notified Soon" },
+    { label: "Admit Card", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Here Soon" }
+  ],
+  applicationFees: [
+    { label: "General / OBC / EWS", value: "₹500" },
+    { label: "SC / ST / EBC", value: "₹250" },
+    { label: "All Female Candidates", value: "₹250" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Internet Banking, IMPS, Mobile Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "20 Years" },
+    { label: "Maximum Age", value: "33 Years" },
+    { note: "Age relaxation is applicable as per RRB Section Controller Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Section Controller", total: "368" }
+  ],
+  qualifications: [
+    {
+      post: "Section Controller",
+      eligibility: "Candidates must have a Graduation degree in any discipline from a recognized university."
+    }
+  ],
+  requiredDocs: [
+    "Passport Size Photograph",
+    "Signature",
+    "Educational Qualification Certificates",
+    "Caste Certificate (if applicable)",
+    "ID Proof (Aadhaar Card / Voter ID / PAN Card)"
+  ],
+  selectionProcess: [
+    "Computer Based Test (CBT)",
+    "Skill Test (if required)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the official RRB portal once the Apply Online link is active.",
+    "Complete the registration and login process.",
+    "Fill in all the required details carefully.",
+    "Upload scanned documents, photo, and signature.",
+    "Pay the examination fee using the available online payment options.",
+    "Submit the form and take a printout for reference."
+  ],
+  importantLinks: [
+    { label: "Apply Online", url: "#", note: "Link will be active on 15 September 2025" },
+    { label: "Check Short Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/rrb-section-controller.jpg" },
+    { label: "RRB Official Website", url: "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281" }
+  ],
+  faqs: [
+    { q: "When will the RRB Section Controller Online Form 2025 start?", a: "The online application process will start from 15 September 2025." },
+    { q: "What is the last date to apply for RRB Section Controller Recruitment 2025?", a: "The last date to apply is 14 October 2025." },
+    { q: "What is the age limit for RRB Section Controller 2025?", a: "The minimum age is 20 years and maximum age is 33 years as on 01 January 2025." },
+    { q: "What is the eligibility for RRB Section Controller Recruitment 2025?", a: "Candidates must have a Graduation degree in any discipline from a recognized university." },
+    { q: "What is the official website of RRB?", a: "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281" }
+  ],
+  linksBox: [
+    { label: "Apply Online (Active from 15 Sep 2025)", url: "#", color: "text-green-600" },
+    { label: "Check Short Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/08/rrb-section-controller.jpg", color: "text-blue-600" },
+    { label: "JOIN WHATSAPP", url: "/join-whatsapp", color: "text-green-700" },
+    { label: "JOIN TELEGRAM", url: "/join-telegram", color: "text-blue-600" },
+    { label: "RRB Official Website", url: "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281", color: "text-black" }
+  ]
+},
+{
+  id: "up-scholarship-online-form-2025-26",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM",
+  category: "Admission",
+  title: "UP Scholarship Online Form 2025-26",
+  organization: "Social Welfare Department, Uttar Pradesh",
+  postName: "UP Pre-Matric, Post-Matric & Dashmottar Scholarship 2025-26",
+  postDate: "19 Aug 2025 | 01:55 PM",
+  advtNo: "N/A",
+  shortInfo:
+    "Social Welfare Department of Uttar Pradesh has released the notification for UP Scholarship 2025-26. The scheme covers students of Class 9–10 (Pre-Matric), Class 11–12 (Post-Matric), and UG/PG/Diploma/Certificate courses (Dashmottar). The online application process will be open between July and December 2025, depending on the category. Eligible candidates must read the notification and apply online before the last date.",
+  importantDates: [
+    { label: "Pre-Matric (Class 9-10) Apply Start", value: "02 July 2025" },
+    { label: "Pre-Matric Last Date", value: "30 October 2025" },
+    { label: "Pre-Matric Form Completion Last Date", value: "31 October 2025" },
+    { label: "Pre-Matric Hard Copy Submission", value: "04 November 2025" },
+    { label: "Pre-Matric Scholarship Transfer", value: "31 December 2025" },
+
+    { label: "Post-Matric (Class 11-12) Apply Start", value: "02 July 2025" },
+    { label: "Post-Matric Last Date", value: "30 October 2025" },
+    { label: "Post-Matric Form Completion Last Date", value: "31 October 2025" },
+    { label: "Post-Matric Hard Copy Submission", value: "04 November 2025" },
+    { label: "Post-Matric Scholarship Transfer", value: "31 December 2025" },
+
+    { label: "Post-Matric Other Than Inter Apply Start", value: "10 July 2025" },
+    { label: "Post-Matric Other Than Inter Last Date", value: "20 December 2025" },
+    { label: "Post-Matric Other Than Inter Form Completion", value: "20 December 2025" },
+    { label: "Hard Copy Submission", value: "24 December 2025" },
+    { label: "Scholarship Transfer", value: "24 January 2026" }
+  ],
+  applicationFees: [
+    { label: "All Categories", value: "No Application Fee" }
+  ],
+  ageLimit: [
+    { label: "As per Official Rules", value: "Not Specified" }
+  ],
+  vacancies: [
+    { post: "UP Scholarship 2025-26", total: "N/A" }
+  ],
+  qualifications: [
+    { post: "Pre-Matric (Class 9-10)", eligibility: "Must have passed previous class (8th/9th) and be enrolled in Class 9th/10th." },
+    { post: "Post-Matric (Class 11-12)", eligibility: "Must have passed Class 10th/11th and be enrolled in Class 11th/12th." },
+    { post: "Dashmottar (UG/PG/Diploma/Certificate)", eligibility: "Must be enrolled in UG/PG/Diploma/Certificate course." }
+  ],
+  requiredDocs: [
+    "Last Qualifying Exam Mark Sheet",
+    "Caste Certificate",
+    "Income Certificate",
+    "Bank Passbook",
+    "Fee Receipt Number",
+    "Annual Non-Refundable Amount",
+    "Enrollment Number",
+    "Aadhar Card",
+    "Latest Passport Size Photo",
+    "For Renewal: Last Year Registration Number"
+  ],
+  selectionProcess: [
+    "Application Verification by Institution",
+    "Document Verification",
+    "Scholarship Amount Transfer to Bank Account"
+  ],
+  howToApply: [
+    "Visit the official UP Scholarship portal.",
+    "Complete One Time Registration (OTR).",
+    "Login as per your category (Pre-Matric, Post-Matric, Dashmottar).",
+    "Fill in the application form with required details.",
+    "Upload documents, photo, and signature.",
+    "Submit and take a printout.",
+    "Submit the hard copy along with documents to your institution before the due date."
+  ],
+  importantLinks: [
+    { label: "One Time Registration (OTR)", url: "https://scholarship.up.gov.in/Popup.aspx" },
+    { label: "Apply Online – Registration", url: "https://scholarship.up.gov.in/RegistrationNew.aspx" },
+    { label: "Login – (Pre Matric)", url: "https://scholarship.up.gov.in/LoginStudentPreFresh.aspx" },
+    { label: "Login – (Post Matric Intermediate)", url: "https://scholarship.up.gov.in/LoginStudentPostInter.aspx" },
+    { label: "Login – (Post Matric Other Than Inter)", url: "https://scholarship.up.gov.in/LoginStudentPost.aspx" },
+    { label: "Login – (Other State)", url: "https://scholarship.up.gov.in/LoginStudentPostOS.aspx" },
+    { label: "Check Registration Status", url: "https://scholarship.up.gov.in/InstituteRegistrationStatus_.aspx" },
+    { label: "Official Notification", url: "https://scholarship.up.gov.in/index.aspx" },
+    { label: "Official Website", url: "https://scholarship.up.gov.in/" }
+  ],
+  faqs: [
+    { q: "When will the UP Scholarship Online Form 2025-26 start?", a: "The Pre-Matric and Post-Matric application process starts on 02 July 2025." },
+    { q: "What is the last date for Post-Matric Other Than Inter Scholarship?", a: "The last date is 20 December 2025." },
+    { q: "Is there any application fee?", a: "No, there is no application fee for any candidate." },
+    { q: "Who can apply for UP Scholarship?", a: "Students of Class 9–10, Class 11–12, and UG/PG/Diploma/Certificate courses who are domiciled in Uttar Pradesh can apply." },
+    { q: "Do I need to submit a hard copy?", a: "Yes, candidates must submit the printed form along with documents to their respective institutions." }
+  ],
+  linksBox: [
+    { label: "One Time Registration (OTR)", url: "https://scholarship.up.gov.in/Popup.aspx", color: "text-blue-600" },
+    { label: "Apply Online – Registration", url: "https://scholarship.up.gov.in/RegistrationNew.aspx", color: "text-green-600" },
+    { label: "Login – Pre Matric", url: "https://scholarship.up.gov.in/LoginStudentPreFresh.aspx", color: "text-black" },
+    { label: "Login – Post Matric Intermediate", url: "https://scholarship.up.gov.in/LoginStudentPostInter.aspx", color: "text-black" },
+    { label: "Login – Post Matric Other Than Inter", url: "https://scholarship.up.gov.in/LoginStudentPost.aspx", color: "text-black" },
+    { label: "Login – Other State", url: "https://scholarship.up.gov.in/LoginStudentPostOS.aspx", color: "text-black" },
+    { label: "Check Registration Status", url: "https://scholarship.up.gov.in/InstituteRegistrationStatus_.aspx", color: "text-blue-600" },
+    { label: "Official Notification", url: "https://scholarship.up.gov.in/index.aspx", color: "text-blue-700" },
+    { label: "Official Website", url: "https://scholarship.up.gov.in/", color: "text-black" }
+  ]
+},
+{
+  id: "up-police-constable-recruitment-2025",
+  logo: "/images/sarkariresult-logo.png",
+  website: "WWW.SARKARIRESULT.PRASUNET.COM",
+  category: "Latest Job",
+  title: "UP Police Constable Recruitment 2025 Apply Online for 19,220 Posts",
+  organization: "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB)",
+  postName: "Constable",
+  postDate: "06 May 2025 | 04:35 PM",
+  advtNo: "Notified Soon",
+  shortInfo:
+    "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) has approved the recruitment of 19,220 Constable posts. The short notice has been released on 28 March 2025. The detailed notification and online application link will be available soon. Interested candidates should regularly check the UP Police official website for updates.",
+  importantDates: [
+    { label: "Short Notice Release Date", value: "28 March 2025" },
+    { label: "Application Start Date", value: "Available Soon" },
+    { label: "Last Date to Apply Online", value: "Available Soon" },
+    { label: "Last Date for Fee Payment", value: "Available Soon" },
+    { label: "Exam Date", value: "Notified Soon" },
+    { label: "Admit Card", value: "Before Exam" },
+    { label: "Result Date", value: "Will Be Updated Here Soon" }
+  ],
+  applicationFees: [
+    { label: "General / EWS / BC / EBC", value: "₹ Soon" },
+    { label: "SC / ST / OBC", value: "₹ Soon" },
+    { label: "Payment Mode", value: "Debit Card, Credit Card, Net Banking, IMPS, Wallet" }
+  ],
+  ageLimit: [
+    { label: "Minimum Age", value: "18 Years (Expected)" },
+    { label: "Maximum Age", value: "30 Years (Expected)" },
+    { note: "Age relaxation will be provided as per UP Police Constable Recruitment 2025 rules." }
+  ],
+  vacancies: [
+    { post: "Constable in Provincial Armed Constabulary (PAC)", total: "9,837" },
+    { post: "Constable in UP Special Security Force (UPSSF)", total: "1,341" },
+    { post: "Constable in PAC Women’s Battalion", total: "2,282" },
+    { post: "Constable in Civil Police", total: "3,245" },
+    { post: "Constable in PAC / Armed Police", total: "2,444" },
+    { post: "Constable in Mounted Police", total: "71" },
+    { post: "Total", total: "19,220" }
+  ],
+  qualifications: [
+    {
+      post: "Constable",
+      eligibility: "Candidates must have passed 10+2 (Intermediate) or its equivalent from a recognized board in India."
+    }
+  ],
+  requiredDocs: [
+    "Passport-size Photograph",
+    "Signature",
+    "Class 10th & 12th Certificates",
+    "Caste Certificate (if applicable)",
+    "Aadhaar Card / Voter ID / Other ID Proof",
+    "Domicile Certificate",
+    "Income Certificate (for EWS candidates)",
+    "Category-specific Certificates (PH/Ex-Servicemen, etc.)"
+  ],
+  selectionProcess: [
+    "Written Examination",
+    "Physical Efficiency Test (PET)",
+    "Physical Standard Test (PST)",
+    "Document Verification",
+    "Medical Examination"
+  ],
+  howToApply: [
+    "Visit the official UP Police Recruitment website.",
+    "Click on the Apply Online link (to be activated soon).",
+    "Complete registration with basic details.",
+    "Fill the application form carefully.",
+    "Upload scanned photo, signature, and documents.",
+    "Pay the examination fee online.",
+    "Submit and take a printout for future reference."
+  ],
+  importantLinks: [
+    { label: "Check Short Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/03/UP-Police-Constable-Recruitment-2025.jpg" },
+    { label: "UP Police Official Website", url: "https://uppbpb.gov.in/Home/Index" }
+  ],
+  faqs: [
+    { q: "How many vacancies are announced for UP Police Constable Recruitment 2025?", a: "A total of 19,220 vacancies are announced for Constable posts." },
+    { q: "When will the UP Police Constable Online Form 2025 start?", a: "The online form will start soon after the release of the official notification." },
+    { q: "What is the age limit for UP Police Constable Bharti 2025?", a: "The expected age limit is 18–30 years, with relaxation as per rules." },
+    { q: "What is the eligibility for UP Police Constable Recruitment 2025?", a: "Candidates must have passed Class 12th (Intermediate) from a recognized board." },
+    { q: "What is the official website for UP Police Recruitment 2025?", a: "The official website is https://uppbpb.gov.in/Home/Index" }
+  ],
+  linksBox: [
+    { label: "Check Short Notice", url: "http://sarkariresult.com.cm/wp-content/uploads/2025/03/UP-Police-Constable-Recruitment-2025.jpg", color: "text-blue-600" },
+    { label: "UP Police Official Website", url: "https://uppbpb.gov.in/Home/Index", color: "text-black" }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 {
   id: "up-police-otr-registration-2025",
   logo: "/images/sarkariresult-logo.png",
