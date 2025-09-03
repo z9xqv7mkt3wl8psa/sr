@@ -136,7 +136,7 @@ const resultData = [
 
 
 {
-  id: "bihar-civil-court-clerk-mains-result-2025",
+  id: "bihar-civil-court-clerk-mains-results-2025",
   logo: "/images/sarkariresult-logo.png",
   website: "WWW.SARKARIRESULT.PRASUNET.COM",
   label: "Results",
