@@ -20,6 +20,11 @@ import AnswerkeyViewMore from "./Components/pages/Answerkeyviewmore.jsx";
 import SearchPage from "./Components/pages/SearchPage.jsx";
 import FooterPage from "./Components/footer/Footer.jsx";
 import ContactPage from "./Components/pages/ContactPage.jsx";
+import ScholarshipPage from "./Components/pages/ScholarshipPage.jsx";
+import ScholarshipDetail from "./Components/pages/ScholarshipDetail.jsx";
+import InternshipPage from "./Components/pages/InternshipPage";
+import InternshipDetail from "./Components/pages/InternshipDetail";
+
 function App() {
   return (
     <Router>
@@ -46,6 +51,10 @@ function App() {
           <Route path="/search" element={<SearchPage />} />
            <Route path="/footer" element={<FooterPage />} />
            <Route path="/contact" element={<ContactPage />} />
+          <Route path="/scholarships" element={<ScholarshipPage />} />
+        <Route path="/scholarships/:id" element={<ScholarshipDetail />} />
+        <Route path="/internships" element={<InternshipPage />} />
+<Route path="/internships/:id" element={<InternshipDetail />} />
 
         {/* Admission Detail Page (Dynamic ID) */}
         <Route path="/admission/:id" element={<AdmissionDetail />} />
