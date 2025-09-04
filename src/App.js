@@ -24,6 +24,8 @@ import ScholarshipPage from "./Components/pages/ScholarshipPage.jsx";
 import ScholarshipDetail from "./Components/pages/ScholarshipDetail.jsx";
 import InternshipPage from "./Components/pages/InternshipPage";
 import InternshipDetail from "./Components/pages/InternshipDetail";
+import NewsPage from "./Components/pages/NewsPage";
+import NewsDetail from "./Components/pages/NewsDetail";
 
 function App() {
   return (
@@ -55,6 +57,8 @@ function App() {
         <Route path="/scholarships/:id" element={<ScholarshipDetail />} />
         <Route path="/internships" element={<InternshipPage />} />
 <Route path="/internships/:id" element={<InternshipDetail />} />
+<Route path="/news" element={<NewsPage />} />
+  <Route path="/news/:id" element={<NewsDetail />} />
 
         {/* Admission Detail Page (Dynamic ID) */}
         <Route path="/admission/:id" element={<AdmissionDetail />} />
