@@ -282,7 +282,7 @@ const Main = () => {
     </a>
 
     {/* 🏆 Competitions & Events */}
-    <a href="/competitions" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/events" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img
         src="/events.webp"
         alt="Competitions"
@@ -298,7 +298,7 @@ const Main = () => {
     
 
     {/* 💰 Education Loans */}
-    <a href="/education-loans" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/loans" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img
         src="/loans.png"
         alt="Education Loans"
@@ -335,7 +335,7 @@ const Main = () => {
 
 
     {/* 🖥️ Online Classes */}
-    <a href="/online-classes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/classes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img src="/onlineclass.png" alt="Online Classes" className="w-full h-44 object-cover" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-blue-700">Online Classes</h3>
@@ -363,7 +363,7 @@ const Main = () => {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
     {/* 🗞️ Daily Newspaper */}
-    <a href="/daily-news" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/newspapers" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img src="/dailynews.jpg" alt="Daily News" className="w-full h-44 object-cover" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-blue-700">Daily Newspaper</h3>
@@ -373,7 +373,7 @@ const Main = () => {
     </a>
 
     {/* 🌍 Live News (Geo-politics & Govt Events) */}
-    <a href="/live-news" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/geonews" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img src="/newslive.webp" alt="Live News" className="w-full h-44 object-cover" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-blue-700">Live Geo-political News</h3>
@@ -383,7 +383,7 @@ const Main = () => {
     </a>
 
     {/* 🎯 Government Schemes */}
-    <a href="/government-schemes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+    <a href="/schemes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
       <img src="/govtschemes.jpg" alt="Govt Schemes" className="w-full h-44 object-cover" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-blue-700">Government Schemes</h3>
