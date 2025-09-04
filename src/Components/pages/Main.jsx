@@ -313,6 +313,90 @@ const Main = () => {
 
   </div>
 </div>
+{/* === More Educational Resources Section === */}
+<div className="container mx-auto px-4 sm:px-10 py-8">
+  <h2 className="text-2xl font-bold text-center text-blue-700 mb-6">More Educational Resources</h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    {/* 📚 Exam Preparation Books */}
+    <a href="/books" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+  <img src="/elibrary.png" alt="Books" className="w-full h-44 object-cover" />
+  <div className="p-4">
+    <h3 className="text-lg font-semibold text-blue-700"> School, College & Competition Preparation Books</h3>
+    <p className="text-sm text-gray-600 mt-1">
+      Top-rated books for UPSC, SSC, Banking, Railways, Defence, and all competitive exams.
+      NCERTs, reference books, and academic materials for all boards and universities.
+    </p>
+
+    <span className="inline-block mt-4 text-sm text-blue-600 font-semibold hover:underline">Browse All Books →</span>
+  </div>
+</a>
+
+
+    {/* 🖥️ Online Classes */}
+    <a href="/online-classes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img src="/onlineclass.png" alt="Online Classes" className="w-full h-44 object-cover" />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Online Classes</h3>
+        <p className="text-sm text-gray-600 mt-1">Live and recorded classes for UPSC, NEET, JEE, and state exams by top educators.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Start Learning →</span>
+      </div>
+    </a>
+ 
+
+    {/* 📝 Handwritten Notes */}
+    <a href="/notes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img src="/handwrittennotes.jpg" alt="Notes" className="w-full h-44 object-cover" />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Handwritten Notes</h3>
+        <p className="text-sm text-gray-600 mt-1">Free PDF handwritten notes for UPSC, SSC, banking, teaching, and other competitive exams.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Download Notes →</span>
+      </div>
+    </a> 
+     </div>
+</div>      
+
+<div className="container mx-auto px-4 sm:px-10 py-8">
+  <h2 className="text-2xl font-bold text-center text-blue-700 mb-6">Trusted News & Government Insights</h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    {/* 🗞️ Daily Newspaper */}
+    <a href="/daily-news" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img src="/dailynews.jpg" alt="Daily News" className="w-full h-44 object-cover" />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Daily Newspaper</h3>
+        <p className="text-sm text-gray-600 mt-1">Read top newspapers like The Hindu, Indian Express, and Dainik Jagran for current affairs.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Read Today’s Paper →</span>
+      </div>
+    </a>
+
+    {/* 🌍 Live News (Geo-politics & Govt Events) */}
+    <a href="/live-news" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img src="/newslive.webp" alt="Live News" className="w-full h-44 object-cover" />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Live Geo-political News</h3>
+        <p className="text-sm text-gray-600 mt-1">Live coverage of foreign policy, geo-politics, and government events shaping India's future.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Watch Live Updates →</span>
+      </div>
+    </a>
+
+    {/* 🎯 Government Schemes */}
+    <a href="/government-schemes" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img src="/govtschemes.jpg" alt="Govt Schemes" className="w-full h-44 object-cover" />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Government Schemes</h3>
+        <p className="text-sm text-gray-600 mt-1">Detailed information on latest Yojanas, welfare schemes, and financial aid programs.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">View Schemes →</span>
+      </div>
+    </a>
+
+   
+
+  </div>
+</div>
+
 
       <SomeNotes />
       <Footer />
