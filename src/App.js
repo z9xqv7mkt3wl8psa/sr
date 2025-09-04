@@ -26,6 +26,25 @@ import InternshipPage from "./Components/pages/InternshipPage";
 import InternshipDetail from "./Components/pages/InternshipDetail";
 import NewsPage from "./Components/pages/NewsPage";
 import NewsDetail from "./Components/pages/NewsDetail";
+import BooksPage from "./Components/pages/BooksPage";
+import BookDetail from "./Components/pages/BookDetail";
+import ClassesPage from "./Components/pages/ClassesPage";
+import ClassDetail from "./Components/pages/ClassDetail";
+import NotesPage from "./Components/pages/NotesPage";
+import NoteDetail from "./Components/pages/NoteDetail";
+import NewspaperPage from "./Components/pages/NewspaperPage";
+import NewspaperDetail from "./Components/pages/NewspaperDetail";
+import GeoNewsPage from "./Components/pages/GeoNewsPage";
+import GeoNewsDetail from "./Components/pages/GeoNewsDetail";
+import SchemesPage from "./Components/pages/SchemesPage";
+import SchemeDetail from "./Components/pages/SchemeDetail";
+import CoursesPage from "./Components/pages/CoursesPage";
+import CourseDetail from "./Components/pages/CourseDetail";
+import EventsPage from "./Components/pages/EventsPage";
+import EventDetail from "./Components/pages/EventDetail";
+import LoansPage from "./Components/pages/LoansPage";
+import LoanDetail from "./Components/pages/LoanDetail";
+
 
 function App() {
   return (
@@ -59,8 +78,28 @@ function App() {
 <Route path="/internships/:id" element={<InternshipDetail />} />
 <Route path="/news" element={<NewsPage />} />
   <Route path="/news/:id" element={<NewsDetail />} />
+  <Route path="/books" element={<BooksPage />} />
+<Route path="/books/:id" element={<BookDetail />} />
+          <Route path="/classes" element={<ClassesPage />} />
+          <Route path="/classes/:id" element={<ClassDetail />} />
+          <Route path="/notes" element={<NotesPage />} />
+          <Route path="/notes/:id" element={<NoteDetail />} />
+          <Route path="/newspapers" element={<NewspaperPage />} />
+          <Route path="/newspapers/:id" element={<NewspaperDetail />} />
+           <Route path="/geonews" element={<GeoNewsPage />} />
+          <Route path="/geonews/:id" element={<GeoNewsDetail />} />
+          <Route path="/schemes" element={<SchemesPage />} />
+          <Route path="/schemes/:id" element={<SchemeDetail />} />
+          <Route path="/courses" element={<CoursesPage />} />
+          <Route path="/courses/:id" element={<CourseDetail />} />
+           <Route path="/events" element={<EventsPage />} />
+          <Route path="/events/:id" element={<EventDetail />} />
+          <Route path="/loans" element={<LoansPage />} />
+          <Route path="/loans/:id" element={<LoanDetail />} />
 
-        {/* Admission Detail Page (Dynamic ID) */}
+
+
+        
         <Route path="/admission/:id" element={<AdmissionDetail />} />
 
         {/* Catch All (Page Not Found) */}
