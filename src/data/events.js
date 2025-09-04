@@ -1,0 +1,42 @@
+export const events = [
+  {
+    id: "hackathon_2025",
+    title: "National Hackathon 2025",
+    category: "Technology",
+    image: "/images/hackathon.jpg",
+    description: "Participate in the National Hackathon 2025 and showcase your tech skills to win exciting prizes.",
+    link: "https://www.example.com/hackathon-2025",
+    date: "2025-10-15",
+    venue: "Online",
+  },
+  {
+    id: "science_fair",
+    title: "State Science Fair",
+    category: "Science & Innovation",
+    image: "/images/science_fair.jpg",
+    description: "Join the State Science Fair and present innovative projects to gain recognition and awards.",
+    link: "https://www.example.com/science-fair",
+    date: "2025-11-05",
+    venue: "New Delhi",
+  },
+  {
+    id: "debate_championship",
+    title: "National Debate Championship",
+    category: "Literature & Debate",
+    image: "/images/debate.jpg",
+    description: "Show your debating prowess and win accolades at the National Debate Championship 2025.",
+    link: "https://www.example.com/debate-championship",
+    date: "2025-09-20",
+    venue: "Mumbai",
+  },
+  {
+    id: "art_competition",
+    title: "Annual Art Competition",
+    category: "Arts & Culture",
+    image: "/images/art_competition.jpg",
+    description: "Participate in the Annual Art Competition and showcase your creativity to a wide audience.",
+    link: "https://www.example.com/art-competition",
+    date: "2025-12-01",
+    venue: "Bangalore",
+  }
+];

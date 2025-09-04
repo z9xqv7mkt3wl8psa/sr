@@ -1,0 +1,42 @@
+export const classes = [
+  {
+    id: "upsc_live_2025",
+    title: "UPSC Live Classes",
+    educator: "Top Educators",
+    type: "Live",
+    exam: "UPSC",
+    image: "/images/upsc_live.jpg",
+    description: "Live classes for UPSC aspirants with doubt-solving sessions.",
+    link: "/classes/upsc_live_2025",
+  },
+  {
+    id: "neet_recorded_2025",
+    title: "NEET Recorded Sessions",
+    educator: "Dr. Sharma",
+    type: "Recorded",
+    exam: "NEET",
+    image: "/images/neet_recorded.jpg",
+    description: "Recorded NEET lectures covering Physics, Chemistry, and Biology.",
+    link: "/classes/neet_recorded_2025",
+  },
+  {
+    id: "jee_live_2025",
+    title: "JEE Advanced Live Classes",
+    educator: "Top Educators",
+    type: "Live",
+    exam: "JEE",
+    image: "/images/jee_live.jpg",
+    description: "Interactive live classes for JEE preparation by expert faculty.",
+    link: "/classes/jee_live_2025",
+  },
+  {
+    id: "state_exam_recorded",
+    title: "State Exam Preparation",
+    educator: "Ms. Verma",
+    type: "Recorded",
+    exam: "State Exams",
+    image: "/images/state_exam.jpg",
+    description: "Recorded classes for state-level competitive exams preparation.",
+    link: "/classes/state_exam_recorded",
+  }
+];
