@@ -219,6 +219,100 @@ const Main = () => {
           <Important />
         </div>
       </div>
+{/* === Scholarship, Internships, News Cards Section === */}
+<div className="container mx-auto px-4 sm:px-10 py-8">
+  <h2 className="text-2xl font-bold text-center text-blue-700 mb-6">Explore More Opportunities</h2>
+  
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    {/* 🎓 Scholarship Card */}
+    <a href="/scholarships" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/scholarship.jpg"
+        alt="Scholarship"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Scholarships</h3>
+        <p className="text-sm text-gray-600 mt-1">Apply for government and private scholarships available for school and college students in India.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Explore Scholarships →</span>
+      </div>
+    </a>
+
+    {/* 💼 Internships Card */}
+    <a href="/internships" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/internship.jpeg"
+        alt="Internships"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Internships</h3>
+        <p className="text-sm text-gray-600 mt-1">Get hands-on experience with internships from top government departments and private companies.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Find Internships →</span>
+      </div>
+    </a>
+
+    {/* 📰 News Card */}
+    <a href="/news" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/news.jpeg"
+        alt="News"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Latest News</h3>
+        <p className="text-sm text-gray-600 mt-1">Stay updated with the latest government job alerts, results, and Sarkari news from across India.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Read Latest News →</span>
+      </div>
+    </a>
+
+    {/* 📘 Courses Card */}
+    <a href="/courses" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/courses.jpeg"
+        alt="Courses"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Courses</h3>
+        <p className="text-sm text-gray-600 mt-1">Elevate your skills with top-rated online and offline courses to grow in your career.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">View All Courses →</span>
+      </div>
+    </a>
+
+    {/* 🏆 Competitions & Events */}
+    <a href="/competitions" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/events.webp"
+        alt="Competitions"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Competitions & Events</h3>
+        <p className="text-sm text-gray-600 mt-1">Showcase your skills, participate in events, and win exciting awards & recognition.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">View All Events →</span>
+      </div>
+    </a>
+
+    
+
+    {/* 💰 Education Loans */}
+    <a href="/education-loans" className="block bg-white rounded-lg shadow hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <img
+        src="/loans.png"
+        alt="Education Loans"
+        className="w-full h-44 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-blue-700">Education Loans</h3>
+        <p className="text-sm text-gray-600 mt-1">Access low-interest education loans to fund your higher education dreams in India or abroad.</p>
+        <span className="inline-block mt-3 text-sm text-blue-600 font-semibold hover:underline">Check Loan Options →</span>
+      </div>
+    </a>
+
+  </div>
+</div>
 
       <SomeNotes />
       <Footer />
