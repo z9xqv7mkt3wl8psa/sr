@@ -5,10 +5,10 @@ const BookCard = ({ book }) => {
   return (
     <Link to={`/books/${book.id}`} className="block group">
       <div
-        className="bg-gradient-to-br from-stone-900 to-black rounded-xl overflow-hidden 
-        h-96 w-full max-w-sm mx-auto flex flex-col border border-amber-900/40 
-        shadow-md shadow-black/40 transition-all duration-300 
-        group-hover:shadow-lg group-hover:shadow-amber-700/30 
+        className="bg-gradient-to-br from-white to-gray-100 rounded-xl overflow-hidden 
+        h-96 w-full max-w-sm mx-auto flex flex-col border border-green-200 
+        shadow-md shadow-gray-200 transition-all duration-300 
+        group-hover:shadow-lg group-hover:shadow-green-300/50 
         group-hover:-translate-y-2"
       >
         {/* Book Image */}
@@ -21,11 +21,10 @@ const BookCard = ({ book }) => {
             }
             alt={book.title}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 
-              bg-black/50"
-           
+              bg-white"
           />
           <div
-            className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent 
+            className="absolute inset-0 bg-gradient-to-t from-white/70 to-transparent 
             opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           ></div>
         </div>
@@ -33,22 +32,22 @@ const BookCard = ({ book }) => {
         {/* Book Info */}
         <div className="p-4 flex flex-col flex-1">
           <h3
-            className="text-base font-semibold text-amber-300 line-clamp-1 
-            group-hover:text-amber-200 transition"
+            className="text-base font-semibold text-green-800 line-clamp-1 
+            group-hover:text-green-700 transition"
           >
             {book.title}
           </h3>
-          <p className="text-xs text-amber-500/70 mt-1">
+          <p className="text-xs text-green-700 mt-1">
             Class {book.class} | {book.board}
           </p>
-          <p className="text-xs text-amber-100/70 mt-2 line-clamp-2">
+          <p className="text-xs text-gray-600 mt-2 line-clamp-2">
             {book.description}
           </p>
 
           {/* Button */}
           <div className="mt-auto pt-3">
             <span
-              className="text-sm text-amber-400 font-medium group-hover:text-amber-200 
+              className="text-sm text-green-700 font-medium group-hover:text-green-900 
               transition flex items-center gap-1"
             >
               ➜ View Book
