@@ -1,10 +1,17 @@
+// src/ui/EventCard.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const EventCard = ({ event }) => {
+  const navigate = useNavigate();
+
   if (!event) return null;
 
   return (
-    <div className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition p-4">
+    <div
+      className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition p-4 cursor-pointer"
+      onClick={() => navigate(`/events/${event.id}`)}
+    >
       {event.image && (
         <img
           src={event.image}
@@ -13,15 +20,11 @@ const EventCard = ({ event }) => {
         />
       )}
       <h3 className="mt-2 text-lg font-semibold">{event.title}</h3>
-      <p className="text-gray-600">{event.category}</p>
-      <p className="text-sm mt-1">{event.description.substring(0, 100)}...</p>
-      <p className="text-sm text-gray-500 mt-1">Date: {event.date} | Venue: {event.venue}</p>
-      <a
-        href={`/events/${event.id}`}
-        className="mt-3 inline-block text-blue-600 font-medium hover:underline"
-      >
-        View All Events →
-      </a>
+      <p className="text-gray-600">{event.organizer} | {event.mode}</p>
+      <p className="text-sm mt-1">{event.description?.substring(0, 100)}...</p>
+      <span className="mt-3 inline-block text-purple-600 font-medium hover:underline">
+        View Details →
+      </span>
     </div>
   );
 };
