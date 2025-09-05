@@ -15,10 +15,34 @@ const BookDetail = () => {
       </p>
     );
 
-  const similarBooks = books
-    .filter((b) => (b.class === book.class || b.board === book.board) && b.id !== book.id)
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 8);
+ // Determine similarity based on category type
+let similarBooks = [];
+
+if (["CBSE", "ICSE", "RBSE"].includes(book.board)) {
+  // Board books: show same board + same class (1–12)
+  similarBooks = books.filter(
+    (b) =>
+      b.board === book.board &&
+      b.class === book.class &&
+      b.id !== book.id
+  );
+} else if (["JEE", "NEET"].includes(book.board)) {
+  // Competitive: show same exam type + subject
+  similarBooks = books.filter(
+    (b) =>
+      b.board === book.board &&
+      b.subject === book.subject &&
+      b.id !== book.id
+  );
+} else {
+  // General fallback: show by class
+  similarBooks = books.filter(
+    (b) => b.class === book.class && b.id !== book.id
+  );
+}
+
+// Shuffle and limit
+similarBooks = similarBooks.sort(() => 0.5 - Math.random()).slice(0, 8);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
