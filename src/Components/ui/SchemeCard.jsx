@@ -1,27 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SchemeCard = ({ scheme }) => {
-  if (!scheme) return null;
-
   return (
-    <div className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition p-4">
-      {scheme.image && (
+    <Link to={`/schemes/${scheme.id}`} className="block group">
+      <div className="bg-white border border-green-200 rounded-xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1">
         <img
           src={scheme.image}
           alt={scheme.title}
-          className="w-full h-48 object-cover rounded"
+          className="w-full h-48 object-cover rounded-t-xl"
         />
-      )}
-      <h3 className="mt-2 text-lg font-semibold">{scheme.title}</h3>
-      <p className="text-gray-600">{scheme.category}</p>
-      <p className="text-sm mt-1">{scheme.description.substring(0, 100)}...</p>
-      <a
-        href={`/schemes/${scheme.id}`}
-        className="mt-3 inline-block text-blue-600 font-medium hover:underline"
-      >
-        View Schemes →
-      </a>
-    </div>
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-green-800 group-hover:text-green-700">{scheme.title}</h3>
+          <p className="text-sm text-gray-600 mt-1 line-clamp-2">{scheme.description}</p>
+          <div className="mt-3 text-green-700 text-sm font-medium group-hover:text-green-900">
+            ➜ View Scheme
+          </div>
+        </div>
+      </div>
+    </Link>
   );
 };
 

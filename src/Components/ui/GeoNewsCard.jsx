@@ -1,27 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const GeoNewsCard = ({ news }) => {
-  if (!news) return null;
-
   return (
-    <div className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition p-4">
-      {news.image && (
-        <img
-          src={news.image}
-          alt={news.title}
-          className="w-full h-48 object-cover rounded"
-        />
-      )}
-      <h3 className="mt-2 text-lg font-semibold">{news.title}</h3>
-      <p className="text-gray-600">{news.category}</p>
-      <p className="text-sm mt-1">{news.description.substring(0, 100)}...</p>
-      <a
-        href={`/geonews/${news.id}`}
-        className="mt-3 inline-block text-blue-600 font-medium hover:underline"
-      >
-        Watch Live Updates →
-      </a>
-    </div>
+    <Link to={`/geonews/${news.id}`} className="block group">
+      <div className="bg-white border border-green-200 rounded-xl shadow-sm hover:shadow-md transition overflow-hidden">
+        <div className="h-48 w-full overflow-hidden">
+          <img
+            src={news.image}
+            alt={news.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="p-4 flex flex-col">
+          <h3 className="text-lg font-semibold text-green-800 mb-2 line-clamp-2 group-hover:text-green-600 transition">
+            {news.title}
+          </h3>
+          <p className="text-sm text-gray-600 mb-3 line-clamp-3">{news.description}</p>
+          <span className="text-sm text-green-700 font-medium mt-auto group-hover:text-green-900 transition">
+            ➜ Watch Update
+          </span>
+        </div>
+      </div>
+    </Link>
   );
 };
 

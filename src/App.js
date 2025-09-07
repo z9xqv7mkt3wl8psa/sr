@@ -44,6 +44,9 @@ import EventsPage from "./Components/pages/EventsPage";
 import EventDetail from "./Components/pages/EventDetail";
 import LoansPage from "./Components/pages/LoansPage";
 import LoanDetail from "./Components/pages/LoanDetail";
+import CollegesPage from "./Components/pages/CollegesPage";
+import CollegeDetail from "./Components/pages/CollegeDetail";
+import CompareColleges from "./Components/pages/CompareColleges";
 
 
 function App() {
@@ -97,6 +100,9 @@ function App() {
           <Route path="/loans" element={<LoansPage />} />
           <Route path="/loans/:id" element={<LoanDetail />} />
 
+<Route path="/colleges" element={<CollegesPage />} />
+<Route path="/colleges/:id" element={<CollegeDetail />} />
+<Route path="/colleges/compare" element={<CompareColleges />} />
 
 
         

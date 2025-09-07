@@ -7,8 +7,9 @@ import Syllabus from './Syllabus'
 import Admission from './Admission'
 import CertificateVerification from './CertificateVerification'
 import Important from './Important'
-import SomeNotes from './SomeNotes'
+
 import Footer from '../footer/Footer'
+
 
 const Main = () => {
   useEffect(() => {
@@ -396,9 +397,89 @@ const Main = () => {
 
   </div>
 </div>
+{/* === College Finder Section (Circles Orbiting Main Image) === */}
+<div className="relative w-full bg-white py-16 px-6 sm:px-12 lg:px-20">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+    {/* Left Side - Round Image with Orbit Circles */}
+    <div className="relative flex justify-center md:justify-start">
+      {/* Main Circle Image */}
+      <div className="relative w-80 h-80">
+        <img 
+          src="/images/collegehdimage.jpg" 
+          alt="College Campus" 
+          className="w-80 h-80 object-cover rounded-full shadow-xl border-4 border-white"
+        />
+
+        {/* Orbit Wrapper */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          {/* Positioning circles using rotate */}
+          {[
+            { label: "Placement", color: "bg-yellow-400" },
+            { label: "Rank", color: "bg-blue-600" },
+            { label: "Avg CTC", color: "bg-green-500" },
+            { label: "Hostel", color: "bg-pink-500" },
+            { label: "Scholarship", color: "bg-purple-500" },
+            { label: "Clubs", color: "bg-red-500" },
+          ].map((item, index, arr) => {
+            const angle = (360 / arr.length) * index; // even spacing
+            return (
+              <div
+                key={index}
+                className={`absolute w-20 h-20 flex items-center justify-center rounded-full shadow-md text-xs font-semibold text-center text-white ${item.color}`}
+                style={{
+                  transform: `rotate(${angle}deg) translate(150px) rotate(-${angle}deg)`,
+                }}
+              >
+                {item.label}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+
+    {/* Right Side - Content */}
+    <div className="text-left">
+      <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 mb-4">
+        Find Your Perfect College
+      </h2>
+      <p className="text-gray-700 text-lg mb-6">
+        Search and explore colleges across India by state, city, stream, or ranking. 
+        Discover the right college that matches your career goals and aspirations.
+      </p>
+
+      {/* Points List */}
+      <div className="space-y-4">
+        <div className="flex items-start bg-blue-50 p-4 rounded-lg shadow-sm">
+          <span className="bg-blue-600 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full mr-4">1</span>
+          <p className="text-gray-800">Explore 5000+ colleges across India</p>
+        </div>
+
+        <div className="flex items-start bg-blue-50 p-4 rounded-lg shadow-sm">
+          <span className="bg-blue-600 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full mr-4">2</span>
+          <p className="text-gray-800">Filter by state, city, stream, or ranking</p>
+        </div>
+
+        <div className="flex items-start bg-blue-50 p-4 rounded-lg shadow-sm">
+          <span className="bg-blue-600 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full mr-4">3</span>
+          <p className="text-gray-800">Personalized results for career goals</p>
+        </div>
+      </div>
+
+      {/* CTA Button */}
+      <a 
+        href="/colleges" 
+        className="inline-block mt-8 bg-yellow-500 text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-400 transition transform hover:scale-105"
+      >
+        Explore Colleges →
+      </a>
+    </div>
+  </div>
+</div>
 
 
-      <SomeNotes />
+    
       <Footer />
     </div>
   )
